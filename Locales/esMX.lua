@@ -12,7 +12,6 @@ local PREV = "|r";
 
 local AQ_OR = GREY.." o ";
 local AQ_AND = GREY.." y ";
-local AQ_NONE = WHITE.."Ninguno";
 
 -- Globals
 L["Quests"] = "Misiones";
@@ -119,7 +118,6 @@ L["Quest_4262_Name"] = "Maestro supremo Pyron";
 L["Quest_4262_Objective"] = "Mata al maestro supremo Pyron y regresa con Jalinda Espiga.";
 L["Quest_4262_Location"] = "Jalinda Espiga (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,70"..WHITE..")";
 L["Quest_4262_Note"] = "Maestro supremo Pyron es un elemental de fuego afuera del calabozo. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra.";
-L["Quest_4262_RewardText"] = AQ_NONE;
 L["Quest_4262_FollowQuest"] = "¡Incendius!";
 
 L["Quest_4263_Name"] = "¡Incendius!";
@@ -133,7 +131,6 @@ L["Quest_4123_Name"] = "El corazón de la montaña";
 L["Quest_4123_Objective"] = "Llévale el corazón de la montaña a Maxwort Suprandor en Las Estepas Ardientes.";
 L["Quest_4123_Location"] = "Maxwort Suprandor (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,23"..WHITE..")";
 L["Quest_4123_Note"] = "Encuentras el corazón de la montaña en "..YELLOW.."[8]"..WHITE.." dentro de una caja fuerte. Consigues la llave para la caja fuerte de Depositario Stilgiss. Él se aparecerá después de abrir todas las cajitas fuertes.";
-L["Quest_4123_RewardText"] = AQ_NONE;
 
 L["Quest_4286_Name"] = "Buena mercancía";
 L["Quest_4286_Objective"] = "Viaja a las Profundidades de Roca Negra y recupera 20 riñoneras Hierro Negro. Vuelve con Oralius cuando termines. Supones que los enanos Hierro Negro de las Profundidades de Roca Negra llevan estas extrañas \"riñoneras\".";
@@ -152,7 +149,6 @@ L["Quest_4341_Name"] = "Kharan Martillo Poderoso";
 L["Quest_4341_Objective"] = "Ve a las Profundidades de Roca Negra y encuentra a Kharan Martillo Poderoso.\nEl rey dijo que estaba prisionero allí; busca una cárcel.";
 L["Quest_4341_Location"] = "Rey Magni Barbabronce (Forjaz; "..YELLOW.."39,55"..WHITE..")";
 L["Quest_4341_Note"] = "La misión requisita empieza con Historiadora Real Archesonus (Forjaz; "..YELLOW.."38,55"..WHITE.."). Kharan Martillo Poderoso está en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_4341_RewardText"] = AQ_NONE;
 L["Quest_4341_PreQuest"] = "Las humeantes Ruinas de Thaurissan";
 L["Quest_4341_FollowQuest"] = "Portador de malas noticias";
 
@@ -168,26 +164,22 @@ L["Quest_7848_Name"] = "Armonización con el Núcleo";
 L["Quest_7848_Objective"] = "Acércate al portal de entrada del Núcleo de Magma en las Profundidades de Roca Negra y recoge un trozo del Núcleo. Llévaselo a Lothos Levantagrietas a la Montaña Roca Negra. ";
 L["Quest_7848_Location"] = "Lothos Levantagrietas (Montaña Roca Negra; "..YELLOW.."[E] en el mapa de la Entrada"..WHITE..")";
 L["Quest_7848_Note"] = "Después de completar la misión, puedes usar el portal justo al lado de Lothos Levantagrietas para entrar el Núcleo de Magma.\nEncuentras el Trozo del Núcleo cerca de "..YELLOW.."[23]"..WHITE..".";
-L["Quest_7848_RewardText"] = AQ_NONE;
 
 L["Quest_9015_Name"] = "El reto";
 L["Quest_9015_Objective"] = "Dirígete al Círculo de la Ley en las Profundidades de Roca Negra y coloca el estandarte de Provocación en el centro cuando el Alto justiciero Pedrasiniestra pronuncie tu veredicto. Mata a Theldren y a sus gladiadores y regresa junto a Anthion Harmon en las Tierras de la Peste del Este con la primera pieza del amuleto de Lord Valthalak.";
 L["Quest_9015_Location"] = "Falrin Tallarbol (La Masacre Oeste; "..YELLOW.."[1] Librería"..WHITE..")";
 L["Quest_9015_Note"] = "Misión para el conjunto de equipo de calabozo. El Círculo de la Ley está en "..YELLOW.."[6]"..WHITE..".";
-L["Quest_9015_RewardText"] = AQ_NONE;
 L["Quest_9015_FollowQuest"] = "La despedida de Anthion";
 
 L["Quest_4083_Name"] = "El cáliz espectral";
 L["Quest_4083_Objective"] = "El cáliz espectral flota en el aire, ascendiendo y descendiendo lentamente... como el latido de un corazón moribundo.";
 L["Quest_4083_Location"] = "Penumbra'rel (Profundidades de Roca Negra; "..YELLOW.."[18]"..WHITE..")";
 L["Quest_4083_Note"] = "Solamente los mineros con habilidad de 230 o más alto pueden conseguir esta misión para aprender Fundir hierro negro. Los materiales para el cáliz: 2 [Rubí estrella], 20 [Barra de oro], 10 [Barra de veraplata]. Si tienes [Mena de hierro negro], puedes fundirla a La Forja Negra en "..YELLOW.."[22]"..WHITE..".";
-L["Quest_4083_RewardText"] = AQ_NONE;
 
 L["Quest_4241_Name"] = "El mariscal Windsor";
 L["Quest_4241_Objective"] = "Viaja a la Montaña Roca Negra al noroeste y adéntrate en las Profundidades de Roca Negra. Averigua qué le ha ocurrido al mariscal Windsor.";
 L["Quest_4241_Location"] = "Mariscal Maxwell (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,68"..WHITE..")";
 L["Quest_4241_Note"] = "Esta misión es una parte de la cadena para la armonización con Onyxia. La misión para la cadena empieza con Helendis Rivacuerno (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."85,68"..WHITE..").\nMariscal Windsor está en "..YELLOW.."[4]"..WHITE..". Tienes que regresar a Mariscal Maxwell después de completar la misión.";
-L["Quest_4241_RewardText"] = AQ_NONE;
 L["Quest_4241_PreQuest"] = "La amenaza de los dragonantes -> Los verdaderos maestros";
 L["Quest_4241_FollowQuest"] = "Esperanza perdida";
 
@@ -202,7 +194,6 @@ L["Quest_4264_Name"] = "Una nota arrugada";
 L["Quest_4264_Objective"] = "Puede que acabes de toparte con algo que le interesaría ver al mariscal Windsor. Puede que haya esperanza, después de todo.";
 L["Quest_4264_Location"] = "Una nota arrugada (botín aleatorio de Profundidades de Roca Negra)";
 L["Quest_4264_Note"] = "Esta misión es una parte de la cadena de misiones para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".";
-L["Quest_4264_RewardText"] = AQ_NONE;
 L["Quest_4264_PreQuest"] = "Esperanza perdida";
 L["Quest_4264_FollowQuest"] = "Una brizna de esperanza";
 
@@ -210,7 +201,6 @@ L["Quest_4282_Name"] = "Una brizna de esperanza";
 L["Quest_4282_Objective"] = "Devuélvele al mariscal Windsor la información perdida.\nEl mariscal Windsor cree que la información está siendo retenida en manos del Señor Gólem Argelmach y del general Forjainquina.";
 L["Quest_4282_Location"] = "Mariscal Windsor (Profundidades de Roca Negra; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_4282_Note"] = "Esta misión es una parte de la cadena para la armonización de Onyxia. Mariscal Windsor está en "..YELLOW.."[4]"..WHITE..".\nEncuentras al Señor Gólem Argelmach en "..YELLOW.."[14]"..WHITE.." y a General Forjainquina en "..YELLOW.."[13]"..WHITE..".";
-L["Quest_4282_RewardText"] = AQ_NONE;
 L["Quest_4282_PreQuest"] = "Una nota arrugada";
 L["Quest_4282_FollowQuest"] = "La fuga de la prisión";
 
@@ -233,14 +223,12 @@ L["Quest_4081_Name"] = "MATAR INMEDIATAMENTE: enanos Hierro Negro";
 L["Quest_4081_Objective"] = "Adéntrate en las Profundidades de Roca Negra ¡y destruye a esos viles agresores!\nEl señor de la guerra Dientegore quiere que mates a 15 celadores Yunque Colérico, 10 alcaides Yunque Colérico y 5 lacayos Yunque Colérico. Vuelve junto a él cuando hayas acabado la tarea.";
 L["Quest_4081_Location"] = "SE BUSCA (Tierras Inhóspitas - Kargath; "..YELLOW.."3,47"..WHITE..")";
 L["Quest_4081_Note"] = "Encuentras a los enanos a la primera parte de las Profundidades de Roca Negra.\nEncuentras al Señor de la guerra Dientegore en Kargath en la parte superior de la torre (Tierras Inhóspitas, "..YELLOW.."5,47"..WHITE..").";
-L["Quest_4081_RewardText"] = AQ_NONE;
 L["Quest_4081_FollowQuest"] = "MATAR INMEDIATAMENTE: oficiales Hierro Negro de alto rango";
 
 L["Quest_4082_Name"] = "MATAR INMEDIATAMENTE: oficiales Hierro Negro de alto rango";
 L["Quest_4082_Objective"] = "Adéntrate en las Profundidades de Roca Negra ¡y destruye a esos viles agresores!\nEl señor de la guerra Dientegore quiere que mates a 10 médicos Yunque Colérico, 10 soldados Yunque Colérico y 10 oficiales Yunque Colérico. Vuelve junto a él cuando hayas acabado la tarea.";
 L["Quest_4082_Location"] = "SE BUSCA (Tierras Inhóspitas - Kargath; "..YELLOW.."3,47"..WHITE..")";
 L["Quest_4082_Note"] = "Encuentras a los enanos cerca de Bael'Gar "..YELLOW.."[11]"..WHITE..". Encuentras al Señor de la guerra Dientegore en Kargath en la parte superior de la torre (Tierras Inhóspitas, "..YELLOW.."5,47"..WHITE..").\nLa misión siguiente empieza con Lexlort (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE.."). Encuentras a Grark Lorkrub en Las Estepas Ardientes ("..YELLOW.."38,35"..WHITE.."). Tienes que reducir su salud a menos de 50% para atarlo y empezar la misión de escolta.";
-L["Quest_4082_RewardText"] = AQ_NONE;
 L["Quest_4082_PreQuest"] = "MATAR INMEDIATAMENTE: enanos Hierro Negro";
 L["Quest_4082_FollowQuest"] = "Grark Lorkrub -> ¡Estás en un aprieto! (Misión de escolta)";
 
@@ -262,7 +250,6 @@ L["Quest_3906_Name"] = "La discordia de las llamas";
 L["Quest_3906_Objective"] = "Ve a la cantera de la Montaña Roca Negra y ejecuta al maestro supremo Pyron. Vuelve junto a Truenozón cuando hayas completado este encargo";
 L["Quest_3906_Location"] = "Corazón Atronador (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..WHITE..")";
 L["Quest_3906_Note"] = "Maestro supremo Pyron es un elemental de fuego afuera del calabozo. Patrulla cerca del portal en "..YELLOW.."[24]"..WHITE.." en el mapa de Las Profundidades Roca Negra en "..YELLOW.."[3]"..WHITE.." en el mapa de entrada de la Montaña Roca Negra.";
-L["Quest_3906_RewardText"] = AQ_NONE;
 L["Quest_3906_FollowQuest"] = "La discordia del fuego";
 
 L["Quest_3907_Name"] = "La discordia del fuego";
@@ -282,7 +269,6 @@ L["Quest_3981_Name"] = "Comandante Gor'shak";
 L["Quest_3981_Objective"] = "Encuentra al comandante Gor'shak en las Profundidades de Roca Negra.\nRecuerdas que en el dibujo burdo había rejas sobre el rostro del orco. Quizás deberías buscar una cárcel o algo similar.";
 L["Quest_3981_Location"] = "Galamav el Tirador (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")";
 L["Quest_3981_Note"] = "Obtienes la misión requisita de Corazón Atronador (Tierras Inhóspitas - Kargath; "..YELLOW.."3,48"..PREV..").\nEncuentras al Comandante Gor'shak en "..YELLOW.."[3]"..PREV..". Despoja a Alta interrogadora Gerstahn "..YELLOW.."[5]"..PREV.." para obtener la llave para abrir el cárcel. Si hablas consigo y empezar, los enemigos aparecen.";
-L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "La discordia del fuego";
 L["Quest_3981_FollowQuest"] = "¿Qué pasa?";
 
@@ -313,7 +299,6 @@ L["Quest_8288_Name"] = "Solo uno puede alzarse";
 L["Quest_8288_Objective"] = "Lleva la cabeza del Señor de linaje Capazote a Baristolth del Mar de Dunas al Fuerte Cenarion en Silithus.";
 L["Quest_8288_Location"] = "Cabeza del Señor de linaje Capazote; "..YELLOW.."[3]"..WHITE.."";
 L["Quest_8288_Note"] = "Una sola persona puede coger la cabeza.";
-L["Quest_8288_RewardText"] = AQ_NONE;
 L["Quest_8288_PreQuest"] = "Lo que nos depara el futuro";
 L["Quest_8288_FollowQuest"] = "El camino del honrado";
 
@@ -366,7 +351,6 @@ L["Quest_5001_Name"] = "Las pertenencias de Bijou";
 L["Quest_5001_Objective"] = "Encuentra las pertenencias de Bijou y devuélveselas. ¡Suerte!";
 L["Quest_5001_Location"] = "Bijou (Cumbre de Roca Negra Inferior; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_5001_Note"] = "Encuentras las pertenencias de Bijou a la ruta a Madre Telebrasadas en "..YELLOW.."[10]"..WHITE..".\nMariscal Maxwell está en (Las Estepas Ardientes - Vigilia de Morgan; "..YELLOW.."84,58"..WHITE..").";
-L["Quest_5001_RewardText"] = AQ_NONE;
 L["Quest_5001_FollowQuest"] = "Un mensaje para Maxwell";
 
 L["Quest_5081_Name"] = "La misión de Maxwell";
@@ -380,21 +364,18 @@ L["Quest_4742_Name"] = "El sello de ascensión";
 L["Quest_4742_Objective"] = "Encuentra las 3 gemas del mando: La gema de Espina Ahumada, la gema de Cumbrerroca y la gema de Hacha de Sangre. Llévaselas, junto con el sello de ascensión sin adornar a Vaelan.";
 L["Quest_4742_Location"] = "Vaelan (Cumbre de Roca Negra Inferior; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_4742_Note"] = "Consigues la Gema de Cumbrerroca del Alto señor Omokk en "..YELLOW.."[5]"..WHITE..", la Gema de Espina Ahumada del Maestro de guerra Voone en "..YELLOW.."[9]"..WHITE.." y la Gema de Hacha de Sangre del Señor supremo Vermiothalak en "..YELLOW.."[19]"..WHITE..". Despoja a cualquier enemigo en la Cumbre de Roca Negra Inferior para obtener el Sello de ascención sin adornar. Obtienes la llave para entrar la Cumbre de Roca Negra Superior si completas la cadena de misiones.";
-L["Quest_4742_RewardText"] = AQ_NONE;
 L["Quest_4742_FollowQuest"] = "El sello de ascensión";
 
 L["Quest_5089_Name"] = "Orden del general Drakkisath";
 L["Quest_5089_Objective"] = "Llévale la orden del general Drakkisath al mariscal Maxwell en Las Estepas Ardientes.";
 L["Quest_5089_Location"] = "Orden del general Drakkisath (botín del Señor supremo Vermiothalak; "..YELLOW.."[19]"..WHITE..")";
 L["Quest_5089_Note"] = "Mariscal Maxwell está en Las Estepas Ardientes - Vigilia de Morgan; ("..YELLOW.."84,58"..WHITE..").";
-L["Quest_5089_RewardText"] = AQ_NONE;
 L["Quest_5089_FollowQuest"] = "Muerte al general Drakkisath ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 
 L["Quest_8966_Name"] = "La parte izquierda del amuleto de Lord Valthalak";
 L["Quest_8966_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Mor Pezuña Gris y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con la parte izquierda del amuleto de Lord Valthalak y el Blandón de Señalización.";
 L["Quest_8966_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8966_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[9]"..WHITE..".";
-L["Quest_8966_RewardText"] = AQ_NONE;
 L["Quest_8966_PreQuest"] = "Componentes importantes";
 L["Quest_8966_FollowQuest"] = "En tu destino veo la Isla de Alcaz...";
 
@@ -402,7 +383,6 @@ L["Quest_8989_Name"] = "La parte derecha del amuleto de Lord Valthalak";
 L["Quest_8989_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Mor Pezuña Gris y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con el amuleto de Lord Valthalak recompuesto y el Blandón de Señalización.";
 L["Quest_8989_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8989_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Mor Pezuña Gris en "..YELLOW.."[9]"..WHITE..".";
-L["Quest_8989_RewardText"] = AQ_NONE;
 L["Quest_8989_PreQuest"] = "Más componentes importantes";
 L["Quest_8989_FollowQuest"] = "Últimos preparativos ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 
@@ -429,7 +409,6 @@ L["Quest_4981_Name"] = "La espía Bijou";
 L["Quest_4981_Objective"] = "Viaja hasta la Cumbre de Roca Negra y averigua qué le ha ocurrido a Bijou.";
 L["Quest_4981_Location"] = "Lexlort (Tierras Inhóspitas - Kargath; "..YELLOW.."5,47"..WHITE..")";
 L["Quest_4981_Note"] = "Encuentras a Bijou en "..YELLOW.."[8]"..WHITE..".";
-L["Quest_4981_RewardText"] = AQ_NONE;
 L["Quest_4981_FollowQuest"] = "Las pertenencias de Bijou";
 
 L["Quest_4982_Name"] = "Las pertenencias de Bijou";
@@ -451,14 +430,12 @@ L["Quest_5160_Name"] = "El Protectorado de la matrona";
 L["Quest_5160_Objective"] = "Viaja hasta la Cuna del Invierno y encuentra a Haleh. Dale la escama de Awbee.";
 L["Quest_5160_Location"] = "Awbee (Cumbre de Roca Negra Superior; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_5160_Note"] = "Encuentras a Awbee en la habitación después de la Arena en "..YELLOW.."[7]"..WHITE..".\nHaleh está en la Cuna del Invierno ("..YELLOW.."54,51"..WHITE.."). Usa el portal al fin de la cueva para irte a ella.";
-L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "La cólera del Vuelo Azul";
 
 L["Quest_5047_Name"] = "¡Finkle Einhorn, a tu servicio!";
 L["Quest_5047_Objective"] = "Habla con Malyfous Martilloscuro en Vista Eterna.";
 L["Quest_5047_Location"] = "Finkle Einhorn (Cumbre de Roca Negra Superior; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_5047_Note"] = "Finkle Einhorn aparece después de desollar a La Bestia. Encuentras a Malyfous Martilloscuro en (Cuna del Invierno - Vista Eterna; "..YELLOW.."61,38"..WHITE..").";
-L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "Leotardos de Arcana, Almete del Sabio Escarlata, y Coraza Sed de Sangre";
 
 L["Quest_4734_Name"] = "Un huevo congelado";
@@ -473,7 +450,6 @@ L["Quest_6821_Name"] = "Ojo del Brasadivino";
 L["Quest_6821_Objective"] = "Lleva el ojo del Brasadivino al duque Hydraxis a Azshara.";
 L["Quest_6821_Location"] = "Duque Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")";
 L["Quest_6821_Note"] = "Encuentras al Piroguardia Brasadivino en "..YELLOW.."[1]"..WHITE..".";
-L["Quest_6821_RewardText"] = AQ_NONE;
 L["Quest_6821_PreQuest"] = "Agua envenenada, Sirocosos y reptarenas";
 L["Quest_6821_FollowQuest"] = "El Núcleo de Magma";
 
@@ -496,13 +472,11 @@ L["Quest_7761_Name"] = "Orden de Puño Negro";
 L["Quest_7761_Objective"] = "Según la carta, el general Drakkisath guarda la enseña. Quizás deberías investigarlo.";
 L["Quest_7761_Location"] = "Orden de Puño Negro (botín del Intendente del Escudo del Estigma; "..YELLOW.."[7] en el mapa de la Entrada"..WHITE..")";
 L["Quest_7761_Note"] = "Es la misión para la armonización con Guarida Alanegra. El Intendente del Escudo del Estigma está a la derecha justo antes del portal a la Cumbre de Roca Negra.\n\nGeneral Drakkisath está en "..YELLOW.."[9]"..WHITE..". El orbe está detrás de él.";
-L["Quest_7761_RewardText"] = AQ_NONE;
 
 L["Quest_8994_Name"] = "Últimos preparativos";
 L["Quest_8994_Objective"] = "Reúne 40 brazales Roca Negra y consigue un frasco de poder supremo. Llévaselos a Bodley en el interior de la Montaña Roca Negra.";
 L["Quest_8994_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8994_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'. Despoja a cualquier orco con el nombre Puño Negro para obtener las Brazales Roca Negra. El Frasco de poder supremo se hace un Alquimista.";
-L["Quest_8994_RewardText"] = AQ_NONE;
 L["Quest_8994_PreQuest"] = "La parte derecha del amuleto de Lord Valthalak ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 L["Quest_8994_FollowQuest"] = "Mea Culpa, Lord Valthalak";
 
@@ -524,7 +498,6 @@ L["Quest_4735_Name"] = "La colecta de huevos";
 L["Quest_4735_Objective"] = "Llévale 8 huevos de dragón y el módulo colectrónico a Tinkee Vaporio en el Peñasco Llamarada, en Las Estepas Ardientes.";
 L["Quest_4735_Location"] = "Tinkee Vaporio (Las Estepas Ardientes - Peñasco Llamarada; "..YELLOW.."65,24"..WHITE..")";
 L["Quest_4735_Note"] = "Encuentras los huevos en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_4735_RewardText"] = AQ_NONE;
 L["Quest_4735_PreQuest"] = "Un huevo congelado";
 L["Quest_4735_FollowQuest"] = "Leonid Barthalomew -> Gambito del Alba ("..YELLOW.."Scholomance"..WHITE..")";
 
@@ -554,7 +527,6 @@ L["Quest_6569_Name"] = "Ilusiones oculares";
 L["Quest_6569_Objective"] = "Viaja a la Cumbre de Roca Negra y recoge 20 ojos de dragauro negro. Cuando hayas terminado tu tarea regresa con Myranda la Fada.";
 L["Quest_6569_Location"] = "Myranda la Fada (Tierras de la Peste del Oeste; "..YELLOW.."50,77"..WHITE..")";
 L["Quest_6569_Note"] = "Despoja a los Dragonantes para obtener los ojos.";
-L["Quest_6569_RewardText"] = AQ_NONE;
 L["Quest_6569_PreQuest"] = "Lo que trae el viento -> Profesora del engaño";
 L["Quest_6569_FollowQuest"] = "Brasaliza";
 
@@ -609,21 +581,18 @@ L["Quest_373_Name"] = "La carta sin enviar";
 L["Quest_373_Objective"] = "Entrega la carta destinada al arquitecto jefe a Baros Alexston en Ventormenta. ";
 L["Quest_373_Location"] = "Una carta sin enviar (Despoja a Edwin VanCleef para obtenerla; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_373_Note"] = "Baros Alexston está en la Ciudad de Ventormenta, al lado de la Catedral de la Luz en "..YELLOW.."49,30"..WHITE..".";
-L["Quest_373_RewardText"] = AQ_NONE;
 L["Quest_373_FollowQuest"] = "Bazil Thredd";
 
 L["Quest_2922_Name"] = "¡Salva el cerebro de Tecnobot!";
 L["Quest_2922_Objective"] = "Lleva el procesador central de memoria del Tecnobot al maestro manitas Sobrechispa a Forjaz.";
 L["Quest_2922_Location"] = "Maestro manitas Sobrechispa (Forjaz - Ciudad Manitas; "..YELLOW.."69,50"..WHITE..")";
 L["Quest_2922_Note"] = "Obtienes la misión requisita de Hermano Sarno (Ventormenta - Plaza de la Catedral; "..YELLOW.."40,30"..WHITE..").\nEncuentras a Tecnobot antes de entrar la estancia cerca de la entrada trasera en "..YELLOW.."[4] en el mapa de la Entrada"..WHITE..".";
-L["Quest_2922_RewardText"] = AQ_NONE;
 L["Quest_2922_PreQuest"] = "Maestro manitas Sobrechispa";
 
 L["Quest_2926_Name"] = "Gnogaine";
 L["Quest_2926_Objective"] = "Usa la ampolla de plomo con invasores o saqueadores radiactivos para recoger restos radiactivos. Cuando esté llena, llévasela a Ozzie Voltiflop a Kharanos.";
 L["Quest_2926_Location"] = "Ozzie Voltiflop (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")";
 L["Quest_2926_Note"] = "Obtienes la misión requisita de Gnoarn (Forjaz - Ciudad Manitas; "..YELLOW.."69,50"..WHITE..").\nPara obtener los restos radiactivos, tienes que usar la ampolla con los invasores o saqueadores "..RED.."vivos"..WHITE..".";
-L["Quest_2926_RewardText"] = AQ_NONE;
 L["Quest_2926_PreQuest"] = "Al día siguiente";
 L["Quest_2926_FollowQuest"] = "Necesitamos más material verdoso";
 
@@ -631,7 +600,6 @@ L["Quest_2962_Name"] = "Necesitamos más material verdoso";
 L["Quest_2962_Objective"] = "Viaja hasta Gnomeregan y recupera los restos radiactivos de gran potencia. Pero ten cuidado, ya que es inestable y podría explotar en cualquier momento.\n\nOzzie también quiere que traigas la ampolla pesada de plomo una vez que hayas terminado el trabajo.";
 L["Quest_2962_Location"] = "Ozzie Voltiflop (Dun Morogh - Kharanos; "..YELLOW.."45,49"..WHITE..")";
 L["Quest_2962_Note"] = "Usa la ampolla con los rondadores y horrores irradiados "..RED.."vivos"..WHITE..".";
-L["Quest_2962_RewardText"] = AQ_NONE;
 L["Quest_2962_PreQuest"] = "Gnogaine";
 
 L["Quest_2928_Name"] = "Excavadoras gyroagujereamáticas";
@@ -644,7 +612,6 @@ L["Quest_2924_Name"] = "Esencias artificiales";
 L["Quest_2924_Objective"] = "Lleva 12 esencias artificiales a Klockmort Palmalicate a Forjaz.";
 L["Quest_2924_Location"] = "Klockmort Palmalicate (Forjaz - Ciudad Manitas; "..YELLOW.."68,46"..WHITE..")";
 L["Quest_2924_Note"] = "Obtienes la misión requisita de Mathiel (Darnassus - Bancal del Guerrero; "..YELLOW.."59,45"..WHITE.."). No es necesario obtener la misión requisita para empezar esta misión.\nConsigues las Esencias artificiales de los Extrapoladores artificiales que están desperdigados por todas las partes de la estancia.";
-L["Quest_2924_RewardText"] = AQ_NONE;
 L["Quest_2924_PreQuest"] = "Klockmort Palmalicate";
 
 L["Quest_2930_Name"] = "Rescatar los datos";
@@ -670,7 +637,6 @@ L["Quest_2945_Name"] = "Un anillo sucio";
 L["Quest_2945_Objective"] = "Encuentra la manera de limpiar el anillo sucio.";
 L["Quest_2945_Location"] = "Anillo con mugre incrustada (botín aleatorio de Gnomeregan)";
 L["Quest_2945_Note"] = "Limpia el anillo con El Destellamatic 5200 en el Punto de Limpieza en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2945_RewardText"] = AQ_NONE;
 L["Quest_2945_FollowQuest"] = "La devolución del anillo";
 
 L["Quest_2947_Name"] = "La devolución del anillo";
@@ -733,7 +699,6 @@ L["Quest_1113_Name"] = "Corazones de fanatismo";
 L["Quest_1113_Objective"] = "El maestro boticario Faranell de Entrañas quiere 20 corazones de fanatismo.";
 L["Quest_1113_Location"] = "Maestro boticario Faranell (Entrañas - El Apothecarium; "..YELLOW.."48,69"..WHITE..")";
 L["Quest_1113_Note"] = "Despoja a cualquier persona en el Monasterio Escarlata para obtener los Corazones de fanatismo.";
-L["Quest_1113_RewardText"] = AQ_NONE;
 L["Quest_1113_PreQuest"] = "Guano del Horado ("..YELLOW.."[Horado Rajacieno]"..WHITE..")";
 
 L["Quest_1160_Name"] = "Prueba de conocimiento";
@@ -766,28 +731,24 @@ L["Quest_5529_Name"] = "Crías de dragón apestadas";
 L["Quest_5529_Objective"] = "Mata a 20 crías de dragón apestadas y ve a ver a Betina Bigglezink a la Capilla de la Esperanza de la Luz.";
 L["Quest_5529_Location"] = "Betina Bigglezink (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."81,59"..WHITE..")";
 L["Quest_5529_Note"] = "Las crías de dragón apestadas están en la situación antes de encontrar a Traquesangre.";
-L["Quest_5529_RewardText"] = AQ_NONE;
 L["Quest_5529_FollowQuest"] = "Escama de dragón sana";
 
 L["Quest_5582_Name"] = "Escama de dragón sana";
 L["Quest_5582_Objective"] = "Lleva la escama de dragón sana a Betina Bigglezink a la Capilla de la Esperanza de la Luz, en las Tierras de la Peste del Este.";
 L["Quest_5582_Location"] = "Escama de dragón sana (botín aleatorio de Scholomance)";
 L["Quest_5582_Note"] = "Despoja a las crías de dragón apestadas para obtener las Escamas de dragón sana. Encuentras a Betina Bigglezink en las Tierras de la Peste del Este - Capilla de la Esperanza de la Luz ("..YELLOW.."81,59"..WHITE..").";
-L["Quest_5582_RewardText"] = AQ_NONE;
 L["Quest_5582_PreQuest"] = "Crías de dragón apestadas";
 
 L["Quest_5382_Name"] = "Doctor Theolen Krastinov, el Carnicero";
 L["Quest_5382_Objective"] = "Busca al doctor Theolen Krastinov en el interior de Scholomance. Acaba con él y quema los restos de Eva Sarkhoff y los restos de Lucien Sarkhoff. Cuando hayas terminado tu tarea regresa con Eva Sarkhoff.";
 L["Quest_5382_Location"] = "Eva Sarkhoff (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE..")";
 L["Quest_5382_Note"] = "Encuentras al Doctor Theolen Krastinov, los restos de Eva Sarkhoff, y los restos de Lucien Sarkhoff en "..YELLOW.."[9]"..WHITE..".";
-L["Quest_5382_RewardText"] = AQ_NONE;
 L["Quest_5382_FollowQuest"] = "Bolsa de los horrores de Krastinov";
 
 L["Quest_5515_Name"] = "Bolsa de los horrores de Krastinov";
 L["Quest_5515_Objective"] = "Localiza a Jandice Barov en Scholomance y destrúyela. En su cadáver encontrarás la Bolsa de los horrores de Krastinov. Devuélvele la bolsa a Eva Sarkhoff.";
 L["Quest_5515_Location"] = "Eva Sarkhoff (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE..")";
 L["Quest_5515_Note"] = "Encuentras a Jandice Barov en "..YELLOW.."[3]"..WHITE..".";
-L["Quest_5515_RewardText"] = AQ_NONE;
 L["Quest_5515_PreQuest"] = "Doctor Theolen Krastinov, el Carcinero";
 L["Quest_5515_FollowQuest"] = "Kirtonos el Heraldo";
 
@@ -824,7 +785,6 @@ L["Quest_7629_Name"] = "Entrega de diablillo";
 L["Quest_7629_Objective"] = "Llévale el diablillo en un tarro al laboratorio de alquimia de Scholomance. Después de crear el papiro llévale el tarro a Gorzeeki Ojovago.";
 L["Quest_7629_Location"] = "Gorzeeki Ojovago (Las Estepas Ardientes; "..YELLOW.."12,31"..WHITE..")";
 L["Quest_7629_Note"] = "Solamente para Brujos: Encuentras el Laboratorio de alquimia en "..YELLOW.."[7]"..WHITE..".";
-L["Quest_7629_RewardText"] = AQ_NONE;
 L["Quest_7629_PreQuest"] = "Mor'zul Sangredoble -> Polvo estelar xorothiano";
 L["Quest_7629_FollowQuest"] = "Corcel nefasto xorothiano ("..YELLOW.."La Masacre Oeste"..WHITE..")";
 
@@ -832,7 +792,6 @@ L["Quest_8969_Name"] = "La parte izquierda del amuleto de Lord Valthalak";
 L["Quest_8969_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Kormok y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con la parte izquierda del amuleto de Lord Valthalak y el Blandón de Señalización.";
 L["Quest_8969_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8969_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Kormok en "..YELLOW.."[7]"..WHITE..".";
-L["Quest_8969_RewardText"] = AQ_NONE;
 L["Quest_8969_PreQuest"] = "Componentes importantes";
 L["Quest_8969_FollowQuest"] = "En tu destino veo la Isla de Alcaz...";
 
@@ -840,7 +799,6 @@ L["Quest_8992_Name"] = "La parte derecha del amuleto de Lord Valthalak";
 L["Quest_8992_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Kormok y mátalo. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con el amuleto de Lord Valthalak recompuesto y el Blandón de Señalización.";
 L["Quest_8992_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8992_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Kormok en "..YELLOW.."[7]"..WHITE..".";
-L["Quest_8992_RewardText"] = AQ_NONE;
 L["Quest_8992_PreQuest"] = "Más componentes importantes";
 L["Quest_8992_FollowQuest"] = "Últimos preparativos ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 
@@ -848,7 +806,6 @@ L["Quest_7647_Name"] = "Juzgar y redimir";
 L["Quest_7647_Objective"] = "Utiliza el cristal de adivinación en el centro del sótano de El Gran Osario en Scholomance. Al hacerlo, aparecerán los espíritus que tienes que juzgar. Si derrotas a esos espíritus, aparecerá el Cabellero de la Muerte Atracoscuro. Acaba con él y reclama el alma perdida del destrero caído.\n\nEntrega el alma remidida del destrero y la gualdrapa encantada bendecida al destrero caído de Atracoscuro.";
 L["Quest_7647_Location"] = "Lord Grisillo Quiebrasombras (Ciudad de Ventormenta - Catedral; "..YELLOW.."38,33"..WHITE..")";
 L["Quest_7647_Note"] = "Cadena de misiones para la montura épica de paladín. El sótano de El Gran Osario está en "..YELLOW.."[5]"..WHITE..".";
-L["Quest_7647_RewardText"] = AQ_NONE;
 L["Quest_7647_PreQuest"] = "Lord Grisillo Quiebrasombras -> El cristal de adivinación";
 L["Quest_7647_FollowQuest"] = "El regreso a El Gran Osario";
 
@@ -906,13 +863,11 @@ L["Quest_387_Name"] = "Detener el motín";
 L["Quest_387_Objective"] = "El celador Thelagua de Ventormenta quiere que mates 10 prisioneros Defias, 8 presidiarios Defias, y 8 insurgentes Defias en Las Mazmorras.";
 L["Quest_387_Location"] = "Celador Thelagua (Ventormenta - Las Mazmorras; "..YELLOW.."41,58"..WHITE..")";
 L["Quest_387_Note"] = "";
-L["Quest_387_RewardText"] = AQ_NONE;
 
 L["Quest_388_Name"] = "El color de la sangre";
 L["Quest_388_Objective"] = "Nikova Raskol, de Ventormenta, quiere que consigas 10 pañuelos de lana roja.";
 L["Quest_388_Location"] = "Nikova Raskol (Ventormenta - Casco Antiguo; "..YELLOW.."73,46"..WHITE..")";
 L["Quest_388_Note"] = "Despoja a cualquier Defias en la estancia para obtener los pañuelos de lana roja.";
-L["Quest_388_RewardText"] = AQ_NONE;
 
 L["Quest_378_Name"] = "La furia mora en las profundidades";
 L["Quest_378_Objective"] = "Motley Garmason quiere que le lleves la cabeza de Kam Furiahonda a Dun Modr.";
@@ -925,7 +880,6 @@ L["Quest_391_Name"] = "El motín de Las Mazmorras";
 L["Quest_391_Objective"] = "Mata a Bazil Thredd y lleva su cabeza al celador Thelagua en las Mazmorras.";
 L["Quest_391_Location"] = "Celador Thelagua (Ventormenta - Las Mazmorras; "..YELLOW.."41,58"..WHITE..")";
 L["Quest_391_Note"] = "Para obtener más información sobre la misión requisita, ve "..YELLOW.."[Las Minas de la Muerte, La hermandad de los Defias]"..WHITE..".\nEncuentras a Bazil Thredd en "..YELLOW.."[4]"..WHITE..".";
-L["Quest_391_RewardText"] = AQ_NONE;
 L["Quest_391_PreQuest"] = "La hermandad de los Defias -> Bazil Thredd";
 L["Quest_391_FollowQuest"] = "Extraño visitante";
 
@@ -933,7 +887,6 @@ L["Quest_5212_Name"] = "La carne no miente";
 L["Quest_5212_Objective"] = "Consigue 20 muestras de carne apestada de Stratholme y llévaselas Betina Bigglezink. Tienes la sospecha de que podrás obtener ese tipo de carne de cualquier criatura de Stratholme.";
 L["Quest_5212_Location"] = "Betina Bigglezink (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."81,59"..WHITE..")";
 L["Quest_5212_Note"] = "Despoja a cualquier criatura para obtener una muestra de carne apestada.";
-L["Quest_5212_RewardText"] = AQ_NONE;
 L["Quest_5212_FollowQuest"] = "El agente activo";
 
 L["Quest_5213_Name"] = "El agente activo";
@@ -966,7 +919,6 @@ L["Quest_5848_Name"] = "Del amor y la familia";
 L["Quest_5848_Objective"] = "Viaja a Stratholme, en la zona norte de las Tierras de la Peste. En El Bastión Escarlata encontrarás el cuadro 'Del amor y la familia', oculto tras otra pintura que representa las lunas gemelas de nuestro mundo.\nDevuelve la pintura a Tirion Vadín.";
 L["Quest_5848_Location"] = "Artista Renfray (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."65,75"..WHITE..")";
 L["Quest_5848_Note"] = "Obtienes la misión requisita de Tirion Vadín (Tierras de la Peste del Oeste; "..YELLOW.."7,43"..WHITE.."). Encuentras la pintura cerca de "..YELLOW.."[10]"..WHITE..".";
-L["Quest_5848_RewardText"] = AQ_NONE;
 L["Quest_5848_PreQuest"] = "Redención - > Del amor y la familia";
 L["Quest_5848_FollowQuest"] = "Encuentra a Myranda";
 
@@ -974,7 +926,6 @@ L["Quest_5463_Name"] = "El Obsequio de Menethil";
 L["Quest_5463_Objective"] = "Viaja a Stratholme y encuentra el Obsequio de Menethil. Coloca el Libro de los Recuerdos en suelo no consagrado.";
 L["Quest_5463_Location"] = "Leonid Barthalomew el Venerado (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."80,58"..WHITE..")";
 L["Quest_5463_Note"] = "Obtienes la misión requisita de Magistrado Marduke (Tierras de la Peste del Oeste - Castel Darrow; "..YELLOW.."70,73"..WHITE.."). Encuentras el Obsequio de Menethil cerca de "..YELLOW.."[19]"..WHITE..". Ver También: "..YELLOW.."[El exánime, Ras Murmuhielo]"..WHITE.." en Scholomance.";
-L["Quest_5463_RewardText"] = AQ_NONE;
 L["Quest_5463_PreQuest"] = "El humano, Ras Murmuhielo - > El moribundo, Ras Murmuhielo";
 L["Quest_5463_FollowQuest"] = "El Obsequio de Menethil";
 
@@ -988,14 +939,12 @@ L["Quest_5251_Name"] = "El archivista";
 L["Quest_5251_Objective"] = "Viaja a Stratholme y encuentra al archivista Galford de La Cruzada Escarlata. Acaba con él y quema el Archivo Escarlata.";
 L["Quest_5251_Location"] = "Duque Nicholas Zverenhoff (Tierras de la Peste del Este - Capilla de la Esperanza de la Luz; "..YELLOW.."81,59"..WHITE..")";
 L["Quest_5251_Note"] = "Encuentras el Archivo y al Archivista en "..YELLOW.."[10]"..WHITE..".";
-L["Quest_5251_RewardText"] = AQ_NONE;
 L["Quest_5251_FollowQuest"] = "La verdad cae del cielo";
 
 L["Quest_5262_Name"] = "La verdad cae del cielo";
 L["Quest_5262_Objective"] = "Lleva la cabeza de Balnazzar al duque Nicolas Zverenhoff en las Tierras de la Peste del Este.";
 L["Quest_5262_Location"] = "Balnazzar (Stratholme; "..YELLOW.."[11]"..WHITE..")";
 L["Quest_5262_Note"] = "Encuentras al Duque Nicholas Zverenhoff en las Tierras de la Peste del Este - Capilla de la Esperanza de la Luz ("..YELLOW.."81,59"..WHITE..").";
-L["Quest_5262_RewardText"] = AQ_NONE;
 L["Quest_5262_PreQuest"] = "El archivista";
 L["Quest_5262_FollowQuest"] = "Por encima y más allá";
 
@@ -1018,7 +967,6 @@ L["Quest_8968_Name"] = "La parte izquierda del amuleto de Lord Valthalak";
 L["Quest_8968_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Jarien y Sothos y mátalos. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con la parte izquierda del amuleto de Lord Valthalak y el Blandón de Señalización.";
 L["Quest_8968_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8968_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Jarien y Sothos en "..YELLOW.."[11]"..WHITE..".";
-L["Quest_8968_RewardText"] = AQ_NONE;
 L["Quest_8968_PreQuest"] = "Componentes importantes";
 L["Quest_8968_FollowQuest"] = "En tu destino veo la Isla de Alcaz...";
 
@@ -1026,7 +974,6 @@ L["Quest_8991_Name"] = "La parte derecha del amuleto de Lord Valthalak";
 L["Quest_8991_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Jarien y Sothos y mátalos. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con el amuleto de Lord Valthalak recompuesto y el Blandón de Señalización.";
 L["Quest_8991_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8991_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Jarien y Sothos en "..YELLOW.."[11]"..WHITE..".";
-L["Quest_8991_RewardText"] = AQ_NONE;
 L["Quest_8991_PreQuest"] = "Más componentes importantes";
 L["Quest_8991_FollowQuest"] = "Últimos preparativos ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 
@@ -1074,14 +1021,12 @@ L["Quest_3445_Name"] = "El Templo Sumergido";
 L["Quest_3445_Objective"] = "Encuentra a Marvon Buscarroblones en Tanaris.";
 L["Quest_3445_Location"] = "Angelas Brisaluna (Feralas - Bastión Plumaluna; "..YELLOW.."31,45"..WHITE..")";
 L["Quest_3445_Note"] = "Encuentras a Marvon Buscarroblones en "..YELLOW.."52,45"..WHITE..".";
-L["Quest_3445_RewardText"] = AQ_NONE;
 L["Quest_3445_FollowQuest"] = "El círculo de piedra";
 
 L["Quest_3446_Name"] = "En las profundidades";
 L["Quest_3446_Objective"] = "Encuentra el Altar de Hakkar en el Templo Sumergido, en el Pantano de las Penas.";
 L["Quest_3446_Location"] = "Marvon Buscarroblones (Tanaris; "..YELLOW.."52,45"..WHITE..")";
 L["Quest_3446_Note"] = "El Altar está en "..YELLOW.."[1]"..WHITE..".";
-L["Quest_3446_RewardText"] = AQ_NONE;
 L["Quest_3446_PreQuest"] = "El círculo de piedra";
 
 L["Quest_3447_Name"] = "El secreto del círculo";
@@ -1095,7 +1040,6 @@ L["Quest_4143_Name"] = "Bruma del mal";
 L["Quest_4143_Objective"] = "Reúne 5 muestras de calima Atal'ai y después ve a ver de nuevo a Muigin al Cráter de Un'Goro.";
 L["Quest_4143_Location"] = "Gregan Tirabirras (Feralas; "..YELLOW.."45,25"..WHITE..")";
 L["Quest_4143_Note"] = "La misión requisita 'Muigin y Larion' empieza con Muigin (Cráter de Un'Goro - Refugio de Marshal; "..YELLOW.."42,9"..WHITE.."). Despoja a los Rondadores de lo profundo, Gusanos de la oscuridad, y Mocos saturados para obtener las calimas.";
-L["Quest_4143_RewardText"] = AQ_NONE;
 L["Quest_4143_PreQuest"] = "Muigin y Larion -> Visita a Gregan";
 
 L["Quest_3528_Name"] = "El dios Hakkar";
@@ -1184,14 +1128,12 @@ L["Quest_3380_Name"] = "El Templo Sumergido";
 L["Quest_3380_Objective"] = "Encuentra a Marvon Buscarroblones en Tanaris. ";
 L["Quest_3380_Location"] = "Médico brujo Uzer'i (Feralas; "..YELLOW.."74,43"..WHITE..")";
 L["Quest_3380_Note"] = "Encuentras a Marvon Marvon Buscarroblones en "..YELLOW.."52,45"..WHITE..".";
-L["Quest_3380_RewardText"] = AQ_NONE;
 L["Quest_3380_FollowQuest"] = "El círculo de piedra";
 
 L["Quest_4146_Name"] = "Combustible de irradior";
 L["Quest_4146_Objective"] = "Entrega el Controlador descargado y 5 muestras de calima Atal'ai a Larion, en el Refugio de Marshal.";
 L["Quest_4146_Location"] = "Liv Rizzlefix (Los Baldíos; "..YELLOW.."62,38"..WHITE..")";
 L["Quest_4146_Note"] = "La misión requisita 'Larion y Muigin' empieza con Larion (Cráter de Un'Goro; "..YELLOW.."45,8"..WHITE.."). Despoja a los Rondadores de lo profundo, Gusanos de la oscuridad, y Mocos saturados para obtener las calimas.";
-L["Quest_4146_RewardText"] = AQ_NONE;
 L["Quest_4146_PreQuest"] = "Larion y Muigin -> El taller de Marvon";
 
 L["Quest_8413_Name"] = "Vudú";
@@ -1205,7 +1147,6 @@ L["Quest_721_Name"] = "Un signo de esperanza";
 L["Quest_721_Objective"] = "Encuentra a Grez Piemartillo en Uldaman.";
 L["Quest_721_Location"] = "Prospector Ryedol (Tierras Inhóspitas; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_721_Note"] = "La misión requisita empieza al Mapa arrugado (Tierras Inhóspitas; "..YELLOW.."53,33"..WHITE..").\nEncuentras a Grez Piemartillo antes de entrar la estancia en "..YELLOW.."[1]"..WHITE.." en el mapa de la Entrada.";
-L["Quest_721_RewardText"] = AQ_NONE;
 L["Quest_721_PreQuest"] = "Un signo de esperanza";
 L["Quest_721_FollowQuest"] = "El amuleto de los secretos";
 
@@ -1213,7 +1154,6 @@ L["Quest_722_Name"] = "El amuleto de los secretos";
 L["Quest_722_Objective"] = "Encuentra el amuleto de Piemartillo y llévaselo a Uldaman.";
 L["Quest_722_Location"] = "Grez Piemartillo (Uldaman; "..YELLOW.."[1] en el mapa de la Entrada"..WHITE..").";
 L["Quest_722_Note"] = "Despoja a Magregan Sombraprofunda en "..YELLOW.."[2] en el mapa de la Entrada para obtener el amuleto"..WHITE..".";
-L["Quest_722_RewardText"] = AQ_NONE;
 L["Quest_722_PreQuest"] = "Un signo de esperanza";
 L["Quest_722_FollowQuest"] = "Tener fe en el porvenir";
 
@@ -1248,7 +1188,6 @@ L["Quest_2398_Name"] = "Los enanos desaparecidos";
 L["Quest_2398_Objective"] = "Encuentra a Baelog en Uldaman.";
 L["Quest_2398_Location"] = "Prospector Pico Tormenta (Forjaz - Sala de los Exploradores; "..YELLOW.."75,12"..WHITE..")";
 L["Quest_2398_Note"] = "Baelog está en "..YELLOW.."[1]"..WHITE..".";
-L["Quest_2398_RewardText"] = AQ_NONE;
 L["Quest_2398_FollowQuest"] = "La cámara oculta";
 
 L["Quest_2240_Name"] = "La cámara oculta";
@@ -1262,14 +1201,12 @@ L["Quest_2198_Name"] = "El collar hecho añicos";
 L["Quest_2198_Objective"] = "Busca al creador del collar hecho añicos y descubre para qué sirve.";
 L["Quest_2198_Location"] = "Collar destrozado (botín aleatorio de Uldaman)";
 L["Quest_2198_Note"] = "Lleva el collar a Talvash del Kissel (Forjaz - La Sala Mística; "..YELLOW.."36,3"..WHITE..").";
-L["Quest_2198_RewardText"] = AQ_NONE;
 L["Quest_2198_FollowQuest"] = "Esa información tiene un precio";
 
 L["Quest_2200_Name"] = "El regreso a Uldaman";
 L["Quest_2200_Objective"] = "Busca pistas de la ubicación actual del collar de Talvash dentro de Uldaman. El paladín asesinado que mencionó fue la última persona que lo tenía.";
 L["Quest_2200_Location"] = "Talvash del Kissel (Forjaz - La Sala Mística; "..YELLOW.."36,3"..WHITE..")";
 L["Quest_2200_Note"] = "El paladín está en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2200_RewardText"] = AQ_NONE;
 L["Quest_2200_PreQuest"] = "Esa información tiene un precio";
 L["Quest_2200_FollowQuest"] = "Encuentra las gemas";
 
@@ -1277,7 +1214,6 @@ L["Quest_2201_Name"] = "Encuentra las gemas";
 L["Quest_2201_Objective"] = "Encuentra el rubí, el zafiro y el topacio que están desperdigados por Uldaman. Cuando los tengas, contacta con Talvash del Kissel mediante la ampolla de adivinación que él te dio.";
 L["Quest_2201_Location"] = "Restos de un paladín (Uldaman; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_2201_Note"] = "Las gemas están en "..YELLOW.."[1]"..WHITE.." dentro de la Urna llamativa, "..YELLOW.."[8]"..WHITE.." del Alijo de Forjatiniebla, y "..YELLOW.."[9]"..WHITE.." de Grimlok. Por favor nota que aparecerán enanos forjatiniebla después de abrir el Alijo de Forjatiniebla.\nUsa el Cuenco de visión de Talvash para entregar la misión y obtener la misión siguiente.";
-L["Quest_2201_RewardText"] = AQ_NONE;
 L["Quest_2201_PreQuest"] = "El regreso a Uldaman";
 L["Quest_2201_FollowQuest"] = "Restaurar el collar";
 
@@ -1299,7 +1235,6 @@ L["Quest_1360_Name"] = "Los tesoros reclamados";
 L["Quest_1360_Objective"] = "Recoge la posesión más preciada de Krom Brazorrecio de su cofre, que está en la Sala Comunal Norte de Uldaman, y llévasela a Forjaz.";
 L["Quest_1360_Location"] = "Krom Brazorrecio (Forjaz - Sala de los Exploradores; "..YELLOW.."74,9"..WHITE..")";
 L["Quest_1360_Note"] = "Encuentras el tesoro antes de entrar la estancia. Está a la parte al norte de las cuevas, al fin sureste del primer túnel. En el mapa de la Entrada está en "..YELLOW.."[4]"..WHITE..".";
-L["Quest_1360_RewardText"] = AQ_NONE;
 
 L["Quest_2278_Name"] = "Los discos de platino";
 L["Quest_2278_Objective"] = "Habla con el vigía de piedra y descubre qué conocimiento antiguo alberga. Cuando hayas adquirido el conocimiento que te ofrece, activa los Discos de Norgannon. -> Lleva la reproducción en miniatura de los Discos de Norgannon a alguien que esté muy interesado.";
@@ -1312,7 +1247,6 @@ L["Quest_1956_Name"] = "Poder en Uldaman";
 L["Quest_1956_Objective"] = "Hazte con una fuente de poder obsidiano y llévasela a Tabetha en el Marjal Revolcafango.";
 L["Quest_1956_Location"] = "Tabetha (Marjal Revolcafango; "..YELLOW.."46,57"..WHITE..")";
 L["Quest_1956_Note"] = "Solamente para Magos: \nDespoja a una Centinela obsidiana para obtener el Fuente de poder obsidiano en "..YELLOW.."[5]"..WHITE..".";
-L["Quest_1956_RewardText"] = AQ_NONE;
 L["Quest_1956_PreQuest"] = "El exorcismo";
 L["Quest_1956_FollowQuest"] = "Oleadas de maná";
 
@@ -1320,21 +1254,18 @@ L["Quest_1192_Name"] = "Mena de indurio";
 L["Quest_1192_Objective"] = "Llévale 4 menas de indurio a Pozík en Las Mil Agujas.";
 L["Quest_1192_Location"] = "Pozík (Las Mil Agujas - Circuito del Espejismo; "..YELLOW.."80.1, 75.9"..WHITE..")";
 L["Quest_1192_Note"] = "Misión repetible. Encuentras las menas de indurio en Uldaman.";
-L["Quest_1192_RewardText"] = AQ_NONE;
 L["Quest_1192_PreQuest"] = "Mantener la velocidad -> Los esquemas de Rizzle";
 
 L["Quest_2283_Name"] = "La recuperación del collar";
 L["Quest_2283_Objective"] = "Busca el collar en la excavación de Uldaman y llévaselo a Dran Droffers a Orgrimmar. Puede que el collar esté estropeado.";
 L["Quest_2283_Location"] = "Dran Droffers (Orgrimmar - La Calle Mayor; "..YELLOW.."59,36"..WHITE..")";
 L["Quest_2283_Note"] = "El collar es un botín aleatorio en la estancia.";
-L["Quest_2283_RewardText"] = AQ_NONE;
 L["Quest_2283_FollowQuest"] = "La recuperación del collar, 2ª parte";
 
 L["Quest_2284_Name"] = "La recuperación del collar, 2ª parte";
 L["Quest_2284_Objective"] = "Busca pistas sobre el paradero de las gemas en las profundidades de Uldaman.";
 L["Quest_2284_Location"] = "Dran Droffers (Orgrimmar - La Calle Mayor; "..YELLOW.."59,36"..WHITE..")";
 L["Quest_2284_Note"] = "El paladín está en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2284_RewardText"] = AQ_NONE;
 L["Quest_2284_PreQuest"] = "La recuperación del collar";
 L["Quest_2284_FollowQuest"] = "La traducción del diario";
 
@@ -1342,7 +1273,6 @@ L["Quest_2318_Name"] = "La traducción del diario";
 L["Quest_2318_Objective"] = "Encuentra a alguien que pueda traducir el diario del paladín. El lugar más cercano en el que podrás encontrar a alguien es Kargath, en las Tierras Inhóspitas.";
 L["Quest_2318_Location"] = "Restos de un paladín (Uldaman; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_2318_Note"] = "El traductor Jarkal Musgofusión está en Kargath (Tierras Inhóspitas; "..YELLOW.."2,46"..WHITE..").";
-L["Quest_2318_RewardText"] = AQ_NONE;
 L["Quest_2318_PreQuest"] = "La recuperación del collar, 2ª parte";
 L["Quest_2318_FollowQuest"] = "Encuentra las gemas y la fuente de alimentación";
 
@@ -1366,7 +1296,6 @@ L["Quest_2342_Name"] = "Los tesoros reclamados";
 L["Quest_2342_Objective"] = "Coge el tesoro de la familia de Patrick Garrett del cofre de su familia que se encuentra en la Sala Comunal Sur de Uldaman y llévasela a él a Entrañas";
 L["Quest_2342_Location"] = "Patrick Garrett (Entrañas; "..YELLOW.."72,48"..WHITE..")";
 L["Quest_2342_Note"] = "Encuentras el tesoro antes de entrar la estancia. Está al fin del túnel sur. En el mapa de la Entrada está en "..YELLOW.."[5]"..WHITE..".";
-L["Quest_2342_RewardText"] = AQ_NONE;
 
 L["Quest_971_Name"] = "Conocimiento en las Cavernas";
 L["Quest_971_Objective"] = "Lleva el manuscrito de Lorgalis a Gerrig Agarrahueso en la Caverna Abandonada de Forjaz.";
@@ -1385,7 +1314,6 @@ L["Quest_1198_Name"] = "Buscando a Thaelrid";
 L["Quest_1198_Objective"] = "Busca al guardia argenta Thaelrid en las Cavernas de Brazanegra.";
 L["Quest_1198_Location"] = "Vigía del Alba Shaedlass (Darnassus - Bancal del Artesano; "..YELLOW.."55,24"..WHITE..")";
 L["Quest_1198_Note"] = "Encuentras al Guardia Argenta Thaelrid en "..YELLOW.."[4]"..WHITE..".";
-L["Quest_1198_RewardText"] = AQ_NONE;
 L["Quest_1198_FollowQuest"] = "La vileza de Brazanegra";
 
 L["Quest_1200_Name"] = "La vileza de Brazanegra";
@@ -1405,7 +1333,6 @@ L["Quest_6563_Name"] = "La esencia de Aku'Mai";
 L["Quest_6563_Objective"] = "Llévale 20 zafiros de Aku'Mai a Je'neu Sancrea en Vallefresno.";
 L["Quest_6563_Location"] = "Je'neu Sancrea (Vallefresno - Avanzada de Zoram'gar; "..YELLOW.."11,33"..WHITE..")";
 L["Quest_6563_Note"] = "Obtienes la misión requisita Problemas en las profundidades de Tsunaman (Sierra Espolón - Refugio Roca del Sol; "..YELLOW.."47,64"..WHITE.."). Se encuentra los cristales en los tuneles antes de entrar la estancia.";
-L["Quest_6563_RewardText"] = AQ_NONE;
 L["Quest_6563_PreQuest"] = "Problemas en las profundidades";
 
 L["Quest_6564_Name"] = "Lealtad a los dioses antiguos";
@@ -1418,7 +1345,6 @@ L["Quest_6921_Name"] = "Entre ruinas";
 L["Quest_6921_Objective"] = "Llévale el núcleo de las profundidades a Je'neu Sancrea de la Avanzada de Zoram'gar, Vallefresno.";
 L["Quest_6921_Location"] = "Je'neu Sancrea (Vallefresno - Avanzada de Zoram'gar; "..YELLOW.."11,33"..WHITE..")";
 L["Quest_6921_Note"] = "Encuentras el núcleo de las profundidades en "..YELLOW.."[7]"..WHITE.." en el agua. Cuando consigas el núcleo, aparezca Barón Aquanis y te ataca. Despoja a él para obtener un objeto de misión para llevar a Je'neu Sancrea.";
-L["Quest_6921_RewardText"] = AQ_NONE;
 
 L["Quest_6561_Name"] = "La vileza de Brazanegra";
 L["Quest_6561_Objective"] = "Llévale la cabeza del Señor Crepuscular Kelris a Bashana Tótem de Runa en Cima del Trueno.";
@@ -1450,7 +1376,6 @@ L["Quest_8967_Name"] = "La parte izquierda del amuleto de Lord Valthalak";
 L["Quest_8967_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Isalien y mátala. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con la parte izquierda del amuleto de Lord Valthalak y el Blandón de Señalización.";
 L["Quest_8967_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8967_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Isalien en "..YELLOW.."[5]"..WHITE..".";
-L["Quest_8967_RewardText"] = AQ_NONE;
 L["Quest_8967_PreQuest"] = "Componentes importantes";
 L["Quest_8967_FollowQuest"] = "En tu destino veo la Isla de Alcaz...";
 
@@ -1458,7 +1383,6 @@ L["Quest_8990_Name"] = "La parte derecha del amuleto de Lord Valthalak";
 L["Quest_8990_Objective"] = "Usa el Blandón de Señalización para invocar al espíritu de Isalien y mátala. Vuelve junto a Bodley en el interior de la Montaña Roca Negra con el amuleto de Lord Valthalak recompuesto y el Blandón de Señalización.";
 L["Quest_8990_Location"] = "Bodley (Montaña Roca Negra; "..YELLOW.."[D] en el mapa de la Entrada"..WHITE..")";
 L["Quest_8990_Note"] = "Necesitas el Detector de fantasmas extradimensional para ver a Bodley. Lo consigues de la misión 'Buscando a Anthion'.\n\nInvoca a Isalien en "..YELLOW.."[5]"..WHITE..".";
-L["Quest_8990_RewardText"] = AQ_NONE;
 L["Quest_8990_PreQuest"] = "Más componentes importantes";
 L["Quest_8990_FollowQuest"] = "Últimos preparativos ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 
@@ -1466,7 +1390,6 @@ L["Quest_7581_Name"] = "Las selladuras de la prisión";
 L["Quest_7581_Objective"] = "Viaja a La Masacre en Feralas y consigue 15 muestras de sangre de sátiro del sátiro Mala Hierba que habita en el Barrio Alabeo. Cuando hayas acabado, ve a ver a Daio a la Escara Impía.";
 L["Quest_7581_Location"] = "Daio el Decrépito (Las Tierras Devastadas - La Escara Impía; "..YELLOW.."34,50"..WHITE..")";
 L["Quest_7581_Note"] = "Solamente para Brujos: Esta misión es una parte de la cadena de misiones para su hechizo Ritual del apocalipsis. La ruta más fácil para buscar a los Sátiros Mala Hierbas es que entrar por La Masacre Este al puerto trasera en el Pabellón de Lariss (Feralas; "..YELLOW.."77,37"..WHITE.."). Necesitas la Llave creciente.";
-L["Quest_7581_RewardText"] = AQ_NONE;
 
 L["Quest_7489_Name"] = "La membrana de Lethtendris";
 L["Quest_7489_Objective"] = "Lleva la Membrana de Lethtendris a Talo Pezuñahendida al Campamento Mojache de Feralas.";
@@ -1479,7 +1402,6 @@ L["Quest_1193_Name"] = "Una trampa rota";
 L["Quest_1193_Objective"] = "Repara la trampa.";
 L["Quest_1193_Location"] = "Trampa rota (La Masacre; "..YELLOW.."Norte"..WHITE..")";
 L["Quest_1193_Note"] = "Misión repetible. Para reparar la trampa tienes que usar un [Trasto de torio] y un [Aceite de Escarcha].";
-L["Quest_1193_RewardText"] = AQ_NONE;
 
 L["Quest_5518_Name"] = "El disfraz de ogro Gordok";
 L["Quest_5518_Objective"] = "Lleva 4 madejas de paño rúnico, 8 cueros bastos, 2 hilos rúnicos y tanino de ogro a Knot Llavededo. Actualmente está encadenado en el interior del ala Gordok de La Masacre.";
@@ -1491,7 +1413,6 @@ L["Quest_5525_Name"] = "¡Libera a Knot!";
 L["Quest_5525_Objective"] = "Colecciona una Llave de los grilletes de Gordok para Knot Llavededo.";
 L["Quest_5525_Location"] = "Knot Llavededo (La Masacre; "..YELLOW.."Norte, [4]"..WHITE..")";
 L["Quest_5525_Note"] = "Misión repetible. Despoja a cualquier depositorio para obtener la llave.";
-L["Quest_5525_RewardText"] = AQ_NONE;
 
 L["Quest_7703_Name"] = "Asunto Gordok sin finiquitar";
 L["Quest_7703_Objective"] = "Encuentra el guante del Poderío de Gordok y llévaselo al capitán Kromcrush a La Masacre.\nSegún Kromcrush, una 'historia muy, muy vieja' dice que Tortheldrin, un elfo 'asqueroso' que se llamaba a sí mismo príncipe, robó el guantelete a uno de los reyes de Gordok.";
@@ -1509,13 +1430,11 @@ L["Quest_7482_Name"] = "Leyendas élficas";
 L["Quest_7482_Objective"] = "Busca a Kariel Winthalus en La Masacre. Vuelve al Bastión Plumaluna a informar al erudita Runaespina de lo que hayas encontrado.";
 L["Quest_7482_Location"] = "Erudita Runaespina (Feralas - Bastión Plumaluna; "..YELLOW.."31,43"..WHITE..")";
 L["Quest_7482_Note"] = "Encuentras a Kariel Winthalus en la "..YELLOW.."Librería (Oeste)"..WHITE..".";
-L["Quest_7482_RewardText"] = AQ_NONE;
 
 L["Quest_7461_Name"] = "Locura interior";
 L["Quest_7461_Objective"] = "Debes destruir a los guardianes que rodean las 5 torres que controlan la Prisión de Immol'thar. Una vez desactivadas las torres, el campo de fuerza que rodea a Immol'thar se disipará.\n\nEntra en la Prisión de Immol'thar y erradica al demonio que hace guardia en su interior. Por último, haz frente al príncipe Tortheldrin en El Athenaeum.";
 L["Quest_7461_Location"] = "Ancestro Shen'dralar (La Masacre; "..YELLOW.."Oeste, [1] (encima)"..WHITE..")";
 L["Quest_7461_Note"] = "Las torres están marcadas así como "..BLUE.."[B]"..WHITE..". Immol'thar está en "..YELLOW.."[6]"..WHITE..", Príncipe Tortheldrin está en "..YELLOW.."[7]"..WHITE..".";
-L["Quest_7461_RewardText"] = AQ_NONE;
 L["Quest_7461_FollowQuest"] = "El tesoro de los Shen'dralar";
 
 L["Quest_7877_Name"] = "El tesoro de los Shen'dralar";
@@ -1529,7 +1448,6 @@ L["Quest_7631_Name"] = "Corcel nefasto xorothiano";
 L["Quest_7631_Objective"] = "Lee las instrucciones de Mor'zul. Invoca a un corcel nefasto xorothiano, derrótalo y después vincula su espíritu al tuyo.";
 L["Quest_7631_Location"] = "Mor'zul Sangredoble (Las Estepas Ardientes; "..YELLOW.."12,31"..WHITE..")";
 L["Quest_7631_Note"] = "Solamente para Brujos: La misión última de la cadena de misiones para la montura de los brujos. Al primer tienes que desactivar las torres marcadas así como "..BLUE.."[B]"..WHITE.." y mata a Immol'thar en "..YELLOW.."[6]"..WHITE..". Después, empieza la invocación. Necesitas al menos 20 Fragmentos de alma y un brujo asignado a mantener la campanilla, la vela, y la rueda activas. Se Puede esclavizar los Guardias apocalípticos. Después de terminarla, habla con el Espíritu de corcel nefasto para completar la misión.";
-L["Quest_7631_RewardText"] = AQ_NONE;
 L["Quest_7631_PreQuest"] = "Entrega de diablillo ("..YELLOW.."Scholomance"..WHITE..")";
 
 L["Quest_7506_Name"] = "El Sueño Esmeralda";
@@ -1602,14 +1520,12 @@ L["Quest_7507_Name"] = "Compendio de Foror";
 L["Quest_7507_Objective"] = "Devuelve el compendio de matar dragones de Foror a El Athenaeum.";
 L["Quest_7507_Location"] = "Compendio de matar dragones de Foror (botín aleatorio de los jefes en "..YELLOW.."La Masacre"..WHITE..")";
 L["Quest_7507_Note"] = "Solamente para Guerreros y Paladines. Devuélvelo al Tradicionalista Lydros en (La Masacre Oeste; "..YELLOW.."[1'] Librería"..WHITE.."). Te permite empezar la misión para forjar Quel'Serrar después de terminar la misión.";
-L["Quest_7507_RewardText"] = AQ_NONE;
 L["Quest_7507_FollowQuest"] = "Forjar Quel'Serrar";
 
 L["Quest_7481_Name"] = "Leyendas élficas";
 L["Quest_7481_Objective"] = "Busca a Kariel Winthalus en La Masacre. Vuelve al Campamento Mojache e informa al Sabio Korolusk de cualquier cosa que encuentres.";
 L["Quest_7481_Location"] = "Sabio Korolusk (Feralas - Campamento Mojache; "..YELLOW.."74,43"..WHITE..")";
 L["Quest_7481_Note"] = "Encuentras a Kariel Winthalus en la "..YELLOW.."Librería (Oeste)"..WHITE..".";
-L["Quest_7481_RewardText"] = AQ_NONE;
 
 L["Quest_7505_Name"] = "El choque de Escarcha y tú";
 L["Quest_7505_Objective"] = "Devuelve el libro a sus legítimos dueños. ";
@@ -1645,7 +1561,6 @@ L["Quest_7044_Name"] = "Leyendas de Maraudon";
 L["Quest_7044_Objective"] = "Recupera las 2 partes del cetro de Celebras: la vara y el diamante de Celebras.\nEncuentra el modo de hablar con Celebras.";
 L["Quest_7044_Location"] = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] en el mapa de la Entrada"..WHITE..")";
 L["Quest_7044_Note"] = "Encuentras a Cavindra al comienzo de la parte naranja antes de entrar la estancia.\nConsigues el Vara de Celebras de Noxxion en "..YELLOW.."[2]"..WHITE.." y el Diamante de Celebras de Lord Lenguavil en "..YELLOW.."[5]"..WHITE..". Celebras está en "..YELLOW.."[7]"..WHITE..". Tienes que derrotarlo para hablar consigo.";
-L["Quest_7044_RewardText"] = AQ_NONE;
 L["Quest_7044_FollowQuest"] = "El cetro de Celebras";
 
 L["Quest_7046_Name"] = "El cetro de Celebras";
@@ -1666,7 +1581,6 @@ L["Quest_7066_Name"] = "La semilla de vida";
 L["Quest_7066_Objective"] = "Busca a Remulos en Claro de la Luna y dale la semilla de vida.";
 L["Quest_7066_Location"] = "Espíritu de Zaetar (Maraudon; "..YELLOW.."[11]"..WHITE..")";
 L["Quest_7066_Note"] = "El Espíritu de Zaetar aparece después de matar a la Princesa Theradras en "..YELLOW.."[11]"..WHITE..". Encuentras al Guardián Remulos en (Claro de la Luna - Santuario de Remulos; "..YELLOW.."36,41"..WHITE..").";
-L["Quest_7066_RewardText"] = AQ_NONE;
 L["Quest_7066_PreQuest"] = "Corrupción de la tierra y de la semilla";
 
 L["Quest_7068_Name"] = "Trozos Oscuros";
@@ -1692,7 +1606,6 @@ L["Quest_5723_Name"] = "Midiendo fuerzas con el enemigo";
 L["Quest_5723_Objective"] = "Localiza la Sima Ígnea en Orgrimmar y después mata a 8 troggs Furia Ardiente y 8 chamanes Furia Ardiente y después ve a ver de nuevo a Rahauro a Cima del Trueno.";
 L["Quest_5723_Location"] = "Rahauro (Cima del Trueno - Alto de los Ancestros; "..YELLOW.."70,29"..WHITE..")";
 L["Quest_5723_Note"] = "Los troggs están al comienzo de la estancia.";
-L["Quest_5723_RewardText"] = AQ_NONE;
 
 L["Quest_5725_Name"] = "Poder destructivo";
 L["Quest_5725_Objective"] = "Llévale los libros Hechizos de las Sombras y Encantamientos desde el infierno a Varimathras, que está en Entrañas.";
@@ -1719,13 +1632,11 @@ L["Quest_5761_Name"] = "Matar a la bestia";
 L["Quest_5761_Objective"] = "Ve a la Sima Ígnea, mata a Taragaman el Hambriento y llévale su corazón a Neeru Hojafuego a Orgrimmar.";
 L["Quest_5761_Location"] = "Neeru Hojafuego (Orgrimmar - Circo de las Sombras; "..YELLOW.."49,50"..WHITE..")";
 L["Quest_5761_Note"] = "Encuentras a Taragaman en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_5761_RewardText"] = AQ_NONE;
 
 L["Quest_6626_Name"] = "Un anfitrión del mal";
 L["Quest_6626_Objective"] = "Mata a 8 guardias de batalla de Rajacieno y 8 tejespinas Rajacieno y 8 cultores Caramuerte y ve a ver a Myriam Lunacanta cerca de la entrada a Zahúrda Rajacieno.";
 L["Quest_6626_Location"] = "Myriam Lunacanta (Los Baldíos; "..YELLOW.."49,94"..WHITE..")";
 L["Quest_6626_Note"] = "Encuentras a Myriam Lunacanta y los jabaespines en la localización antes de entrar la estancia.";
-L["Quest_6626_RewardText"] = AQ_NONE;
 
 L["Quest_3525_Name"] = "Extinguir el ídolo";
 L["Quest_3525_Objective"] = "Acompaña a Belnistrasz al ídolo jabaespín en Zahúrda Rajacieno.\n\nProtégelo mientras realiza el ritual para inutilizar el ídolo.";
@@ -1782,7 +1693,6 @@ L["Quest_1701_Name"] = "Armadura de malla endurecida con fuego";
 L["Quest_1701_Objective"] = "Reúne los materiales que necesita Furen Barbalarga y llévaselos a Ventormenta.";
 L["Quest_1701_Location"] = "Furen Barbalarga (Ventormenta - Distrito de los Enanos; "..YELLOW.."57,16"..WHITE..")";
 L["Quest_1701_Note"] = "Solamente para Guerreros: Consigues el Vial de flogisto de Roogug en "..YELLOW.."[1]"..WHITE..".\n\nDespués de completar la misión, se abrirá 3 nuevas misiones: Sangre ardiente en Ventormenta, Coral férreo en Forjaz, y Cáscaras asoladas en Darnassus.";
-L["Quest_1701_RewardText"] = AQ_NONE;
 L["Quest_1701_PreQuest"] = "El forjador de escudos";
 L["Quest_1701_FollowQuest"] = "(Ve la Nota)";
 
@@ -1790,7 +1700,6 @@ L["Quest_1109_Name"] = "Guano del Horado";
 L["Quest_1109_Objective"] = "Llévale una pila de guano del Horado al maestro boticario Faranell en Entrañas.";
 L["Quest_1109_Location"] = "Maestro boticario Faranell (Entrañas - El Apothecarium; "..YELLOW.."48,69 "..WHITE..")";
 L["Quest_1109_Note"] = "Despoja a cualquier murciélago en la estancia para obtener el Guano del Horado";
-L["Quest_1109_RewardText"] = AQ_NONE;
 L["Quest_1109_FollowQuest"] = "Corazones de fanatismo ("..YELLOW.."[Monasterio Escarlata]"..WHITE..")";
 
 L["Quest_1102_Name"] = "Un destino vengador";
@@ -1803,7 +1712,6 @@ L["Quest_1838_Name"] = "Armadura brutal";
 L["Quest_1838_Objective"] = "Lleva 15 lingotes de hierro humeantes, 10 azuritas en polvo, 10 barras de hierro y un vial de flogisto a Thun'grim Vistafuego.";
 L["Quest_1838_Location"] = "Thun'grim Vistafuego (Los Baldíos; "..YELLOW.."57,30"..WHITE..")";
 L["Quest_1838_Note"] = "Solamente para Guerreros: Consigues el Vial de flogisto de Roogug en "..YELLOW.."[1]"..WHITE..".\n\nDespués de completar la misión, abrirá 4 nuevas misiones";
-L["Quest_1838_RewardText"] = AQ_NONE;
 L["Quest_1838_PreQuest"] = "Habla con Thun'grim";
 L["Quest_1838_FollowQuest"] = "(Ve la Note)";
 
@@ -1817,13 +1725,11 @@ L["Quest_959_Name"] = "¡A por la botella!";
 L["Quest_959_Objective"] = "El operador de grúa Pelardo de Trinquete quiere que le consigas una botella de Oporto con 99 años de antigüedad de Loco Magglish, que se esconde en las Cuevas de los Lamentos.";
 L["Quest_959_Location"] = "Operador de grúa Pelardo (Los Baldíos - Trinquete; "..YELLOW.."63,37"..WHITE..")";
 L["Quest_959_Note"] = "Consigues la botella antes de que entras la estancia por matar Loco Magglish. Cuando entras la cueva, dirígete al derecho para encontrarlo al final del pasaje. Él está en sigilo cerca del muro en "..YELLOW.."[1] en el mapa de la Entrada"..WHITE..".";
-L["Quest_959_RewardText"] = AQ_NONE;
 
 L["Quest_1491_Name"] = "Bebidas de inteligencia";
 L["Quest_1491_Objective"] = "Llévale 6 porciones de esencia de lamentos a Mebok Mizzyrix en Trinquete.";
 L["Quest_1491_Location"] = "Mebok Mizzyrix (Los Baldíos - Trinquete; "..YELLOW.."62,37"..WHITE..")";
 L["Quest_1491_Note"] = "La misión requisita se obtiene de Mebok Mizzyrix también.\nDespoja a los ectoplasmas para obtener la esencia de lamentos.";
-L["Quest_1491_RewardText"] = AQ_NONE;
 L["Quest_1491_PreQuest"] = "Cuernos de raptor";
 
 L["Quest_1487_Name"] = "Erradicación de descarriados";
@@ -1857,13 +1763,11 @@ L["Quest_3042_Name"] = "Temple trol";
 L["Quest_3042_Objective"] = "Lleva 20 viales de temple trol a Trenton Mazaligera en Gadgetzan.";
 L["Quest_3042_Location"] = "Trenton Mazaligera (Tanaris - Gadgetzan; "..YELLOW.."51,28"..WHITE..")";
 L["Quest_3042_Note"] = "Despoja a cualquier trol para obtener los temples.";
-L["Quest_3042_RewardText"] = AQ_NONE;
 
 L["Quest_2865_Name"] = "Caparazones de escarabajo";
 L["Quest_2865_Objective"] = "Lleva 5 caparazones de escarabajo sin rajar a Tran'rek en Gadgetzan.";
 L["Quest_2865_Location"] = "Tran'rek (Tanaris - Gadgetzan; "..YELLOW.."51,26"..WHITE..")";
 L["Quest_2865_Note"] = "La misión requisita empieza con Krazek (Vega de Tuercespina - Bahía del Botín; "..YELLOW.."25,77"..WHITE..").\nDespoja a cualquier escarabajo para obtener los caparazones. Hay muchos escarabajos que están en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2865_RewardText"] = AQ_NONE;
 L["Quest_2865_PreQuest"] = "Tran'rek";
 
 L["Quest_2846_Name"] = "Tiara de las profundidades";
@@ -1877,7 +1781,6 @@ L["Quest_2991_Name"] = "Medallón de Nekrum";
 L["Quest_2991_Objective"] = "Lleva el medallón de Nekrum a Thadius Sombramacabra a Las Tierras Devastadas.";
 L["Quest_2991_Location"] = "Thadius Sombramacabra (Las Tierras Devastadas - Castillo de Nethergarde; "..YELLOW.."66,19"..WHITE..")";
 L["Quest_2991_Note"] = "La cadena de misiones empieza con Maestro de grifos Garracha (Tierras del Interior - Pico Nidal; "..YELLOW.."9,44"..WHITE..").\nNekrum aparece en "..YELLOW.."[4]"..WHITE.." durante el evento de las escaleras.";
-L["Quest_2991_RewardText"] = AQ_NONE;
 L["Quest_2991_PreQuest"] = "Las jaulas de Secacorteza -> Thadius Sombramacabra";
 L["Quest_2991_FollowQuest"] = "El ritual de adivinación";
 
@@ -1885,7 +1788,6 @@ L["Quest_3527_Name"] = "La profecía de Mosh'aru";
 L["Quest_3527_Objective"] = "Llévale la primera y segunda tablillas Mosh'aru a Yeh'kinya, que está en Tanaris.";
 L["Quest_3527_Location"] = "Yeh'kinya (Tanaris - Puerto Bonvapor; "..YELLOW.."66,22"..WHITE..")";
 L["Quest_3527_Note"] = "Obtienes la misión requisita de Yeh'kinya también.\nDespoja a Theka el Martír en "..YELLOW.."[2]"..WHITE.." y Hidromántica Velratha en "..YELLOW.."[6]"..WHITE.." para obtener la primera y segunda tablillas Mosh'aru.";
-L["Quest_3527_RewardText"] = AQ_NONE;
 L["Quest_3527_PreQuest"] = "Los espíritus de los estridadores";
 L["Quest_3527_FollowQuest"] = "El huevo antiguo";
 
@@ -1906,7 +1808,6 @@ L["Quest_2936_Name"] = "Diosa araña";
 L["Quest_2936_Objective"] = "Lee el nombre de la diosa araña de los Secacorteza en la tablilla de Theka y vuelve a ver al maestro Gadrin.";
 L["Quest_2936_Location"] = "Maestro Gadrin (Durotar - Poblado Sen'jin; "..YELLOW.."55,74"..WHITE..")";
 L["Quest_2936_Note"] = "La cadena de misiones empieza con la Botella de veneno, que está en las mesas en los poblados trol en las Tierras del Interior.\nEncuentras la tablilla en "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2936_RewardText"] = AQ_NONE;
 L["Quest_2936_PreQuest"] = "Botellas de veneno -> Consulta al maestro Gadrin";
 L["Quest_2936_FollowQuest"] = "Invocar a Shadra";
 
@@ -1914,7 +1815,6 @@ L["Quest_6822_Name"] = "El Núcleo de Magma";
 L["Quest_6822_Objective"] = "Mata a 1 señor del Fuego, 1 gigante fundido, 1 can del Núcleo anciano y 1 marea de lava y ve a ver al duque Hydraxis a Azshara.";
 L["Quest_6822_Location"] = "Duque Hydraxis (Azshara; "..YELLOW.."79,73"..WHITE..")";
 L["Quest_6822_Note"] = "Están por dentro del Núcleo de Magma.";
-L["Quest_6822_RewardText"] = AQ_NONE;
 L["Quest_6822_PreQuest"] = "Ojo del Brasadivino ("..YELLOW.."Cumbre de Roca Negra Superior"..WHITE..")";
 L["Quest_6822_FollowQuest"] = "Agente de Hydraxis";
 
@@ -1930,7 +1830,6 @@ L["Quest_7786_Name"] = "Thunderaan el Hijo del Viento";
 L["Quest_7786_Objective"] = "Para liberar a Thunderaan el Hijo del Viento de su cárcel, debes entregarle al alto señor Demitrian en Silithus la mitad izquierda y la derecha del vínculo del Hijo del Viento, 10 barras de elementium encantado y la esencia del Señor del Fuego.";
 L["Quest_7786_Location"] = "Alto señor Demitrian (Silithus; "..YELLOW.."22,9"..WHITE..")";
 L["Quest_7786_Note"] = "Una parte de la cadena de misiones para Trueno Furioso, Espada Bendita del Hijo del Viento. Empieza después de obtener la mitad izquierda o la derecha de Garr en "..YELLOW.."[4]"..WHITE.." o Barón Geddon en "..YELLOW.."[6]"..WHITE..". Habla con Alto señor Demitrian para empezar la cadena de misiones. Despoja a Ragnaros para obtener la Esencia del Señor del Fuego en "..YELLOW.."[10]"..WHITE..". Después de entregar la misión, se invoca el Príncipe Thunderaan y debes matarlo. Se requiere una banda de 40 jugadores.";
-L["Quest_7786_RewardText"] = AQ_NONE;
 L["Quest_7786_PreQuest"] = "Examina la vasija";
 L["Quest_7786_FollowQuest"] = "¡Arriba, Trueno Furioso!";
 
@@ -1944,7 +1843,6 @@ L["Quest_7632_Name"] = "La hoja antigua";
 L["Quest_7632_Objective"] = "Encuentra al dueño de la hoja petrificada vieja.";
 L["Quest_7632_Location"] = "Hoja petrificada vieja (botín del Alijo del Señor del Fuego; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7632_Note"] = "Entrégala a Vartrus el Ancestro en (Frondavil - Bosque de Troncoferro; "..YELLOW.."49,24"..WHITE..").";
-L["Quest_7632_RewardText"] = AQ_NONE;
 L["Quest_7632_FollowQuest"] = "Carcaj antiguo cosido con tendón ("..YELLOW.."Azuregos"..WHITE..")";
 
 L["Quest_8578_Name"] = "¿Unas gafas? ¡Sin problemas!";
@@ -1992,7 +1890,6 @@ L["Quest_8227_Name"] = "Cinta métrica de Nat";
 L["Quest_8227_Objective"] = "Devuelve la Cinta métrica de Nat a Nat Pagle en el Marjal Revolcafango.";
 L["Quest_8227_Location"] = "Caja de aparejos maltrecha (Zul'Gurub - Noreste cerca del agua de la Isla de Hakkar)";
 L["Quest_8227_Note"] = "Nat Pagle está en el Marjal Revolcafango ("..YELLOW.."59,60"..WHITE.."). Después de entregar la misión, puedes comprar el Cebo de Fangoapestoso de Nat Pagle para invocar a Gahz'ranka en Zul'Gurub.";
-L["Quest_8227_RewardText"] = AQ_NONE;
 
 L["Quest_9023_Name"] = "El veneno perfecto";
 L["Quest_9023_Objective"] = "Dirk Truenedera quiere que le lleves glándulas de veneno de Venoxis y Kurinnaxx al Fuerte Cenarion.";
@@ -2010,7 +1907,6 @@ L["Quest_8801_Name"] = "El legado de C'Thun";
 L["Quest_8801_Objective"] = "Llévale el ojo de C'Thun a Caelastrasz en el Templo de Ahn'Qiraj.";
 L["Quest_8801_Location"] = "Ojo de C'Thun (botín de C'Thun; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_8801_Note"] = "Caelestrasz (Templo de Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")\nLas recompensas son para la misión siguiente.";
-L["Quest_8801_RewardText"] = AQ_NONE;
 L["Quest_8801_FollowQuest"] = "La salvación de Kalimdor";
 
 L["Quest_8802_Name"] = "La salvación de Kalimdor";
@@ -2024,19 +1920,16 @@ L["Quest_8784_Name"] = "Los secretos de los qiraji";
 L["Quest_8784_Objective"] = "Llévale el artefacto antiguo qiraji a los dragones ocultos cerca de la entrada del templo.";
 L["Quest_8784_Location"] = "Artefacto antiguo qiraji (botín aleatorio en Templo de Ahn'Qiraj)";
 L["Quest_8784_Note"] = "Llévalo a Andorgos (Templo de Ahn'Qiraj; "..YELLOW.."1'"..WHITE..").";
-L["Quest_8784_RewardText"] = AQ_NONE;
 
 L["Quest_8579_Name"] = "Campeones mortales";
 L["Quest_8579_Objective"] = "Entrega una Insignia de señor qiraji a Kandrostrasz en el Templo de Ahn'Qiraj.";
 L["Quest_8579_Location"] = "Kandrostrasz (Templo de Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")";
 L["Quest_8579_Note"] = "Misión repetible para ganar reputación con el Círculo Cenarion. Despoja a cualquier jefe en la estancia. Kandrostrasz está en la habitación detrás del primer jefe.";
-L["Quest_8579_RewardText"] = AQ_NONE;
 
 L["Quest_7261_Name"] = "El imperativo soberano";
 L["Quest_7261_Objective"] = "Dirígete al Valle de Alterac en las Laderas de Trabalomas. Delante de la entrada del túnel, encuentra al teniente Haggerdin y habla con él.";
 L["Quest_7261_Location"] = "Teniente Rotimer (Forjaz - La Plaza; "..YELLOW.."30,62"..WHITE..")";
 L["Quest_7261_Note"] = "Teniente Haggerdin está en (Montañas de Alterac; "..YELLOW.."39,81"..WHITE..").";
-L["Quest_7261_RewardText"] = AQ_NONE;
 L["Quest_7261_FollowQuest"] = "Terreno de Pruebas";
 
 L["Quest_7162_Name"] = "Terreno de Pruebas";
@@ -2058,92 +1951,77 @@ L["Quest_7121_Name"] = "El intendente";
 L["Quest_7121_Objective"] = "Habla con el intendente Pico Tormenta.";
 L["Quest_7121_Location"] = "Montaraz Bramibum (Valle de Alterac- Norte; "..YELLOW.."Cerca de [3] delante de la puente"..WHITE..")";
 L["Quest_7121_Note"] = "El Intendente Pico Tormenta está en (Valle de Alterac - Norte; "..YELLOW.."[7]"..WHITE..").";
-L["Quest_7121_RewardText"] = AQ_NONE;
 
 L["Quest_6982_Name"] = "Suministros de Dentefrío";
 L["Quest_6982_Objective"] = "Lleva 10 suministros de Dentefrío al intendente de la Alianza en Dun Baldar.";
 L["Quest_6982_Location"] = "Intendente Pico Tormenta (Valle de Alterac - Norte; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_6982_Note"] = "Encuentras los suministros en la Mina Dentefrío (Valle de Alterac - Sur; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_6982_RewardText"] = AQ_NONE;
 
 L["Quest_5892_Name"] = "Suministros de Ferrohondo";
 L["Quest_5892_Objective"] = "Lleva 10 suministros de Ferrohondo al intendente de la Alianza en Dun Baldar.";
 L["Quest_5892_Location"] = "Intendente Pico Tormenta (Valle de Alterac - Norte; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_5892_Note"] = "Encuentras los suministros en la Mina Ferrohondo (Valle de Alterac - Norte; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_5892_RewardText"] = AQ_NONE;
 
 L["Quest_7223_Name"] = "Los restos de armadura";
 L["Quest_7223_Objective"] = "Llévale 20 restos de armadura a Murgot Forjahonda en Dun Baldar.";
 L["Quest_7223_Location"] = "Murgot Forjahonda (Valle de Alterac - Norte; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_7223_Note"] = "Despoja los cuerpos de jugadores enemigos para obtener los restos de armadura.";
-L["Quest_7223_RewardText"] = AQ_NONE;
 L["Quest_7223_FollowQuest"] = "Más restos de armadura";
 
 L["Quest_7122_Name"] = "Capturar una mina";
 L["Quest_7122_Objective"] = "Captura una mina que no esté bajo control de los Pico Tormenta y vuelve junto al sargento Durgen Pico Tormenta en las Montañas de Alterac.";
 L["Quest_7122_Location"] = "Sargento Durgen Pico Tormenta (Montañas de Alterac; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7122_Note"] = "Mata a Morloch en la Mina Ferrohondo (Valle de Alterac - Norte; "..YELLOW.."[1]"..WHITE..") o Capataz Snivvle en la Mina Dentefrío (Valle de Alterac - Sur; "..YELLOW.."[6]"..WHITE..") mientras está bajo control de la Horda.";
-L["Quest_7122_RewardText"] = AQ_NONE;
 
 L["Quest_7102_Name"] = "Las torres y los búnkeres";
 L["Quest_7102_Objective"] = "Destruye el estandarte de una torre enemiga o de un búnker y vuelve junto al sargento Durgen Pico Tormenta en las Montañas de Alterac.";
 L["Quest_7102_Location"] = "Sargento Durgen Pico Tormenta (Montañas de Alterac; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7102_Note"] = "Asalta una torre o un búnker para completar la misión.";
-L["Quest_7102_RewardText"] = AQ_NONE;
 
 L["Quest_7081_Name"] = "Los cementerios del Valle de Alterac";
 L["Quest_7081_Objective"] = "Asalta un cementerio y vuelve con el sargento Durgen Pico Tormenta en las Montañas de Alterac.";
 L["Quest_7081_Location"] = "Sargento Durgen Pico Tormenta (Montañas de Alterac; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7081_Note"] = "Tienes que estar cerca de un cementerio cuando la Alianza lo asalte.";
-L["Quest_7081_RewardText"] = AQ_NONE;
 
 L["Quest_7027_Name"] = "Establos vacíos";
 L["Quest_7027_Objective"] = "Encuentra un carnero de Alterac en el Valle de Alterac. Usa la collera de entrenamiento Pico Tormenta cuando estés junto al carnero de Alterac para domarlo. Cuando lo consigas, te seguirá hasta el maestro de establos. Habla con el maestro de establos para ganarte el crédito por la captura.";
 L["Quest_7027_Location"] = "Maestra de establos Pico Tormenta (Valle de Alterac - Norte; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7027_Note"] = "Encuentras a un carnero fuera del base. Puedes hacer la misión 25 veces por partido. Después de entregar la misión 25 veces, la caberellía Pico Tormenta vendrá a ayudarles.";
-L["Quest_7027_RewardText"] = AQ_NONE;
 
 L["Quest_7026_Name"] = "Arneses de pellejo de carnero";
 L["Quest_7026_Objective"] = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!";
 L["Quest_7026_Location"] = "Comandante de jinetes de carneros Pico Tormenta (Valle de Alterac - Norte; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7026_Note"] = "Los Lobos Gélidos se encuentran al sur del Valle de Alterac.";
-L["Quest_7026_RewardText"] = AQ_NONE;
 
 L["Quest_7386_Name"] = "Recogida de cristal";
 L["Quest_7386_Objective"] = "A veces te puedes encontrar atrincherado en la batalla durante varios días o incluso varias semanas. En esos períodos más largos de actividad, puedes acabar recogiendo grandes bloques de cristales de tormenta de los Lobo Gélido.\n\nEl Círculo acepta tales ofrendas, <nombre>.";
 L["Quest_7386_Location"] = "Archidruida Renferal (Valle de Alterac - Norte; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_7386_Note"] = "Despúes de entregar alrededor 200 cristales, Archidruida Renferal caminará hacia (Valle de Alterac - Norte; "..YELLOW.."[19]"..WHITE.."). Empezará el ritual de invocación que requiere 10 jugadores para asistirle. Si lo completa, invocará Ivus, el Señor del Bosque para ayudarles en la batalla.";
-L["Quest_7386_RewardText"] = AQ_NONE;
 
 L["Quest_6881_Name"] = "Ivus, el Señor del Bosque";
 L["Quest_6881_Objective"] = "El clan Lobo Gélido está protegido por una contaminación de energía elemental. Su chamán anda metido con poderes que seguramente nos aniquilarían si no nos ocupamos de ellos.\n\n¡El daño se ha extendido demasiado para que el Círculo lo controle! Tenemos que invocar a Ivus para que nos ayude.\n\nLos soldados Lobo Gélido llevan talismanes de elemental llamados cristales de tormenta. Podemos usar estos talismanes para conjurar a Ivus. ¡Adéntrate hasta ese lugar y recupera esos cristales, <nombre>!";
 L["Quest_6881_Location"] = "Archidruida Renferal (Valle de Alterac - Norte; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_6881_Note"] = "Despúes de entregar alrededor 200 cristales, Archidruida Renferal caminará hacia (Valle de Alterac - Norte; "..YELLOW.."[19]"..WHITE.."). Empezará el ritual de invocación que requiere 10 jugadores para asistirle. Si lo completa, invocará Ivus, el Señor del Bosque para ayudarles en la batalla.";
-L["Quest_6881_RewardText"] = AQ_NONE;
 
 L["Quest_6942_Name"] = "La llamada del aire: la flota de Slidore";
 L["Quest_6942_Objective"] = "Mis grifos están listos para atacar a las primeras líneas del frente pero no pueden hacerlo hasta que las líneas se reduzcan algo.\n\nLos guerreros Lobo Gélido, encargados de resistir en las primeras líneas del frente, llevan medallas de servicio que lucen orgullosos en la pechera. Arráncales esas medallas de sus podridos cadáveres y tráemelas.\n\nCuando la primera línea del frente esté suficientemente diezmada, ¡daré la orden de atacar desde el aire! ¡Muerte desde el cielo!";
 L["Quest_6942_Location"] = "Comandante del aire Slidore (Valle de Alterac - Norte; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6942_Note"] = "Mata a los PNJs Horda para obtener las Medallas de Soldado Lobo Gélido.";
-L["Quest_6942_RewardText"] = AQ_NONE;
 
 L["Quest_6941_Name"] = "La llamada del aire: la flota de Vipore";
 L["Quest_6941_Objective"] = "¡Hay que ocuparse de las unidades de élite de los Lobo Gélido que vigilan las líneas, soldado! Te encargo que diezmes a esa manada de salvajes. Vuelve aquí con las medallas de sus tenientes y legionarios. Cuando me parezca que hemos despachado a suficiente chusma, desplegaré la fuerza aérea.";
 L["Quest_6941_Location"] = "Comandante del aire Vipore (Valle de Alterac - Norte; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6941_Note"] = "Mata a los PNJs Horda para obtener las Medallas de Teniente Lobo Gélido.";
-L["Quest_6941_RewardText"] = AQ_NONE;
 
 L["Quest_6943_Name"] = "La llamada del aire: la flota de Ichman";
 L["Quest_6943_Objective"] = "Regresa al campo de batalla y ataca directo al corazón del mando de los Lobo Gélido. Acaba con sus comandantes y guardianes. Vuelve aquí y tráeme sus medallas, ¡todas las que te quepan en la talega! Te lo prometo, cuando mis grifos vean el botín y huelan la sangre de nuestro enemigo, ¡volverán a volar! ¡Ahora vete!";
 L["Quest_6943_Location"] = "Comandante del aire Ichman (Valle de Alterac - Norte; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6943_Note"] = "Mata a los PNJs Horda para obtener las Medallas de Comandante Lobo Gélido. Después de entregarlas 50 veces, el Comandante del aire Ichman enviará grifos para atacar el base de la Horda o un señal al Cementerio Avalancha. Si el señal está protegido bastante tiempo, un grifo lo defenderá.";
-L["Quest_6943_RewardText"] = AQ_NONE;
 
 L["Quest_7241_Name"] = "En defensa de los Lobo Gélido";
 L["Quest_7241_Objective"] = "Dirígete al Valle de Alterac en las Montañas de Alterac. Encuentra al maestro de guerra Laggrond y habla con él para empezar tu carrera como soldado Lobo Gélido; lo encontrarás en la entrada del túnel. El Valle de Alterac se sitúa al norte de Molino Tarren en la falda de las Montañas de Alterac.";
 L["Quest_7241_Location"] = "Embajadora Rokhstrom Lobo Gélido (Orgrimmar - Valle de Fuerza; "..YELLOW.."50,71"..WHITE..")";
 L["Quest_7241_Note"] = "Maestro de guerra Laggrond está en (Montañas de Alterac; "..YELLOW.."62,59"..WHITE..").";
-L["Quest_7241_RewardText"] = AQ_NONE;
 L["Quest_7241_FollowQuest"] = "Terreno de Pruebas";
 
 L["Quest_7161_Name"] = "Terreno de Pruebas";
@@ -2165,98 +2043,82 @@ L["Quest_7123_Name"] = "Habla con nuestro intendente";
 L["Quest_7123_Objective"] = "Habla con el intendente de Lobo Gélido.";
 L["Quest_7123_Location"] = "Jotek (Valle de Alterac - Sur; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7123_Note"] = "El Intendente Lobo Gélido está en "..YELLOW.."[10]"..WHITE..".";
-L["Quest_7123_RewardText"] = AQ_NONE;
 
 L["Quest_5893_Name"] = "Suministros de Dentefrío";
 L["Quest_5893_Objective"] = "Lleva 10 suministros de Dentefrío al intendente de la Horda en el Bastión Lobo Gélido.";
 L["Quest_5893_Location"] = "Intendente Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_5893_Note"] = "Encuentras los suministros en la Mina Dentefrío en (Valle de Alterac - Sur; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_5893_RewardText"] = AQ_NONE;
 
 L["Quest_6985_Name"] = "Suministros de Ferrohondo";
 L["Quest_6985_Objective"] = "Lleva 10 suministros de Ferrohondo al intendente de la Horda en el Bastión Lobo Gélido.";
 L["Quest_6985_Location"] = "Intendente Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_6985_Note"] = "Encuentras los suministros en la Mina Ferrohondo (Valle de Alterac - Norte; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_6985_RewardText"] = AQ_NONE;
 
 L["Quest_7224_Name"] = "Botín enemigo";
 L["Quest_7224_Objective"] = "Llévale 20 restos de armadura al herrero Regzar en Aldea Lobo Gélido.";
 L["Quest_7224_Location"] = "Herrero Regzar (Valle de Alterac - Sur; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7224_Note"] = "Despoja los cuerpos de jugadores enemigos para obtener los restos de armadura.";
-L["Quest_7224_RewardText"] = AQ_NONE;
 L["Quest_7224_FollowQuest"] = "¡Más botines!";
 
 L["Quest_7124_Name"] = "Capturar una mina";
 L["Quest_7124_Objective"] = "Captura una mina y vuelve con el cabo Teeka Gruñido Sangriento en las Montañas de Alterac.";
 L["Quest_7124_Location"] = "Cabo Teeka Gruñido Sangriento (Montañas de Alterac; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7124_Note"] = "Mata a Morloch en la Mina Ferrohondo (Valle de Alterac - Norte; "..YELLOW.."[1]"..WHITE..") o Capataz Snivvle en la Mina Dentefrío (Valle de Alterac - Sur; "..YELLOW.."[6]"..WHITE..") mientras está bajo control de la Alianza.";
-L["Quest_7124_RewardText"] = AQ_NONE;
 
 L["Quest_7101_Name"] = "Las torres y los búnkeres";
 L["Quest_7101_Objective"] = "Captura una torre enemiga y vuelve con el cabo Teeka Gruñido Sangriento en las Montañas de Alterac.";
 L["Quest_7101_Location"] = "Cabo Teeka Gruñido Sangriento (Montañas de Alterac; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7101_Note"] = "Asalta una torre o un búnker para completar la misión.";
-L["Quest_7101_RewardText"] = AQ_NONE;
 
 L["Quest_7082_Name"] = "Los cementerios de Alterac";
 L["Quest_7082_Objective"] = "Asalta un cementerio y vuelve con el cabo Teeka Gruñido Sangriento en las Montañas de Alterac.";
 L["Quest_7082_Location"] = "Cabo Teeka Gruñido Sangriento (Montañas de Alterac; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7082_Note"] = "Tienes que estar cerca de un cementerio cuando la Horda lo asalte.";
-L["Quest_7082_RewardText"] = AQ_NONE;
 
 L["Quest_7001_Name"] = "Establos vacíos";
 L["Quest_7001_Objective"] = "Encuentra a un Lobo Gélido en el Valle de Alterac. Usa el bozal Lobo Gélido cuando estés junto a él para domarlo. Cuando lo consigas, te seguirá hasta el maestro de establos de los Lobo Gélido. Habla con el maestro de establos para ganarte el crédito por la captura.";
 L["Quest_7001_Location"] = "Maestra de establos Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7001_Note"] = "Encuentras a un Lobo Gélido fuera del base. Puedes hacer la misión 25 veces por partido. Después de entregar la misión 25 veces, la caberellía Lobo Gélido vendrá a ayudarles.";
-L["Quest_7001_RewardText"] = AQ_NONE;
 
 L["Quest_7002_Name"] = "Arneses de pellejo de carnero";
 L["Quest_7002_Objective"] = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!";
 L["Quest_7002_Location"] = "Comandante jinete de lobos Lobo Gélido (Valle de Alterac - Sur; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7002_Note"] = "Los carneros se encuentran al norte del Valle de Alterac.";
-L["Quest_7002_RewardText"] = AQ_NONE;
 
 L["Quest_7385_Name"] = "Un galón de sangre";
 L["Quest_7385_Objective"] = "Tienes la posibilidad de ofrecer cantidades mayores de sangre de nuestros enemigos. Será un placer aceptar ofrendas de mayor tamaño, <nombre>.";
 L["Quest_7385_Location"] = "Primalista Thurloga (Valle de Alterac - Sur; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7385_Note"] = "Despúes de entregar alrededor 150 galones de sangre, Primalista Thurloga caminará hacia (Valle de Alterac - Sur; "..YELLOW.."[14]"..WHITE.."). Empezará el ritual de invocación que requiere 10 jugadores para asistirle. Si lo completa, invocará Lokholar, el Señor del Hielo para ayudarles en la batalla.";
-L["Quest_7385_RewardText"] = AQ_NONE;
 
 L["Quest_6801_Name"] = "Lokholar, el Señor del Hielo";
 L["Quest_6801_Objective"] = "Vengo de Cima del Trueno, <raza>. El propio Cairne ha decidido que ayude al clan Lobo Gélido en estos amargos tiempos.\n\nPero no perdamos más el tiempo. Debes atacar a nuestros enemigos y traerme su sangre. Cuando tenga suficiente sangre, podrá empezar el ritual del conjuro.\n\nLa victoria estará garantizada cuando el señor elemental quede liberado sobre el ejército de los Pico Tormenta.";
 L["Quest_6801_Location"] = "Primalista Thurloga (Valle de Alterac - Sur; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6801_Note"] = "Despúes de entregar alrededor 150 galones de sangre, Primalista Thurloga caminará hacia (Valle de Alterac - Sur; "..YELLOW.."[14]"..WHITE.."). Empezará el ritual de invocación que requiere 10 jugadores para asistirle. Si lo completa, invocará Lokholar, el Señor del Hielo para ayudarles en la batalla.";
-L["Quest_6801_RewardText"] = AQ_NONE;
 
 L["Quest_6825_Name"] = "La llamada del aire: flota de Guse";
 L["Quest_6825_Objective"] = "Mis jinetes están listos para un ataque sobre el campo de batalla central pero primero hay que despertar su apetito… prepararlos para el asalto.\n\nNecesito carne de soldados Pico Tormenta, ¡como para alimentar a una flota! ¡Cientos de kilos! Seguro que puedes encargarte de eso, ¿verdad? ¡Andando!";
 L["Quest_6825_Location"] = "Comandante del aire Guse (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6825_Note"] = "Mata a los PNJs Alianza para obtener la Carne de Soldado Pico Tormenta.";
-L["Quest_6825_RewardText"] = AQ_NONE;
 
 L["Quest_6826_Name"] = "La llamada del aire: flota de Jeztor";
 L["Quest_6826_Objective"] = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Tenientes.";
 L["Quest_6826_Location"] = "Comandante del aire Jeztor (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6826_Note"] = "Mata a los PNJs Alianza para obtener la Carne de Teniente Pico Tormenta.";
-L["Quest_6826_RewardText"] = AQ_NONE;
 
 L["Quest_6827_Name"] = "La llamada del aire: flota de Mulverick";
 L["Quest_6827_Objective"] = "He pasado días encerrado en un horrible antro de enanos. ¡Vaya si quiero venganza!\n\nDebemos planificarlo minuciosamente.\n\nPrimero mis alas de guerra necesitan objetivos a los que apuntar, objetivos de alta prioridad. Tendré que alimentarlos con carne de los Comandantes Pico Tormenta. Por desgracia, ¡esos malnacidos están atrincherados muy lejos detrás de las líneas enemigas! Ahí tienes un trabajo a tu medida.";
 L["Quest_6827_Location"] = "Comandante del aire Mulverick (Valle de Alterac - Sur; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6827_Note"] = "Mata a los PNJs Alianza para obtener la Carne de Comandante Pico Tormenta.";
-L["Quest_6827_RewardText"] = AQ_NONE;
 
 L["Quest_8105_Name"] = "La batalla por la Cuenca de Arathi";
 L["Quest_8105_Objective"] = "Asalta la mina, el aserradero, la herrería y la granja y vuelve entonces junto al mariscal de campo Uluz en el Refugio de la Zaga.";
 L["Quest_8105_Location"] = "Mariscal de campo Uluz (Tierras Altas de Arathi - Refugio de la Zaga; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8105_Note"] = "Las localizaciones que asaltas están marcadas en el mapa 2 a 5.";
-L["Quest_8105_RewardText"] = AQ_NONE;
 
 L["Quest_8114_Name"] = "Controla cuatro bases";
 L["Quest_8114_Objective"] = "Adéntrate en la Cuenca de Arathi, toma el control de las cuatro bases a la vez y vuelve entonces junto al mariscal de campo Uluz en el Refugio de la Zaga.";
 L["Quest_8114_Location"] = "Mariscal de campo Uluz (Tierras Altas de Arathi - Refugio de la Zaga; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8114_Note"] = "Necesitas la reputación de amistoso con la Liga de Arathor para obtener esta misión.";
-L["Quest_8114_RewardText"] = AQ_NONE;
 
 L["Quest_8115_Name"] = "Controla cinco bases";
 L["Quest_8115_Objective"] = "Toma el control de 5 bases a la vez en la Cuenca de Arathi y vuelve entonces junto al mariscal de campo Uluz en el Refugio de la Zaga.";
@@ -2268,13 +2130,11 @@ L["Quest_8120_Name"] = "La batalla por la Cuenca de Arathi";
 L["Quest_8120_Objective"] = "Asalta la mina de la Cuenca de Arathi, el aserradero, la herrería y el establo y vuelve entonces junto a la maestra de la muerte Duire en Sentencia.";
 L["Quest_8120_Location"] = "Maestra de la Muerte Duire (Tierras Altas de Arathi - Sentencia; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8120_Note"] = "Las localizaciones que asaltas están marcadas en el mapa 1 a 4.";
-L["Quest_8120_RewardText"] = AQ_NONE;
 
 L["Quest_8121_Name"] = "Toma el control de cuatro bases";
 L["Quest_8121_Objective"] = "Toma el control de cuatro bases al mismo tiempo en la Cuenca de Arathi y vuelve entonces junto a la maestra de la muerte Duire en Sentencia.";
 L["Quest_8121_Location"] = "Maestra de la Muerte Duire (Tierras Altas de Arathi - Sentencia; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8121_Note"] = "Necesitas la reputación de amistoso con los Rapiñadores para obtener esta misión.";
-L["Quest_8121_RewardText"] = AQ_NONE;
 
 L["Quest_8122_Name"] = "Toma el control de cinco bases";
 L["Quest_8122_Objective"] = "Toma el control de cinco bases al mismo tiempo en la Cuenca de Arathi y vuelve entonces junto a la maestra de la muerte Duire en Sentencia.";

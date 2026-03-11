@@ -22,7 +22,6 @@ local AQ_WORLDDUNGEONQUEST = "Dies ist eine Weltquest.  Wenn diese Aktiv ist (Du
 
 local AQ_OR = GREY.." oder ";
 local AQ_AND = GREY.." und ";
-local AQ_NONE = WHITE.."Keine";
 
 -- Globals
 L["Quests"] = "Quests";
@@ -255,25 +254,21 @@ L["Quest_27756_Name"] = "Der Vorarbeiter";
 L["Quest_27756_Objective"] = "Tötet Glubtok.";
 L["Quest_27756_Location"] = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27756_Note"] = "Glubtok ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27756_RewardText"] = AQ_NONE;
 
 L["Quest_27758_Name"] = "Der Zimmermann";
 L["Quest_27758_Objective"] = "Besiegt Helix Ritzelbrecher.";
 L["Quest_27758_Location"] = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27758_Note"] = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\nHelix Ritzelbrecher ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27758_RewardText"] = AQ_NONE;
 
 L["Quest_27781_Name"] = "Die Maschinerie";
 L["Quest_27781_Objective"] = "Zerstört den Feindschnitter 5000.";
 L["Quest_27781_Location"] = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27781_Note"] = "Diese Quest bekommst Du automatisch nachdem Du die Goblin-Gießerei betreten hast.\n\nFeindschnitter 5000 ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27781_RewardText"] = AQ_NONE;
 
 L["Quest_27785_Name"] = "Der Admiral";
 L["Quest_27785_Objective"] = "Tötet Admiral Knurrreißer.";
 L["Quest_27785_Location"] = "Leutnant Horatio Laine (Todesmine; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27785_Note"] = "Diese Quest bekommst Du automatisch nachdem Du die gepanzerte Bucht betreten hast.\n\nAdmiral Knurrreißer ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27785_RewardText"] = AQ_NONE;
 L["Quest_27785_FollowQuest"] = "Die Nummer Eins der Defias";
 
 L["Quest_27790_Name"] = "Die Nummer Eins der Defias";
@@ -287,25 +282,21 @@ L["Quest_27842_Name"] = "Erst der Anfang";
 L["Quest_27842_Objective"] = "Tötet Glubtok.";
 L["Quest_27842_Location"] = "Kagtha (Todesminen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27842_Note"] = "Glubtok ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27842_RewardText"] = AQ_NONE;
 
 L["Quest_27844_Name"] = "Verräter!!!";
 L["Quest_27844_Objective"] = "Besiegt Helix Ritzelbrecher.";
 L["Quest_27844_Location"] = "Slinky Scharfklinge (Todesminen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27844_Note"] = "Diese Quest bekommst Du automatisch nachdem Du den Mastraum betreten hast.\n\nHelix Ritzelbrecher ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27844_RewardText"] = AQ_NONE;
 
 L["Quest_27847_Name"] = "Noch nicht ganz fertig";
 L["Quest_27847_Objective"] = "Zerstört den Feindschnitter 5000.";
 L["Quest_27847_Location"] = "Fräulein Fiasko (Todesminen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27847_Note"] = "Diese Quest bekommst Du automatisch nachdem Du die Goblin-Gießerei betreten hast.\n\nFeindschnitter 5000 ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27847_RewardText"] = AQ_NONE;
 
 L["Quest_27848_Name"] = "Gute Absichten...Schlechte Durchführung";
 L["Quest_27848_Objective"] = "Tötet Admiral Knurrreißer.";
 L["Quest_27848_Location"] = "Kagtha (Todesminen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27848_Note"] = "Diese Quest bekommst Du automatisch nachdem Du die gepanzerte Bucht betreten hast.\n\nAdmiral Knurrreißer ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27848_RewardText"] = AQ_NONE;
 L["Quest_27848_FollowQuest"] = "Die Nummer Eins der Defias";
 
 L["Quest_27850_Name"] = "Die Nummer Eins der Defias";
@@ -319,13 +310,11 @@ L["Quest_26872_Name"] = "Deviatbälge";
 L["Quest_26872_Objective"] = "Nalpak in den Höhlen des Wehklagens möchte 10 Deviatbälge.";
 L["Quest_26872_Location"] = "Nalpak (Höhlen des Wehklagens; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26872_Note"] = "Man bekommt die Bälge von allen Deviatgegnern vor und in der Instanz.";
-L["Quest_26872_RewardText"] = AQ_NONE;
 
 L["Quest_26873_Name"] = "Vorbeugende Maßnahmen";
 L["Quest_26873_Objective"] = "Nalpak möchte, dass Ihr 5 Schlangenflaum sammelt.";
 L["Quest_26873_Location"] = "Nalpak (Höhlen des Wehklagens; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26873_Note"] = "Man findet den Schlangenflaum überall in der Instanz.";
-L["Quest_26873_RewardText"] = AQ_NONE;
 
 L["Quest_26870_Name"] = "Säuberung der Höhlen";
 L["Quest_26870_Objective"] = "Ebru in den Höhlen des Wehklagens möchte, dass Ihr die Giftzahnlords Cobrahn, Anacondra, Pythas und Serpentis vernichtet. ";
@@ -337,20 +326,17 @@ L["Quest_26878_Name"] = "Jünger von Naralex";
 L["Quest_26878_Objective"] = "Sprecht in den Höhlen des Wehklagens mit Nalpak.";
 L["Quest_26878_Location"] = "Tonga Runentotem (Nördliches Brachland - Das Wegekreuz; "..YELLOW.."49.4, 58.6"..WHITE..")";
 L["Quest_26878_Note"] = "Nalpak befindet sich in (Höhlen des Wehklagens; "..GREEN.."[1']"..WHITE..")";
-L["Quest_26878_RewardText"] = AQ_NONE;
 L["Quest_26878_PreQuest"] = "Die Vergessenen Teiche -> Die Brackige Oase";
 
 L["Quest_30995_Name"] = "Niemand bleibt zurück";
 L["Quest_30995_Objective"] = "Rettet 5 Waldläufer des SI:7 im Flammenschlund.";
 L["Quest_30995_Location"] = "SI:7-Feldkommandant Dirken (Flammenschlund; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30995_Note"] = "Die Waldläufer sind überall in der Instanz verteilt.";
-L["Quest_30995_RewardText"] = AQ_NONE;
 
 L["Quest_30998_Name"] = "Ein neuer Feind";
 L["Quest_30998_Objective"] = "Sammelt 5 verderbte Insignien von den Dunkelschamanenkultisten.";
 L["Quest_30998_Location"] = "Hochzauberin Aryna (Flammenschlund; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30998_Note"] = "Die Dunkelschamenkultisten sind überall in der Instanz verteilt.";
-L["Quest_30998_RewardText"] = AQ_NONE;
 
 L["Quest_30996_Name"] = "Die Dunkelschamanen";
 L["Quest_30996_Objective"] = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth.";
@@ -362,57 +348,48 @@ L["Quest_31037_Name"] = "Feinde im Untergrund";
 L["Quest_31037_Objective"] = "Sprecht mit Kommandant Bagran.";
 L["Quest_31037_Location"] = "Garrosh Höllschrei (Orgrimmar - Das Tal der Stärke; "..YELLOW.."48.2, 70.6"..WHITE..")\nBaine Bluthuf (Donnerfels - Anhöhe der Ältesten; "..YELLOW.."60.6, 51.6"..WHITE..")\nFürstin Sylvanas Windläufer (Unterstadt - Das königliche Viertel; "..YELLOW.."58.6, 93.0"..WHITE..")";
 L["Quest_31037_Note"] = "Dies ist eine optionale Quest.Du kannst sie in drei verschiedenen Hauptstädten annehmen.";
-L["Quest_31037_RewardText"] = AQ_NONE;
 
 L["Quest_30984_Name"] = "Kein Ork bleibt zurück";
 L["Quest_30984_Objective"] = "Rettet 5 Späher der Kor'kron im Flammenschlund.";
 L["Quest_30984_Location"] = "Kommandant Bagran (Flammenschlund; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30984_Note"] = "Die Späher findest Du überall in der Instanz.";
-L["Quest_30984_RewardText"] = AQ_NONE;
 
 L["Quest_30969_Name"] = "Ein neuer Feind";
 L["Quest_30969_Objective"] = "Sammelt 5 verderbte Insignien von Kultisten im Flammenschlund.";
 L["Quest_30969_Location"] = "Herbeirufer Xorenth (Flammenschlund; "..GREEN.."1'"..WHITE..")";
 L["Quest_30969_Note"] = "Die Kultisten findest Du überall in der Instanz.";
-L["Quest_30969_RewardText"] = AQ_NONE;
 
 L["Quest_30983_Name"] = "Die Dunkelschamanen";
 L["Quest_30983_Objective"] = "Besiegt Dunkelschamane Koranthal und Lavawache Gordoth.";
 L["Quest_30983_Location"] = "Herbeirufer Xorenth (Flammenschlund; "..GREEN.."1'"..WHITE..")";
 L["Quest_30983_Note"] = "Dunkelschamane Koranthal befindet sich bei "..YELLOW.."[2]"..WHITE.." und Lavawache Gordoth befindet sich bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_30983_RewardText"] = AQ_NONE;
 
 L["Quest_27672_Name"] = "Die Kammer von Khaz'mul";
 L["Quest_27672_Objective"] = "Besiegt Ironaya.";
 L["Quest_27672_Location"] = "Oberausgrabungsleiter Durdin (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27672_Note"] = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nDu kannst diese Quest annehmen und die nächste die vom Questlog kommt akzeptieren.";
-L["Quest_27672_RewardText"] = AQ_NONE;
 L["Quest_27672_FollowQuest"] = "Archaedas, der alte Steinbehüter";
 
 L["Quest_27677_Name"] = "Archaedas, der alte Steinbehüter";
 L["Quest_27677_Objective"] = "Besiegt Archaedas.";
 L["Quest_27677_Location"] = "Oberausgrabungsleiter Durdin (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27677_Note"] = "Archaedas ist bei "..YELLOW.."[8]"..WHITE..".";
-L["Quest_27677_RewardText"] = AQ_NONE;
 L["Quest_27677_PreQuest"] = "Die Kammer von Khaz'mul";
 
 L["Quest_27673_Name"] = "Es kommt auf die inneren Werte an";
 L["Quest_27673_Objective"] = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern.";
 L["Quest_27673_Location"] = "Kand Sandsucher (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27673_Note"] = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern vom Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_27673_RewardText"] = AQ_NONE;
 
 L["Quest_27676_Name"] = "Hinter verschlossenen Türen";
 L["Quest_27676_Objective"] = "Tötet Galgann Feuerhammer.";
 L["Quest_27676_Location"] = "Olga Runenschwur (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27676_Note"] = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_27676_RewardText"] = AQ_NONE;
 
 L["Quest_2278_Name"] = "Die Platinscheiben";
 L["Quest_2278_Objective"] = "Sprecht mit dem Steinbehüter und findet heraus, welche uralten Lehren er aufbewahrt. Sobald Ihr alles erfahren habt, was er weiß, aktiviert die Scheiben von Norgannon.";
 L["Quest_2278_Location"] = "Die Platinscheiben (Uldaman; "..GREEN.."[2']"..WHITE..")";
 L["Quest_2278_Note"] = "Der Steinbehüter ist neben den Scheiben. Gebe die Quest bei den Platinscheiben ab um die nächste Quest anzunehmen.";
-L["Quest_2278_RewardText"] = AQ_NONE;
 L["Quest_2278_FollowQuest"] = "Die Platinscheiben";
 
 L["Quest_2280_Name"] = "Die Platinscheiben";
@@ -426,60 +403,51 @@ L["Quest_27679_Name"] = "Die Kammer von Khaz'mul";
 L["Quest_27679_Objective"] = "Besiegt Ironaya.";
 L["Quest_27679_Location"] = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27679_Note"] = "Ironaya ist bei "..YELLOW.."[3]"..WHITE..". Um die Kammer zu öffnen, besorge zuerst das Medaillon von Gni'kiv aus der Baelogs Truhe bei "..YELLOW.."[1]"..WHITE.." und dem Schaft von Tsol von Revelosh bei "..YELLOW.."[2]"..WHITE..".\n\nDu kannst diese Quest annehmen und die nächste die vom Questlog kommt akzeptieren.";
-L["Quest_27679_RewardText"] = AQ_NONE;
 L["Quest_27679_FollowQuest"] = "Archaedas, der alte Steinbehüter";
 
 L["Quest_27680_Name"] = "Archaedas, der alte Steinbehüter";
 L["Quest_27680_Objective"] = "Besiegt Archaedas.";
 L["Quest_27680_Location"] = "Oberster Prüfer Tae'thelan Blutwächter (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27680_Note"] = "Archaedas ist bei "..YELLOW.."[8]"..WHITE..".";
-L["Quest_27680_RewardText"] = AQ_NONE;
 L["Quest_27680_PreQuest"] = "Die Kammer von Khaz'mul";
 
 L["Quest_27682_Name"] = "Es kommt auf die inneren Werte an";
 L["Quest_27682_Objective"] = "Beschafft Euch den Obsidiankraftkern und den Titankraftkern.";
 L["Quest_27682_Location"] = "Aoren Sonnenglanz (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27682_Note"] = "Der Obsidiankraftkern droppt von den Obsidianschildwache bei "..YELLOW.."[4]"..WHITE.." und der Titankraftkern vom Uralter Steinbewahrer bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_27682_RewardText"] = AQ_NONE;
 
 L["Quest_27681_Name"] = "Hinter verschlossenen Türen";
 L["Quest_27681_Objective"] = "Tötet Galgann Feuerhammer.";
 L["Quest_27681_Location"] = "Lidia Sonnenglanz (Uldaman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27681_Note"] = "Galgann Feuerhammer ist bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_27681_RewardText"] = AQ_NONE;
 
 L["Quest_27565_Name"] = "Ins Gefängnis";
 L["Quest_27565_Objective"] = "Findet Kevin Dawson.";
 L["Quest_27565_Location"] = "Jalinda Sprig (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27565_Note"] = "Kevin Dawson ist auf dem Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE..".";
-L["Quest_27565_RewardText"] = AQ_NONE;
 L["Quest_27565_FollowQuest"] = "Schattenhammer?! Nein!";
 
 L["Quest_27567_Name"] = "Schattenhammer?! Nein!";
 L["Quest_27567_Objective"] = "'Verhört' Verhörmeisterin Gerstahn.";
 L["Quest_27567_Location"] = "Kevin Dawson (Schwarzfelstiefen; "..GREEN.."[2']"..WHITE..")";
 L["Quest_27567_Note"] = "Verhörmeisterin Gerstahn ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27567_RewardText"] = AQ_NONE;
 L["Quest_27567_PreQuest"] = "Ins Gefängnis";
 
 L["Quest_27603_Name"] = "Das versiegelte Tor";
 L["Quest_27603_Objective"] = "Tötet Bael'gar.";
 L["Quest_27603_Location"] = "Tinkee Kesseldampf (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27603_Note"] = "Bael'gar ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27603_RewardText"] = AQ_NONE;
 
 L["Quest_27568_Name"] = "Schattenschmiede unterwandern";
 L["Quest_27568_Objective"] = "Sprecht mit Ausgrabungsleiter Seymour.";
 L["Quest_27568_Location"] = "Oralius (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27568_Note"] = "Ausgrabungsleiter Seymour ist bei "..GREEN.."[3']"..WHITE..".";
-L["Quest_27568_RewardText"] = AQ_NONE;
 L["Quest_27568_FollowQuest"] = "Strategen der Dunkeleisenzwerge";
 
 L["Quest_27569_Name"] = "Strategen der Dunkeleisenzwerge";
 L["Quest_27569_Objective"] = "Tötet General Zornesschmied und Golemlord Argelmach.";
 L["Quest_27569_Location"] = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")";
 L["Quest_27569_Note"] = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Mayara Wolkenglanz bei "..GREEN.."[7']"..WHITE..".";
-L["Quest_27569_RewardText"] = AQ_NONE;
 L["Quest_27569_PreQuest"] = "Schattenschmiede unterwandern";
 L["Quest_27569_FollowQuest"] = "Der Grimige Säufer";
 
@@ -487,7 +455,6 @@ L["Quest_27571_Name"] = "Der Grimmige Säufer";
 L["Quest_27571_Objective"] = "Kämpft gegen Hurley Pestatem, Stöpsel Zapfring und Ribbly Schraubstutz.";
 L["Quest_27571_Location"] = "Mayara Wolkenglanz (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")";
 L["Quest_27571_Note"] = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Gebirgsjäger Orfus "..YELLOW.."[10']"..WHITE..".";
-L["Quest_27571_RewardText"] = AQ_NONE;
 L["Quest_27571_PreQuest"] = "Strategen der Dunkeleisenzwerge";
 L["Quest_27571_FollowQuest"] = "Pakt mit den Dunkeleisenzwergen";
 
@@ -495,7 +462,6 @@ L["Quest_27573_Name"] = "Pakt mit den Dunkeleisenzwergen";
 L["Quest_27573_Objective"] = "Tötet Botschafter Flammenschlag und Un'rel.";
 L["Quest_27573_Location"] = "Gebirgsjäger Orfus (Schwarzfelstiefen; "..GREEN.."Nähe [10']"..WHITE..")";
 L["Quest_27573_Note"] = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Marschall Maxwell gerade hinaus "..GREEN.."[11']"..WHITE..".";
-L["Quest_27573_RewardText"] = AQ_NONE;
 L["Quest_27573_PreQuest"] = "Der Grimmige Säufer";
 L["Quest_27573_FollowQuest"] = "Morgans Verwirklichung";
 
@@ -510,7 +476,6 @@ L["Quest_27596_Name"] = "Das Herz des Berges";
 L["Quest_27596_Objective"] = "Besorgt Euch das Herz des Berges.";
 L["Quest_27596_Location"] = "Maxwort Funkelglanz (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27596_Note"] = "Das Herz des Berges ist im Gewölbe bei "..YELLOW.."[7]"..WHITE..".";
-L["Quest_27596_RewardText"] = AQ_NONE;
 
 L["Quest_28393_Name"] = "Ein gefährliches Bündnis";
 L["Quest_28393_Objective"] = "Tötet 6 Brandwachenzerstörer und beschafft Euch die Angriffspläne des Generals von General Zornesschmied in der Westgarnison der Schwarzfelstiefen.";
@@ -579,13 +544,11 @@ L["Quest_7848_Name"] = "Abstimmung mit dem Kern";
 L["Quest_7848_Objective"] = "Begebt Euch zum Portal in den Schwarzfelstiefen, das in den geschmolzenen Kern führt, und findet ein Kernfragment. Kehrt mit dem Fragment zu Lothos Felsspalter am Schwarzfels zurück.";
 L["Quest_7848_Location"] = "Lothos Felsspalter (Schwarzfels; "..YELLOW.."Boden der niedrigen Ketten"..WHITE..")";
 L["Quest_7848_Note"] = "Nach Beendigung dieser Quest, kannst du den Stein in der Nähe von Lothos Felsspalterbenutzen, um in den Geschmolzenen Kern zu gelangen.\nDu kannst das Kernfragment in der Nähe von "..BLUE.."[E]"..WHITE.." finden, sehr nahe am am Portal zum Geschmolzenen Kern.";
-L["Quest_7848_RewardText"] = AQ_NONE;
 
 L["Quest_4083_Name"] = "Der spektrale Kelch";
 L["Quest_4083_Objective"] = "Legt die Materialien, die Dunk'rel möchte, in den spektralen Kelch.";
 L["Quest_4083_Location"] = "Dunk'rel (Schwarzfelstiefen; "..YELLOW.."[16]"..WHITE..")";
 L["Quest_4083_Note"] = "Nur Bergbauer mit Skill 230 oder höher können diese Quest annehmen, um das Schmelzen von Dunkeleisenerz zu lernen. Materialien für den Kelch: 2 [Sternrubin], 20 [Goldbarren], 10 [Echtsilberbarren]. Nachher, wenn man ein [Dunkeleisenerz] habt, kann man es zur schwarzen Schmiede bei "..GREEN.."[12']"..WHITE.." bringen und es schmelzen.";
-L["Quest_4083_RewardText"] = AQ_NONE;
 
 L["Quest_12491_Name"] = "Düsterbräus Düsterbräu";
 L["Quest_12491_Objective"] = "Bringt Düsterbräus Düsterbräu zu Ipfelkofer Eisenfass im Braufestlager in der Nähe von Eisenschmiede.";
@@ -603,28 +566,24 @@ L["Quest_27579_Name"] = "Ins Gefängnis";
 L["Quest_27579_Objective"] = "Findet Lexlort.";
 L["Quest_27579_Location"] = "Thal'trak Ehrenhauer (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27579_Note"] = "Lexlort ist auf den Weg zum Gefängnis bei "..GREEN.."[2']"..WHITE..".";
-L["Quest_27579_RewardText"] = AQ_NONE;
 L["Quest_27579_FollowQuest"] = "Schattenhammer?! Nein!";
 
 L["Quest_27581_Name"] = "Schattenhammer?! Nein!";
 L["Quest_27581_Objective"] = "'Verhört' Verhörmeisterin Gerstahn.";
 L["Quest_27581_Location"] = "Lexlort (Blackrock Depths; "..GREEN.."[2']"..WHITE..")";
 L["Quest_27581_Note"] = "Verhörmeisterin Gerstahn ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27581_RewardText"] = AQ_NONE;
 L["Quest_27581_PreQuest"] = "Ins Gefängnis";
 
 L["Quest_27582_Name"] = "Schattenschmiede unterwandern";
 L["Quest_27582_Objective"] = "Sprecht mit Razal'hieb.";
 L["Quest_27582_Location"] = "Galamav der Schütze (Schwarzfelstiefen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27582_Note"] = "Razal'hieb ist bei "..GREEN.."[3']"..WHITE..".";
-L["Quest_27582_RewardText"] = AQ_NONE;
 L["Quest_27582_FollowQuest"] = "Die 109te Division";
 
 L["Quest_27585_Name"] = "Die 109te Division";
 L["Quest_27585_Objective"] = "Tötet General Zornesschmied und Golemlord Argelmach.";
 L["Quest_27585_Location"] = "Razal'hieb (Schwarzfelstiefen; "..GREEN.."[3']"..WHITE..")";
 L["Quest_27585_Note"] = "General Zornesschmied ist bei "..YELLOW.."[10]"..WHITE.." und Golemlord Argelmach ist bei "..YELLOW.."[11]"..WHITE..". Diese Quest führt dich zu Hierophantin Theodora Mulvadania bei "..GREEN.."[7']"..WHITE..".";
-L["Quest_27585_RewardText"] = AQ_NONE;
 L["Quest_27585_PreQuest"] = "Schattenschmiede unterwandern";
 L["Quest_27585_FollowQuest"] = "Der Grimige Säufer";
 
@@ -632,7 +591,6 @@ L["Quest_27589_Name"] = "Der Grimmige Säufer";
 L["Quest_27589_Objective"] = "Kämpft gegen Hurley Pestatem, Stöpsel Zapfring und Ribbly Schraubstutz.";
 L["Quest_27589_Location"] = "Hierophantin Theodora Mulvadania (Schwarzfelstiefen; "..GREEN.."[7']"..WHITE..")";
 L["Quest_27589_Note"] = "Alle drei sind im Grimmigen Säufer zu finden bei "..YELLOW.."[12]"..WHITE..", "..YELLOW.."[13]"..WHITE.." und "..YELLOW.."[14]"..WHITE..". Diese Quest bringt dich in die Nähe von Donnerherz "..GREEN.."[10']"..WHITE..".";
-L["Quest_27589_RewardText"] = AQ_NONE;
 L["Quest_27589_PreQuest"] = "Die 109te Division";
 L["Quest_27589_FollowQuest"] = "Pakt mit den Dunkeleisenzwergen";
 
@@ -640,7 +598,6 @@ L["Quest_27591_Name"] = "Pakt mit den Dunkeleisenzwergen";
 L["Quest_27591_Objective"] = "Tötet Botschafter Flammenschlag und Un'rel.";
 L["Quest_27591_Location"] = "Donnerherz (Schwarzfelstiefen; "..GREEN.."[10']"..WHITE..")";
 L["Quest_27591_Note"] = "Botschafter Flammenschlag ist bei "..YELLOW.."[15]"..WHITE.." und Un'rel ist bei "..YELLOW.."[16]"..WHITE..". Diese Quest führt dich zu Kriegsherr Bluthauer bei "..GREEN.."[11']"..WHITE..".";
-L["Quest_27591_RewardText"] = AQ_NONE;
 L["Quest_27591_PreQuest"] = "Der Grimige Säufer";
 L["Quest_27591_FollowQuest"] = "Die Wiedergeburt des KEK";
 
@@ -737,7 +694,6 @@ L["Quest_26897_Name"] = "Die Tiefschwarze Grotte";
 L["Quest_26897_Objective"] = "Sprecht mit Schildwache Aluwyn.";
 L["Quest_26897_Location"] = "Shindrell Feuerflink (Eschental; Stützpunkt an der Grotte; "..YELLOW.."18.2, 20.4"..WHITE..").";
 L["Quest_26897_Note"] = "Schildwache Aluwyn befindet sich am "..BLUE.."Eingang"..WHITE.." der Instanz.";
-L["Quest_26897_RewardText"] = AQ_NONE;
 
 L["Quest_34672_Name"] = "Der Aufstieg von Aku'mai";
 L["Quest_34672_Objective"] = "Tötet Aku'mai den Verschlinger.";
@@ -755,19 +711,16 @@ L["Quest_27470_Name"] = "Ein möglicher Verbündeter";
 L["Quest_27470_Objective"] = "Findet Acride.";
 L["Quest_27470_Location"] = "Aufseher Schlickfaust (Sengende Schlucht - Thoriumspitze; "..YELLOW.."38.2, 27.0"..WHITE..")";
 L["Quest_27470_Note"] = "Acride ist innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_27470_RewardText"] = AQ_NONE;
 
 L["Quest_27471_Name"] = "Schwarzfelsanomalie";
 L["Quest_27471_Objective"] = "Findet Acride.";
 L["Quest_27471_Location"] = "Helendis Flusshorn (Brennende Steppe - Morgens Wacht; "..YELLOW.."73,4, 66,3"..WHITE..")";
 L["Quest_27471_Note"] = "Acride ist innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_27471_RewardText"] = AQ_NONE;
 
 L["Quest_27469_Name"] = "Freunde auf der anderen Seite";
 L["Quest_27469_Objective"] = "Findet Acride.";
 L["Quest_27469_Location"] = "Struppiger John (Brennende Steppe - Flammenkamm; "..YELLOW.."54.2, 23.9"..WHITE..")";
 L["Quest_27469_Note"] = "Acride ist innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_27469_RewardText"] = AQ_NONE;
 
 L["Quest_27440_Name"] = "Trolls, Oger und Orcs, meine Güte!";
 L["Quest_27440_Objective"] = "Tötet Kriegsmeister Voone, Hochlord Omokk und Oberanführer Wyrmthalak.";
@@ -779,25 +732,21 @@ L["Quest_27129_Name"] = "Wucherborke retten";
 L["Quest_27129_Objective"] = "Sprecht mit Furgus Wucherborke.";
 L["Quest_27129_Location"] = "Telaron Windsegler (Feralas - Träumers Ruh; "..YELLOW.."50.6, 17.0"..WHITE..")";
 L["Quest_27129_Note"] = "Furgus Wucherborke ist innerhalb des Eingang zu Düsterbruch - Ost.";
-L["Quest_27129_RewardText"] = AQ_NONE;
 
 L["Quest_27107_Name"] = "Pusillin der Dieb";
 L["Quest_27107_Objective"] = "Überredet Pusillin, das Buch der Zauberformeln herauszugeben.";
 L["Quest_27107_Location"] = "Botschafter Dagg'thol (Düsterbruch - Ost; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27107_Note"] = "Pusillin ist links vom Eingang bei "..GREEN.."[1']"..WHITE..". Nachdem Du mit ihm gesprochen hast, mußt Du ihn jagen und seine Freunde bekämpfen bei "..GREEN.."[2']"..WHITE..".";
-L["Quest_27107_RewardText"] = AQ_NONE;
 
 L["Quest_27108_Name"] = "Lethtendris' Netz";
 L["Quest_27108_Objective"] = "Beschafft Lethtendris' Netz.";
 L["Quest_27108_Location"] = "Botschafter Dagg'thol (Düsterbruch - Ost; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27108_Note"] = "Lethtendris ist bei "..YELLOW.."[1]"..WHITE.." auf einer erhöhten Plattform am Ende der Rampe.";
-L["Quest_27108_RewardText"] = AQ_NONE;
 
 L["Quest_27105_Name"] = "Ein ungebetener Gast";
 L["Quest_27105_Objective"] = "Findet die Hydrobrutessenz.";
 L["Quest_27105_Location"] = "Furgus Wucherborke (Düsterbruch - Ost; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27105_Note"] = "Hydrobrut ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27105_RewardText"] = AQ_NONE;
 
 L["Quest_27104_Name"] = "Alzzin der Wildformer";
 L["Quest_27104_Objective"] = "Tötet Zevrim Dornhuf und Alzzin den Wildformer.";
@@ -809,19 +758,16 @@ L["Quest_27103_Name"] = "Die Splitter der Teufelsranke";
 L["Quest_27103_Objective"] = "Benutzt das Requiliar der Reinheit, um einen Teufelsrankensplitter einzufangen.";
 L["Quest_27103_Location"] = "Furgus Wucherborke (Düsterbruch - Ost; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27103_Note"] = "Benutze das Requiliar der Reinheit nachdem Du Alzzin den Wildformer besiegt hast bei "..YELLOW.."[4]"..WHITE..". Nur 5 Splitter erscheinen und Du kannst alle aufnehmen, also greife schnell zu.";
-L["Quest_27103_RewardText"] = AQ_NONE;
 
 L["Quest_27130_Name"] = "Wucherborke retten";
 L["Quest_27130_Objective"] = "Sprecht mit Furgus Wucherborke.";
 L["Quest_27130_Location"] = "Hadoken Flinkschreiter (Feralas - Camp Mojache; "..YELLOW.."74.8, 42.6"..WHITE..")";
 L["Quest_27130_Note"] = "Furgus Wucherborke ist innerhalb des Eingang zu Düsterbruch - Ost.";
-L["Quest_27130_RewardText"] = AQ_NONE;
 
 L["Quest_27133_Name"] = "Blick zum Himmel";
 L["Quest_27133_Objective"] = "Sprecht mit dem Druiden der Kralle.";
 L["Quest_27133_Location"] = "Shandris Mondfeder (Feralas - Mondfester Feste; "..YELLOW.."46.0, 49.0"..WHITE..")";
 L["Quest_27133_Note"] = "Der Druide der Kralle ist innerhalb des Eingangs vom Düsterbruch - Nord.";
-L["Quest_27133_RewardText"] = AQ_NONE;
 
 L["Quest_27125_Name"] = "König der Gordok";
 L["Quest_27125_Objective"] = "Tötet König Gordok.";
@@ -833,7 +779,6 @@ L["Quest_27118_Name"] = "Eine beschädigte Falle";
 L["Quest_27118_Objective"] = "Repariere die Falle.";
 L["Quest_27118_Location"] = "Eine beschädigte Falle (Düsterbruch - Nord; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_27118_Note"] = "Dies ist eine wiederholbare Quest. Klicke die Falle an um diese zu beenden. Die Falle friert die Wache Slip'kik ein, so dass du ihn nicht töten mußt.";
-L["Quest_27118_RewardText"] = AQ_NONE;
 
 L["Quest_27119_Name"] = "Der Ogeranzug der Gordok";
 L["Quest_27119_Objective"] = "Bringt etwas Ogergerbemittel zu Knot Zwingschraub.";
@@ -857,7 +802,6 @@ L["Quest_27134_Name"] = "Oger im Feld";
 L["Quest_27134_Objective"] = "Sprecht mit dem Oger der Steinbrecher.";
 L["Quest_27134_Location"] = "Orhan Ogerklinge (Feralas - Festung der Steinbrecher;"..YELLOW.."51.8, 48.0"..WHITE..")";
 L["Quest_27134_Note"] = "Oger der Steinbrecher ist in der Nähe vom Eingang in Düsterbruch - Nord.";
-L["Quest_27134_RewardText"] = AQ_NONE;
 
 L["Quest_27128_Name"] = "König der Gordok";
 L["Quest_27128_Objective"] = "Tötet König Gordok.";
@@ -869,31 +813,26 @@ L["Quest_27131_Name"] = "Der Hochgeborene";
 L["Quest_27131_Objective"] = "Sprecht mit Estulan.";
 L["Quest_27131_Location"] = "Telaron Windsegler (Feralas - Träumers Ruh; "..YELLOW.."50.6, 17.0"..WHITE..")";
 L["Quest_27131_Note"] = "Estulan ist in der Nähe vom Eingang in Düsterbruch - West.";
-L["Quest_27131_RewardText"] = AQ_NONE;
 
 L["Quest_27112_Name"] = "Verfluchte Überreste";
 L["Quest_27112_Objective"] = "Tötet Magister Kalendris und Illyanna Rabeneiche.";
 L["Quest_27112_Location"] = "Estulan (Düsterbruch - West; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27112_Note"] = "Magister Kalendris ist bei "..YELLOW.."[2]"..WHITE.." und Illyana Rabeneiche ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27112_RewardText"] = AQ_NONE;
 
 L["Quest_27113_Name"] = "Der Uralte Shen'dralar";
 L["Quest_27113_Objective"] = "Sprecht mit dem Uralten Shen'dralar.";
 L["Quest_27113_Location"] = "Estulan (Düsterbruch - West; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27113_Note"] = "Der Uralte Shen'dralar ist bei "..GREEN.."[4']"..WHITE.." auf der oberen Plattform.";
-L["Quest_27113_RewardText"] = AQ_NONE;
 
 L["Quest_27109_Name"] = "Windschiefe Verteidiger";
 L["Quest_27109_Objective"] = "Tötet Tendris Wucherborke.";
 L["Quest_27109_Location"] = "Behüter der Shen'dralar (Düsterbruch - West; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27109_Note"] = "Tendris Wucherborke ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27109_RewardText"] = AQ_NONE;
 
 L["Quest_27110_Name"] = "Der innere Wahnsinn";
 L["Quest_27110_Objective"] = "Zerstört alle Wächter, die um die 5 Pylonen herumstehen, welche Immol'thars Gefängnis mit Energie versorgen Sobald die Pylone deaktiviert wurden, wird sich das Kraftfeld, das Immol'thar umgibt, auflösen.Betretet Immol'thars Gefängnis und vernichtet den verdorbenen Dämonen. Zum Schluss müsst Ihr Prinz Tortheldrin im Athenaeum entgegentreten.";
 L["Quest_27110_Location"] = "Uralte Shen'dralar (Düsterbruch - West; "..GREEN.."[4']"..WHITE..")";
 L["Quest_27110_Note"] = "Die Pylonen sind gekennzeichnet als "..GREEN.."[2']"..WHITE..". Immol'thar ist bei "..YELLOW.."[4]"..WHITE..", Prinze Tortheldrin ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_27110_RewardText"] = AQ_NONE;
 L["Quest_27110_FollowQuest"] = "Der Schatz der Shen'dralar";
 
 L["Quest_27111_Name"] = "Der Schatz der Shen'dralar";
@@ -907,19 +846,16 @@ L["Quest_27132_Name"] = "Der Hochgeborene";
 L["Quest_27132_Objective"] = "Sprecht mit Estulan.";
 L["Quest_27132_Location"] = "Hadoken Flinkschreiter (Feralas - Camp Mojache; "..YELLOW.."74.8, 42.6"..WHITE..")";
 L["Quest_27132_Note"] = "Estulan ist in der Nähe vom Eingang in Düsterbruch - West.";
-L["Quest_27132_RewardText"] = AQ_NONE;
 
 L["Quest_27697_Name"] = "Verderbnis in Maraudon";
 L["Quest_27697_Objective"] = "Tötet Lord Schlangenzunge.";
 L["Quest_27697_Location"] = "Du bekommst diese Quest automatisch, nachdem Du den violetten Teil der Instanz betritts.";
 L["Quest_27697_Note"] = "Lord Schlangenzunge ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27697_RewardText"] = AQ_NONE;
 
 L["Quest_27698_Name"] = "Diener von Theradras";
 L["Quest_27698_Objective"] = "Tötet Noxxion und Schlingwurzler.";
 L["Quest_27698_Location"] = "Du bekommst diese Quest automatisch, nachdem Du den orangen Teil der Instanz betritts.";
 L["Quest_27698_Note"] = "Noxxion ist bei "..YELLOW.."[1]"..WHITE.." und Schlingenwurzler ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27698_RewardText"] = AQ_NONE;
 
 L["Quest_27692_Name"] = "Prinzessin Theradras";
 L["Quest_27692_Objective"] = "Tötet Prinzessin Theradras.";
@@ -931,7 +867,6 @@ L["Quest_7786_Name"] = "Der geschmolzene Kern";
 L["Quest_7786_Objective"] = "Um Donneraan den Windsucher aus seiner Gefangenschaft zu befreien, müsst Ihr Hochlord Demitrian die rechten und linken Hälften der Fesseln des Windsuchers, 10 Elementiumbarren und die Essenz des Feuerfürsten bringen.";
 L["Quest_7786_Location"] = "Hochlord Demitrian (Silithus; "..YELLOW.."29.6, 10.6"..WHITE..")";
 L["Quest_7786_Note"] = "Teil des Gesegnete Klinge des Windsuchers Questreihe. Die startet nachdem Du die linke oder rechte Hälfte der Fesseln des Windsuchers von Garr bei "..YELLOW.."[4]"..WHITE.." oder Baron Geddon bei "..YELLOW.."[6]"..WHITE.." erhälst. Spreche mit Hochlord Demitrian um die Questreihe zu starten. Essenz des Feuerfürsten droppt von Ragnaros bei "..YELLOW.."[10]"..WHITE..". Nach abgeben dieses Teils, wird Prinz Donneraan erscheinen und Du mußt ihn töten. Dieser ist ein 40'er Schlachtzugsboss.";
-L["Quest_7786_RewardText"] = AQ_NONE;
 L["Quest_7786_PreQuest"] = "Untersuchung des Gefäßes ("..YELLOW.."Obere Schwarzfelsspitze"..WHITE..")";
 L["Quest_7786_FollowQuest"] = "Donnerzorn erwache!";
 
@@ -957,13 +892,11 @@ L["Quest_27063_Name"] = "Lauernde Gefahr";
 L["Quest_27063_Objective"] = "Sucht im Hügel der Klingenhauer nach Hilfe.";
 L["Quest_27063_Location"] = "Telaron Windsegler (Feralas - Täumers Ruh; "..YELLOW.."50.6,17.0 "..WHITE..")";
 L["Quest_27063_Note"] = "Koristrasza ist innerhalb der Instanz Hügel der Klingenhauer am Eingang.";
-L["Quest_27063_RewardText"] = AQ_NONE;
 
 L["Quest_33513_Name"] = "Schwarzdorns Leutnants";
 L["Quest_33513_Objective"] = "Tötet Aarux, Mordresh und Schwämmerl.";
 L["Quest_33513_Location"] = "Koristrasza (Hügel der Klingenhauer; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_33513_Note"] = "Aarux erscheint bei "..YELLOW.."[1]"..WHITE.." nach der Benutzung der riesen Glocke. Mordresh ist bei "..YELLOW.."[2]"..WHITE.." und Mushlump ist bei "..YELLOW.."[3]"..WHITE..".  Koristrasza erscheint kurze Zeit später nachdem Mushlump besiegt wurde, um diese Quest abgeben zu können.";
-L["Quest_33513_RewardText"] = AQ_NONE;
 
 L["Quest_33514_Name"] = "Das Ritual";
 L["Quest_33514_Objective"] = "Tötet Amnennar den Kältebringer.";
@@ -975,33 +908,28 @@ L["Quest_27062_Name"] = "Lauernde Gefahr";
 L["Quest_27062_Objective"] = "Sucht im Hügel der Klingenhauer nach Hilfe.";
 L["Quest_27062_Location"] = "Kanati Grauwolke (Tausend Nadeln - Der Westliche Gipfel; "..YELLOW.."11.0,11.2 "..WHITE..")";
 L["Quest_27062_Note"] = "Koristrasza ist innerhalb der Instanz Hügel der Klingenhauer am Eingang.";
-L["Quest_27062_RewardText"] = AQ_NONE;
 
 L["Quest_26908_Name"] = "Dorn im Auge";
 L["Quest_26908_Objective"] = "Sprecht mit Auld Steinkeil.";
 L["Quest_26908_Location"] = "Mahka (Südliches Brachland; "..YELLOW.."45.0,85.4"..WHITE..")";
 L["Quest_26908_Note"] = "Auld Steinkeil ist innerhalb der Instanz (Kral der Klingenhauer; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_26908_RewardText"] = AQ_NONE;
 
 L["Quest_26907_Name"] = "Macht sie nieder!";
 L["Quest_26907_Objective"] = "Tötet Jäger Knochenhauer, Roogug und Oberanführer Rammhauer.";
 L["Quest_26907_Location"] = "Auld Steinkeil (Kral der Klingenhauer; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26907_Note"] = "Jäger Knochenhauer ist bei "..YELLOW.."[1]"..WHITE..", Roogug ist bei "..YELLOW.."[2]"..WHITE.." und Oberanführer Rammhauer ist bei "..YELLOW.."[3]"..WHITE..".   Du kannst diese Quest am Ende der Instanz abgeben nachdem der Endboss besiegt wurde.";
-L["Quest_26907_RewardText"] = AQ_NONE;
 L["Quest_26907_FollowQuest"] = "Agamaggans Auftrag";
 
 L["Quest_26901_Name"] = "Go, Go, Guano!";
 L["Quest_26901_Objective"] = "Sammelt 1 Häufchen Kralguano.";
 L["Quest_26901_Location"] = "Auld Steinkeil (Kral der Klingenhauer; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26901_Note"] = "Häufchen Kralguano droppt vom Groyat der blinde Jäger bei "..YELLOW.."[4]"..WHITE..".   Du kannst diese Quest am Ende der Instanz abgeben nachdem der Endboss besiegt wurde.";
-L["Quest_26901_RewardText"] = AQ_NONE;
 L["Quest_26901_PreQuest"] = "Agamaggan";
 
 L["Quest_26906_Name"] = "Agamaggan";
 L["Quest_26906_Objective"] = "Sprecht mit dem Geist von Agamaggan.";
 L["Quest_26906_Location"] = "Auld Steinkeil (Kral der Klingenhauer; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26906_Note"] = "Geist von Agamaggan ist bei "..GREEN.."[1']"..WHITE..", hintert Groyat der blinde Jäger.";
-L["Quest_26906_RewardText"] = AQ_NONE;
 L["Quest_26906_FollowQuest"] = "Agamaggans Auftrag";
 
 L["Quest_26905_Name"] = "Macht sie nieder!";
@@ -1015,21 +943,18 @@ L["Quest_31513_Name"] = "Die Klingen des Gesalbten";
 L["Quest_31513_Objective"] = "Findet die zwei Klingen des Gesalbten.";
 L["Quest_31513_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Kloster; "..GREEN.."1'"..WHITE..")";
 L["Quest_31513_Note"] = "Die erste Klinge ist bei "..YELLOW.."[1]"..WHITE..". Die zweite Klinge befindet sich am Brunnen im Kapellengarten, auf den Weg zum nächsten Boss, dort kannst Du auch die Quest abgeben.";
-L["Quest_31513_RewardText"] = AQ_NONE;
 L["Quest_31513_FollowQuest"] = "Und zum Staub werdet Ihr zurückkehren";
 
 L["Quest_31515_Name"] = "Die Klingen des Gesalbten (Heroisch)";
 L["Quest_31515_Objective"] = "Findet die zwei Klingen des Gesalbten.";
 L["Quest_31515_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Kloster; "..GREEN.."1'"..WHITE..")";
 L["Quest_31515_Note"] = "Die erste Klinge ist bei "..YELLOW.."[1]"..WHITE..". Die zweite Klinge befindet sich am Brunnen im Kapellengarten, auf den Weg zum nächsten Boss, dort kannst Du auch die Quest abgeben.";
-L["Quest_31515_RewardText"] = AQ_NONE;
 L["Quest_31515_FollowQuest"] = "Und zum Staub werdet Ihr zurückkehren";
 
 L["Quest_31514_Name"] = "Und zum Staub werdet Ihr zurückkehren";
 L["Quest_31514_Objective"] = "Durchbohrt mit den Klingen des Gesalbten den Leichnam der Hochinquisitorin Weißsträhne, um sie endgültig zu töten.";
 L["Quest_31514_Location"] = "Findet statt im Kapellengarten";
 L["Quest_31514_Note"] = "Hochinquisitorin Weißsträhne ist bei "..YELLOW.."[3]"..WHITE..". Nach Beendigung der Quest, wird Lilian Voss erscheinen um die Quest abgeben zu können.";
-L["Quest_31514_RewardText"] = AQ_NONE;
 L["Quest_31514_PreQuest"] = "Die Klingen des Gesalbten";
 
 L["Quest_31516_Name"] = "Und zum Staub werdet Ihr zurückkehren (Heroisch)";
@@ -1043,19 +968,16 @@ L["Quest_31490_Name"] = "Gegen das Fußvolk";
 L["Quest_31490_Objective"] = "Tötet 50 Mitglieder des Scharlachroten Kreuzzugs in den Scharlachroten Hallen.";
 L["Quest_31490_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Hallen; "..GREEN.."1'"..WHITE..")";
 L["Quest_31490_Note"] = "Die Mitglieder findest Du überall in der Instanz";
-L["Quest_31490_RewardText"] = AQ_NONE;
 
 L["Quest_31495_Name"] = "Gegen das Fußvolk (Heroisch)";
 L["Quest_31495_Objective"] = "Tötet 50 Mitglieder des Scharlachroten Kreuzzugs in den Scharlachroten Hallen.";
 L["Quest_31495_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Hallen; "..GREEN.."1'"..WHITE..")";
 L["Quest_31495_Note"] = "Die Mitglieder findest Du überall in der Instanz";
-L["Quest_31495_RewardText"] = AQ_NONE;
 
 L["Quest_31493_Name"] = "Im Namen von Sicherheit und Ordnung";
 L["Quest_31493_Objective"] = "Holt Euch den Kodex des Kreuzzugs.";
 L["Quest_31493_Location"] = "Vermummte Kreuzfahrerin (Scharlachrote Hallen; "..GREEN.."1'"..WHITE..")";
 L["Quest_31493_Note"] = "Der Kodex des Kreuzzugs droppt von Flammenwirker Koegler bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_31493_RewardText"] = AQ_NONE;
 
 L["Quest_31497_Name"] = "Im Namen von Sicherheit und Ordnung (Heroisch)";
 L["Quest_31497_Objective"] = "Holt Euch den Kodex des Kreuzzugs.";
@@ -1067,19 +989,16 @@ L["Quest_31440_Name"] = "Die vier Bände";
 L["Quest_31440_Objective"] = "Vernichtet die vier Folianten: 'Im Schatten des Lichts', 'Kel'Thuzads tiefgründiges Wissen', 'Verbotene Riten und andere nekromantische Rituale' und 'Der dunkle Zauberfoliant'.";
 L["Quest_31440_Location"] = "Sprechender Schädel (Scholomance; "..GREEN.."1'"..WHITE..")";
 L["Quest_31440_Note"] = "- 'Im Schatten des Lichts' ist bei "..YELLOW.."[1]"..WHITE..".\n- 'Kel'Thuzads tiefgründiges Wissen' ist bei "..YELLOW.."[2]"..WHITE..".\n- 'Verbotene Riten und andere nekromantische Rituale' ist am Ende des Raums hinter "..YELLOW.."[3]"..WHITE..".\n- 'Der dunkle Zauberfoliant' ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_31440_RewardText"] = AQ_NONE;
 
 L["Quest_31442_Name"] = "Die vier Bände (Heroisch)";
 L["Quest_31442_Objective"] = "Vernichtet die vier Folianten: 'Im Schatten des Lichts', 'Kel'Thuzads tiefgründiges Wissen', 'Verbotene Riten und andere nekromantische Rituale' und 'Der dunkle Zauberfoliant'.";
 L["Quest_31442_Location"] = "Sprechender Schädel (Scholomance; "..GREEN.."1'"..WHITE..")";
 L["Quest_31442_Note"] = "- 'Im Schatten des Lichts' ist bei "..YELLOW.."[1]"..WHITE..".\n- 'Kel'Thuzads tiefgründiges Wissen' ist bei "..YELLOW.."[2]"..WHITE..".\n- 'Verbotene Riten und andere nekromantische Rituale' ist am Ende des Raums hinter ";
-L["Quest_31442_RewardText"] = AQ_NONE;
 
 L["Quest_31447_Name"] = "Dem Leiden ein Ende";
 L["Quest_31447_Objective"] = "Tötet Dunkelmeister Gandling.";
 L["Quest_31447_Location"] = "Sprechender Schädel (Scholomance; "..GREEN.."1'"..WHITE..")";
 L["Quest_31447_Note"] = "Dunkelmeister Gandling ist bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_31447_RewardText"] = AQ_NONE;
 
 L["Quest_31448_Name"] = "Dem Leiden ein Ende (Heroisch)";
 L["Quest_31448_Objective"] = "Tötet Dunkelmeister Gandling.";
@@ -1091,13 +1010,11 @@ L["Quest_28756_Name"] = "Entartung des Knochens";
 L["Quest_28756_Objective"] = "Tötet Blutrippe im Ossuarium von Scholomance.";
 L["Quest_28756_Location"] = "Lord Raymond George (Östliche Pestländer - Kapelle des Hoffnungsvollen Lichts; "..YELLOW.."76.0, 51.0"..WHITE..")";
 L["Quest_28756_Note"] = "Blutrippe ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_28756_RewardText"] = AQ_NONE;
 
 L["Quest_39921_Name"] = "Azurblaue Rute";
 L["Quest_39921_Objective"] = "Besorgt einen Himmelssteinstab von Dargrul dem Unterkönig in Neltharions Hort, einen strahlenden Zephyrit von Ozruk im Steinernen Kern und einen Haufen uralten Arkhanas aus Scholomance.";
 L["Quest_39921_Location"] = "Kharmeera (Azsuna; "..YELLOW.."47.2, 26.4"..WHITE..")";
 L["Quest_39921_Note"] = "Verzauberungsquest.  Normale oder Heroische Schwierigkeit.  Der Himmelssteinstab droppt vom Endboss.  Der strahlenden Zephyrit droppt vom zweiten Boss im Steinernen Kern (Cataclysm - Tiefenheim).  uralten Arkhanas droppt vom Endboss in Scholomance (Classic - Westliche Pestländer).";
-L["Quest_39921_RewardText"] = AQ_NONE;
 L["Quest_39921_PreQuest"] = "Auf azurblauen Schwingen";
 L["Quest_39921_FollowQuest"] = "Kernbohrung";
 
@@ -1105,14 +1022,12 @@ L["Quest_27917_Name"] = "Erschnüffelt sie";
 L["Quest_27917_Objective"] = "Tötet Baron Ashbury.";
 L["Quest_27917_Location"] = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27917_Note"] = "Baron Ashbury ist bei "..YELLOW.."[1]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint in der Halle wenn Baron Ashbury getötet wurde.";
-L["Quest_27917_RewardText"] = AQ_NONE;
 L["Quest_27917_FollowQuest"] = "Bis an die Zähne bewaffnet";
 
 L["Quest_27920_Name"] = "Bis an die Zähne bewaffnet";
 L["Quest_27920_Objective"] = "Tötet Baron Silberlein und Kommandant Grüntal.";
 L["Quest_27920_Location"] = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27920_Note"] = "Baron Silberlein ist bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal ist bei "..YELLOW.."[3]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Gehweg wenn Kommandant Grüntal getötet wurde.";
-L["Quest_27920_RewardText"] = AQ_NONE;
 L["Quest_27920_PreQuest"] = "Erschnüffelt sie";
 L["Quest_27920_FollowQuest"] = "Mit Klauen und Zähnen ";
 
@@ -1120,7 +1035,6 @@ L["Quest_27921_Name"] = "Mit Klauen und Zähnen";
 L["Quest_27921_Objective"] = "Tötet Lord Walden.";
 L["Quest_27921_Location"] = "Rudelführer Ivar Blutfang (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27921_Note"] = "Lord Walden ist bei "..YELLOW.."[4]"..WHITE..".\n\nRudelführer Ivar Blutfang erscheint auf dem Torweg wenn Lord Walden getötet wurde.";
-L["Quest_27921_RewardText"] = AQ_NONE;
 L["Quest_27921_PreQuest"] = "Bis an die Zähne bewaffnet";
 L["Quest_27921_FollowQuest"] = "Die Wut des Rudels";
 
@@ -1212,20 +1126,17 @@ L["Quest_24745_Name"] = "Irgendwas liegt in der Luft";
 L["Quest_24745_Objective"] = "Bringt die vergilbte schöne Grußkarte zu Inspektor Snip Schnappbolz in Sturmwind.";
 L["Quest_24745_Location"] = "Droppt vom Apotheker Hummel (Burg Schattenfang; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_24745_Note"] = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nInspektor Snip Schnappholz ist bei (Sturmwind - Handelsdiskrikt; "..YELLOW.."61.6, 75.2"..WHITE..").";
-L["Quest_24745_RewardText"] = AQ_NONE;
 
 L["Quest_27974_Name"] = "Dies ist unser Land";
 L["Quest_27974_Objective"] = "Tötet Baron Ashbury.";
 L["Quest_27974_Location"] = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27974_Note"] = "Baron Ashbury ist bei "..YELLOW.."[1]"..WHITE..".\n\nTodespirscherkommandant Belmont erscheint auf dem Torweg wenn Lord Walden getötet wurde.";
-L["Quest_27974_RewardText"] = AQ_NONE;
 L["Quest_27974_FollowQuest"] = "Seuche... Überall Seuche!";
 
 L["Quest_27988_Name"] = "Seuche... Überall Seuche!";
 L["Quest_27988_Objective"] = "Tötet Baron Silberlein und Kommandant Grüntal.";
 L["Quest_27988_Location"] = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27988_Note"] = "Baron Silberlein ist bei "..YELLOW.."[2]"..WHITE.." und Kommandant Grüntal ist bei "..YELLOW.."[3]"..WHITE..".\n\nTodespirscherkommandant Belmont erscheint auf dem Gehweg wenn Kommandant Grüntal getötet wurde.";
-L["Quest_27988_RewardText"] = AQ_NONE;
 L["Quest_27988_PreQuest"] = "Dies ist unser Land";
 L["Quest_27988_FollowQuest"] = "Befehle sind was für die Lebenden";
 
@@ -1233,7 +1144,6 @@ L["Quest_27996_Name"] = "Befehle sind was für die Lebenden";
 L["Quest_27996_Objective"] = "Tötet Lord Walden.";
 L["Quest_27996_Location"] = "Todespirscherkommandant Belmont (Burg Schattenfang; "..GREEN.."[1']"..WHITE..").";
 L["Quest_27996_Note"] = "Lord Walden ist bei "..YELLOW.."[4]"..WHITE..".\n\nTodespirscherkommandant Belmont erscheint auf dem Torweg wenn Lord Walden getötet wurde.";
-L["Quest_27996_RewardText"] = AQ_NONE;
 L["Quest_27996_PreQuest"] = "Seuche... Überall Seuche!";
 L["Quest_27996_FollowQuest"] = "Süße, gnadenlose Rache";
 
@@ -1346,45 +1256,38 @@ L["Quest_14483_Name"] = "Irgendwas liegt in der Luft";
 L["Quest_14483_Objective"] = "Bringt die vergilbte schöne Grußkarte zu Detektiv Snap Schnappbolz in Orgrimmar.";
 L["Quest_14483_Location"] = "Droppt vom Apotheker Hummel (Burg Schattenfang; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_14483_Note"] = "Diese Quest ist für das Event Liebe ist in der Luft.\n\nErmittler Snip Schnappbolz ist bei (Orgrimmar - Tal der Stärke; "..YELLOW.."51.0, 75.3"..WHITE..").";
-L["Quest_14483_RewardText"] = AQ_NONE;
 
 L["Quest_27422_Name"] = "Eine Stadt unter Belagerung";
 L["Quest_27422_Objective"] = "Sprecht mit Rottenkommandant Steinberster.";
 L["Quest_27422_Location"] = "Argentumoffizier Irizarry (Östliche Pestländer - Nordpassturm; "..YELLOW.."51.6,21.2"..WHITE..")";
 L["Quest_27422_Note"] = "Rottenkommandant Steinberster ist am Eingang innerhalb der Instanz von Stratholmas.";
-L["Quest_27422_RewardText"] = AQ_NONE;
 
 L["Quest_27192_Name"] = "Der große Fras Siabi";
 L["Quest_27192_Objective"] = "Bergt einen Kasten von Fras Siabis Tollem Tabak.";
 L["Quest_27192_Location"] = "Rottenkommandant Steinberster (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_27192_Note"] = "Fras Siabi erscheint bei der Benutzung seines Briefkastens bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27192_RewardText"] = AQ_NONE;
 
 L["Quest_28755_Name"] = "Annalen der Silbernen Hand";
 L["Quest_28755_Objective"] = "Treibt einen verschollenen Band der Annalen der Silbernen Hand in Stratholme auf.";
 L["Quest_28755_Location"] = "Lord Raymond George (Östliche Pestländer - Kapelle des hoffnungsvollen Lichts; "..YELLOW.."76.0,51.0"..WHITE..")";
 L["Quest_28755_Note"] = "Das Buch ist bei "..YELLOW.."[5]"..WHITE..".\n\nDies ist eine wiederholbare Ruffarmquest für die Argentumdämmerung. Die Vorquest startet bei Fiona (Östliche Pestländer - Fionas Karawane; "..YELLOW.."9.0, 66.4"..WHITE..".";
-L["Quest_28755_RewardText"] = AQ_NONE;
 L["Quest_28755_PreQuest"] = "Gidwin Goldzopf -> Argentumruf: Das giftige Tal";
 
 L["Quest_27305_Name"] = "Von Liebe und Familie";
 L["Quest_27305_Objective"] = "Findet 'Von Liebe und Familie'.";
 L["Quest_27305_Location"] = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_27305_Note"] = "Das Bild ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_27305_RewardText"] = AQ_NONE;
 L["Quest_27305_PreQuest"] = "Gidwin Goldzopf -> Argentumruf: Das giftige Tal";
 
 L["Quest_27223_Name"] = "Vergeltung";
 L["Quest_27223_Objective"] = "Tötet den Unverziehenen und Timmy den Grausamen.";
 L["Quest_27223_Location"] = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_27223_Note"] = "Der Unverziehene ist bei "..YELLOW.."[1]"..WHITE.." und Timmy der Grausame ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27223_RewardText"] = AQ_NONE;
 
 L["Quest_27185_Name"] = "Die Wettstreiter ausmerzen";
 L["Quest_27185_Objective"] = "Tötet den purpurroten Hammerschmied.";
 L["Quest_27185_Location"] = "Meisterhandwerker Wilhelm (Stratholme - Der Kreuzzüglerpass; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_27185_Note"] = "Auferstandener Hammerschmied erscheint bei"..YELLOW.."[3]"..WHITE.." beim benutzen der funkelnden Papieren auf den Boden";
-L["Quest_27185_RewardText"] = AQ_NONE;
 
 L["Quest_27208_Name"] = "Der Schreckenslord Balnazzar";
 L["Quest_27208_Objective"] = "Tötet Balnazzar.";
@@ -1396,31 +1299,26 @@ L["Quest_27230_Name"] = "Waffen für den Krieg";
 L["Quest_27230_Objective"] = "Tötet den Schwertschmied der schwarzen Wache.";
 L["Quest_27230_Location"] = "Meisterhandwerker Wilhelm (Stratholme - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27230_Note"] = "Schwertschmied der schwarzen Wache erscheint bei "..YELLOW.."[1]"..WHITE.." beim anklicken der funkelnden Papieren auf den Boden.";
-L["Quest_27230_RewardText"] = AQ_NONE;
 
 L["Quest_27359_Name"] = "Verstärkung der Argentumdämmerung";
 L["Quest_27359_Objective"] = "Erhaltet 4 Essenzen einer Banshee.";
 L["Quest_27359_Location"] = "Erzmagierin Angela Dosantos (Stratholm - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27359_Note"] = "Die Bansheesessenzen droppen von den Banshees überall in der Stadt.";
-L["Quest_27359_RewardText"] = AQ_NONE;
 
 L["Quest_27228_Name"] = "Mann gegen Monstrosität";
 L["Quest_27228_Objective"] = "Tötet Ramstein den Verschlinger.";
 L["Quest_27228_Location"] = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27228_Note"] = "Ramstein der Verschlinger ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_27228_RewardText"] = AQ_NONE;
 
 L["Quest_27227_Name"] = "Baron Aurius Totenschwur";
 L["Quest_27227_Objective"] = "Tötet Baron Aurius Totenschwur.";
 L["Quest_27227_Location"] = "Kreuzzugskommandant Eligor Morgenbringer (Stratholm - Der Spießrutenlauf; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27227_Note"] = "Baron Aurius Totenschwur ist bei "..YELLOW.."[6]"..WHITE..".";
-L["Quest_27227_RewardText"] = AQ_NONE;
 
 L["Quest_27352_Name"] = "Flüssiges Gold";
 L["Quest_27352_Objective"] = "Findet eine Phiole mit Weihwasser von Stratholme.";
 L["Quest_27352_Location"] = "Rottenkommandant Steinberster (Stratholme - Der Spießrutenlauf; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27352_Note"] = "Die Phiole kann in den funkelnden Kisten gefunden werden, die in den Straßen der Stadt verteilt sind.";
-L["Quest_27352_RewardText"] = AQ_NONE;
 
 L["Quest_8791_Name"] = "Der Untergang von Ossirian";
 L["Quest_8791_Objective"] = "Bringt den Kopf von Ossirian dem Narbenlosen zu Kommandant Mar'alith auf Burg Cenarius in Silithus.";
@@ -1432,13 +1330,11 @@ L["Quest_27733_Name"] = "Das gute alte Hütchenspiel";
 L["Quest_27733_Objective"] = "Tötet Randolph Moloch.";
 L["Quest_27733_Location"] = "Schützenkommandant Coe (Verlies; "..GREEN.."[1']"..WHITE..")";
 L["Quest_27733_Note"] = "Randolph Moloch ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27733_RewardText"] = AQ_NONE;
 
 L["Quest_27737_Name"] = "Lasst das Feuer Euch erretten!";
 L["Quest_27737_Objective"] = "Beschafft Fürst Gluthitzes Feuerkern.";
 L["Quest_27737_Location"] = "Schwester Lillian (Verlies; "..GREEN.."[3']"..WHITE..")";
 L["Quest_27737_Note"] = "Fürst Gluthitze ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27737_RewardText"] = AQ_NONE;
 
 L["Quest_27739_Name"] = "Der König der Gnolle";
 L["Quest_27739_Objective"] = "Besiegt Hogger.";
@@ -1450,20 +1346,17 @@ L["Quest_27915_Name"] = "Das Herz des Tempels";
 L["Quest_27915_Objective"] = "Sprecht im Inneren des Tempels von Atal'Hakkar erneut mit Lord Itharius.";
 L["Quest_27915_Location"] = "Lord Itharius (Sümpfe des Elends - Der Tempel von Atal'Hakkar; "..YELLOW.."54.0, 79.6"..WHITE..")";
 L["Quest_27915_Note"] = "Lord Itharius (Tempel von Atal'Hakkar; "..GREEN.."[1']"..WHITE..")";
-L["Quest_27915_RewardText"] = AQ_NONE;
 L["Quest_27915_PreQuest"] = "Tränenteich -> Der Segen des Grünen Drachenschwarms";
 
 L["Quest_27633_Name"] = "Der Blutgott Hakkar";
 L["Quest_27633_Objective"] = "Tötet den Avatar von Hakkar.";
 L["Quest_27633_Location"] = "Lord Itharius (Der Tempel von Atal'Hakkar; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27633_Note"] = "Avatar von Hakkar ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_27633_RewardText"] = AQ_NONE;
 
 L["Quest_27604_Name"] = "Jammal'an der Prophet";
 L["Quest_27604_Objective"] = "Erbeutet den Kopf von Jammal'an dem Propheten.";
 L["Quest_27604_Location"] = "Lord Itharius (Der Tempel von Atal'Hakkar; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27604_Note"] = "Jammal'an dem Propheten ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_27604_RewardText"] = AQ_NONE;
 
 L["Quest_27605_Name"] = "Eranikus";
 L["Quest_27605_Objective"] = "Tötet Eranikus.";
@@ -1475,7 +1368,6 @@ L["Quest_8801_Name"] = "C'Thuns Vermächnis";
 L["Quest_8801_Objective"] = "Bringt Caelastrasz im Tempel von Ahn'Qiraj das Auge von C'Thun.";
 L["Quest_8801_Location"] = "Auge von C'Thun (droppt von C'Thun; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_8801_Note"] = "Caelestrasz (Tempel von Ahn'Qiraj; "..YELLOW.."[2']"..WHITE..")";
-L["Quest_8801_RewardText"] = AQ_NONE;
 L["Quest_8801_FollowQuest"] = "Der Retter von Kalimdor";
 
 L["Quest_8802_Name"] = "Der Retter von Kalimdor";
@@ -1489,19 +1381,16 @@ L["Quest_8784_Name"] = "Geheimnisse der Qiraji";
 L["Quest_8784_Objective"] = "Bringt das uralte Qirajiartefakt zu den Drachen, die sich nahe des Tempeleingangs versteckt halten.";
 L["Quest_8784_Location"] = "Uraltes Qirajiartefakt (Zufälliger Dropp im Tempel von Ahn'Qiraj)";
 L["Quest_8784_Note"] = "Wird bei Andorgos (Tempel von Ahn'Qiraj; "..GREEN.."[1']"..WHITE..") abgegeben.";
-L["Quest_8784_RewardText"] = AQ_NONE;
 
 L["Quest_8579_Name"] = "Sterbliche Helden";
 L["Quest_8579_Objective"] = "Bring eine Insigne des Qirajilords zu Kandrostrasz im Tempel von Ahn'Qiraj.";
 L["Quest_8579_Location"] = "Kandrostrasz (Tempel von Ahn'Qiraj; "..GREEN.."[1']"..WHITE..").";
 L["Quest_8579_Note"] = "Dies ist eine wiederholbare Quest um Ruf beim Zirkel des Cenarius zu machen. Die Insigne des Qirajilords droppen von allen Bossen innerhalb der Instanz. Kandrostrasz befindet sich im Raum hinter dem ersten Boss.";
-L["Quest_8579_RewardText"] = AQ_NONE;
 
 L["Quest_25556_Name"] = "Nach Zul'Farrak";
 L["Quest_25556_Objective"] = "Findet Mazoga in Zul'Farrak.";
 L["Quest_25556_Location"] = "Trenton Lichthammer (Tanaris - Sandmarter Wache; "..YELLOW.."42.4,24.0"..WHITE..")";
 L["Quest_25556_Note"] = "Mazoga ist in der Instanz Zul'Farrak am Eingang.\n\nDie Vorquest startet bei Mazoga (Tanaris - Zul'Furrak; "..YELLOW.."42.2, 23.8"..WHITE..").";
-L["Quest_25556_RewardText"] = AQ_NONE;
 L["Quest_25556_PreQuest"] = "Blut zum Blühen-->Geheimnisse in der Oase";
 L["Quest_25556_FollowQuest"] = "Häuptling Ukurz Sandskalp";
 
@@ -1516,13 +1405,11 @@ L["Quest_27076_Name"] = "Einbruch mit schwerem Werkzeug";
 L["Quest_27076_Objective"] = "Befreit Weegli Lunte und tötet Nekrum den Ausweider und Schattenpriester Sezz'ziz.";
 L["Quest_27076_Location"] = "Tran'rek (Zul'Farrak; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_27076_Note"] = "Weegli Lunte ist bei "..YELLOW.."[2]"..WHITE..", Nekrum den Ausweider und Schattenpriester Sezz'ziz sind bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_27076_RewardText"] = AQ_NONE;
 
 L["Quest_27071_Name"] = "Zorn der Sandwüter";
 L["Quest_27071_Objective"] = "Tötet Theka den Märtyrer, Hexendoktor Zum'rah, Antu'sul und Ruuzlu.";
 L["Quest_27071_Location"] = "Mazogas Geist (Zul'Farrak; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_27071_Note"] = "Theka den Märtyrer ist bei "..YELLOW.."[3]"..WHITE..",Hexendoktor Zum'rah ist bei "..YELLOW.."[5]"..WHITE..",Antu'sul ist bei "..YELLOW.."[6]"..WHITE.." und Ruuzlu ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_27071_RewardText"] = AQ_NONE;
 
 L["Quest_27070_Name"] = "Vergebliche Mühe";
 L["Quest_27070_Objective"] = "Beschafft Euch die Tiara der Tiefen und Gahzrilla's elektrisierte Schuppe.";
@@ -1534,21 +1421,18 @@ L["Quest_26943_Name"] = "Trautes Heim, Gnom allein";
 L["Quest_26943_Objective"] = "Sprecht mit Mör'dok.";
 L["Quest_26943_Location"] = "Skuerto (Arathihochland - Die Zuflucht; "..YELLOW.."40.2,49.0"..WHITE..")";
 L["Quest_26943_Note"] = "Mör'dok ist innerhalb der Instanz Gnomeregan am Eingang.\n\nWenn Du diese Quest annimmst mußt Du nicht die Quest 'Gnomeregan erforschen' annehmen.Es ist die selbe Quest aber verschiedene Questgeber.";
-L["Quest_26943_RewardText"] = AQ_NONE;
 L["Quest_26943_FollowQuest"] = "Das G-Team";
 
 L["Quest_26944_Name"] = "Gnomeregan erforschen";
 L["Quest_26944_Objective"] = "Sprecht mit Mör'dok.";
 L["Quest_26944_Location"] = "Wulfred Harrys (Nördliches Schlingendorntal - Fort Livingston; "..YELLOW.."53.2,66.2"..WHITE..")";
 L["Quest_26944_Note"] = "Mör'dok ist innerhalb der Instanz Gnomeregan am Eingang.\n\nWenn Du diese Quest annimmst mußt Du nicht die Quest 'Trautes Heim, Gnom allein' annehmen.Es ist die selbe Quest aber verschiedene Questgeber.";
-L["Quest_26944_RewardText"] = AQ_NONE;
 L["Quest_26944_FollowQuest"] = "Das G-Team";
 
 L["Quest_26939_Name"] = "Das G-Team";
 L["Quest_26939_Objective"] = "Tötet die Verflüssigte Ablagerung.";
 L["Quest_26939_Location"] = "Mör'dok (Gnomeregan; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_26939_Note"] = "Verflüssigte Ablagerung ist bei "..YELLOW.."[2]"..WHITE..".Gebe die Quest bei Bi'ay Bäräkuss "..GREEN.."[3']"..WHITE.." ab.";
-L["Quest_26939_RewardText"] = AQ_NONE;
 L["Quest_26939_PreQuest"] = "Trautes Heim, Gnom allein oder Gnomeregan erforschen";
 L["Quest_26939_FollowQuest"] = "Das G-Team";
 
@@ -1556,7 +1440,6 @@ L["Quest_26941_Name"] = "Das G-Team";
 L["Quest_26941_Objective"] = "Tötet den Elektrokutor 6000.";
 L["Quest_26941_Location"] = "Bi'ay Bäräkuss (Gnomeregan; "..GREEN.."[3']"..WHITE..")";
 L["Quest_26941_Note"] = "Elektrokutor 6000 ist bei "..YELLOW.."[3]"..WHITE..".Gebe die Quest bei Fähs "..GREEN.."[4']"..WHITE.." ab.";
-L["Quest_26941_RewardText"] = AQ_NONE;
 L["Quest_26941_PreQuest"] = "Ja, Das G-Team";
 L["Quest_26941_FollowQuest"] = "Ja, Das G-Team";
 
@@ -1571,7 +1454,6 @@ L["Quest_2945_Name"] = "Schmutzverkrusteter Ring";
 L["Quest_2945_Objective"] = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern.";
 L["Quest_2945_Location"] = "Schmutzverkrusteter Ring (Zufälliger Dropp von den Dunklen Eisenzwergenagenten in Gnomeregan)";
 L["Quest_2945_Note"] = "Der Ring kann mit dem Funkelmat 5200 in der Sauberen Zone bei "..GREEN.."[2']"..WHITE.." gereinigt werden.";
-L["Quest_2945_RewardText"] = AQ_NONE;
 L["Quest_2945_FollowQuest"] = "Die Rückkehr des Rings";
 
 L["Quest_2947_Name"] = "Die Rückkehr des Rings";
@@ -1592,14 +1474,12 @@ L["Quest_50338_Name"] = "Das G-Team";
 L["Quest_50338_Objective"] = "Tötet die Verflüssigte Ablagerung.";
 L["Quest_50338_Location"] = "Mör'dok (Gnomeregan; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_50338_Note"] = "Verflüssigte Ablagerung ist bei "..YELLOW.."[2]"..WHITE..".Gebe die Quest bei Bi'ay Bäräkuss "..GREEN.."[3']"..WHITE.." ab.";
-L["Quest_50338_RewardText"] = AQ_NONE;
 L["Quest_50338_FollowQuest"] = "Das G-Team";
 
 L["Quest_50337_Name"] = "Das G-Team";
 L["Quest_50337_Objective"] = "Tötet den Elektrokutor 6000.";
 L["Quest_50337_Location"] = "Bi'ay Bäräkuss (Gnomeregan; "..GREEN.."[3']"..WHITE..")";
 L["Quest_50337_Note"] = "Elektrokutor 6000 ist bei "..YELLOW.."[3]"..WHITE..".Gebe die Quest bei Fähs "..GREEN.."[4']"..WHITE.." ab.";
-L["Quest_50337_RewardText"] = AQ_NONE;
 L["Quest_50337_PreQuest"] = "Das G-Team";
 L["Quest_50337_FollowQuest"] = "Das G-Team";
 
@@ -1614,7 +1494,6 @@ L["Quest_2949_Name"] = "Schmutzverkrusteter Ring";
 L["Quest_2949_Objective"] = "Findet einen Weg, den schmutzverkrusteten Ring zu säubern.";
 L["Quest_2949_Location"] = "Schmutzverkrusteter Ring (Zufälliger Dropp von den Dunklen Eisenzwergenagenten in Gnomeregan)";
 L["Quest_2949_Note"] = "Der Ring kann mit dem Funkelmat 5200 in der Sauberen Zone bei "..GREEN.."[2']"..WHITE.." gereinigt werden.";
-L["Quest_2949_RewardText"] = AQ_NONE;
 L["Quest_2949_FollowQuest"] = "Die Rückkehr des Rings";
 
 L["Quest_2950_Name"] = "Die Rückkehr des Rings";
@@ -1629,19 +1508,16 @@ L["Quest_29543_Name"] = "Die Eroberung der Zitadelle";
 L["Quest_29543_Objective"] = "Sprecht mit Vorhutsspäher Chadwick im Höllenfeuerbollwerk.";
 L["Quest_29543_Location"] = "Unteroffizier Altumus (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."61.6,60.8"..WHITE..")";
 L["Quest_29543_Note"] = "Vorhutsspäher Chadwick ist bei (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29543_RewardText"] = AQ_NONE;
 
 L["Quest_29594_Name"] = "Trefft sie, wo es schmerzt";
 L["Quest_29594_Objective"] = "Stehlt 3 Stapel Vorräte der Höllenfeuerhalbinsel und kehrt zu Vorhutsspäher Chadwick im Höllenfeuerbollwerk zurück.";
 L["Quest_29594_Location"] = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29594_Note"] = "Die Vorräte sind alle bei "..YELLOW.."[1]"..WHITE.." auf den Weg verteilt.";
-L["Quest_29594_RewardText"] = AQ_NONE;
 
 L["Quest_29529_Name"] = "Dämonen in der Zitadelle";
 L["Quest_29529_Objective"] = "Tötet Omor den Narbenlosen und bringt seinen Huf zu Vorhutsspäher Chadwick.";
 L["Quest_29529_Location"] = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29529_Note"] = "Omor ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29529_RewardText"] = AQ_NONE;
 
 L["Quest_29528_Name"] = "Krieg im Bollwerk";
 L["Quest_29528_Objective"] = "Tötet Wachhabenden Gargolmar, Vazruden den Herold und Vazrudens Drachen Nazan. Bringt Gargolmars Hand und Nazans Kopf zu Vorhutsspäher Chadwick.";
@@ -1653,25 +1529,21 @@ L["Quest_11354_Name"] = "Gesucht: Nazans Reitgerte";
 L["Quest_11354_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11354_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11354_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11354_RewardText"] = AQ_NONE;
 
 L["Quest_29542_Name"] = "Die Eroberung der Zitadelle";
 L["Quest_29542_Objective"] = "Sprecht mit Steingardist Stok'ton im Höllenfeuerbollwerk.";
 L["Quest_29542_Location"] = "Unteroffizier Schädelbrecher (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."58.0,41.2"..WHITE..")";
 L["Quest_29542_Note"] = "Steingardist Stok'ton ist bei (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29542_RewardText"] = AQ_NONE;
 
 L["Quest_29593_Name"] = "Trefft sie, wo es schmerzt";
 L["Quest_29593_Objective"] = "Stehlt 3 Stapel Vorräte der Höllenfeuerhalbinsel und kehrt zu Steingardist Stok'ton im Höllenfeuerbollwerk zurück.";
 L["Quest_29593_Location"] = "Steingardist Stok'ton (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29593_Note"] = "Die Vorräte sind alle bei "..YELLOW.."[1]"..WHITE.." auf den Weg verteilt.";
-L["Quest_29593_RewardText"] = AQ_NONE;
 
 L["Quest_29530_Name"] = "Dämonen in der Zitadelle";
 L["Quest_29530_Objective"] = "Tötet Omor den Narbenlosen und bringt seinen Huf zu Steingardist Stok'ton.";
 L["Quest_29530_Location"] = "Steingardist Stok'ton (Höllenfeuerbollwerk; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29530_Note"] = "Omor ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29530_RewardText"] = AQ_NONE;
 
 L["Quest_29527_Name"] = "Krieg im Bollwerk";
 L["Quest_29527_Objective"] = "Tötet Wachhabenden Gargolmar, Vazruden den Herold und Vazrudens Drachen Nazan. Bringt Gargolmars Hand und Nazans Kopf zu Steingardist Stok'ton.";
@@ -1683,7 +1555,6 @@ L["Quest_29538_Name"] = "Lasst sie bluten!";
 L["Quest_29538_Objective"] = "Beschafft 10 Phiolen mit Höllenorcblut und eine Teufelsinjektionsspritze für Gunny.";
 L["Quest_29538_Location"] = "Gunny (Blutkessel; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29538_Note"] = "Alle Orks im Blutkessel können die Phiolen droppen die Spritze droppt vom Schöpfer bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29538_RewardText"] = AQ_NONE;
 
 L["Quest_29539_Name"] = "Herz des Zorns";
 L["Quest_29539_Objective"] = "Untersucht den Blutkessel vollständig und meldet Euch wieder bei Gunny.";
@@ -1701,13 +1572,11 @@ L["Quest_11362_Name"] = "Gesucht: Keli'dans gefiederter Stab";
 L["Quest_11362_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11362_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11362_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11362_RewardText"] = AQ_NONE;
 
 L["Quest_29535_Name"] = "Lasst sie bluten!";
 L["Quest_29535_Objective"] = "Beschafft 10 Phiolen mit Höllenorcblut und eine Teufelsinjektionsspritze für Caza'rez.";
 L["Quest_29535_Location"] = "Caza'rez (Blutkessel; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29535_Note"] = "Alle Orks im Blutkessel können die Phiolen droppen die Spritze droppt vom Schöpfer bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29535_RewardText"] = AQ_NONE;
 
 L["Quest_29536_Name"] = "Herz des Zorns";
 L["Quest_29536_Objective"] = "Untersucht den Blutkessel vollständig und meldet Euch wieder bei Caza'rez.";
@@ -1725,7 +1594,6 @@ L["Quest_29689_Name"] = "Fortführung der Kampagne";
 L["Quest_29689_Objective"] = "Truppenkommandant Danath Trollbann hat Euch gebeten, mit Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle zu sprechen.";
 L["Quest_29689_Location"] = "Truppenkommandant Danath Trollbann (Höllenfeuerhalbinsel - Ehrenfeste; "..YELLOW.."56.6,66.6"..WHITE..")";
 L["Quest_29689_Note"] = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29689_RewardText"] = AQ_NONE;
 
 L["Quest_29649_Name"] = "Wie man ein Leben rettet";
 L["Quest_29649_Objective"] = "Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr ihm Teufelsglut bringt.";
@@ -1743,19 +1611,16 @@ L["Quest_29656_Name"] = "O'mroggs Kriegstuch";
 L["Quest_29656_Objective"] = "Tötet Kriegshetzer O'mrogg und bringt sein Kriegstuch zu Vorhutsspäher Chadwick in den Zerschmetterten Hallen der Höllenfeuerzitadelle.";
 L["Quest_29656_Location"] = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29656_Note"] = "Kriegshetzer O'mrogg ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29656_RewardText"] = AQ_NONE;
 
 L["Quest_10884_Name"] = "Die Prüfung der Naaru: Erbarmen (Heroisch)";
 L["Quest_10884_Objective"] = "A'dal in Shattrath möchte, dass Ihr die unbenutzte Axt des Henkers aus den zerschmetterten Hallen der Höllenfeuerzitadelle besorgt.";
 L["Quest_10884_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")";
 L["Quest_10884_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig.";
-L["Quest_10884_RewardText"] = AQ_NONE;
 
 L["Quest_10670_Name"] = "Träne der Erdenmutter";
 L["Quest_10670_Objective"] = "Besorgt die Träne der Erdenmutter von Kriegshetzer O'mrogg und bringt sie zu David Wayne in Waynes Zuflucht.";
 L["Quest_10670_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.4,38.6"..WHITE..").";
 L["Quest_10670_Note"] = "Kriegshetzer O'mrogg ist bei "..YELLOW.."[4]"..WHITE..".\n\nDer Gegenstand droppt im normalen und heroischen Modus.";
-L["Quest_10670_RewardText"] = AQ_NONE;
 L["Quest_10670_PreQuest"] = "Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")";
 L["Quest_10670_FollowQuest"] = "Bann der Illidari";
 
@@ -1763,7 +1628,6 @@ L["Quest_11363_Name"] = "Gesucht: Messerfausts Siegel";
 L["Quest_11363_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Messerfausts Siegel zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11363_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11363_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_11363_RewardText"] = AQ_NONE;
 
 L["Quest_11364_Name"] = "Gesucht: Zenturionen der Zerschmetterten Hand";
 L["Quest_11364_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Zenturionen der Zerschmetterten Hand zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -1775,13 +1639,11 @@ L["Quest_29652_Name"] = "Ein letzter Gefallen";
 L["Quest_29652_Objective"] = "Gunny in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr 4 Legionäre, 2 Zenturionen und 2 Champions der Zerschmetterten Hand tötet.";
 L["Quest_29652_Location"] = "Vorhutsspäher Chadwick (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29652_Note"] = "Du findest die erforderlichen Mobs überall in den zerschmetterten Hallen dieser Instanz.";
-L["Quest_29652_RewardText"] = AQ_NONE;
 
 L["Quest_29688_Name"] = "Fortführung der Kampagne";
 L["Quest_29688_Objective"] = "Schattenjäger Ty'jin hat Euch gebeten, mit Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle zu sprechen.";
 L["Quest_29688_Location"] = "Schattenjäger Ty'jin (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."55.0, 36.2"..WHITE..")";
 L["Quest_29688_Note"] = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29688_RewardText"] = AQ_NONE;
 
 L["Quest_29650_Name"] = "Teufelsglut";
 L["Quest_29650_Objective"] = "Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr ihm Teufelsglut bringt.";
@@ -1799,13 +1661,11 @@ L["Quest_29655_Name"] = "Ein ganz besonderes Tuch";
 L["Quest_29655_Objective"] = "Tötet Kriegshetzer O'mrogg und bringt sein Kriegstuch zu Steingardist Stok'ton in den Zerschmetterten Hallen der Höllenfeuerzitadelle.";
 L["Quest_29655_Location"] = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29655_Note"] = "Kriegshetzer O'mrogg ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29655_RewardText"] = AQ_NONE;
 
 L["Quest_29651_Name"] = "Ehrt die Sterbenden";
 L["Quest_29651_Objective"] = "Caza'rez in den Zerschmetterten Hallen der Höllenfeuerzitadelle möchte, dass Ihr 4 Legionäre der Zerschmetterten Hand, 2 Zenturionen der Zerschmetterten Hand und 2 Champions der Zerschmetterten Hand tötet.";
 L["Quest_29651_Location"] = "Steingardist Stok'ton (Zerschmetterten Hallen; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29651_Note"] = "Du findest die erforderlichen Mobs überall in den zerschmetterten Hallen dieser Instanz.";
-L["Quest_29651_RewardText"] = AQ_NONE;
 
 L["Quest_10888_Name"] = "Die Prüfung der Naaru: Magtheridon";
 L["Quest_10888_Objective"] = "A'dal in Shattrath möchte, dass Ihr Magtheridon vernichtet.";
@@ -1830,19 +1690,16 @@ L["Quest_29566_Name"] = "Die verlorene Expedition";
 L["Quest_29566_Objective"] = "Sprecht mit Behüterin Jhang in den Sklavenunterkünften.";
 L["Quest_29566_Location"] = "Ysiel Windsänger (Zangamarschen - Zuflucht des Cenarius; "..YELLOW.."78.4,62"..WHITE..")";
 L["Quest_29566_Note"] = "Behüterin Jhang ist innerhalb Instanz (Sklavenunterkünfte; "..BLUE.."Eingang"..WHITE..").";
-L["Quest_29566_RewardText"] = AQ_NONE;
 
 L["Quest_29563_Name"] = "Verschollen im Kampf";
 L["Quest_29563_Objective"] = "Findet heraus, was Naturalist Biss und Jäter Gründaum zugestoßen ist. Kehrt dann zu Behüterin Jhang zurück.";
 L["Quest_29563_Location"] = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29563_Note"] = "Naturalist Biss ist bei "..GREEN.."[3']"..WHITE.." und Jäter Gründaum ist bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_29563_RewardText"] = AQ_NONE;
 
 L["Quest_29564_Name"] = "Der betrogene Bruder";
 L["Quest_29564_Objective"] = "Tötet Mennu den Verräter und kehrt zu Nahuud zurück.";
 L["Quest_29564_Location"] = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29564_Note"] = "Mennu der Verräter ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29564_RewardText"] = AQ_NONE;
 
 L["Quest_29565_Name"] = "Des Pudels Kern";
 L["Quest_29565_Objective"] = "Bringt die Klaue des Eindringlings und das Auge des Sklaventreibers zu Behüterin Jhang.";
@@ -1854,13 +1711,11 @@ L["Quest_11368_Name"] = "Gesucht: Das Herz von Quagmirran";
 L["Quest_11368_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm das Herz von Quagmirran zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11368_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75,37"..WHITE..")";
 L["Quest_11368_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11368_RewardText"] = AQ_NONE;
 
 L["Quest_13431_Name"] = "Der Knüppel von Kar'desh";
 L["Quest_13431_Objective"] = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt.";
 L["Quest_13431_Location"] = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..WHITE..")";
 L["Quest_13431_Note"] = "Das Erdensiegel droppt von Gruul bei "..YELLOW.."[2]"..WHITE..", und das Flammensiegel droppt von Schrecken der Nacht in "..YELLOW.."[5]"..WHITE..".";
-L["Quest_13431_RewardText"] = AQ_NONE;
 
 L["Quest_11972_Name"] = "Splitter von Ahune";
 L["Quest_11972_Objective"] = "Bringt die Eissplitter zu Luma Himmelsmutter.";
@@ -1872,37 +1727,31 @@ L["Quest_29616_Name"] = "Sturm auf die Dampfkammer";
 L["Quest_29616_Objective"] = "Sprecht mit Behüterin Jhang in der Dampfkammer.";
 L["Quest_29616_Location"] = "Ysiel Windsänger (Zangamarschen - Zuflucht desCenarius; "..YELLOW.."78.4,62"..WHITE..")";
 L["Quest_29616_Note"] = "Behüterin Jhang befindet sich innerhalb Instanz (Dampfkammer; "..BLUE.."Eingang"..WHITE..").";
-L["Quest_29616_RewardText"] = AQ_NONE;
 
 L["Quest_29613_Name"] = "Ein gerechtes Schicksal";
 L["Quest_29613_Objective"] = "Tötet Kriegsherr Kalithresh und kehrt zu Behüterin Jhang in der Dampfkammer zurück.";
 L["Quest_29613_Location"] = "Behüterin Jhang (Dampfkammer; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29613_Note"] = "Kriegsherr Kalithresh ist bei "..YELLOW.."[3]"..WHITE..". Denkt dran, die Tanks zu zerstören, wenn Kalithresh sie benutzt.";
-L["Quest_29613_RewardText"] = AQ_NONE;
 
 L["Quest_29614_Name"] = "Eindämmung ist der Schlüssel";
 L["Quest_29614_Objective"] = "Tötet 3 Sumpfoberanführer und 6 Aussätzige des Echsenkessels und erbeutet ein verstrahltes Zahnrad von Robogenieur Dampfhammer. Kehrt dann zu Naturalist Biss zurück.";
 L["Quest_29614_Location"] = "Naturalist Biss (Dampfkammer; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29614_Note"] = "Sumpfoberanführer ist im ersten Bereich der Instanz nahe dem Eingang. Die Aussätziger des Echsenkessels befinden sich beim Boss Robogenieur Dampfhammer bei "..YELLOW.."[2]"..WHITE..", dieser droppt das Verstrahltes Zahnrad.";
-L["Quest_29614_RewardText"] = AQ_NONE;
 
 L["Quest_29615_Name"] = "Windrufer Klaue und die Wasserdiebin";
 L["Quest_29615_Objective"] = "Tötet Hydromantin Thespia und kehrt zu Windrufer Klaue in der Dampfkammer zurück.";
 L["Quest_29615_Location"] = "Windrufer Klaue (Dampfkammer; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29615_Note"] = "Hydromantin Thespia ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29615_RewardText"] = AQ_NONE;
 
 L["Quest_10885_Name"] = "Die Prüfung der Naaru: Stärke (Heroisch)";
 L["Quest_10885_Objective"] = "A'dal in Shattrath möchte, dass Ihr Kalithreshs Dreizack und Murmurs Essenz besorgt.";
 L["Quest_10885_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")";
 L["Quest_10885_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Murmur ist bei "..YELLOW.."[4]"..WHITE..". Kalithreshs Dreizack droppt in der Dampfkammer.\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig.";
-L["Quest_10885_RewardText"] = AQ_NONE;
 
 L["Quest_10667_Name"] = "Unterweltlehm";
 L["Quest_10667_Objective"] = "Beschafft Euch ein Gefäß mit Unterweltlehm von Wasserbeschwörerin Thespia und bringt es zu David Wayne in Waynes Zuflucht.";
 L["Quest_10667_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."78,39"..WHITE..")";
 L["Quest_10667_Note"] = "Hydromantin Thespia ist bei "..YELLOW.."[1]"..WHITE..".\n\nDer Gegenstand droppt im normalen und heroischen Modus.";
-L["Quest_10667_RewardText"] = AQ_NONE;
 L["Quest_10667_PreQuest"] = "Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..WHITE..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..")";
 L["Quest_10667_FollowQuest"] = "Bann der Illidari";
 
@@ -1916,25 +1765,21 @@ L["Quest_11370_Name"] = "Gesucht: Die Aufzeichnungen des Kriegsherren";
 L["Quest_11370_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm die Aufzeichnungen des Kriegsherren zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11370_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11370_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11370_RewardText"] = AQ_NONE;
 
 L["Quest_29571_Name"] = "Verteidigung der Wildnis";
 L["Quest_29571_Objective"] = "Sprecht mit Behüterin Jhang im Tiefensumpf.";
 L["Quest_29571_Location"] = "Elementarist Morgh (Nagrand; "..YELLOW.."60.4,22.4"..WHITE..")";
 L["Quest_29571_Note"] = "Behüterin Jhang (Tiefensumpf; "..BLUE.."Eingang"..WHITE..").";
-L["Quest_29571_RewardText"] = AQ_NONE;
 
 L["Quest_29570_Name"] = "Die Rettung der Expedition";
 L["Quest_29570_Objective"] = "Findet heraus, was mit Erdbinder Rayge und Windrufer Klaue geschehen ist. Kehrt dann zu Behüterin Jhang zurück.";
 L["Quest_29570_Location"] = "Behüterin Jhang (Tiefensumpf; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29570_Note"] = "Erdbinder Rayge ist bei "..GREEN.."[1']"..WHITE..", Windrufer Klaue ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29570_RewardText"] = AQ_NONE;
 
 L["Quest_29568_Name"] = "Ein notwendiges Übel";
 L["Quest_29568_Objective"] = "Tötet Hungarfenn und kehrt zu Naturalist Biss zurück.";
 L["Quest_29568_Location"] = "Naturalist Biss (Tiefensumpf; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29568_Note"] = "Hungarfenn ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29568_RewardText"] = AQ_NONE;
 
 L["Quest_29567_Name"] = "Tötet die Mutter";
 L["Quest_29567_Objective"] = "Tötet Hungarfenn und kehrt zu Naturalist Biss zurück.";
@@ -1946,27 +1791,23 @@ L["Quest_29691_Name"] = "Bringt mir ein Gebüsch!";
 L["Quest_29691_Objective"] = "Sammelt 5 Bluthibisken und kehrt zu T'shu im Tiefensumpf zurück.";
 L["Quest_29691_Location"] = "T'shu (Tiefensumpf; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29691_Note"] = "Man muss neutral zu Sporeggar sein, um diese Quest annehmen zu können. Die Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz in der Nähe von Pflanzen verteilt und droppen auch von Sumpf Gegnern, auch von denen in der Dampfkammer.";
-L["Quest_29691_RewardText"] = AQ_NONE;
 L["Quest_29691_FollowQuest"] = "Bringt mir ein weiteres Gebüsch!";
 
 L["Quest_29692_Name"] = "Bringt mir ein weiteres Gebüsch!";
 L["Quest_29692_Objective"] = "Sammelt 5 Bluthibisken und kehrt zu T'shu im Tiefensumpf zurück.";
 L["Quest_29692_Location"] = "T'shu (Tiefensumpf; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29692_Note"] = "Man muss neutral zu Sporeggar sein, um diese Quest annehmen zu können. Die Folgequest ist wiederholbar und gibt jedes mal 750 Sporeggar Rufpunkte. Die Bluthibiskusse sind in der Instanz in der Nähe von Pflanzen verteilt und droppen auch von Sumpf Gegnern, auch von denen in der Dampfkammer.";
-L["Quest_29692_RewardText"] = AQ_NONE;
 L["Quest_29692_PreQuest"] = "Bringt mir ein Gebüsch!";
 
 L["Quest_11369_Name"] = "Gesucht: Ei der Schattenmutter";
 L["Quest_11369_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm ein Ei der Schattenmutter zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11369_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11369_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nDie Schattenmutter ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_11369_RewardText"] = AQ_NONE;
 
 L["Quest_29595_Name"] = "Alles wird gut";
 L["Quest_29595_Objective"] = "Großvater Aldrimus außerhalb der Auchenaikrypta von Auchindoun möchte, dass Ihr in die Auchenaikrypta geht und mit dem Draeneigeist spricht.";
 L["Quest_29595_Location"] = "Großvater Aldrimus (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..")\nGroßvater Aldrimus erscheint erst wenn Du die Questen absolviert hast die mit Ha'lei beginnen bei (Wälder von Terokkar; "..YELLOW.."35.0,65.2"..WHITE..").";
 L["Quest_29595_Note"] = "Der Draeneigeist ist innerhalb der Instanz am Eingang.";
-L["Quest_29595_RewardText"] = AQ_NONE;
 L["Quest_29595_PreQuest"] = "Ich sehe tote Draenei -> Levixus der Seelenrufer";
 L["Quest_29595_FollowQuest"] = "Das Ende des Exarchen";
 
@@ -1981,25 +1822,21 @@ L["Quest_29590_Name"] = "Der Totenwächter";
 L["Quest_29590_Objective"] = "Tötet Shirrak den Totenwächter und kehrt zu dem Draeneigeist zurück.";
 L["Quest_29590_Location"] = "Draeneigeist (Auchenaikrypta; "..BLUE.."Eingang"..WHITE..").";
 L["Quest_29590_Note"] = "Shirrak den Totenwächter ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29590_RewardText"] = AQ_NONE;
 
 L["Quest_29591_Name"] = "Wütende Geister";
 L["Quest_29591_Objective"] = "Tötet 5 erboste Skelette, 5 tobende Skelette und 3 Totenbeschwörer der Auchenai. Kehrt dann zur gequälten Seelenpriesterin in der Auchenaikrypta zurück.";
 L["Quest_29591_Location"] = "Gequälte Seelenpriesterin (Auchenaikrypta; "..YELLOW.."Vor dem Durchgang, die zum ersten Boss führt"..WHITE..")";
 L["Quest_29591_Note"] = "Die erbosten Skelette sind hinter dem Boss Shirrak den Totenwächter bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29591_RewardText"] = AQ_NONE;
 
 L["Quest_11374_Name"] = "Gesucht: Der Seelenedelstein des Exarchen";
 L["Quest_11374_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Seelenedelstein des Exarchen zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11374_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11374_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nExarch Maladaar ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_11374_RewardText"] = AQ_NONE;
 
 L["Quest_10167_Name"] = "Auchindoun...";
 L["Quest_10167_Objective"] = "Reist zur Auchenaikrypta in der Knochenwüste der Wälder von Terokkar und tötet Exarch Maladaar um den Geist von D'ore zu befreien.";
 L["Quest_10167_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")";
 L["Quest_10167_Note"] = "Exarch Maladarr ist bei "..YELLOW.."[2]"..WHITE..". D'ore erscheint, wenn Exarch Maladarr getötet wurde.";
-L["Quest_10167_RewardText"] = AQ_NONE;
 L["Quest_10167_PreQuest"] = "Ein Besuch bei der Großmutter -> Ein gelüftetes Geheimnis";
 L["Quest_10167_FollowQuest"] = "Was die Seele sieht";
 
@@ -2007,7 +1844,6 @@ L["Quest_10168_Name"] = "Was die Seele sieht";
 L["Quest_10168_Objective"] = "Sucht einen Seelenspiegel in der Auchenaikrypta und benutzt ihn, um einen getrübten Geist eines uralten Orcahnen zu rufen. Zerstört 15 getrübte Geister, damit die Ahnen in Frieden ruhen können.";
 L["Quest_10168_Location"] = "D'ore (Auchenaikrypta; "..YELLOW.."[2]"..WHITE..").";
 L["Quest_10168_Note"] = "D'ore erscheint, wenn Exarch Maladarr getötet wurde. Mutter Kashur ist bei (Nagrand; "..YELLOW.."26,61"..WHITE.."). Man sollte in einer Gruppe aus 3 oder mehr Spielern sein, bevor man die getrübten Geister anspricht.";
-L["Quest_10168_RewardText"] = AQ_NONE;
 L["Quest_10168_PreQuest"] = "Auchindoun...";
 L["Quest_10168_FollowQuest"] = "Rückkehr zur Großmutter";
 
@@ -2015,50 +1851,42 @@ L["Quest_29583_Name"] = "Eckert der Verrückte";
 L["Quest_29583_Objective"] = "Sprecht mit Konstrukteur Morphalius in der Managruft in Auchindoun.";
 L["Quest_29583_Location"] = "Eckert (Wälder von Terokkar - Allerias Feste; "..YELLOW.."57.6, 53.4"..WHITE..")";
 L["Quest_29583_Note"] = "Konstrukteur Morphalius ist innerhalb der Instanz Managruft.";
-L["Quest_29583_RewardText"] = AQ_NONE;
 
 L["Quest_29574_Name"] = "Rätselhafte Wesen";
 L["Quest_29574_Objective"] = "Bringt Pandemonius' Essenz und Tavaroks Herz zu Mamdy dem Ologen.";
 L["Quest_29574_Location"] = "Mamdy der 'Ologe' (Managruft; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29574_Note"] = "Pandemonius ist bei "..YELLOW.."[1]"..WHITE.." und Tavarok ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29574_RewardText"] = AQ_NONE;
 
 L["Quest_29573_Name"] = "Sicherheit geht vor";
 L["Quest_29573_Objective"] = "Tötet 10 astrale Grufträuber, 5 astrale Zauberer, 5 Nexuswandler und 5 astrale Zauberbinder. Kehrt danach zu Konstrukteur Morphalius zurück.";
 L["Quest_29573_Location"] = "Konstrukteur Morphalius (Managruft; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29573_Note"] = "Die ganzen Mobs sind innerhalb der Instanz verteilt.";
-L["Quest_29573_RewardText"] = AQ_NONE;
 
 L["Quest_29575_Name"] = "Die Konkurrenz untergraben";
 L["Quest_29575_Objective"] = "Bringt Shaffars Bandagen zu Konstrukteur Morphalius.";
 L["Quest_29575_Location"] = "Konstrukteur Morphalius (Managruft; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29575_Note"] = "Nexusprince Shaffar ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29575_RewardText"] = AQ_NONE;
 
 L["Quest_10977_Name"] = "Stasiskammern der Managruft (Heroisch)";
 L["Quest_10977_Objective"] = "Das Bild von Kommandant Ameer beim Landeplatz von Bash'ir im Schergrat möchte, dass Ihr den Stasiskammerschlüssel der Managruft verwendet, um die Stasiskammer in der Managruft Auchindouns zu öffnen.";
 L["Quest_10977_Location"] = "Bild von Kommandant Ameer (Schergrat - Landeplatz von Bash'ir; "..YELLOW.."52,15"..WHITE..").";
 L["Quest_10977_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Es gibt zwei Stasiskammern. Die erste befindet sich direkt hinter Pandemonius "..YELLOW.."[1]"..WHITE..", die zweite im Raum von Nexusprinz Shaffar "..YELLOW.."[3]"..WHITE..". Für beide wird ein Abzeichen des Nexuskönigs benötigt.";
-L["Quest_10977_RewardText"] = AQ_NONE;
 L["Quest_10977_PreQuest"] = "Das Abzeichen des Nexuskönigs";
 
 L["Quest_11373_Name"] = "Gesucht: Shaffars wundersames Amulett";
 L["Quest_11373_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Shaffars wundersames Amulett zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11373_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11373_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNexusprinz Shaffar ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11373_RewardText"] = AQ_NONE;
 
 L["Quest_29582_Name"] = "Greks verrückte Nacht";
 L["Quest_29582_Objective"] = "Sprecht mit Konstrukteur Morphalius in der Managruft in Auchindoun.";
 L["Quest_29582_Location"] = "Grek (Wälder von Terokkar - Steinbrecherfeste; "..YELLOW.."49.8, 45.2"..WHITE..")";
 L["Quest_29582_Note"] = "Konstrukteur Morphalius ist innerhalb der Instanz Managruft.";
-L["Quest_29582_RewardText"] = AQ_NONE;
 
 L["Quest_10180_Name"] = "Kann es einfach nicht lassen";
 L["Quest_10180_Objective"] = "Sprecht mit Isfar in den Sethekkhallen in Auchindoun.";
 L["Quest_10180_Location"] = "Oloraak (Shattrath - Unteres Viertel; "..YELLOW.."58.0, 15.4"..WHITE..")";
 L["Quest_10180_Note"] = "Isfar ist innerhalb der Instanz am Eingang.";
-L["Quest_10180_RewardText"] = AQ_NONE;
 
 L["Quest_29605_Name"] = "Bruder gegen Bruder";
 L["Quest_29605_Objective"] = "Befreit Lakka aus ihrer Gefangenschaft. Kehrt zu Isfar in den Sethekkhallen zurück, wenn Ihr die Rettung abgeschlossen habt.";
@@ -2070,7 +1898,6 @@ L["Quest_29607_Name"] = "Augen der Begierde";
 L["Quest_29607_Objective"] = "Händler Vijaad in den Sethekkhallen möchte, dass Ihr ihm 3 Kobaltaugen bringt.";
 L["Quest_29607_Location"] = "Händler Vijaad (Sethekkhallen; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_29607_Note"] = "Händler Vijaad erscheint nachdem Dunkelwirker Syth getötet wurde. Die Kobaltaugen können auf den Weg zum nächsten Boss gefunden werden.";
-L["Quest_29607_RewardText"] = AQ_NONE;
 
 L["Quest_29606_Name"] = "Terokks Erbe";
 L["Quest_29606_Objective"] = "Bringt Terokks Maske und Terokks Federkiel zu Isfar in den Sethekkhallen.";
@@ -2082,19 +1909,16 @@ L["Quest_11372_Name"] = "Gesucht: Die Kopfschmuckfedern von Ikiss";
 L["Quest_11372_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm die Kopfschmuckfedern von Ikiss zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11372_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11372_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKlauenkönig Ikiss ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11372_RewardText"] = AQ_NONE;
 
 L["Quest_29642_Name"] = "Ärger in Auchindoun";
 L["Quest_29642_Objective"] = "Meldet Euch bei Feldkommandeur Mahfuun im Schattenlabyrinth in Auchindoun in den Wäldern von Terokkar.";
 L["Quest_29642_Location"] = "Spionagemeisterin Mehlisah Hochkrone (Shattrath - Terrasse des Lichts; "..YELLOW.."50.4,45.2"..WHITE..")";
 L["Quest_29642_Note"] = "Feldkommandeur Mahfuun ist innerhalb der Instanz am Eingang.";
-L["Quest_29642_RewardText"] = AQ_NONE;
 
 L["Quest_29640_Name"] = "Findet Spion To'gun";
 L["Quest_29640_Objective"] = "Findet Spion To'gun im Schattenlabyrinth von Auchindoun.";
 L["Quest_29640_Location"] = "Spionin Grik'tha (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29640_Note"] = "To'gun ist bei "..GREEN.."[1']"..WHITE..", im Gang hinter Botschafter Höllenschlund.";
-L["Quest_29640_RewardText"] = AQ_NONE;
 L["Quest_29640_FollowQuest"] = "Seeleninstrumente";
 
 L["Quest_29641_Name"] = "Seeleninstrumente";
@@ -2108,13 +1932,11 @@ L["Quest_29645_Name"] = "Botschafter Höllenschlund";
 L["Quest_29645_Objective"] = "Tötet 18 Ritualisten der Kabale und Botschafter Höllenschlund. Kehrt dann zu Feldkommandeur Mahfuun im Schattenlabyrinth von Auchindoun zurück.";
 L["Quest_29645_Location"] = "Feldkommandeur Mahfuun (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29645_Note"] = "Die Ritulisten der Kabale sind auf den Weg zum Botschafter Höllenschlund bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29645_RewardText"] = AQ_NONE;
 
 L["Quest_10649_Name"] = "Das Buch der teuflischen Namen";
 L["Quest_10649_Objective"] = "Reist in das Schattenlabyrinth von Auchindoun und besorgt das Buch der teuflischen Namen von Schwarzherz dem Hetzer. Kehrt danach zu Altruis in Nagrand zurück.";
 L["Quest_10649_Location"] = "Altruis der Leider (Nagrand; "..YELLOW.."27.2,43.0"..WHITE..")";
 L["Quest_10649_Note"] = "Schwarzherz der Hetzer ist bei "..YELLOW.."[2]"..WHITE..". Dies ist der letzte Teil einer Questreihe, die im Schattenmondtal bei "..YELLOW.."61.2,29.2"..WHITE.." für Aldor und bei "..YELLOW.."55.8,58.2"..WHITE.." für Seher startet.";
-L["Quest_10649_RewardText"] = AQ_NONE;
 L["Quest_10649_PreQuest"] = "Illidans Schüler";
 L["Quest_10649_FollowQuest"] = "Rückkehr zu den Aldor oder Rückkehr zu den Sehern";
 
@@ -2122,7 +1944,6 @@ L["Quest_29643_Name"] = "Der Kodex des Blutes";
 L["Quest_29643_Objective"] = "Lest den Kodex des Blutes im Schattenlabyrinth von Auchindoun.";
 L["Quest_29643_Location"] = "Feldkommandeur Mahfuun (Schattenlabyrinth; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29643_Note"] = "Der Kodex des Blutes ist direkt vor Großmeister Vorpil bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29643_RewardText"] = AQ_NONE;
 L["Quest_29643_FollowQuest"] = "In das Herz des Labyrinths";
 
 L["Quest_29644_Name"] = "In das Herz des Labyrinths";
@@ -2136,14 +1957,12 @@ L["Quest_10666_Name"] = "Encyclopaedia Daemonica";
 L["Quest_10666_Objective"] = "Beschafft die Encyclopaedia Daemonica von Großmeister Vorpil und bringt sie zu David Wayne in Waynes Zuflucht.";
 L["Quest_10666_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.4,38.6"..WHITE..").";
 L["Quest_10666_Note"] = "Großmeister Vorpil ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_10666_RewardText"] = AQ_NONE;
 L["Quest_10666_PreQuest"] = "Zusätzliche Materialien";
 
 L["Quest_11376_Name"] = "Gesucht: Murmurs Flüstern";
 L["Quest_11376_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Murmurs Flüstern zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11376_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11376_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_11376_RewardText"] = AQ_NONE;
 
 L["Quest_11375_Name"] = "Gesucht: Bösartige Ausbilderinnen";
 L["Quest_11375_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2155,13 +1974,11 @@ L["Quest_13432_Name"] = "Die Phiolen der Ewigkeit";
 L["Quest_13432_Objective"] = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt.";
 L["Quest_13432_Location"] = "Soridormi (Tanaris - Höhlen der Zeit; "..YELLOW.."59.0, 53.8"..WHITE.."). Sie läuft in dem Bereich umher.";
 L["Quest_13432_Note"] = "Kael'thas Sonnenwanderer ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_13432_RewardText"] = AQ_NONE;
 
 L["Quest_10944_Name"] = "Das gefährdete Geheimnis";
 L["Quest_10944_Objective"] = "Reist zum Kerker des Wächters im Schattenmondtal und sprecht mit Akama.";
 L["Quest_10944_Location"] = "Seher Olum (Höhle des Schlangenschreins; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_10944_Note"] = "Akama ist bei (Schattenmondtal - Kerker des Wächters; "..YELLOW.."58.0, 48.2"..WHITE..").\n\nDiese Quest ist Teil der Zugangsquestreihe des Schwarzen Tempels, die bei Anachoret Ceyla (Schattenmondtal - Altar der Sha'tar; "..YELLOW.."62.6, 28.4"..WHITE..") für die Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56.2, 59.6"..WHITE..") für die Seher startet.";
-L["Quest_10944_RewardText"] = AQ_NONE;
 L["Quest_10944_PreQuest"] = "Schrifttafeln von Baa'ri -> Akamas Versprechen";
 L["Quest_10944_FollowQuest"] = "Die List der Aschenzungen ("..YELLOW.."FdS: Festung der Stürme"..WHITE..")";
 
@@ -2169,7 +1986,6 @@ L["Quest_10296_Name"] = "Der schwarze Morast";
 L["Quest_10296_Objective"] = "Reist durch die Höhlen der Zeit in den schwarzen Morast während der Öffnung des Dunklen Portals und sprecht mit Sa'at.";
 L["Quest_10296_Location"] = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")";
 L["Quest_10296_Note"] = "Die Flucht von der Burg Durnholde muss abgeschlossen sein, bevor man den schwarzen Morast betreten kann. Sa'at befindet sich kurz hinter dem Eingang der Instanz.";
-L["Quest_10296_RewardText"] = AQ_NONE;
 L["Quest_10296_FollowQuest"] = "Die Öffnung des Dunklen Portals";
 
 L["Quest_10297_Name"] = "Die Öffnung des Dunklen Portals";
@@ -2183,7 +1999,6 @@ L["Quest_11382_Name"] = "Gesucht: Aeonus' Stundenglas";
 L["Quest_11382_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Aeonus' Stundenglas zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11382_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11382_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle.";
-L["Quest_11382_RewardText"] = AQ_NONE;
 
 L["Quest_11383_Name"] = "Gesucht: Fürsten der Zeitenrisse";
 L["Quest_11383_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2195,7 +2010,6 @@ L["Quest_10947_Name"] = "Ein Artefakt aus der Vergangenheit";
 L["Quest_10947_Objective"] = "Reist zu den Höhlen der Zeit in Tanaris und verschafft Euch Zugang zur Schlacht um den Berg Hyjal. Habt Ihr dies geschafft, so bezwingt Furor Winterfrost und bringt das befristete Phylakterium zu Akama im Schattenmondtal.";
 L["Quest_10947_Location"] = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58,48"..WHITE..")";
 L["Quest_10947_Note"] = "Teil der Vorquestreihe zum Schwarzen Tempel. Furor Winterfrost ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_10947_RewardText"] = AQ_NONE;
 L["Quest_10947_PreQuest"] = "Die List der Aschenzungen ("..YELLOW.."FdS: Festung der Stürme"..WHITE..")";
 L["Quest_10947_FollowQuest"] = "Die Seelengeisel";
 
@@ -2203,7 +2017,6 @@ L["Quest_10282_Name"] = "Das alte Hügelland";
 L["Quest_10282_Objective"] = "Andormu in den Höhlen der Zeit bittet Euch, ins Alte Hügelland zu reisen und mit Erozion zu sprechen.";
 L["Quest_10282_Location"] = "Andormu (Tanaris - Höhlen der Zeit; "..YELLOW.."58,54"..WHITE..")";
 L["Quest_10282_Note"] = "Die Vorquest, die bei dem Drachen am Eingang der Höhlen der Zeit startet, muss absolviert sein.";
-L["Quest_10282_RewardText"] = AQ_NONE;
 L["Quest_10282_PreQuest"] = "Die Höhlen der Zeit";
 L["Quest_10282_FollowQuest"] = "Tarethas Ablenkungsmanöver";
 
@@ -2211,7 +2024,6 @@ L["Quest_29598_Name"] = "Tarethas Ablenkungsmanöver";
 L["Quest_29598_Objective"] = "Reist zur Burg Durnholde und platziert mit Hilfe des Bündels mit Brandbomben, das Ihr von Erozion erhalten habt, 5 Brandsätze auf den Fässern in jeder Internierungsbaracke. Sprecht mit Thrall im Kellergefängnis der Burg Durnholde, wenn Ihr die Internierungsbaracken angezündet habt.";
 L["Quest_29598_Location"] = "Erozion (Vorgebirge des alten Hügellands; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29598_Note"] = "Thrall ist bei "..GREEN.."[1']"..WHITE..".\n\nReist nach Süderstade, um dir die Geschichte des Aschenbringers anzuhören und einige Leute mit bekannten Namen wie Kel'Thuzad und Herod der Tyrann zu treffen.";
-L["Quest_29598_RewardText"] = AQ_NONE;
 L["Quest_29598_PreQuest"] = "Das alte Hügelland";
 L["Quest_29598_FollowQuest"] = "Flucht aus Durnholde";
 
@@ -2226,7 +2038,6 @@ L["Quest_11378_Name"] = "Gesucht: Der Kopf des Epochenjägers";
 L["Quest_11378_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Kopf des Epochenjägers zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11378_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11378_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_11378_RewardText"] = AQ_NONE;
 
 L["Quest_12513_Name"] = "Schöner Hut...";
 L["Quest_12513_Objective"] = "Don Carlos hat dich versehentlich herausgefordert, sein jüngeres Ich in Old Hillsbrad zu besiegen. Bringe Don Carlos' Hut anschließend als Beweis zu ihm nach Tanaris.";
@@ -2238,14 +2049,12 @@ L["Quest_29674_Name"] = "Unbändige Dunkelheit";
 L["Quest_29674_Objective"] = "A'dal hat Euch gebeten, Zereketh den Unabhängigen in der Arcatraz der Festung der Stürme zu töten.";
 L["Quest_29674_Location"] = "Diese Quest bekommst du wenn du die Arkatraz betrittst.";
 L["Quest_29674_Note"] = "Zereketh der Unabhängige ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29674_RewardText"] = AQ_NONE;
 L["Quest_29674_FollowQuest"] = "Zorn und Verdammnis";
 
 L["Quest_29675_Name"] = "Zorn und Verdammnis";
 L["Quest_29675_Objective"] = "A'dal bittet Euch, Zornseher Soccothrates und Dalliah die Verdammnisverkünderin in der Arcatraz der Festung der Stürme zu töten.";
 L["Quest_29675_Location"] = "Diese Quest bekommst du nachdem du die Quest Unbändige Dunkelheit abgeschlossen hast.";
 L["Quest_29675_Note"] = "Zornseher Soccothrates ist bei "..YELLOW.."[3]"..WHITE.." und Dalliah die Verdammnisverkünderin ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29675_RewardText"] = AQ_NONE;
 L["Quest_29675_PreQuest"] = "Unbändige Dunkelheit";
 L["Quest_29675_FollowQuest"] = "Ausbruch aus dem Hochsicherheitstrakt";
 
@@ -2260,7 +2069,6 @@ L["Quest_10705_Name"] = "Seher Udalo";
 L["Quest_10705_Objective"] = "Sucht Seher Udalo in der Arkatraz in der Festung der Stürme.";
 L["Quest_10705_Location"] = "Akama (Schattenmondtal - Verborgenen Kammer; "..YELLOW.."58.0, 48.2"..WHITE..")";
 L["Quest_10705_Note"] = "Seher Udalo ist bei "..GREEN.."[1']"..WHITE..", kurz vor dem Raum vom Endboss.\n\nDies ist ein Teil vom Schwarzen Tempel Questreihe die von Anachoret Ceyla (Schattenmondtal - Altar der Stürme; "..YELLOW.."62.4,28.4"..WHITE..") für Aldor und Arkanist Thelis (Schattenmondtal - Sanktum der Sterne; "..YELLOW.."56.2,59.4"..WHITE..") für Seher startet.";
-L["Quest_10705_RewardText"] = AQ_NONE;
 L["Quest_10705_PreQuest"] = "Schrifttafeln von Baa'ri -> Akama";
 L["Quest_10705_FollowQuest"] = "Ein mysteriöses Omen";
 
@@ -2268,13 +2076,11 @@ L["Quest_10886_Name"] = "Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)";
 L["Quest_10886_Objective"] = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet.";
 L["Quest_10886_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..WHITE..")";
 L["Quest_10886_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[4]"..WHITE..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig.";
-L["Quest_10886_RewardText"] = AQ_NONE;
 
 L["Quest_11388_Name"] = "Gesucht: Horizontiss' Schriftrolle";
 L["Quest_11388_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Horizontiss' Schriftrolle zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11388_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11388_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_11388_RewardText"] = AQ_NONE;
 
 L["Quest_11389_Name"] = "Gesucht: Schildwachen der Arkatraz";
 L["Quest_11389_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Schildwachen der Arkatraz zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2286,14 +2092,12 @@ L["Quest_29660_Name"] = "Rettung der Botanika";
 L["Quest_29660_Objective"] = "A'dal möchte, dass Ihr Kommandantin Sarannis, Hochbotaniker Freywinn und Dorngrin den Hüter in der Botanika der Festung der Stürme tötet.";
 L["Quest_29660_Location"] = "Diese Quest bekommst du wenn du die Botanika betrittst.";
 L["Quest_29660_Note"] = "Kommandantin Sarannis ist bei "..YELLOW.."[1]"..WHITE..", Hochbotaniker Freywinn ist bei "..YELLOW.."[2]"..WHITE..", und Dorngrin der Hüter ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29660_RewardText"] = AQ_NONE;
 L["Quest_29660_FollowQuest"] = "Ausdünnung der Herde";
 
 L["Quest_29667_Name"] = "Ausdünnung der Herde";
 L["Quest_29667_Objective"] = "A'dal bittet Euch, 6 mutierte Fleischpeitscher und 6 mutierte Furchtkreischer zu töten und einen schnellentwickelnden Wedel von Laj in der Botanika der Festung der Stürme zu erbeuten.";
 L["Quest_29667_Location"] = "Diese Quest bekommst du wenn du die Quest Rettung der Botanika abgeschlossen hast.";
 L["Quest_29667_Note"] = "Laj ist bei "..YELLOW.."[4]"..WHITE.." die ganzen Mobs die Du töten mußt befinden sich auf den Weg zu Ihr.";
-L["Quest_29667_RewardText"] = AQ_NONE;
 L["Quest_29667_PreQuest"] = "Rettung der Botanika";
 L["Quest_29667_FollowQuest"] = "Eine äußerst traurige Aufgabe";
 
@@ -2301,7 +2105,6 @@ L["Quest_29669_Name"] = "Eine äußerst traurige Aufgabe";
 L["Quest_29669_Objective"] = "A'dal bittet Euch, Warpzweig in der Botanika in der Festung der Stürme zu töten.";
 L["Quest_29669_Location"] = "Diese Quest bekommst du wenn du die Quest Ausdünnung der Herde abgeschlossen hast.";
 L["Quest_29669_Note"] = "Warpzweig ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_29669_RewardText"] = AQ_NONE;
 L["Quest_29669_PreQuest"] = "Ausdünnung der Herde";
 
 L["Quest_10704_Name"] = "Wie man in Arkatraz einbricht";
@@ -2316,14 +2119,12 @@ L["Quest_10257_Name"] = "Den Schlüsselstein erobern";
 L["Quest_10257_Objective"] = "Reist zur Botanika der Festung der Stürme und besorgt Euch den Schlüsselstein von Kommandant Sarannis. Bringt ihn danach zu Erzmagier Vargoth im violetten Turm.";
 L["Quest_10257_Location"] = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; "..YELLOW.."58.4, 86.6"..WHITE..")";
 L["Quest_10257_Note"] = "Kommandant Sarannis ist bei "..YELLOW.."[1]"..WHITE..". Der Schlüsselstein droppt im normalen und heroischen Modus.";
-L["Quest_10257_RewardText"] = AQ_NONE;
 L["Quest_10257_PreQuest"] = "Den Schlüsselmeister finden";
 
 L["Quest_11384_Name"] = "Gesucht: Warpzweigsplitter";
 L["Quest_11384_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm einen Warpzweigsplitter zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11384_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11384_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_11384_RewardText"] = AQ_NONE;
 
 L["Quest_11385_Name"] = "Gesucht: Kanalisierer der Sonnensucher";
 L["Quest_11385_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 6 Kanalisierer der Sonnensucher zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2335,34 +2136,29 @@ L["Quest_29659_Name"] = "Der verlorene Schatz";
 L["Quest_29659_Objective"] = "Beschafft für A'dal den Blendenden Zorn aus dem Behälter der Legion in der Mechanar der Festung der Stürme.";
 L["Quest_29659_Location"] = "Diese Quest bekommst du wenn du die Mechnanar betrittst.";
 L["Quest_29659_Note"] = "Der Behälter der Legion ist bei "..GREEN.."[1']"..WHITE.." und öffnet sich nachdem die Torwächter bei "..YELLOW.."[1]"..WHITE.." und "..YELLOW.."[2]"..WHITE.." getötet wurden.";
-L["Quest_29659_RewardText"] = AQ_NONE;
 
 L["Quest_29657_Name"] = "Aus großer Kraft folgt große Verantwortung";
 L["Quest_29657_Objective"] = "A'dal bittet Euch, Mechanolord Kapazitus in der Mechanar der Festung der Stürme zu töten.";
 L["Quest_29657_Location"] = "Diese Quest bekommst du wenn du die Quest Der verlorene Schatz abgeschlossen hast.";
 L["Quest_29657_Note"] = "Mechanolord Kapazitus ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29657_RewardText"] = AQ_NONE;
 L["Quest_29657_FollowQuest"] = "Der Kalkulator";
 
 L["Quest_29658_Name"] = "Der Kalkulator";
 L["Quest_29658_Objective"] = "A'dal hat Euch gebeten, Pathaleon den Kalkulator in der Mechanar der Festung der Stürme zu töten.";
 L["Quest_29658_Location"] = "Diese Quest bekommst du wenn du die Quest Aus großer Kraft folgt große Verantwortung abgeschlossen hast.";
 L["Quest_29658_Note"] = "Pathaleon der Kalkulator ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_29658_RewardText"] = AQ_NONE;
 L["Quest_29658_PreQuest"] = "Aus großer Kraft folgt große Verantwortung";
 
 L["Quest_10665_Name"] = "Frisch von der Mechanar";
 L["Quest_10665_Objective"] = "David Wayne bei Waynes Zuflucht möchte, dass Ihr ihm eine überladene Manazelle bringt.";
 L["Quest_10665_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.6, 38.6"..WHITE..").";
 L["Quest_10665_Note"] = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..WHITE.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..WHITE..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDas Quest funktioniert im normalen und heroischen Modus.";
-L["Quest_10665_RewardText"] = AQ_NONE;
 L["Quest_10665_PreQuest"] = "Zusätzliche Materialien";
 
 L["Quest_11386_Name"] = "Gesucht: Pathaleons Projektionsgerät";
 L["Quest_11386_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Pathaleons Projektionsgerät zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11386_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..WHITE..")";
 L["Quest_11386_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator ist bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_11386_RewardText"] = AQ_NONE;
 
 L["Quest_11387_Name"] = "Gesucht: Zerstörer der Sturmschmiede";
 L["Quest_11387_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Zerstörer der Sturmschmiede zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle vernichtet wurden.";
@@ -2374,7 +2170,6 @@ L["Quest_10946_Name"] = "Die List der Aschenzungen";
 L["Quest_10946_Objective"] = "Reist in die Festung der Stürme und tötet Al'ar, während Ihr die Gugel der Aschenzungen tragt. Kehrt nach Abschluß der Aufgabe zu Akama ins Schattenmondtal zurück.";
 L["Quest_10946_Location"] = "Akama (Schattenmondtal - Kammer des Wächters; "..YELLOW.."58.0, 48.2"..WHITE..")";
 L["Quest_10946_Note"] = "Teil der Vorquestreihe zum Schwarzen Tempel.";
-L["Quest_10946_RewardText"] = AQ_NONE;
 L["Quest_10946_PreQuest"] = "Das gefährdete Geheimnis ("..YELLOW.."Höhle des Schlangenschreins"..WHITE..")";
 L["Quest_10946_FollowQuest"] = "Ein Artefakt aus der Vergangenheit ("..YELLOW.."Hyjalgipfel"..WHITE..")";
 
@@ -2388,7 +2183,6 @@ L["Quest_10958_Name"] = "Sucht die Aschenzungen auf";
 L["Quest_10958_Objective"] = "Sucht Akamas Todeshörige im Schwarzen Tempel.";
 L["Quest_10958_Location"] = "Xi'ri (Schattenmondtal; "..YELLOW.."65.2, 44.0"..WHITE..").";
 L["Quest_10958_Note"] = "Der Geist von Olum ist hinter dem Eingang des Schwarzen Tempels rauf und dann links bei "..GREEN.."[1']"..WHITE..". Er teleportiert Dich zu Seher Kanai, sobald Du den Obersten Kriegsfürst Naj'entus bei "..YELLOW.."[2]"..WHITE.." und Supremus bei "..YELLOW.."[3]"..WHITE.." getötet hast.";
-L["Quest_10958_RewardText"] = AQ_NONE;
 L["Quest_10958_PreQuest"] = "Das gefährdete Geheimnis -> Ein Ablenkungsmanöver für Akama";
 L["Quest_10958_FollowQuest"] = "Die Erlösung der Aschenzungen";
 
@@ -2396,7 +2190,6 @@ L["Quest_10957_Name"] = "Die Erlösung der Aschenzungen";
 L["Quest_10957_Objective"] = "Helft Akama die Kontrolle über seine Seele wieder zu erlangen, indem Ihr Akamas Schemen im Schwarzen Tempel besiegt. Kehrt anschließend zu Seher Kanai zurück.";
 L["Quest_10957_Location"] = "Seher Kanai (Der Schwarze Tempel; "..GREEN.."[2']"..WHITE..").";
 L["Quest_10957_Note"] = "Akamas Schemen ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_10957_RewardText"] = AQ_NONE;
 L["Quest_10957_PreQuest"] = "Sucht die Aschenzungen auf";
 L["Quest_10957_FollowQuest"] = "Der Sturz des Verräters";
 
@@ -2417,7 +2210,6 @@ L["Quest_29217_Name"] = "Die gefangenen Späher";
 L["Quest_29217_Objective"] = "Befreit die gefangenen Späher: Hazlek, Bakkalzu, Norkani und Kasha. Sie werden von den Hohepriestern der Amanitrolle gefangengehalten.";
 L["Quest_29217_Location"] = "Blutwache Hakkuz (Zul'Aman; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29217_Note"] = "Die Späher sind auf den Plattformen der ersten 4 Bosse und können nach deren Vernichtung befreit werden.";
-L["Quest_29217_RewardText"] = AQ_NONE;
 
 L["Quest_11196_Name"] = "Der Kriegsherr der Amani";
 L["Quest_11196_Objective"] = "Besiegt den neuen Kriegsherrn der Amani, Daakara.";
@@ -2429,14 +2221,12 @@ L["Quest_29682_Name"] = "Terrasse der Magister";
 L["Quest_29682_Objective"] = "Hauptmann Theris Morgenheim möchte, dass Ihr Exarch Larethor in der Terrasse der Magister findet.";
 L["Quest_29682_Location"] = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29682_Note"] = "Exarch Larethor ist innerhalb der Instanz bei "..BLUE.."Eingang"..WHITE..".\n\nDie Vorquest gibt es entweder von Adyen dem Lichtwächter (Shattrath - Aldorhöhe; "..YELLOW.."30.6,34.4"..WHITE..") oder Dathris Sonnensturm (Shattrath - Sehertreppe; "..YELLOW.."54.4,80.6"..WHITE..").";
-L["Quest_29682_RewardText"] = AQ_NONE;
 L["Quest_29682_PreQuest"] = "Krise am Sonnenbrunnen oder Pflicht ruft";
 
 L["Quest_29684_Name"] = "Abgerissene Kommunikation";
 L["Quest_29684_Objective"] = "Exarch Larethor in der Terrasse der Magister möchte, dass Ihr den Bluelfenspion Tyrith findet.";
 L["Quest_29684_Location"] = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29684_Note"] = "Tyrith ist innerhalb der Instanz bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_29684_RewardText"] = AQ_NONE;
 L["Quest_29684_PreQuest"] = "Krise am Sonnenbrunnen oder Pflicht ruft";
 L["Quest_29684_FollowQuest"] = "Der Seher der Seher";
 
@@ -2444,7 +2234,6 @@ L["Quest_11490_Name"] = "Der Seher der Seher";
 L["Quest_11490_Objective"] = "Tyrith möchte, dass Ihr die Kugel auf dem Balkon auf der Terrasse der Magister benutzt.";
 L["Quest_11490_Location"] = "Tyrith (Terrasse der Magister; "..GREEN.."[1']"..WHITE..")";
 L["Quest_11490_Note"] = "Die Seherkugel ist bei "..GREEN.."[2']"..WHITE..". Nach der Sequenz erscheint Kalecgos, um die nächste Quest zu starten.";
-L["Quest_11490_RewardText"] = AQ_NONE;
 L["Quest_11490_PreQuest"] = "Terrasse der Magister";
 L["Quest_11490_FollowQuest"] = "Nicht totzukriegen";
 
@@ -2459,13 +2248,11 @@ L["Quest_29686_Name"] = "Eine radikale Idee";
 L["Quest_29686_Objective"] = "Exarch Larethor auf der Terrasse der Magister bittet Euch, Vexallus zu töten und seine Essenz an Euch zu bringen.";
 L["Quest_29686_Location"] = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29686_Note"] = "Vexallus ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29686_RewardText"] = AQ_NONE;
 
 L["Quest_29687_Name"] = "Dunkle Allianzen";
 L["Quest_29687_Objective"] = "Exarch Larethor in der Terrasse der Magister möchte, dass Ihr Selin Feuerherz und Priesterin Delrissa tötet.";
 L["Quest_29687_Location"] = "Exarch Larethor (Terrasse der Magister; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29687_Note"] = "Selin Feuerherz ist bei "..YELLOW.."[1]"..WHITE.." and Priesterin Delrissa ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29687_RewardText"] = AQ_NONE;
 
 L["Quest_11500_Name"] = "Gesucht: Schwestern der Qual";
 L["Quest_11500_Objective"] = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwestern der Qual erschlagt. Kehrt zu ihm in das untere Viertel in Shattrath zurück, sobald Ihr sie getötet habt, um das Kopfgeld einzufordern.";
@@ -2477,13 +2264,11 @@ L["Quest_11499_Name"] = "Gesucht: Der Siegelring von Prinz Kael'thas";
 L["Quest_11499_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Siegelring von Prinz Kael'thas zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
 L["Quest_11499_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_11499_Note"] = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_11499_RewardText"] = AQ_NONE;
 
 L["Quest_24553_Name"] = "Die Reinigung Quel'Delars";
 L["Quest_24553_Objective"] = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten.";
 L["Quest_24553_Location"] = "Halduron Wolkenglanz (Insel von Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")";
 L["Quest_24553_Note"] = "Wenn Du den Sonnenbrunnenplateau betritts, bist Du in einer Phasenverschiebung und mußt nicht gegen irgendwelche Mobs und Bosse kämpfen. Der Sonnenbrunnen ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_24553_RewardText"] = AQ_NONE;
 L["Quest_24553_PreQuest"] = "Thalorien Dämmersucher";
 L["Quest_24553_FollowQuest"] = "Ein Sieg für den Silberbund";
 
@@ -2491,7 +2276,6 @@ L["Quest_24564_Name"] = "Die Reinigung Quel'Delars";
 L["Quest_24564_Objective"] = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten.";
 L["Quest_24564_Location"] = "Halduron Wolkenglanz (Insel von Quel'danas; "..YELLOW.."44.5, 45.5"..WHITE..")";
 L["Quest_24564_Note"] = "Wenn Du den Sonnenbrunnenplateau betritts, bist Du in einer Phasenverschiebung und mußt nicht gegen irgendwelche Mobs und Bosse kämpfen. Der Sonnenbrunnen ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_24564_RewardText"] = AQ_NONE;
 L["Quest_24564_PreQuest"] = "Thalorien Dämmersucher";
 L["Quest_24564_FollowQuest"] = "Ein Sieg für den Silberbund";
 
@@ -2499,7 +2283,6 @@ L["Quest_13149_Name"] = "Illusionen bannen";
 L["Quest_13149_Objective"] = "Chromie möchte, dass Ihr den arkanen Disruptor auf die verdächtigen Kisten im Stratholme der Vergangenheit anwendet und sie anschließend am Eingang von Stratholme trefft.";
 L["Quest_13149_Location"] = "Chromie (Das Ausmerzen von Stratholme; "..GREEN.."[1']"..WHITE..")";
 L["Quest_13149_Note"] = "Die Kisten findet man in der Nähe der Häuser entlang des Weges nach Stratholm. Nach Beendigung der Aufgabe kannst Du die Quest bei Chromi "..GREEN.."[1']"..WHITE.." abgeben.";
-L["Quest_13149_RewardText"] = AQ_NONE;
 L["Quest_13149_FollowQuest"] = "Die Eskorte des Königs";
 
 L["Quest_13151_Name"] = "Die Eskorte des Königs";
@@ -2513,7 +2296,6 @@ L["Quest_11251_Name"] = "Ein neuer Abschnitt";
 L["Quest_11251_Objective"] = "Kundschafterin Valory möchte, dass Ihr den Geräuschen nachgeht, die vom nordöstlichen Teil von Wyrmskol herstammen.";
 L["Quest_11251_Location"] = "Kundschafterin Valory (Heulender Fjord - Valgarde; "..YELLOW.."56.0, 55.8"..WHITE..")";
 L["Quest_11251_Note"] = "Die Quest bringt dich zum  Verteidiger Mordun innerhalb der Instanz.";
-L["Quest_11251_RewardText"] = AQ_NONE;
 
 L["Quest_29763_Name"] = "Raubt ihnen den Donner";
 L["Quest_29763_Objective"] = "Verteidiger Mordun hat Euch gebeten, ihm den Kopf von Ingvar dem Brandschatzer zu bringen.";
@@ -2568,7 +2350,6 @@ L["Quest_29864_Name"] = "Die Wurzel des Übels";
 L["Quest_29864_Objective"] = "Argentumbeichtpatin Blondlocke möchte, dass Ihr Svala Grabesleid tötet.";
 L["Quest_29864_Location"] = "Argentumbeichtpatin Blondlocke (Turm Utgarde; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29864_Note"] = "Svala Grabesleid ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29864_RewardText"] = AQ_NONE;
 
 L["Quest_13094_Name"] = "Schämen sie sich denn nicht?";
 L["Quest_13094_Objective"] = "Abbild von Kriegsmagierin Kaitlyn möchte, dass Ihr Berinands Forschungsergebnisse beschafft.";
@@ -2607,14 +2388,12 @@ L["Quest_13124_Name"] = "Der Kampf geht weiter";
 L["Quest_13124_Objective"] = "Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Belgaristrasz und seine Gefährten befreit.";
 L["Quest_13124_Location"] = "Raelorasz (Boreanische Tundra - Transitusschild; "..YELLOW.."33.2, 34.4"..WHITE..")\n oder wenn du die Instanz betritts.";
 L["Quest_13124_Note"] = "Belgaristrasz wird nach der Niedelage von Drakos der Befrager erscheinen bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_13124_RewardText"] = AQ_NONE;
 L["Quest_13124_FollowQuest"] = "Vereinte Front";
 
 L["Quest_13126_Name"] = "Vereinte Front";
 L["Quest_13126_Objective"] = "Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen.";
 L["Quest_13126_Location"] = "Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_13126_Note"] = "Belgaristrasz erscheint nach dem Tode von Varos Wolkenwanderer bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_13126_RewardText"] = AQ_NONE;
 L["Quest_13126_PreQuest"] = "Der Kampf geht weiter";
 L["Quest_13126_FollowQuest"] = "Magierlord Urom";
 
@@ -2622,7 +2401,6 @@ L["Quest_13127_Name"] = "Magierlord Urom";
 L["Quest_13127_Objective"] = "Belgaristrasz möchte, dass Ihr Magierlord Urom im Oculus besiegt.";
 L["Quest_13127_Location"] = "Abbild von Belgaristrasz (Der Nexus: Das Oculus; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_13127_Note"] = "Belgaristrasz erscheint nach dem Tode von Magierlord Urom bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_13127_RewardText"] = AQ_NONE;
 L["Quest_13127_PreQuest"] = "Vereinte Front";
 L["Quest_13127_FollowQuest"] = "Schlacht in den Wolken";
 
@@ -2651,13 +2429,11 @@ L["Quest_24584_Name"] = "Malygos muss sterben!";
 L["Quest_24584_Objective"] = "Tötet Malygos.";
 L["Quest_24584_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")";
 L["Quest_24584_Note"] = "Malygos ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24584_RewardText"] = AQ_NONE;
 
 L["Quest_29811_Name"] = "Der Talisman des Torwächters";
 L["Quest_29811_Objective"] = "Pionier A'zak in Azjol-Nerub möchte, dass Ihr den Talisman des Torwächters von Krik'thir dem Torwächter erbeutet.";
 L["Quest_29811_Location"] = "Pionier A'zak (Azjol-Nerub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29811_Note"] = "Krik'thir der Torwächter ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29811_RewardText"] = AQ_NONE;
 
 L["Quest_29808_Name"] = "Vergesst nicht die Eier!";
 L["Quest_29808_Objective"] = "Pionier A'zak in Azjol-Nerub möchte, dass Ihr 6 Eier der Geißelneruber zerstört.";
@@ -2675,14 +2451,12 @@ L["Quest_29825_Name"] = "Nicht länger ein Schüler";
 L["Quest_29825_Objective"] = "Seher Ixit in Ahn'kahet hat Euch gebeten, Urahne Nadox zu töten.";
 L["Quest_29825_Location"] = "Seher Ixit (Ahn'kahet; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29825_Note"] = "Urahne Nadox ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29825_RewardText"] = AQ_NONE;
 L["Quest_29825_FollowQuest"] = "Die Rückeroberung von Ahn'kahet";
 
 L["Quest_29826_Name"] = "Die Rückeroberung von Ahn'kahet";
 L["Quest_29826_Objective"] = "Seher Ixit in Ahn'kahet möchte, dass Ihr 3 Augen von Taldaram, einen Knochenschinder und Prinz Taldaram tötet.";
 L["Quest_29826_Location"] = "Seher Ixit (Ahn'kahet; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29826_Note"] = "Die Augen von Taldram und die Knochenschinder sind alle auf den Weg zum Boss Prinz Taldaram bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29826_RewardText"] = AQ_NONE;
 L["Quest_29826_PreQuest"] = "Nicht länger ein Schüler";
 L["Quest_29826_FollowQuest"] = "Die Gesichtslosen";
 
@@ -2697,13 +2471,11 @@ L["Quest_29850_Name"] = "Korrupte Konstrukte";
 L["Quest_29850_Objective"] = "Kaldir Eisenbann in den Hallen des Steins möchte, dass Ihr Krystallus und 3 dunkle Runenriesen tötet.";
 L["Quest_29850_Location"] = "Kaldir Eisenbann (Die Hallen des Steins; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29850_Note"] = "Die dunklen Runenriesen sind alle in der Nähe des Eingangs, Krystallus ist bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_29850_RewardText"] = AQ_NONE;
 
 L["Quest_29848_Name"] = "Die verlorene Behüterin";
 L["Quest_29848_Objective"] = "Kaldir Eisenbann in den Hallen des Steins möchte, dass Ihr der Maid der Trauer Frieden schenkt und eine Kristallträne der Trauer beschafft.";
 L["Quest_29848_Location"] = "Kaldir Eisenbann (Die Hallen des Steins; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29848_Note"] = "Maid der Trauer ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_29848_RewardText"] = AQ_NONE;
 
 L["Quest_13207_Name"] = "Die Hallen des Steins";
 L["Quest_13207_Objective"] = "Brann Bronzebart möchte, dass Ihr ihn bei der Suche nach den Geheimnissen, die in den Hallen des Steins verborgen liegen, begleitet.";
@@ -2715,7 +2487,6 @@ L["Quest_29863_Name"] = "Sturmbote Eljrrin";
 L["Quest_29863_Objective"] = "König Jokkum möchte, dass Ihr die Hallen der Blitze betretet und mit Sturmbote Eljrrin sprecht.";
 L["Quest_29863_Location"] = "König Jokkum (Die Sturmgipfel - Dun Niffelem; "..YELLOW.."65.4, 60.2"..WHITE..")";
 L["Quest_29863_Note"] = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29863_RewardText"] = AQ_NONE;
 L["Quest_29863_FollowQuest"] = "Mit allen Mitteln!";
 
 L["Quest_29861_Name"] = "Mit allen Mitteln!";
@@ -2729,7 +2500,6 @@ L["Quest_29862_Name"] = "Den Weg frei machen";
 L["Quest_29862_Objective"] = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr 3 sturmgeschmiedete Heiler, 3 sturmgeschmiedete Taktiker und General Bjarngrim tötet.";
 L["Quest_29862_Location"] = "Sturmbote Eljrrin (Hallen der Blitze; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29862_Note"] = "General Bjarngrim ist bei "..YELLOW.."[1]"..WHITE..", er wandert den Weg lang. Sturmgeschmiedeter Taktiker und Heiler sind beim General Bjarngrim verteilt.";
-L["Quest_29862_RewardText"] = AQ_NONE;
 
 L["Quest_29860_Name"] = "Gegensätze";
 L["Quest_29860_Objective"] = "Sturmbote Eljrrin in den Hallen der Blitze möchte, dass Ihr Volkhan besiegt.";
@@ -2741,13 +2511,11 @@ L["Quest_24579_Name"] = "Sartharion muss sterben!";
 L["Quest_24579_Objective"] = "Tötet Sartharion.";
 L["Quest_24579_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24579_Note"] = "Sartharion ist bei "..YELLOW.."[4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24579_RewardText"] = AQ_NONE;
 
 L["Quest_40153_Name"] = "Legendäre Schuppen";
 L["Quest_40153_Objective"] = "Besorgt die Schuppe von Nethergroll aus Karazhan, die Schuppe von Sartharion aus dem Obsidiansanktum und die Schuppe von Garalon aus dem Herz der Angst.";
 L["Quest_40153_Location"] = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")";
 L["Quest_40153_Note"] = "LEGION Kürschnerquest.  Die Schuppe Nethergroll droppt von Nethergroll.  Die Schuppe von Sartharion droppt vom einzigstens Boss im Obsidiansanktum (Nordend - Drachenöde).  Die Schuppe von Garalon droppt vom dritten Boss in der Instanz Das Herz der Angst (Pandaria - Schreckensöde).";
-L["Quest_40153_RewardText"] = AQ_NONE;
 L["Quest_40153_PreQuest"] = "Schuppen für Ske'rit";
 L["Quest_40153_FollowQuest"] = "Das Auge Azsharas: Die Schuppen von Serpentrix";
 
@@ -2770,7 +2538,6 @@ L["Quest_29828_Name"] = "Der Alptraum der Geißel";
 L["Quest_29828_Objective"] = "Kurzel in der Feste Drak'Tharon möchte, dass Ihr König Dred tötet und ihr seinen Zahn bringt.";
 L["Quest_29828_Location"] = "Kurzel (Feste Drak'Tharon; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29828_Note"] = "König Dred ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_29828_RewardText"] = AQ_NONE;
 
 L["Quest_30120_Name"] = "Die Reinigung Drak'Tharons";
 L["Quest_30120_Objective"] = "Drakuru möchte, dass Ihr Drakurus Elixier an seinem Kohlenbecken innerhalb Drak'Tharons Feste benutzt. Um das Elixier dort benutzen zu können, benötigt Ihr 5 Ausdauermojos.";
@@ -2783,13 +2550,11 @@ L["Quest_29836_Name"] = "Nur ma' nachsehen";
 L["Quest_29836_Objective"] = "To'kini möchte, dass Ihr mit Chronistin Bah'kini in Gundrak spricht.";
 L["Quest_29836_Location"] = "Chronist To'kini (Zul Drak - Zim'Torga "..YELLOW.."16.6, 48.1"..WHITE..")";
 L["Quest_29836_Note"] = "Chronistin Bah'kini ist bei "..BLUE.."Ausgang"..WHITE..".";
-L["Quest_29836_RewardText"] = AQ_NONE;
 
 L["Quest_29833_Name"] = "Offene Rechnungen";
 L["Quest_29833_Objective"] = "Har'koa möchte, dass Ihr mit Tol'mar in Gundrak sprecht.";
 L["Quest_29833_Location"] = "Har'koa (Zul Drak - Altar von Har'koa "..YELLOW.."63.6, 70.2"..WHITE..")";
 L["Quest_29833_Note"] = "Tol'mar ist innerhalb der Instanz am Eingang.";
-L["Quest_29833_RewardText"] = AQ_NONE;
 
 L["Quest_29844_Name"] = "Für die Nachwelt";
 L["Quest_29844_Objective"] = "Tol'mar in Gundrak möchte, dass Ihr 6 Geschichtstafeln der Drakkari sammelt.";
@@ -2813,7 +2578,6 @@ L["Quest_29829_Name"] = "Diskretion ist der Schlüssel";
 L["Quest_29829_Objective"] = "Rhonin möchte, dass Ihr zur Violetten Festung in Dalaran geht und mit Leutnant Sinclari sprecht.";
 L["Quest_29829_Location"] = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."31.0, 48.6"..WHITE..")";
 L["Quest_29829_Note"] = "Leutnant Sinclari ist in (Die Violette Festung; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_29829_RewardText"] = AQ_NONE;
 L["Quest_29829_FollowQuest"] = "Eindämmung";
 
 L["Quest_29830_Name"] = "Eindämmung";
@@ -2841,38 +2605,32 @@ L["Quest_24580_Name"] = "Anub'Rekhan muss sterben!";
 L["Quest_24580_Objective"] = "Tötet Anub'Rekhan.";
 L["Quest_24580_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24580_Note"] = "Anub'Rekhan ist bei "..YELLOW.."Spinnenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24580_RewardText"] = AQ_NONE;
 
 L["Quest_24582_Name"] = "Instrukteur Razuvious muss sterben!";
 L["Quest_24582_Objective"] = "Tötet Instrukteur Razuvious.";
 L["Quest_24582_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24582_Note"] = "Instrukteur Razuvious ist bei "..YELLOW.."Militärviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24582_RewardText"] = AQ_NONE;
 
 L["Quest_24581_Name"] = "Noth der Seuchenfürst muss sterben!";
 L["Quest_24581_Objective"] = "Tötet Noth der Seuchenfürst.";
 L["Quest_24581_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24581_Note"] = "Noth der Seuchenfürst ist bei "..YELLOW.."Seuchenviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24581_RewardText"] = AQ_NONE;
 
 L["Quest_24583_Name"] = "Flickwerk muss sterben!";
 L["Quest_24583_Objective"] = "Tötet Flickwerk.";
 L["Quest_24583_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24583_Note"] = "Flickwerk ist bei "..YELLOW.."Konstruktviertel [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24583_RewardText"] = AQ_NONE;
 
 L["Quest_13604_Name"] = "Datenscheibe des Archivums";
 L["Quest_13604_Objective"] = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in Ulduar.";
 L["Quest_13604_Location"] = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")";
 L["Quest_13604_Note"] = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt. Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür. Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab. Ausgrabungsleiter Doren gibt Dir dann die Folgequest.";
-L["Quest_13604_RewardText"] = AQ_NONE;
 L["Quest_13604_FollowQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13607_Name"] = "Das himmlische Planetarium";
 L["Quest_13607_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr den Eingang zum Himmlischen Planetarium findet.";
 L["Quest_13607_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13607_Note"] = "Das himmlische Planetarium ist bei (Ulduar - Die Vorkammer; "..YELLOW.."[7]"..WHITE..").\n\nNach Beendigung dieser Quest gibt Dir Ausgrabungsleiter Doren die vier Siegel Quests.";
-L["Quest_13607_RewardText"] = AQ_NONE;
 L["Quest_13607_PreQuest"] = "Datenscheibe des Archivums";
 L["Quest_13607_FollowQuest"] = "Die vier Siegel Quests";
 
@@ -2880,28 +2638,24 @@ L["Quest_13609_Name"] = "Hodirs Siegel";
 L["Quest_13609_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt.";
 L["Quest_13609_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13609_Note"] = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..". Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13609_RewardText"] = AQ_NONE;
 L["Quest_13609_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13610_Name"] = "Thorims Siegel";
 L["Quest_13610_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt.";
 L["Quest_13610_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13610_Note"] = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..". Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13610_RewardText"] = AQ_NONE;
 L["Quest_13610_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13606_Name"] = "Freyas Siegel";
 L["Quest_13606_Objective"] = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Freyas Siegel gelangt.";
 L["Quest_13606_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13606_Note"] = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..". Freya muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13606_RewardText"] = AQ_NONE;
 L["Quest_13606_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13611_Name"] = "Mimirons Siegel";
 L["Quest_13611_Objective"] = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Mimirons Siegel gelangt.";
 L["Quest_13611_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13611_Note"] = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [15]"..WHITE..". Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13611_RewardText"] = AQ_NONE;
 L["Quest_13611_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13614_Name"] = "Algalon";
@@ -2921,14 +2675,12 @@ L["Quest_13817_Name"] = "Heroisch: Datenscheibe des Archivums";
 L["Quest_13817_Objective"] = "Bringt die Datenscheibe des Archivums zur Archivumkonsole in Ulduar.";
 L["Quest_13817_Location"] = "Datenscheibe des Archivums (droppt von der Versammlung des Eisens; "..YELLOW.."Die Vorkammer [5]"..WHITE..")";
 L["Quest_13817_Note"] = "Die Datenscheibe droppt nur wenn man die Versammlung des Eisens im harten Modus besiegt. Nur einer aus dem Raid kann die Datenscheibe an sich nehmen.\n\nNach dem Tot der Versammlung des Eisens, öffnet sich eine Tür. Gebe die Quest beim Archivumsystem im hinteren Bereich des Raum ab. Ausgrabungsleiter Doren gibt Dir dann die Folgequest.";
-L["Quest_13817_RewardText"] = AQ_NONE;
 L["Quest_13817_FollowQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13816_Name"] = "Heroisch: Das himmlische Planetarium";
 L["Quest_13816_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr den Eingang zum Himmlischen Planetarium findet.";
 L["Quest_13816_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13816_Note"] = "Das himmlische Planetarium ist bei (Ulduar - Die Vorkammer; "..YELLOW.."[7]"..WHITE..").\n\nNach Beendigung dieser Quest gibt Dir Ausgrabungsleiter Doren die vier Siegel Quests.";
-L["Quest_13816_RewardText"] = AQ_NONE;
 L["Quest_13816_PreQuest"] = "Datenscheibe des Archivums";
 L["Quest_13816_FollowQuest"] = "Die vier Siegel Quests";
 
@@ -2936,28 +2688,24 @@ L["Quest_13822_Name"] = "Heroisch: Hodirs Siegel";
 L["Quest_13822_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt.";
 L["Quest_13822_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13822_Note"] = "Hodir ist bei "..YELLOW.."Die Behüter [9]"..WHITE..". Hordir muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13822_RewardText"] = AQ_NONE;
 L["Quest_13822_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13823_Name"] = "Heroisch: Thorims Siegel";
 L["Quest_13823_Objective"] = "Ausgrabungsleiter Doren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Hodirs Siegel gelangt.";
 L["Quest_13823_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13823_Note"] = "Thorim ist bei "..YELLOW.."Die Behüter [10]"..WHITE..".  Thorim muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13823_RewardText"] = AQ_NONE;
 L["Quest_13823_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13821_Name"] = "Heroisch: Freyas Siegel";
 L["Quest_13821_Objective"] = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Freyas Siegel gelangt.";
 L["Quest_13821_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13821_Note"] = "Freya ist bei "..YELLOW.."Die Behüter [11]"..WHITE..". Freya muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13821_RewardText"] = AQ_NONE;
 L["Quest_13821_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13824_Name"] = "Heroisch: Mimirons Siegel";
 L["Quest_13824_Objective"] = "Ausgrabungsleiterin Loren im Archivum in Ulduar möchte, dass Ihr in den Besitz von Mimirons Siegel gelangt.";
 L["Quest_13824_Location"] = "Ausgrabungsleiter Doren (Ulduar - Die Vorkammer; "..GREEN.."[6']"..WHITE..")";
 L["Quest_13824_Note"] = "Mimiron ist bei "..YELLOW.."Der Funke der Imagination [15]"..WHITE..". Mimiron muss im harten Modus gelegt werden um das Siegel zu bekommen.";
-L["Quest_13824_RewardText"] = AQ_NONE;
 L["Quest_13824_PreQuest"] = "Das himmlische Planetarium";
 
 L["Quest_13818_Name"] = "Heroisch: Algalon";
@@ -2977,50 +2725,42 @@ L["Quest_24585_Name"] = "Der Flammenleviathan muss sterben!";
 L["Quest_24585_Objective"] = "Tötet Flammenleviathan.";
 L["Quest_24585_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24585_Note"] = "Flammenleviathan ist bei "..YELLOW.."Die Belagerung [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24585_RewardText"] = AQ_NONE;
 
 L["Quest_24587_Name"] = "Ignis, Meister des Eisenwerks, muss sterben!";
 L["Quest_24587_Objective"] = "Tötet Ignis der Meister des Eisenwerks.";
 L["Quest_24587_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24587_Note"] = "Ignis der Meister des Eisenwerks ist bei "..YELLOW.."Die Belagerung [3]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24587_RewardText"] = AQ_NONE;
 
 L["Quest_24586_Name"] = "Klingenschuppe muss sterben!";
 L["Quest_24586_Objective"] = "Tötet Klingenschuppe.";
 L["Quest_24586_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.9"..WHITE..")";
 L["Quest_24586_Note"] = "Klingenschuppe ist bei "..YELLOW.."Die Belagerung [2]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24586_RewardText"] = AQ_NONE;
 
 L["Quest_24588_Name"] = "XT-002 Dekonstruktor muss sterben!";
 L["Quest_24588_Objective"] = "Tötet XT-002 Dekonstruktor.";
 L["Quest_24588_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24588_Note"] = "XT-002 Dekonstruktor ist bei "..YELLOW.."Die Belagerung [4]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24588_RewardText"] = AQ_NONE;
 
 L["Quest_29851_Name"] = "Champion des Turniers";
 L["Quest_29851_Objective"] = "Hochlord Tirion Fordring hat Euch beauftragt, die Prüfung des Champions zu vollenden.";
 L["Quest_29851_Location"] = "Du bekommst die Quest automatisch wenn Du die Instanz betritts.";
 L["Quest_29851_Note"] = "Die Quest ist beendet wenn Du den schwarzen Ritter besiegt hast.";
-L["Quest_29851_RewardText"] = AQ_NONE;
 
 L["Quest_24589_Name"] = "Lord Jaraxxus muss sterben!";
 L["Quest_24589_Objective"] = "Tötet Lord Jaraxxus.";
 L["Quest_24589_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24589_Note"] = "Lord Jaraxxus ist der zweite Boss.\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24589_RewardText"] = AQ_NONE;
 
 L["Quest_24510_Name"] = "In der eisigen Zitadelle";
 L["Quest_24510_Objective"] = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Lady Jaina Prachtmeer.";
 L["Quest_24510_Location"] = "Lehrling Nelphi (Dalaran - Wandert vor der südlichen Bank)";
 L["Quest_24510_Note"] = "Lady Jaina Prachtmeer ist innerhalb der Instanz.";
-L["Quest_24510_RewardText"] = AQ_NONE;
 L["Quest_24510_FollowQuest"] = "Echos gequälter Seelen";
 
 L["Quest_24499_Name"] = "Echos gequälter Seelen";
 L["Quest_24499_Objective"] = "Tötet Bronjahm und den Verschlinger der Seelen, um den Zugang zur Grube von Saron zu sichern.";
 L["Quest_24499_Location"] = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_24499_Note"] = "Gebe die Quest bei Lady Jaina Prachtmeer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen.";
-L["Quest_24499_RewardText"] = AQ_NONE;
 L["Quest_24499_PreQuest"] = "In der eisigen Zitadelle";
 L["Quest_24499_FollowQuest"] = "Die Grube von Saron";
 
@@ -3028,7 +2768,6 @@ L["Quest_24476_Name"] = "Die Klinge tempern";
 L["Quest_24476_Objective"] = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen.";
 L["Quest_24476_Location"] = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24476_Note"] = "Der Schmelztiegel der Seelen ist bei "..YELLOW.."[2]"..WHITE..", am Ende der Instanz.";
-L["Quest_24476_RewardText"] = AQ_NONE;
 L["Quest_24476_PreQuest"] = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")";
 L["Quest_24476_FollowQuest"] = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")";
 
@@ -3036,14 +2775,12 @@ L["Quest_24506_Name"] = "In der eisigen Zitadelle";
 L["Quest_24506_Objective"] = "Betretet die Seelenschmiede von der Seite der Eiskronenzitadelle und findet Fürstin Sylvanas Windläufer.";
 L["Quest_24506_Location"] = "Dunkelläuferin Vorel (Dalaran - Wandert vor der nördlichen Bank)";
 L["Quest_24506_Note"] = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz.";
-L["Quest_24506_RewardText"] = AQ_NONE;
 L["Quest_24506_FollowQuest"] = "Echos gequälter Seelen";
 
 L["Quest_24511_Name"] = "Echos gequälter Seelen";
 L["Quest_24511_Objective"] = "Tötet Bronjahm und den Verschlinger der Seelen, um den Zugang zur Grube von Saron zu sichern.";
 L["Quest_24511_Location"] = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_24511_Note"] = "Gebe die Quest bei Fürstin Sylvanas Windläufer ab, bei "..YELLOW.."[2]"..WHITE.." bevor du die Instanz verläßt.\n\nSchließe die Quest erfolgreich ab um in die Grube von Saron zu gelangen.";
-L["Quest_24511_RewardText"] = AQ_NONE;
 L["Quest_24511_PreQuest"] = "In der eisigen Zitadelle";
 L["Quest_24511_FollowQuest"] = "Die Grube von Saron";
 
@@ -3051,7 +2788,6 @@ L["Quest_24560_Name"] = "Die Klinge tempern";
 L["Quest_24560_Objective"] = "Tempert das neugeschmiedete Quel'Delar im Schmelztiegel der Seelen.";
 L["Quest_24560_Location"] = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24560_Note"] = "Der Schmelztiegel der Seelen ist bei "..YELLOW.."[2]"..WHITE..", am Ende der Instanz.";
-L["Quest_24560_RewardText"] = AQ_NONE;
 L["Quest_24560_PreQuest"] = "Das Schwert neu schmieden ("..YELLOW.."Grube von Saron"..WHITE..")";
 L["Quest_24560_FollowQuest"] = "Die Hallen der Reflexion ("..YELLOW.."Hallen der Reflexion"..WHITE..")";
 
@@ -3059,7 +2795,6 @@ L["Quest_24683_Name"] = "Die Grube von Saron";
 L["Quest_24683_Objective"] = "Trefft Lady Jaina Prachtmeer am Eingang zur Grube von Saron.";
 L["Quest_24683_Location"] = "Lady Jaina Prachtmeer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_24683_Note"] = "Lady Jaina Prachtmeer ist innerhalb der Instanz.";
-L["Quest_24683_RewardText"] = AQ_NONE;
 L["Quest_24683_PreQuest"] = "Echos gequälter Seelen ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 L["Quest_24683_FollowQuest"] = "Der Pfad zur Zitadelle";
 
@@ -3067,7 +2802,6 @@ L["Quest_24498_Name"] = "Der Pfad zur Zitadelle";
 L["Quest_24498_Objective"] = "Befreit 15 Allianzsklaven und tötet Schmiedemeister Garfrost.";
 L["Quest_24498_Location"] = "Lady Jaina Prachtmeer (Grube von Saron; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24498_Note"] = "Die Sklaven findest Du überall in der Grube. Die Quest führt Dich zu Gorkun Eisenschädel bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist.";
-L["Quest_24498_RewardText"] = AQ_NONE;
 L["Quest_24498_PreQuest"] = "Die Grube von Saron";
 L["Quest_24498_FollowQuest"] = "Befreiung aus der Grube";
 
@@ -3075,7 +2809,6 @@ L["Quest_24710_Name"] = "Befreiung aus der Grube";
 L["Quest_24710_Objective"] = "Tötet Geiselfürst Tyrannus.";
 L["Quest_24710_Location"] = "Lady Jaina Prchtmeer (Grube von Saron; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_24710_Note"] = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen.";
-L["Quest_24710_RewardText"] = AQ_NONE;
 L["Quest_24710_PreQuest"] = "Der Pfad zur Zitadelle";
 L["Quest_24710_FollowQuest"] = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")";
 
@@ -3083,7 +2816,6 @@ L["Quest_24461_Name"] = "Das Schwert neu schmieden";
 L["Quest_24461_Objective"] = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu.";
 L["Quest_24461_Location"] = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24461_Note"] = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt. Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm.";
-L["Quest_24461_RewardText"] = AQ_NONE;
 L["Quest_24461_PreQuest"] = "Kehrt zu Caladis Prunkspeer zurück";
 L["Quest_24461_FollowQuest"] = "Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 
@@ -3091,7 +2823,6 @@ L["Quest_24682_Name"] = "Die Grube von Saron";
 L["Quest_24682_Objective"] = "Trefft Fürstin Sylvanas Windläufer am Eingang zur Grube von Saron.";
 L["Quest_24682_Location"] = "Fürstin Sylvanas Windläufer (Die Seelenschmiede; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_24682_Note"] = "Fürstin Sylvanas Windläufer ist innerhalb der Instanz.";
-L["Quest_24682_RewardText"] = AQ_NONE;
 L["Quest_24682_PreQuest"] = "Echos gequälter Seelen ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 L["Quest_24682_FollowQuest"] = "Der Pfad zur Zitadelle";
 
@@ -3099,7 +2830,6 @@ L["Quest_24507_Name"] = "Der Pfad zur Zitadelle";
 L["Quest_24507_Objective"] = "Befreit 15 Hordensklaven und tötet Schmiedemeister Garfrost.";
 L["Quest_24507_Location"] = "Fürstin Sylvanas Windläufer (Grube von Saron; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24507_Note"] = "Die Sklaven findest Du überall in der Grube. Die Quest führt Dich zu Martin Victus bei "..YELLOW.."[1]"..WHITE.." nachdem Schmiedemeister Garfrost erledgt worden ist.";
-L["Quest_24507_RewardText"] = AQ_NONE;
 L["Quest_24507_PreQuest"] = "Die Grube von Saron";
 L["Quest_24507_FollowQuest"] = "Befreiung aus der Grube";
 
@@ -3107,7 +2837,6 @@ L["Quest_24712_Name"] = "Befreiung aus der Grube";
 L["Quest_24712_Objective"] = "Tötet Geiselfürst Tyrannus.";
 L["Quest_24712_Location"] = "Fürstin Sylvanas Windrunner (Grube von Saron; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_24712_Note"] = "Geiselfürst Tyrannus ist am Ende der Instanz. Beende die Quests erfolgreich um in die Hallen der Reflexion zu gelangen.";
-L["Quest_24712_RewardText"] = AQ_NONE;
 L["Quest_24712_PreQuest"] = "Der Pfad zur Zitadelle";
 L["Quest_24712_FollowQuest"] = "Frostgram ("..YELLOW.."Hallen der Reflexion"..WHITE..")";
 
@@ -3115,7 +2844,6 @@ L["Quest_24559_Name"] = "Das Schwert neu schmieden";
 L["Quest_24559_Objective"] = "Besorgt 5 energieerfüllte Saronitbarren sowie den Hammer des Schmiedemeisters und schmiedet damit Quel'Delar neu.";
 L["Quest_24559_Location"] = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24559_Note"] = "Die energieerfüllten Saronitbarren sind innerhalb der Grube verteilt. Benutzt den Hammer, der vom Boss Schmiedemeister Garfrost droppt, bem Amboss in der Nähe von ihm.";
-L["Quest_24559_RewardText"] = AQ_NONE;
 L["Quest_24559_PreQuest"] = "Ja, Rückkehr zu Myralion Sonnenfeuer";
 L["Quest_24559_FollowQuest"] = "Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 
@@ -3123,7 +2851,6 @@ L["Quest_24711_Name"] = "Frostgram";
 L["Quest_24711_Objective"] = "Trefft Lady Jaina Prachtmeer am Eingang zu den Hallen der Reflexion.";
 L["Quest_24711_Location"] = "Lady Jaina Prachtmeer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24711_Note"] = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Lady Jaina Prachtmeer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Jaina Prachtmeer.";
-L["Quest_24711_RewardText"] = AQ_NONE;
 L["Quest_24711_PreQuest"] = "Befreiung aus der Grube ("..YELLOW.."Grube von Saron"..WHITE..")";
 L["Quest_24711_FollowQuest"] = "Der Zorn des Lichkönigs";
 
@@ -3131,14 +2858,12 @@ L["Quest_24500_Name"] = "Der Zorn des Lichkönigs";
 L["Quest_24500_Objective"] = "Findet Lady Jaina Prachtmeer und flieht aus den Hallen der Reflexion.";
 L["Quest_24500_Location"] = "Hallen der Reflexion";
 L["Quest_24500_Note"] = "Lady Jaina Prachtmeer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist.";
-L["Quest_24500_RewardText"] = AQ_NONE;
 L["Quest_24500_PreQuest"] = "Frostgram";
 
 L["Quest_24480_Name"] = "Die Hallen der Reflexion";
 L["Quest_24480_Objective"] = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion.";
 L["Quest_24480_Location"] = "Caladis Prunkspeer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24480_Note"] = "Du kannst diese Quest innerhalb der Instanz beenden.";
-L["Quest_24480_RewardText"] = AQ_NONE;
 L["Quest_24480_PreQuest"] = "Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 L["Quest_24480_FollowQuest"] = "Reise zum Sonnenbrunnen";
 
@@ -3146,7 +2871,6 @@ L["Quest_24713_Name"] = "Frostgram";
 L["Quest_24713_Objective"] = "Trefft Fürstin Sylvanas Windläufer am Eingang zu den Hallen der Reflexion.";
 L["Quest_24713_Location"] = "Fürstin Sylvanas Windläufer (Grube von Saron; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24713_Note"] = "Diese Quest bekommst Du am Ende der Instant von der Grube von Saron und gibst sie gleich am Eingang der Instanz bei Fürstin Sylvanas Windläufer ab.Die Folgequest bekommst Du nachdem das Event beendet ist bei Lady Sylvanas Windläufer.";
-L["Quest_24713_RewardText"] = AQ_NONE;
 L["Quest_24713_PreQuest"] = "Befreiung aus der Grube ("..YELLOW.."Grube von Saron"..WHITE..")";
 L["Quest_24713_FollowQuest"] = "Der Zorn des Lichkönigs";
 
@@ -3154,14 +2878,12 @@ L["Quest_24802_Name"] = "Der Zorn des Lichkönigs";
 L["Quest_24802_Objective"] = "Findet Fürstin Sylvanas Windläufer und flieht aus den Hallen der Reflexion.";
 L["Quest_24802_Location"] = "Hallen der Reflexion";
 L["Quest_24802_Note"] = "Fürstin Sylvanas Windläufer flieht vorne weg. Die Quest ist beendet nachdem das Event erfolgreich abgeschlossen ist.";
-L["Quest_24802_RewardText"] = AQ_NONE;
 L["Quest_24802_PreQuest"] = "Frostgram";
 
 L["Quest_24561_Name"] = "Die Hallen der Reflexion";
 L["Quest_24561_Objective"] = "Bringt Quel'Delar nach Schwertruh ins Innere der Hallen der Reflexion.";
 L["Quest_24561_Location"] = "Myralion Sonnenfeuer (Eiskrone - Quel'Delars Ruh; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24561_Note"] = "Du kannst diese Quest innerhalb der Instanz beenden.";
-L["Quest_24561_RewardText"] = AQ_NONE;
 L["Quest_24561_PreQuest"] = "Die Klinge tempern ("..YELLOW.."Die Seelenschmiede"..WHITE..")";
 L["Quest_24561_FollowQuest"] = "Reise zum Sonnenbrunnen";
 
@@ -3169,13 +2891,11 @@ L["Quest_24590_Name"] = "Lord Mark'gar muss sterben!";
 L["Quest_24590_Objective"] = "Tötet Lord Mark'gar.";
 L["Quest_24590_Location"] = "Erzmagier Lan'dalock (Dalaran - Die Violette Festung; "..YELLOW.."57.6, 66.4"..WHITE..")";
 L["Quest_24590_Note"] = "Lord Mark'gar ist bei "..YELLOW.." [1]"..WHITE..".\n\nDiese wöchentliche Quest kann von einem Schlachtzug jeglicher Schwierigkeitsstufe oder Größe abgeschlossen werden.";
-L["Quest_24590_RewardText"] = AQ_NONE;
 
 L["Quest_24545_Name"] = "Die Heiligen und die Verderbten";
 L["Quest_24545_Objective"] = "Platziert Lichträcher, 25 Einheiten urtümliches Saronit sowie Modermienes und Fauldarms ätzendes Blut in Hochlord Mograines Runenschmiede in der Eiskronenzitadelle.";
 L["Quest_24545_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24545_Note"] = "Diese Questreihe ist nur für Krieger, Paldine und Todesritter. Hochlord Mograine's Runenschmiede ist am Eingang der Eiskronenzitadelle.\n\nModermienes und Fauldarms ätzendes Blut droppt nur in der 25 Spieler Version und kann nur von einem einzigen Raidmitglied aufgenommen werden.";
-L["Quest_24545_RewardText"] = AQ_NONE;
 L["Quest_24545_FollowQuest"] = "Schattenschneide";
 
 L["Quest_24743_Name"] = "Schattenschneide";
@@ -3190,7 +2910,6 @@ L["Quest_24547_Name"] = "Ein Seelenschmaus";
 L["Quest_24547_Objective"] = "Hochlord Darion Mograine möchte, dass Ihr mit Schattenschneide 50 Diener des Lichkönigs in der Eiskronenzitadelle tötet. Die Seelen sind nur in den Schwierigkeitsgraden für 10 oder 25 Mann erhältlich.";
 L["Quest_24547_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24547_Note"] = "Nur Tötungen in der Eiskronenzitadelle zählen um die 50 zusammenzubekommen.";
-L["Quest_24547_RewardText"] = AQ_NONE;
 L["Quest_24547_PreQuest"] = "Schattenschneide";
 L["Quest_24547_FollowQuest"] = "Erfüllt mit unheiliger Macht";
 
@@ -3198,7 +2917,6 @@ L["Quest_24749_Name"] = "Erfüllt mit unheiliger Macht";
 L["Quest_24749_Objective"] = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit unheiliger Macht erfüllt und Professor Seuchenmord tötet.";
 L["Quest_24749_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24749_Note"] = "Diese Quest kann nur in der 25 Version beendet werden.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion.";
-L["Quest_24749_RewardText"] = AQ_NONE;
 L["Quest_24749_PreQuest"] = "Ein Seelenschmaus";
 L["Quest_24749_FollowQuest"] = "Erfüllt mit der Macht des Blutes";
 
@@ -3206,7 +2924,6 @@ L["Quest_24756_Name"] = "Erfüllt mit der Macht des Blutes";
 L["Quest_24756_Objective"] = "Hochlord Darion Mograine möchte, dass Ihr Schattenschneide mit der Macht des Blutes erfüllt und Blutkönigin Lana'thel besiegt.";
 L["Quest_24756_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24756_Note"] = "Diese Quest kann nur in der 25 Version beendet werden.\n\nUm diese Quest zu beenden, mußt Du den Blutspiegel Debuff bekommen. Dann, falls Du nicht als erstes gebissen werden solltest, muß derjenige der gebissen wurde dich beisen. Beise 3 weitere Radimitgliederr und überlebe die Begegnung um diese Quest zu beenden.";
-L["Quest_24756_RewardText"] = AQ_NONE;
 L["Quest_24756_PreQuest"] = "Erfüllt mit unheiliger Macht";
 L["Quest_24756_FollowQuest"] = "Erfüllt mit der Macht des Frostes";
 
@@ -3214,7 +2931,6 @@ L["Quest_24757_Name"] = "Erfüllt mit der Macht des Frostes";
 L["Quest_24757_Objective"] = "Hochlord Darion Mograine hat Euch den Auftrag erteilt, Sindragosa zu töten, nachdem Ihr 4-mal ihren Atemattacken ausgesetzt wart, während Ihr Schattenschneide führt.";
 L["Quest_24757_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24757_Note"] = "Diese Quest kann nur in der 25 Version beendet werden.\n\nNachdem Du 4 mal den Frostatem abbekommen hast, mußt Sindragosa innerhalb von 6 Minuten getötet werden um diese Quest zu beenden.";
-L["Quest_24757_RewardText"] = AQ_NONE;
 L["Quest_24757_PreQuest"] = "Erfüllt mit der Macht des Blutes";
 L["Quest_24757_FollowQuest"] = "Der Zersplitterte Thron";
 
@@ -3222,7 +2938,6 @@ L["Quest_24548_Name"] = "Der Zersplitterte Thron";
 L["Quest_24548_Objective"] = "Hochlord Darion Mograine möchte, dass Du 50 Schattenfrostsplitter sammelst.";
 L["Quest_24548_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24548_Note"] = "Diese Quest kann nur in der 25 Version beendet werden.\n\nDie Schattenfrostsplitter sind seltene Drops von den Bossen.";
-L["Quest_24548_RewardText"] = AQ_NONE;
 L["Quest_24548_PreQuest"] = "Erfüllt mit der Macht des Frostes";
 L["Quest_24548_FollowQuest"] = "Schattengram...";
 
@@ -3238,21 +2953,18 @@ L["Quest_24748_Name"] = "Der letzte Standplatz des Lichkönigs";
 L["Quest_24748_Objective"] = "Hochlord Darion Mograine in der Eiskronenzitadelle möchte, dass Du den Lichkönig tötest.";
 L["Quest_24748_Location"] = "Hochlord Darion Mograine (Eiskronenzitadelle; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24748_Note"] = "Diese Quest um Schattengram zu bekommen kann man Vermutlich nur in der 25 Mann Version abschließen.";
-L["Quest_24748_RewardText"] = AQ_NONE;
 L["Quest_24748_PreQuest"] = "Schattengram...";
 
 L["Quest_26012_Name"] = "Ärger am Wyrmruhtempel";
 L["Quest_26012_Objective"] = "Sprecht mit Krasus im Wyrmruhtempel in der Drachenöde.";
 L["Quest_26012_Location"] = "Rhonin (Dalaran - Die Violette Zitadelle; "..YELLOW.."30.5, 48.4"..WHITE..")";
 L["Quest_26012_Note"] = "Krasus ist bei (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..").";
-L["Quest_26012_RewardText"] = AQ_NONE;
 L["Quest_26012_FollowQuest"] = "true";
 
 L["Quest_26013_Name"] = "Angriff auf das Sanktum";
 L["Quest_26013_Objective"] = "Untersucht das Rubinsanktum unterhalb des Wyrmruhtempels.";
 L["Quest_26013_Location"] = "Krasus (Drachenöde - Wyrmruhtempel; "..YELLOW.."59.8, 54.6"..WHITE..")";
 L["Quest_26013_Note"] = "Wächterin des Sanktum Xerestrasza ist innerhalb des Rubin Sanktum bei dem 2. Nebenboss Baltharus der Kriegsjünger bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_26013_RewardText"] = AQ_NONE;
 L["Quest_26013_PreQuest"] = "Ärger am Wyrmruhtempel";
 L["Quest_26013_FollowQuest"] = "Der Zwielichtzerstörer";
 
@@ -3260,34 +2972,29 @@ L["Quest_26034_Name"] = "Der Zwielichtzerstörer";
 L["Quest_26034_Objective"] = "Besiegt Halion und vertreibt die Invasion aus dem Rubinsanktum.";
 L["Quest_26034_Location"] = "Wächterin des Sanktum Xerestrasza (Rubinsanktum; "..YELLOW.."[A] Eingang"..WHITE..")";
 L["Quest_26034_Note"] = "Halion ist der Hauptboss bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_26034_RewardText"] = AQ_NONE;
 L["Quest_26034_PreQuest"] = "Ärger am Wyrmruhtempel";
 
 L["Quest_28732_Name"] = "Das kann nur eins bedeuten...";
 L["Quest_28732_Objective"] = "Nehmt Finkles Maulwurfmaschine zum Schwarzfels.";
 L["Quest_28732_Location"] = "Pip Quickwit (Berg Hyjal - Der Aschenzirkel; "..YELLOW.."42.6, 28.1"..WHITE..")";
 L["Quest_28732_Note"] = "Die Maulwurfmaschine ist in der Nähe von "..YELLOW.."42.8, 28.9"..WHITE..". Diese Quest bringt dich zu Pip Quickwit innerhalb der Schwarzfelshöhlen am Eingang bei "..GREEN.."[1']"..WHITE..".";
-L["Quest_28732_RewardText"] = AQ_NONE;
 L["Quest_28732_FollowQuest"] = "Zur Kammer der Verbrennung!";
 
 L["Quest_28735_Name"] = "Zur Kammer der Verbrennung!";
 L["Quest_28735_Objective"] = "Tötet Rom'ogg Knochenbrecher.";
 L["Quest_28735_Location"] = "Pip Quickwit (Schwarzfelshöhlen; "..GREEN.."[1']"..WHITE..")";
 L["Quest_28735_Note"] = "Rom'ogg Knochenbrecher ist der erste Boss, bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_28735_RewardText"] = AQ_NONE;
 L["Quest_28735_PreQuest"] = "Das kann nur eins bedeuten...";
 
 L["Quest_28737_Name"] = "Wo sind wir hier?";
 L["Quest_28737_Objective"] = "Tötet Corla, Botin des Zwielichts.";
 L["Quest_28737_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28737_Note"] = "Corla, Botin des Zwielichts ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_28737_RewardText"] = AQ_NONE;
 
 L["Quest_28738_Name"] = "Die Zwielichtschmiede";
 L["Quest_28738_Objective"] = "Tötet Karsh Stahlbieger.";
 L["Quest_28738_Location"] = "Pip Quickwits Helm gibt dir die Quest automatisch";
 L["Quest_28738_Note"] = "Karsh Stahlbieger ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_28738_RewardText"] = AQ_NONE;
 
 L["Quest_28740_Name"] = "Kann ich meinen Augen trauen?";
 L["Quest_28740_Objective"] = "Tötet Bella.";
@@ -3329,14 +3036,12 @@ L["Quest_28866_Name"] = "In den Steinernen Kern";
 L["Quest_28866_Objective"] = "Sprecht mit der Erdwächterin Yrsa im Steinernen Kern.";
 L["Quest_28866_Location"] = "Sturmruferin Mylra (Tiefenheim; "..YELLOW.."64.5, 82.2"..WHITE..")";
 L["Quest_28866_Note"] = "Erdwächterin Yrsa ist innerhalb der Instanz direkt am Eingang. Es gibt eine Vorquest, noch ist unklar von wem wird noch eingefügt. Die Vorquest ist optional.";
-L["Quest_28866_RewardText"] = AQ_NONE;
 L["Quest_28866_PreQuest"] = "Ach, einen Gefangenen sollten wir doch nehmen -> Die Zwielichtwarte";
 
 L["Quest_28815_Name"] = "Dokumente des Schattenhammers";
 L["Quest_28815_Objective"] = "Beschafft die Dokumente des Schattenhammers.";
 L["Quest_28815_Location"] = "Erdwächterin Yrsa (Der steinerne Kern; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_28815_Note"] = "Die Dokumente liegen auf den Boden vor dem Boss Corborus, bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_28815_RewardText"] = AQ_NONE;
 L["Quest_28815_FollowQuest"] = "Eine Anführerin und ihre Anhänger";
 
 L["Quest_28814_Name"] = "Eine Anführerin und ihre Anhänger";
@@ -3357,7 +3062,6 @@ L["Quest_28845_Name"] = "Der Vortexgipfel";
 L["Quest_28845_Objective"] = "Findet Itesh im Vortexgipfel.";
 L["Quest_28845_Location"] = "General Ammantep (Uldum; "..YELLOW.."45.2, 37.8"..WHITE..")";
 L["Quest_28845_Note"] = "Dies ist eine optionale Quest die Dich zum Vortexgipfel schickt. Du bekommst diese Quest nachdem Du einige Quests in Uldum erledigt hast.\n\nItesh ist in der Nähe vom Eingang.";
-L["Quest_28845_RewardText"] = AQ_NONE;
 L["Quest_28845_PreQuest"] = "Der Prophet Hadassi --> Das Zepter von Orsis";
 L["Quest_28845_FollowQuest"] = "Rache für Orsis";
 
@@ -3396,7 +3100,6 @@ L["Quest_28654_Name"] = "Des Pudels Kern";
 L["Quest_28654_Objective"] = "Brann Bronzebart möchte, dass Ihr ihn in den Hallen des Ursprungs trefft.";
 L["Quest_28654_Location"] = "Brann Bronzebart (Uldum - Wiege der Uralten; "..YELLOW.."44.9, 67.4"..WHITE..")";
 L["Quest_28654_Note"] = "Brann Bronzebart ist ein wenig innerhalb der Hallen des Ursprungs. Die Vorquest ist eine Questreihe in Uldum die bei Brann Bronzebart startet.";
-L["Quest_28654_RewardText"] = AQ_NONE;
 L["Quest_28654_PreQuest"] = "Sullahs Geschenk -> Die Lade der Verheißung";
 L["Quest_28654_FollowQuest"] = "Ihre Verteidigung durchbrechen";
 
@@ -3419,7 +3122,6 @@ L["Quest_28870_Name"] = "Rückkehr zur Verlorenen Stadt";
 L["Quest_28870_Objective"] = "Sprecht mit Hauptmann Hadan in der Verlorenen Stadt der Tol'vir.";
 L["Quest_28870_Location"] = "König Phaoris (Uldum - Ramakahen; "..YELLOW.."54.9, 32.8"..WHITE..")";
 L["Quest_28870_Note"] = "Hauptmann Hadan ist innerhalb der Instanz. Diese Quest bekommst du nachdem du einige Quests von Ramakahen in Uldum abgeschlossen hast. Diese Quest ist nicht erforderlich um die anderen beiden Quests annehmen zu können.";
-L["Quest_28870_RewardText"] = AQ_NONE;
 L["Quest_28870_PreQuest"] = "Der Fall von Neferset";
 
 L["Quest_28781_Name"] = "Im Auftrag seiner Majestät";
@@ -3438,7 +3140,6 @@ L["Quest_40138_Name"] = "Legendäre Bälge";
 L["Quest_40138_Objective"] = "Erbeutet Eisheulers Balg aus der Prüfung des Kreuzfahrers.Erbeutet Occu'thars Balg aus der Baradinfestung.Erbeutet Horridons Balg vom Thron des Donners.";
 L["Quest_40138_Location"] = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")";
 L["Quest_40138_Note"] = "LEGION Kürschnereiquest.  Eisheuler ist der erste Boss in der Prüfung des Kreufahrers.  Um zu Occu'thar zu gelangen, betrete die Baradinfeste und nehme die erste Linkskurve.  Horridon ist der zweite Boss im Thron des Donners.";
-L["Quest_40138_RewardText"] = AQ_NONE;
 L["Quest_40138_PreQuest"] = "Hallen der Tapferkeit: Fenryrs Balg";
 L["Quest_40138_FollowQuest"] = "Ske'rits Lederleitfaden";
 
@@ -3446,31 +3147,26 @@ L["Quest_29172_Name"] = "Die Tiere im Inneren";
 L["Quest_29172_Objective"] = "Tötet die Blütenflügelschwarmkönigin, Tor-Tun den Schläfer sowie einen von Gahz'rankas verlorenem Nachwuchs in Zul'Gurub auf heroischem Schwierigkeitsgrad.";
 L["Quest_29172_Location"] = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29172_Note"] = "Die Blütenflügelschwarmkönigin kann im Wasser links vom Eingang gefunden werden. Tor-Tun der Schläfer ist bei "..YELLOW.."[6]"..WHITE.." und der Gahz'rankas verlorener Nachwuchs kann gefunden werden in den verschiedenen Gewässern.";
-L["Quest_29172_RewardText"] = AQ_NONE;
 
 L["Quest_29175_Name"] = "Brecht ihren Willen";
 L["Quest_29175_Objective"] = "Tötet Gub und den Meisterkoch der Gurubashi in Zul'Gurub auf heroischem Schwierigkeitsgrad.";
 L["Quest_29175_Location"] = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29175_Note"] = "Gub ist bei "..YELLOW.."[3]"..WHITE.." und der Meisterkoch der Gurubashi ist im nördlichen Teil der Instanz.";
-L["Quest_29175_RewardText"] = AQ_NONE;
 
 L["Quest_29242_Name"] = "Unbezahlbar mit Rabatt";
 L["Quest_29242_Objective"] = "Untersucht den Hort des Wahnsinns und findet das mysteriöse Schmuckstück der Gurubashi.";
 L["Quest_29242_Location"] = "Briney Schraubschneider (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29242_Note"] = "Benutze das  mysteriöse Schmuckstück bei "..YELLOW.."[12]"..WHITE.." um den Boss zu rufen und die Quest abzuschließen.";
-L["Quest_29242_RewardText"] = AQ_NONE;
 
 L["Quest_29173_Name"] = "Sekundärziele";
 L["Quest_29173_Objective"] = "Tötet Kaulema den Beweger, Mor'Lek den Zerleger und Mortaxx, das Schlagen der Stunde in Zul'Gurub auf heroischem Schwierigkeitsgrad.";
 L["Quest_29173_Location"] = "Blutschlächterin T'ara (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29173_Note"] = "Kaulema der Beweger ist bei "..YELLOW.."[7]"..WHITE..", Mor'Lek der Zerleger ist bei "..YELLOW.."[10]"..WHITE.." und Mortaxx der Totenglocke ist bei "..YELLOW.."[13]"..WHITE..".";
-L["Quest_29173_RewardText"] = AQ_NONE;
 
 L["Quest_29153_Name"] = "Die Interessen Beutebuchts";
 L["Quest_29153_Objective"] = "Spürt ein Artefakt auf, das die Trolle aus Zul'Gurub von Beutebucht fern halten könnte.";
 L["Quest_29153_Location"] = "Aufseher Klunkerknall (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")\nBaron Revilgaz (Das Schlingendornkap - Beutebucht; "..YELLOW.."41.0, 73.0"..WHITE..")";
 L["Quest_29153_Note"] = "Diese Quest kann innerhalb der Instanz angenommen werden oder am Ende der Questreihe bei der Tafel des Heldenaufrufs in Sturmwind und Ogrimmar.  Das Artefakt ist bei "..YELLOW.."[17]"..WHITE..".";
-L["Quest_29153_RewardText"] = AQ_NONE;
 L["Quest_29153_PreQuest"] = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme";
 L["Quest_29153_FollowQuest"] = "Eine glitzernde Beute";
 
@@ -3478,13 +3174,11 @@ L["Quest_29241_Name"] = "Brecht den Götterbrecher";
 L["Quest_29241_Objective"] = "Tötet Jin'do den Götterbrecher in Zul'Gurub auf heroischem Schwierigkeitsgrad.";
 L["Quest_29241_Location"] = "Blutschlächterin Zala (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29241_Note"] = "Jin'do der Götterbrecher ist bei "..YELLOW.."[17]"..WHITE..".";
-L["Quest_29241_RewardText"] = AQ_NONE;
 
 L["Quest_29251_Name"] = "Die Interessen Beutebuchts";
 L["Quest_29251_Objective"] = "Spürt ein Artefakt auf, das die Trolle aus Zul'Gurub von Beutebucht fern halten könnte.";
 L["Quest_29251_Location"] = "Aufseher Klunkerknall (Zul'Gurub; "..BLUE.."Eingang"..WHITE..")\nBaron Revilgaz (Das Schlingendornkap - Beutebucht; "..YELLOW.."41.0, 73.0"..WHITE..")";
 L["Quest_29251_Note"] = "Diese Quest kann innerhalb der Instanz angenommen werden oder am Ende der Questreihe bei der Tafel des Heldenaufrufs in Sturmwind und Ogrimmar.  Das Artefakt ist bei "..YELLOW.."[17]"..WHITE..".";
-L["Quest_29251_RewardText"] = AQ_NONE;
 L["Quest_29251_PreQuest"] = "Abgesandter der Dunkelspeertrolle (Bwemba's Geist) -> Kontaktaufnahme";
 L["Quest_29251_FollowQuest"] = "Eine glitzernde Beute";
 
@@ -3492,14 +3186,12 @@ L["Quest_29453_Name"] = "Eure Zeit ist gekommen";
 L["Quest_29453_Objective"] = "Sprecht mit Coridormi in Sturmwind.";
 L["Quest_29453_Location"] = "Diese Quest bekommst du automatisch nach dem Tod einens Gegners in den Feuerlanden";
 L["Quest_29453_Note"] = "Diese Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nCoridormi ist bei Sturmwind - Magierviertel; "..YELLOW.."49.4, 87.4"..WHITE..".";
-L["Quest_29453_RewardText"] = AQ_NONE;
 L["Quest_29453_FollowQuest"] = "Eine legendäre Verabredung -> Ein allsehendes Auge";
 
 L["Quest_29135_Name"] = "Ein allsehendes Auge";
 L["Quest_29135_Objective"] = "Sammelt 25 Stück Immerglut aus den Feuerlanden sowie 3 Handvoll Sande der Zeit.";
 L["Quest_29135_Location"] = "Anachronos (Tanaris - Höhlen der Zeit; "..YELLOW.."58.0, 56.0"..WHITE..")";
 L["Quest_29135_Note"] = "Das Immerglut droppt von den Bossen in den Feuerlanden.\n\nDie Sande der Zeit kann gekauft werden bei Yasmin (Uldum - Oasis von Vir'sar; "..YELLOW.."26.6, 7.2"..WHITE..")";
-L["Quest_29135_RewardText"] = AQ_NONE;
 L["Quest_29135_PreQuest"] = "Eure Zeit ist gekommen -> Eine Furche in der Zeit";
 L["Quest_29135_FollowQuest"] = "Auf gut Glück -> Delegierung";
 
@@ -3507,7 +3199,6 @@ L["Quest_29234_Name"] = "Delegierung";
 L["Quest_29234_Objective"] = "Holt den Zweig von Nordrassil aus den Feuerlanden zurück.";
 L["Quest_29234_Location"] = "Kalecgos (Hyjal - Nordrassil; "..YELLOW.."62.2, 23.2"..WHITE..")";
 L["Quest_29234_Note"] = "Um den Zweig von Nordrassil zu bekommen mußt Du noch einige Sachen aus den Feuerlanden besorgen. Dies ist leider zuviel um dies hier niederzuschreiben und bitte Euch daher Seiten wie: http://www.wowhead.com \n http://www.wowpedia.org durchzulesen.";
-L["Quest_29234_RewardText"] = AQ_NONE;
 L["Quest_29234_PreQuest"] = "Ein allsehendes Auge -> Informationen mit Konsequenzen";
 -- L["Quest_29234_FollowQuest"] = "Nordrassil's Bough -> Time Grows Short";
 
@@ -3515,7 +3206,6 @@ L["Quest_29270_Name"] = "Die Zeit drängt";
 L["Quest_29270_Objective"] = "Sammelt 1000 Einheiten siedender Schlacke aus den Feuerlanden.";
 L["Quest_29270_Location"] = "Kalecgos (Boreanische Tundra - Kaltarra; "..YELLOW.."31.0, 24.0"..WHITE..")";
 L["Quest_29270_Note"] = "Die siedende Schlacke droppt von den Bossen in den Feuerlanden.";
-L["Quest_29270_RewardText"] = AQ_NONE;
 L["Quest_29270_PreQuest"] = "Der Zweig von Nordrassil -> Vereint";
 L["Quest_29270_FollowQuest"] = "Ausrichtung -> Herz der Flamme";
 
@@ -3523,7 +3213,6 @@ L["Quest_29307_Name"] = "Herz der Flamme";
 L["Quest_29307_Objective"] = "Verstärkt den Runenstab von Nordrassil mit 250 schwelenden Essenzen und besorgt Euch das Herz der Flamme.";
 L["Quest_29307_Location"] = "Kalecgos (Boreanische Tundra - Kaltarra; "..YELLOW.."23.2, 22.8"..WHITE..")";
 L["Quest_29307_Note"] = "Benutze den Runenstab von Nordrassil um die schwelenden Essenzen aus den Körpern der Bosse zu extrahieren. Bei Ragnaros wird es nicht gehen.\nUm ans Herz der Flamme zu gelangen, mußt du Ragnaros besiegen ohne zu sterben und vorher die 250 schwelenden Essenzen gesammelt haben. Gehe in die Lava und sammel das Herz ein. Wenn du dabei stirbst, mußt Du Ragnaros, beim nächsten Versuch, erneut besiegen.";
-L["Quest_29307_RewardText"] = AQ_NONE;
 L["Quest_29307_PreQuest"] = "Die Zeit drängt -> Ausrichtung";
 L["Quest_29307_FollowQuest"] = "Der Stoff, aus dem Legenden sind";
 
@@ -3531,14 +3220,12 @@ L["Quest_29452_Name"] = "Eure Zeit ist gekommen";
 L["Quest_29452_Objective"] = "Sprecht mit Ziradormi in Orgrimmar.";
 L["Quest_29452_Location"] = "Diese Quest bekommst du automatisch nach dem Tod einens Gegners in den Feuerlanden";
 L["Quest_29452_Note"] = "Diese Quest bekommen nur Klassen die diesen Stab benutzen können - Druiden, Priester, Hexenmeister, Magier und Schamanen.\n\nZiradormi ist bei Orgrimmar - Tal der Stärke; "..YELLOW.."48.8, 70.4"..WHITE..".";
-L["Quest_29452_RewardText"] = AQ_NONE;
 L["Quest_29452_FollowQuest"] = "Eine legendäre Verabredung -> Ein allsehendes Auge";
 
 L["Quest_30095_Name"] = "Die Endzeit";
 L["Quest_30095_Objective"] = "Sprecht mit Nozdormu in der Endzeit.";
 L["Quest_30095_Location"] = "Coridormi (Sturmwind - Magiersanktum; "..YELLOW.."49.4, 87.4"..WHITE..")";
 L["Quest_30095_Note"] = "Nozdormu ist innerhalb der Instanz.";
-L["Quest_30095_RewardText"] = AQ_NONE;
 L["Quest_30095_FollowQuest"] = "Murozond";
 
 L["Quest_30096_Name"] = "Murozond";
@@ -3559,14 +3246,12 @@ L["Quest_30094_Name"] = "Die Endzeit";
 L["Quest_30094_Objective"] = "Sprecht mit Nozdormu in der Endzeit.";
 L["Quest_30094_Location"] = "Ziradormi (Orgrimmar - Tal der Stärke; "..YELLOW.."48.8, 70.4"..WHITE..")";
 L["Quest_30094_Note"] = "Nozdormu ist innerhalb der Instanz.";
-L["Quest_30094_RewardText"] = AQ_NONE;
 L["Quest_30094_FollowQuest"] = "Murozond";
 
 L["Quest_30098_Name"] = "Der Brunnen der Ewigkeit";
 L["Quest_30098_Objective"] = "Sprecht mit Nozdormu am Brunnen der Ewigkeit.";
 L["Quest_30098_Location"] = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30098_Note"] = "Nozdormu ist innerhalb der Instanz Brunnen der Ewigkeit.";
-L["Quest_30098_RewardText"] = AQ_NONE;
 L["Quest_30098_PreQuest"] = "Murozond";
 L["Quest_30098_FollowQuest"] = "In Scharen";
 
@@ -3574,7 +3259,6 @@ L["Quest_30099_Name"] = "In Scharen";
 L["Quest_30099_Objective"] = "Deaktiviert die drei Dämonenportale und erschlagt dann Peroth'arn.";
 L["Quest_30099_Location"] = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30099_Note"] = "Die drei Portale können im großen Gebiet nach dem Eingang gefunden werden mit Massen von Dämonen die da rumlaufen. Jedes Portal ist auf eine anderen Seite des Raumes. Nach dem deaktivieren der drei Portale, erscheint Peroth'arn bei "..YELLOW.."[1]"..WHITE..".";
-L["Quest_30099_RewardText"] = AQ_NONE;
 L["Quest_30099_PreQuest"] = "Der Brunnen der Ewigkeit";
 L["Quest_30099_FollowQuest"] = "Die Selbstherrlichen";
 
@@ -3582,7 +3266,6 @@ L["Quest_30100_Name"] = "Die Selbstherrlichen";
 L["Quest_30100_Objective"] = "Beseitigt Königin Azshara.";
 L["Quest_30100_Location"] = "Nozdormu (Brunnen der Ewigkeit; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_30100_Note"] = "Königen Azshara ist bei "..YELLOW.."[2]"..WHITE..".";
-L["Quest_30100_RewardText"] = AQ_NONE;
 L["Quest_30100_PreQuest"] = "In Scharen";
 L["Quest_30100_FollowQuest"] = "Der Weg zur Drachenseele";
 
@@ -3603,7 +3286,6 @@ L["Quest_30102_Name"] = "Die Stunde des Zwielichts";
 L["Quest_30102_Objective"] = "Sprecht mit Thrall in der Stunde des Zwielichts.";
 L["Quest_30102_Location"] = "Chromie (Brunnen der Ewigkeit; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_30102_Note"] = "Thrall befindet sich innerhalb der Instanz am Eingang.";
-L["Quest_30102_RewardText"] = AQ_NONE;
 L["Quest_30102_FollowQuest"] = "Auf zum Wyrmruhtempel!";
 
 L["Quest_30103_Name"] = "Auf zum Wyrmruhtempel!";
@@ -3623,14 +3305,12 @@ L["Quest_29801_Name"] = "Bewährungsprobe";
 L["Quest_29801_Objective"] = "Bestehlt Hagara die Sturmbinderin im Auge der Ewigkeit in der Drachenseeleninstanz und beschafft Euch so einen Entschlüsselungsring des Kryptomanten.";
 L["Quest_29801_Location"] = "Lord Afrasastrasz (Drachenseele; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_29801_Note"] = "Dies ist eine Schurkenquest. Diese und folgenden Questen können nicht mit dem Raidfinder angeschlosssen werden. Hagara die Sturmbinderin ist bei "..YELLOW.."[4]"..WHITE..". Es können mehrer Schurken in einem Schlachtzug dabei sein nur muß der Boss zwischendurch resettet werden.";
-L["Quest_29801_RewardText"] = AQ_NONE;
 L["Quest_29801_FollowQuest"] = "Eine verborgene Botschaft -> Gelege im Gehege";
 
 L["Quest_30107_Name"] = "Gelege im Gehege";
 L["Quest_30107_Objective"] = "Sammelt 333 schattenhafte Edelsteine durch das Plündern von Elementiumedelsteinformationen von den Kreaturen in der Drachenseeleninstanz.";
 L["Quest_30107_Location"] = "Furion (Vorgebirge des Hügellands - Rabenholdtanwesen; "..YELLOW.."71.4, 45.6"..WHITE..")";
 L["Quest_30107_Note"] = "Die Elementiumedelsteinformationen droppen nicht im Raidfinder. Du bekommst 1 im 10'er Schlachtzug und 2 bis 3 im 25'er. Die Elementiumsteinformationen beinhalten 3 - 9 schattenhafte Edelsteine.\n\nWenn Du mehr als 333 sammelst, behalte diese. Die die Du über hast zählen dann für eine späterer Quest.";
-L["Quest_30107_RewardText"] = AQ_NONE;
 L["Quest_30107_PreQuest"] = "Bewährungsprobe -> Es ist vollbracht";
 L["Quest_30107_FollowQuest"] = "Der Spitzel von Karazhan -> Wetzt Eure Klauen";
 
@@ -3638,7 +3318,6 @@ L["Quest_30116_Name"] = "Wetzt Eure Klauen";
 L["Quest_30116_Objective"] = "Sammelt 60 Elementiumedelsteinformationen von den Kreaturen in der Drachenseeleninstanz.";
 L["Quest_30116_Location"] = "Furion (Vorgebirge des Hügellands - Rabenholdtanwesen; "..YELLOW.."71.4, 45.6"..WHITE..")";
 L["Quest_30116_Note"] = "Die Elementiumedelsteinformationen droppen nicht im Raidfinder. Du bekommst 1 im 10'er Schlachtzug und 2 bis 3 im 25'er.";
-L["Quest_30116_RewardText"] = AQ_NONE;
 L["Quest_30116_PreQuest"] = "Gelege im Gehege -> Sieg in den Tiefen";
 L["Quest_30116_FollowQuest"] = "Vatermord";
 
@@ -3665,7 +3344,6 @@ L["Quest_31031_Name"] = "Ins Kloster";
 L["Quest_31031_Objective"] = "Trefft Ban Bärenherz im Shado-Pan-Kloster.";
 L["Quest_31031_Location"] = "Ban Bärenherz (Kun-Lai-Gipfel - Shado-Pan-Kloster; "..YELLOW.."36.6, 47.9"..WHITE..")";
 L["Quest_31031_Note"] = "Ban Bärenherz (Shado-Pan-Kloster; "..BLUE.."Eingang"..WHITE..")";
-L["Quest_31031_RewardText"] = AQ_NONE;
 L["Quest_31031_PreQuest"] = "Unglaublich! -> In den Schlund des Hasses";
 L["Quest_31031_FollowQuest"] = "Der Herr der Shado-Pan";
 
@@ -3686,7 +3364,6 @@ L["Quest_30085_Name"] = "In die Brauerrei";
 L["Quest_30085_Objective"] = "Sprecht mit Chen Sturmbräu in der Brauerei Sturmbräu.";
 L["Quest_30085_Location"] = "Chen Sturmbräu (Tal der vier Winde - Brauerei Sturmbräu; "..YELLOW.."36.0, 68.8"..WHITE..")";
 L["Quest_30085_Note"] = "Yan-Zhu der Dekantierte ist bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_30085_RewardText"] = AQ_NONE;
 L["Quest_30085_PreQuest"] = "Weg frei -> Hausputz";
 L["Quest_30085_FollowQuest"] = "Ärger aus dem Fass";
 
@@ -3727,7 +3404,6 @@ L["Quest_33020_Name"] = "Das verlorene Geheimnis der Geheimzutat";
 L["Quest_33020_Objective"] = "Besiegt das Sha des Zweifels.";
 L["Quest_33020_Location"] = "Lin Chao-Wei (Zeitlose Insel - Alt Pi'Jiu "..YELLOW.."41.0, 73.8"..WHITE..")";
 L["Quest_33020_Note"] = "Das Sha des Zweifels ist bei "..YELLOW.."[4]"..WHITE..".Direkt neben dem Sha des Zorns liegt die Schriftrolle die Du anklicken mußt.\n\nDie Vorquest startet auf der Zeitlosen Insel bei "..YELLOW.."52.0, 46.0"..WHITE..".";
-L["Quest_33020_RewardText"] = AQ_NONE;
 L["Quest_33020_PreQuest"] = "Lang vergessene Nudelgeheimnisse";
 L["Quest_33020_FollowQuest"] = "Schlechtes Gefühl, schlechteres Ergebnis";
 
@@ -3735,7 +3411,6 @@ L["Quest_33107_Name"] = "Schlechtes Gefühl, schlechteres Ergebnis";
 L["Quest_33107_Objective"] = "Besiegt den Geist von Lin Da-Gu.";
 L["Quest_33107_Location"] = "Lin's Familienschriftrolle (Tempel der Jadeschlange; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_33107_Note"] = "Lin's Familienschriftrolle erscheint nachdem der Sha des Zweifels besiegt wurde.  Lest die Schriftrolle und besiegt den Geist von Lin Da-Gu.";
-L["Quest_33107_RewardText"] = AQ_NONE;
 L["Quest_33107_PreQuest"] = "Das verlorene Geheimnis der Geheimzutat";
 L["Quest_33107_FollowQuest"] = "Auf ewig verlorene Geheimnisse?";
 
@@ -3743,7 +3418,6 @@ L["Quest_31363_Name"] = "Gebt das Signal";
 L["Quest_31363_Objective"] = "Entfacht die Signalflamme.";
 L["Quest_31363_Location"] = "Bogenmeisterin Li (Das Tor der Untergehenden Sonne; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31363_Note"] = "Wenn Du beim 2. Boss auf der Plattform bist, klicke die Kanone an und zerstöre die Bomber. Danach gehe runter, klick die Lunte an um das Signalfeuer zu entfachen.";
-L["Quest_31363_RewardText"] = AQ_NONE;
 
 L["Quest_31364_Name"] = "Was für ein Brocken!";
 L["Quest_31364_Objective"] = "Tötet Raigonn.";
@@ -3755,7 +3429,6 @@ L["Quest_31365_Name"] = "Irgendwo da drinnen";
 L["Quest_31365_Objective"] = "Rettet 12 gefangene Shado-Pan.";
 L["Quest_31365_Location"] = "Shado-Master Chum Kiu (Belagerung des Niuzaotempels; "..BLUE.."Eingang"..WHITE..")";
 L["Quest_31365_Note"] = "Die gefangenen Shado-Pan sind überall in der Instanz verteilt.";
-L["Quest_31365_RewardText"] = AQ_NONE;
 
 L["Quest_31366_Name"] = "Schaltet den Schwadronsführer aus";
 L["Quest_31366_Objective"] = "Tötet Schwadronsführer Ner'onok.";
@@ -3821,21 +3494,18 @@ L["Quest_33147_Name"] = "Y'Shaarjs letzter Atemzug";
 L["Quest_33147_Objective"] = "Sprecht mit Lehrensucher Cho in der Schlacht um Orgrimmar.";
 L["Quest_33147_Location"] = "Lehrensucher Cho (Schlacht um Orgrimmar; "..YELLOW.."[14}"..WHITE..")";
 L["Quest_33147_Note"] = "Lehrensucher Cho erscheint nachdem der Boss Garrosh besiegt wurde und startet dann die Quest ";
-L["Quest_33147_RewardText"] = AQ_NONE;
 L["Quest_33147_FollowQuest"] = "Warum kämpfen wir?";
 
 L["Quest_33138_Name"] = "Warum kämpfen wir?";
 L["Quest_33138_Objective"] = "Lehrensucher Cho möchte sich mit Euch im Tal der Ewigen Blüten unterhalten.";
 L["Quest_33138_Location"] = "Lehrensucher Cho (Tal der Ewigen Blüte - Mogu'shan Palast; "..YELLOW.."67.4, 45.6"..WHITE..")";
 L["Quest_33138_Note"] = "Trefft Lehrensucher Cho im Tal der Ewigen Blüte und hört bzw seht euch seine Geschichte an.";
-L["Quest_33138_RewardText"] = AQ_NONE;
 L["Quest_33138_PreQuest"] = "Y'Shaarjs letzter Atemzug";
 
 L["Quest_33337_Name"] = "Eine Vision in der Zeit";
 L["Quest_33337_Objective"] = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar.";
 L["Quest_33337_Location"] = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")";
 L["Quest_33337_Note"] = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!";
-L["Quest_33337_RewardText"] = AQ_NONE;
 L["Quest_33337_PreQuest"] = "Eine zeitlose Entdeckungsreise -> Die Macht des Stundenglases";
 L["Quest_33337_FollowQuest"] = "Die Vision genauer bestimmen";
 
@@ -3843,7 +3513,6 @@ L["Quest_33375_Name"] = "Die Vision genauer bestimmen";
 L["Quest_33375_Objective"] = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar.";
 L["Quest_33375_Location"] = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")";
 L["Quest_33375_Note"] = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!";
-L["Quest_33375_RewardText"] = AQ_NONE;
 L["Quest_33375_PreQuest"] = "Eine Vision in der Zeit";
 L["Quest_33375_FollowQuest"] = "Suche nach Bestimmung";
 
@@ -3851,7 +3520,6 @@ L["Quest_33376_Name"] = "Suche nach Bestimmung";
 L["Quest_33376_Objective"] = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar.";
 L["Quest_33376_Location"] = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")";
 L["Quest_33376_Note"] = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!";
-L["Quest_33376_RewardText"] = AQ_NONE;
 L["Quest_33376_PreQuest"] = "Die Vision genauer bestimmen";
 L["Quest_33376_FollowQuest"] = "Verborgene Stränge";
 
@@ -3859,7 +3527,6 @@ L["Quest_33377_Name"] = "Verborgene Stränge";
 L["Quest_33377_Objective"] = "Verwendet die Vision der Zeit in der Schlacht um Orgrimmar.";
 L["Quest_33377_Location"] = "Kairoz (Zeitlose Insel - Der Hof der Erhabenen; "..YELLOW.."34.6, 53.6"..WHITE..")";
 L["Quest_33377_Note"] = "Betrete den Schlachtzug während Du in einer Raidgruppe bist und benutze die Vision der Zeit um diese Quest abzuschließen.\nEs müssen keine Boss besiegt geschweige den alle besiegt worden sein um diese Quest zu beenden, außer im LFR da müssen alle besiegt sein!";
-L["Quest_33377_RewardText"] = AQ_NONE;
 L["Quest_33377_PreQuest"] = "Suche nach Bestimmung";
 L["Quest_33377_FollowQuest"] = "Das Schicksal herausfordern";
 
@@ -3909,7 +3576,6 @@ L["Quest_36316_Name"] = "Der Sieg ist nahe";
 L["Quest_36316_Objective"] = "Holt einen Windsturm in der Flasche von der Himmelsnadel.";
 L["Quest_36316_Location"] = "Reshad (Spitzen von Arak - Terrokversteck; "..YELLOW.."46.5, 46.6"..WHITE..")";
 L["Quest_36316_Note"] = "Töte alle Bosse dieser Instanz um diese Quest zu beenden.";
-L["Quest_36316_RewardText"] = AQ_NONE;
 L["Quest_36316_PreQuest"] = "Auf schwarzen Schwingen-> Wege des Ruhms";
 
 L["Quest_37147_Name"] = "Himmelstänzer";
@@ -4362,25 +4028,21 @@ L["Quest_39499_Name"] = "Brunnen der Seelen";
 L["Quest_39499_Objective"] = "Sammelt 4 Seelenrückstände von Blutschatten in der normalen Version der Höllenfeuerzitadelle.";
 L["Quest_39499_Location"] = "Erzmagier Khadgar (Höllenfeuerzitadelle "..BLUE.."EINGANG"..WHITE..")";
 L["Quest_39499_Note"] = "Diese Quest ist für den normalen Schwierigkeitsgrad.  Erzmagier Khadgar erscheint nach der Vernichtung des ersten Bosses. Jedesmal wenn Du Blutschatten bei "..YELLOW.."[3]"..WHITE.." besiegst, bekommt Du ein Seelenrückstand. Nach Beendigung dieser Quest kannst Du Dich danach immer in die oberen Ebenen der Instanz porten und somit die ersten Bosse umgehen ";
-L["Quest_39499_RewardText"] = AQ_NONE;
 
 L["Quest_39500_Name"] = "Brunnen der Seelen (Heroisch)";
 L["Quest_39500_Objective"] = "Sammelt 4 Seelenrückstände von Blutschatten in der heroischen Version der Höllenfeuerzitadelle.";
 L["Quest_39500_Location"] = "Erzmagier Khadgar (Höllenfeuerzitadelle "..BLUE.."EINGANG"..WHITE..")";
 L["Quest_39500_Note"] = "Diese Quest ist für den heroischen Schwierigkeitsgrad.  Erzmagier Khadgar erscheint nach der Vernichtung des ersten Bosses. Jedesmal wenn Du Blutschatten bei "..YELLOW.."[3]"..WHITE.." besiegst, bekommt Du ein Seelenrückstand. Nach Beendigung dieser Quest kannst Du Dich danach immer in die oberen Ebenen der Instanz porten und somit die ersten Bosse umgehen ";
-L["Quest_39500_RewardText"] = AQ_NONE;
 
 L["Quest_39501_Name"] = "Brunnen der Seelen";
 L["Quest_39501_Objective"] = "Sammelt 4 Seelenrückstände von Blutschatten in der mythischen Version der Höllenfeuerzitadelle.";
 L["Quest_39501_Location"] = "Erzmagier Khadgar (Höllenfeuerzitadelle "..BLUE.."EINGANG"..WHITE..")";
 L["Quest_39501_Note"] = "Diese Quest ist für den mythischen Schwierigkeitsgrad.  Erzmagier Khadgar erscheint nach der Vernichtung des ersten Bosses. Jedesmal wenn Du Blutschatten bei "..YELLOW.."[3]"..WHITE.." besiegst, bekommt Du ein Seelenrückstand. Nach Beendigung dieser Quest kannst Du Dich danach immer in die oberen Ebenen der Instanz porten und somit die ersten Bosse umgehen ";
-L["Quest_39501_RewardText"] = AQ_NONE;
 
 L["Quest_39830_Name"] = "Höllenfeuerzitadelle: Höllenfeuer und Schwefel";
 L["Quest_39830_Objective"] = "Stürmt gemeinsam mit Euren Mitstreitern die Höllenfeuerzitadelle. Besiegt dort Archimonde und entwendet ihm den Höllenkodex.";
 L["Quest_39830_Location"] = "Mama Buddel (Dalaran; "..YELLOW.."46.2, 26.4"..WHITE..")";
 L["Quest_39830_Note"] = "Bergbauerquest.  Besiege den Endboss für den Questgegenstand.  Bringe es zurück nach Dalaran.";
-L["Quest_39830_RewardText"] = AQ_NONE;
 L["Quest_39830_PreQuest"] = "Infernoschwefelanalyse -> Das Geheimnis des Schwefels";
 
 L["Quest_39221_Name"] = "Die Gruben des Mannoroth";
@@ -4441,13 +4103,11 @@ L["Quest_40878_Name"] = "Von der Schippe springen";
 L["Quest_40878_Objective"] = "Stellt 2 Fehlschlagdetektorpylonen her. Besorgt dann in der Violetten Festung einen plasmatischen Laserriegel und bringt anschließend alles zu Didi Biegezange in Dalaran.";
 L["Quest_40878_Location"] = "Didi Biegezange (Dalaran - Handelsmarkt der Magier; "..YELLOW.."38.6, 25.0"..WHITE..")";
 L["Quest_40878_Note"] = "Ingeneursquest.  Stelle 2 Fehlschlagdetektorpylonen her.  Der plasmatische Laserriegel ist in der Rückseite der Zelle des zweiten Bosses (welches ein Random Boss ist).  Die Belohnung lehrt Dich eine neue Ingenieurvorlage.";
-L["Quest_40878_RewardText"] = AQ_NONE;
 
 L["Quest_44887_Name"] = "Befehle aufdecken";
 L["Quest_44887_Objective"] = "Sammelt das Fragment der Bösartigkeit in der Rabenwehr (Mythisch), das Fragment der Macht in der Violetten Festung (Mythisch) und das Fragment der Folter im Verlies der Wächterinnen (Mythisch).";
 L["Quest_44887_Location"] = "Erzmagier Khadgar (Dalaran - Violette Zitadelle; "..YELLOW.."28.8, 48.6"..WHITE..")";
 L["Quest_44887_Note"] = "Karazhan Einstimmung Questreihe.  Kann nur auf dem Schwierigkeitsgrad Mythisch oder höher abgeschlossen werden.";
-L["Quest_44887_RewardText"] = AQ_NONE;
 L["Quest_44887_PreQuest"] = "Edikt des Gottkönigs -> Unerwünschte Beweise";
 L["Quest_44887_FollowQuest"] = "Aura der Ungewissheit";
 
@@ -4455,7 +4115,6 @@ L["Quest_38965_Name"] = "In die Festung";
 L["Quest_38965_Objective"] = "Begebt Euch zur Violetten Festung und findet heraus, was Lyndras zugestoßen ist.";
 L["Quest_38965_Location"] = "Wache der Violetten Festung (Dalaran - Die Violette Festung; "..YELLOW.."65.2, 67.4"..WHITE..")";
 L["Quest_38965_Note"] = "Scheindereiquest.  Erbeutet den Schlüssel vom Endboss, öffnet Lyndras Gefängniszelle und besiegt sie.  Lyndras hat so viel Gesundheit wie ein Raremob, also kannst du ihn wahrscheinlich selbst besiegen, wenn es nötig ist.";
-L["Quest_38965_RewardText"] = AQ_NONE;
 L["Quest_38965_PreQuest"] = "Wo ist Lyndras jetzt hin? -> Wo ist Lyndras hin: Leyflammenraub";
 L["Quest_38965_FollowQuest"] = "Geheime Seidenwebermethoden";
 
@@ -4463,7 +4122,6 @@ L["Quest_43487_Name"] = "Das Teufelslexikon";
 L["Quest_43487_Objective"] = "Besorgt Euch ein Teufelslexikon von einem mächtigen Gefangenen in der Violetten Festung.";
 L["Quest_43487_Location"] = "Delas Mondfang (Dalaran - Netherlichttempel "..YELLOW.."44.8, 22.7"..WHITE..")";
 L["Quest_43487_Note"] = "Diese Quest ist ein Teil von der Paladin Ordenshallenkampangne und kann auf der normalen oder heroischen Schwierigkeit abgeschlossen werden.  Das Teufelslexikon droppt vom Zweiten bis zum Letzten Boss der Instanz.";
-L["Quest_43487_RewardText"] = AQ_NONE;
 L["Quest_43487_PreQuest"] = "Den Kodex knacken";
 
 L["Quest_43545_Name"] = "Der Herr der Rabenwehr";
@@ -4488,44 +4146,37 @@ L["Quest_43714_Name"] = "Schlimmer geht's nicht";
 L["Quest_43714_Objective"] = "Tötet Braxas der Fleischschnitzer und Dantalionax.";
 L["Quest_43714_Location"] = "";
 L["Quest_43714_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43714_RewardText"] = AQ_NONE;
 
 L["Quest_43762_Name"] = "Tod des Verräters";
 L["Quest_43762_Objective"] = "Tötet Kelorn Nachtklinge und Dantalionax.";
 L["Quest_43762_Location"] = "";
 L["Quest_43762_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43762_RewardText"] = AQ_NONE;
 
 L["Quest_43642_Name"] = "Der Kummer";
 L["Quest_43642_Objective"] = "Tötet General Tel'arn, Waldläufergeneralin Feleor und Dantallionax.";
 L["Quest_43642_Location"] = "";
 L["Quest_43642_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43642_RewardText"] = AQ_NONE;
 
 L["Quest_43712_Name"] = "Der verrückte Arkanist";
 L["Quest_43712_Objective"] = "Tötet Erzmagier Galeorn und Dantalionax.";
 L["Quest_43712_Location"] = "";
 L["Quest_43712_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43712_RewardText"] = AQ_NONE;
 
 L["Quest_43711_Name"] = "...Mit Feuer!";
 L["Quest_43711_Objective"] = "Tötet die Uralte Witwe und Dantalionax.";
 L["Quest_43711_Location"] = "";
 L["Quest_43711_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43711_RewardText"] = AQ_NONE;
 
 L["Quest_43506_Name"] = "Größere Macht";
 L["Quest_43506_Objective"] = "Besiegt Lord Kur'talos Rabenkrone und besorgt einen großen dämonischen Runenstein von Dantalionax in der Rabenwehr.";
 L["Quest_43506_Location"] = "Odyn (Himmelsfeste; "..YELLOW.."58.4, 82.8"..WHITE..")";
 L["Quest_43506_Note"] = "Kriegerquest.  Diese bekommst Du nach Abschluß der Quest Dämonische Runen.  Lord Kur'talos Rabenkrone und Dantalionax sind die letzen Bosse der Instanz, bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_43506_RewardText"] = AQ_NONE;
 L["Quest_43506_PreQuest"] = "Dämonische Runen";
 
 L["Quest_39349_Name"] = "Schwer, aber hilfreich";
 L["Quest_39349_Objective"] = "Besorgt etwas Sabelitsulfat aus der Rabenwehr (Heroisch), stellt ein Fläschchen der zahllosen Armeen her und bringt beide Gegenstände zu Alard in Dalaran.";
 L["Quest_39349_Location"] = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")";
 L["Quest_39349_Note"] = "Alchimiequest.  Benötigt Heroische Schwierigkeit.  Das Sabelitsulfat ist bei der Unterseite der Haupttreppe die von einem blutsaugenden Teufelshund bewacht wird.  Das Fläschen musst du selbst herstellen.";
-L["Quest_39349_RewardText"] = AQ_NONE;
 L["Quest_39349_PreQuest"] = "Hallen der Tapferkeit: Die Hauptzutat";
 L["Quest_39349_FollowQuest"] = "Der Smaragdgrüne Alptraum: Tobendes Feuer";
 
@@ -4533,7 +4184,6 @@ L["Quest_40559_Name"] = "Die Weisheit des Raben";
 L["Quest_40559_Objective"] = "Geht zur Rabenwehr, findet ein Buch über Juwelierskunst und bringt es Jonas Timotheus in Dalaran.";
 L["Quest_40559_Location"] = "Jonas Timotheus (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")";
 L["Quest_40559_Note"] = "Juweliersquest.  Normale oder Heroische Schwierigkeit.  Das Buch befindet sich in der Nähe des zweiten Bosses, Illysanna Rabenkrone.  Töte den Endboss um die Quest abzuschließen.";
-L["Quest_40559_RewardText"] = AQ_NONE;
 L["Quest_40559_PreQuest"] = "Der Seelenschlund: Einmal Tod und zurück";
 L["Quest_40559_FollowQuest"] = "Eine persönliche Note";
 
@@ -4541,7 +4191,6 @@ L["Quest_43493_Name"] = "Lord Rabenkrone";
 L["Quest_43493_Objective"] = "Bezwingt Lord Kur'talos Rabenkrone in der Rabenwehr.";
 L["Quest_43493_Location"] = "Lord Grayson Schattenbruch (Östliche Pestländer - Das Sanktum des Lichts; "..YELLOW.."76.8, 50.8"..WHITE..")";
 L["Quest_43493_Note"] = "Paladinquest.  Normale oder Heroische Schwierigkeit.  Lord Kur'talos Ravenkrone ist der Endboss.";
-L["Quest_43493_RewardText"] = AQ_NONE;
 L["Quest_43493_PreQuest"] = "Übersetzung: Gefahr!";
 L["Quest_43493_FollowQuest"] = "Der Teufelsfeuervorstoß";
 
@@ -4549,7 +4198,6 @@ L["Quest_42678_Name"] = "Zur Rabenwehr";
 L["Quest_42678_Objective"] = "Stellt eine Gruppe zusammen und betretet die Rabenwehr, um das Rabenauge von Dantalionax zu holen";
 L["Quest_42678_Location"] = "Valeera Sanguinar (Dalaran - Die Halle der Schatten; "..YELLOW.."42.2, 77.0"..WHITE..")";
 L["Quest_42678_Note"] = "Schurkenquest.  Normale oder Heroische Schwierigkeit.   Dantalionax ist der Endboss.";
-L["Quest_42678_RewardText"] = AQ_NONE;
 L["Quest_42678_PreQuest"] = "Ewige Unruhe";
 L["Quest_42678_FollowQuest"] = "Entschlüsseln des Briefes";
 
@@ -4557,7 +4205,6 @@ L["Quest_42098_Name"] = "Eine herrenlose Seele";
 L["Quest_42098_Objective"] = "Besorgt eine herrenlose Seele vom Amalgam der Seelen in der Rabenwehr.";
 L["Quest_42098_Location"] = "Ritssyn Flammengroll (Schreckensnarbe; "..YELLOW.."55.6, 37.2"..WHITE..")";
 L["Quest_42098_Note"] = "Hexenmeisterquest.  Normale oder Heroische Schwierigkeit.  Die herrenlose Seele droppt vom ersten Boss, beende die Dungeon um die Quest abzuschließen.";
-L["Quest_42098_RewardText"] = AQ_NONE;
 L["Quest_42098_PreQuest"] = "Ein Blick in das Vergessen";
 L["Quest_42098_FollowQuest"] = "Leuchtfeuer der Seele";
 
@@ -4571,19 +4218,16 @@ L["Quest_42769_Name"] = "Der Hof der Sterne: Bringt mir die Augen";
 L["Quest_42769_Objective"] = "Tötet Velimar und Berater Melandrus.";
 L["Quest_42769_Location"] = "";
 L["Quest_42769_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42769_RewardText"] = AQ_NONE;
 
 L["Quest_42781_Name"] = "Der Hof der Sterne: Entwaffnung der Wache";
 L["Quest_42781_Objective"] = "Sammelt 6 Bewaffnung der Nachtwächter und tötet Berater Melandrus.";
 L["Quest_42781_Location"] = "";
 L["Quest_42781_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42781_RewardText"] = AQ_NONE;
 
 L["Quest_42784_Name"] = "Die hinterlistige Schülerin";
 L["Quest_42784_Objective"] = "Tötet Arkanistin Malrodi und Berater Melandrus.";
 L["Quest_42784_Location"] = "";
 L["Quest_42784_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42784_RewardText"] = AQ_NONE;
 
 L["Quest_43314_Name"] = "Fürchtet den Zorn eines geduldigen Elfen";
 L["Quest_43314_Objective"] = "Betretet die Dungeon 'Der Hof der Sterne' und tötet Berater Melandrus. Nehmt ihm seinen Zauberstein ab und bringt ihn Thalyssra.";
@@ -4619,25 +4263,21 @@ L["Quest_42745_Name"] = "Bärendienst";
 L["Quest_42745_Objective"] = "Tötet 9 Bären und das Schemen von Xavius.";
 L["Quest_42745_Location"] = "";
 L["Quest_42745_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42745_RewardText"] = AQ_NONE;
 
 L["Quest_42743_Name"] = "Kudzilla";
 L["Quest_42743_Objective"] = "Tötet Kudzilla und das Schemen von Xavius.";
 L["Quest_42743_Location"] = "";
 L["Quest_42743_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42743_RewardText"] = AQ_NONE;
 
 L["Quest_42744_Name"] = "Bewahrung der Bewahrer";
 L["Quest_42744_Objective"] = "Belebt 5 Bewahrer wieder und tötet das Schemen von Xavius.";
 L["Quest_42744_Location"] = "";
 L["Quest_42744_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42744_RewardText"] = AQ_NONE;
 
 L["Quest_42742_Name"] = "Zornfäule";
 L["Quest_42742_Objective"] = "Tötet Zornfäule und das Schemen von Xavius.";
 L["Quest_42742_Location"] = "";
 L["Quest_42742_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42742_RewardText"] = AQ_NONE;
 
 L["Quest_38799_Name"] = "Nal'ryssas Schwestern";
 L["Quest_38799_Objective"] = "Findet Lyrelles Siegelring beim Finsterherzdickicht.";
@@ -4657,7 +4297,6 @@ L["Quest_39882_Name"] = "Freundschaft gekündigt";
 L["Quest_39882_Objective"] = "Tötet den Erzdruiden Glaidalis im Finsterherzdickicht und holt Nalamyas Buch der Verzauberungen zurück.";
 L["Quest_39882_Location"] = "Nalamya (Val'sharah - Tempel von Elune; "..YELLOW.."54.4, 57.6"..WHITE..")";
 L["Quest_39882_Note"] = "Verzauberungsquest.  Die Questreihe startet mit der Quest 'Elementare Kräfte' und 'Nichts verschwenden', beide bekommst Du von Guron Zweischwanz (Hochberg - Donnertotem; "..YELLOW.."44.4, 44.2"..WHITE.."). Erzdruide Glaidalis ist der erste Boss.  Diese Quest kannst Du beenden auf Normale und Heroische Schwierigkeit.  Die Belohnung lehrt Dich 'Seegen des Plünderes'.";
-L["Quest_39882_RewardText"] = AQ_NONE;
 L["Quest_39882_PreQuest"] = "Elementare Kräfte, Nichts verschwenden";
 
 L["Quest_41169_Name"] = "Durch den Nebel";
@@ -4671,14 +4310,12 @@ L["Quest_40158_Name"] = "Dämonen das Fell gerben";
 L["Quest_40158_Objective"] = "Geht ins Finsterherzdickicht und tötet Dresaron. Häutet ihn und bringt seine Haut zu Ske'rit in Suramar.";
 L["Quest_40158_Location"] = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")";
 L["Quest_40158_Note"] = "Kürschnereiquest.  Normale oder Heroische Schwierigkeit.  Dieser Gegenstand bekommst Du nur von Dresaron, wenn Du ihn kürschnert.  Dresaron ist der dritte Boss.";
-L["Quest_40158_RewardText"] = AQ_NONE;
 L["Quest_40158_PreQuest"] = "Eine unziemliche Aufgabe";
 
 L["Quest_43572_Name"] = "Die Alptraumpeitsche";
 L["Quest_43572_Objective"] = "Holt die Alptraumpeitsche aus dem Finsterherzdickicht.";
 L["Quest_43572_Location"] = "Salanar der Reiter (Schwarze Festung; "..YELLOW.."98.8, 59.2"..WHITE..")";
 L["Quest_43572_Note"] = "Todesritterquest.  Normale oder Heroische Schwierigkeit.  Die Alptraumpeitsche droppt vom Endboss.";
-L["Quest_43572_RewardText"] = AQ_NONE;
 L["Quest_43572_PreQuest"] = "Neltharions Hort: Zopf des Unterkönigs";
 L["Quest_43572_FollowQuest"] = "Rüstung eines wahren Todesgebieters";
 
@@ -4686,38 +4323,32 @@ L["Quest_44076_Name"] = "Essenz des Nachwachsens";
 L["Quest_44076_Objective"] = "Beschafft 1 Essenz des Nachwachsens von Eichenherz im Finsterherzdickicht und besiegt dann den Schemen von Xavius.";
 L["Quest_44076_Location"] = "Schimmer von Aessina (Smaragdgrüne Traumpfad; "..YELLOW.."40.8, 58.6"..WHITE..")";
 L["Quest_44076_Note"] = "Druidenkampagne.  Normale oder Heroische Schwierigkeit.  Die Essenz des Nachwachsens droppt vom zweiten Boss, Eichenherz.  Dann besiegt das Schmen von Xavius um die Quest zu beenden.  Gebe die Quest ab bei Bewahrer Remulos im Hain der Träume ; "..YELLOW.."44.8, 50.6"..WHITE..".";
-L["Quest_44076_RewardText"] = AQ_NONE;
 
 L["Quest_42654_Name"] = "Alptraumeichenholz";
 L["Quest_42654_Objective"] = "Besorgt Alptraumeichenholz von Eichenherz im Finsterherzdickicht..";
 L["Quest_42654_Location"] = "Halduron Wolkenglanz (Hochberg - Volltrefferhütte; "..YELLOW.."42.8, 6.0"..WHITE..")";
 L["Quest_42654_Note"] = "Jägerquest.  Normale oder Heroische Schwierigkeit.  Das Alptraumeichenholz droppt vom zweiten Boss, Eichenherz.  Dann besiegt das Schmen von Xavius um die Quest zu beenden.";
-L["Quest_42654_RewardText"] = AQ_NONE;
 L["Quest_42654_PreQuest"] = "Die Verbündeten alarmieren";
 
 L["Quest_42712_Name"] = "Das Auge Azsharas: Verzwickte Lage";
 L["Quest_42712_Objective"] = "Tötet Gom Krabbar und Azsharas Zorn.";
 L["Quest_42712_Location"] = "";
 L["Quest_42712_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42712_RewardText"] = AQ_NONE;
 
 L["Quest_42713_Name"] = "Das Auge Azsharas: Schneckentempo";
 L["Quest_42713_Objective"] = "Tötet Panzermaul und Azsharas Zorn.";
 L["Quest_42713_Location"] = "";
 L["Quest_42713_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42713_RewardText"] = AQ_NONE;
 
 L["Quest_42746_Name"] = "Das Auge Azsharas: Abgewrackt";
 L["Quest_42746_Objective"] = "Tötet Schreckenskapitän Thedon und Azsharas Zorn.";
 L["Quest_42746_Location"] = "";
 L["Quest_42746_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42746_RewardText"] = AQ_NONE;
 
 L["Quest_42755_Name"] = "Das Auge Azsharas: Azsunianische Perlen";
 L["Quest_42755_Objective"] = "Sammelt 5 Riesige Azsunaperle und tötet Azsharas Zorn.";
 L["Quest_42755_Location"] = "";
 L["Quest_42755_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42755_RewardText"] = AQ_NONE;
 
 L["Quest_38286_Name"] = "Azsharas Zorn";
 L["Quest_38286_Objective"] = "Begebt Euch in das Auge Azsharas und besiegt dann Kriegsherr Parjesh und Azsharas Zorn.";
@@ -4738,34 +4369,29 @@ L["Quest_42719_Name"] = "Säuberung des Traumpfads";
 L["Quest_42719_Objective"] = "Sammelt 25 Einheiten verfeinertes Wasser von den Naga im Auge Azsharas.";
 L["Quest_42719_Location"] = "Funkelchen (fliegt um den Smaragdgrüne Traumpfad).";
 L["Quest_42719_Note"] = "Druidenquest.  Alle Naga in der Dungeon können das verfeinertes Wasser droppen.  Die Quest bringt Dich zurück zu Funkelchen.";
-L["Quest_42719_RewardText"] = AQ_NONE;
 L["Quest_42719_PreQuest"] = "Azsharas Zorn";
 
 L["Quest_40668_Name"] = "Das Herz von Zin-Azshari";
 L["Quest_40668_Objective"] = "Besorgt das Herz von Zin-Azshari und besiegt Azsharas Zorn im Auge Azsharas auf dem Schwierigkeitsgrad 'Mythisch'.";
 L["Quest_40668_Location"] = "Senegos (Azsuna - Azurschwingen Rast; "..YELLOW.."48.2, 25.6"..WHITE..")";
 L["Quest_40668_Note"] = "Diese Quest kann nur auf dem Schwierigkeitsgrad Mythisch erledigt werden.   Dies ist ein Teil der Artefaktwaffe Questreihe.  Das Herz von Zin'Azshari droppt vom Endboss, bei "..YELLOW.."[5]"..WHITE..".";
-L["Quest_40668_RewardText"] = AQ_NONE;
 
 L["Quest_43378_Name"] = "Blick durch die Linse";
 L["Quest_43378_Objective"] = "Beschafft die Linse der Gezeiten von Lady Hassnatter im Auge Azsharas.";
 L["Quest_43378_Location"] = "Yalia Weisenwisper (Azsuna; "..YELLOW.."47.0, 44.0"..WHITE..")";
 L["Quest_43378_Note"] = "Priester Ordenshallenquest.  Diese Quest bringt dich zurück zu Velen in der Priestordenshalle.";
-L["Quest_43378_RewardText"] = AQ_NONE;
 L["Quest_43378_PreQuest"] = "Priesterangelegenheiten -> Salbenlieferung";
 
 L["Quest_38961_Name"] = "Der verkommene Nachtsüchtige";
 L["Quest_38961_Objective"] = "Besiegt Azsharas Zorn im Auge Azsharas und beschafft das Herz des Sturms.";
 L["Quest_38961_Location"] = "Lyndras (Dalaran; "..YELLOW.."36.1, 33.9"..WHITE..")";
 L["Quest_38961_Note"] = "Schneidereiquest.  Besiege den Endboss um die Quest zu beenden und kehre nach Dalaran zurück.";
-L["Quest_38961_RewardText"] = AQ_NONE;
 L["Quest_38961_PreQuest"] = "Wo ist Lyndras jetzt hin? -> Die abschließende Lektion?";
 
 L["Quest_39331_Name"] = "Korken drauf";
 L["Quest_39331_Objective"] = "Geht zum Auge Azsharas und beschafft die verbesserten Korken für Deucus Valdera in Dalaran.";
 L["Quest_39331_Location"] = "Deucus Valdera (Dalaran; "..YELLOW.."41.4, 32.8"..WHITE..")";
 L["Quest_39331_Note"] = "Alchemiequest.  Normale oder Heroische Schwierigkeit.  Der verbesserte Korken ist in einer Kiste nachdem der Endboss besiegt wurde.";
-L["Quest_39331_RewardText"] = AQ_NONE;
 L["Quest_39331_PreQuest"] = "Leyjagd";
 L["Quest_39331_FollowQuest"] = "Furbolgfeuerwasser";
 
@@ -4773,7 +4399,6 @@ L["Quest_40208_Name"] = "Schuppen des Meeres";
 L["Quest_40208_Objective"] = "Begebt Euch zum Auge Azsharas und besorgt von dort Kriegsherr Parjeshs Halsberge.";
 L["Quest_40208_Location"] = "Celea (Azsuna; "..YELLOW.."47.4, 44.2"..WHITE..")";
 L["Quest_40208_Note"] = "Ledererquest.   Normale oder Heroische Schwierigkeit.  Kriegsherr Parjeshs Halsberge droppt vom ersten Boss.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_40208_RewardText"] = AQ_NONE;
 L["Quest_40208_PreQuest"] = "Schuppen des Arkanen";
 L["Quest_40208_FollowQuest"] = "Schuppen der Erde";
 
@@ -4781,7 +4406,6 @@ L["Quest_40154_Name"] = "Die Schuppen von Serpentrix";
 L["Quest_40154_Objective"] = "Besorgt die Schuppen von Serpentrix, indem Ihr Serpentrix im Dungeon 'Azsharas Zorn' häutet.";
 L["Quest_40154_Location"] = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")";
 L["Quest_40154_Note"] = "Kürschnereiquest.  Normale oder Heroische Schwierigkeit.  Die Schuppe von Serpentrix droppt vom dritten Boss.  Du musst ihn nicht kürschnern.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_40154_RewardText"] = AQ_NONE;
 L["Quest_40154_PreQuest"] = "Rückkehr nach Karazhan: Legendäre Schuppen";
 L["Quest_40154_FollowQuest"] = "Ske'rits Notizen zur Schuppenkürschnerei";
 
@@ -4789,7 +4413,6 @@ L["Quest_44282_Name"] = "Die gefrorene Seele";
 L["Quest_44282_Objective"] = "Beschafft den Eisseelenanhänger von Azsharas Zorn.";
 L["Quest_44282_Location"] = "Amal'thazad (Schwarze Festung; "..YELLOW.."57.8, 31.8"..WHITE..")";
 L["Quest_44282_Note"] = "Todesritterquest.  Normale oder Heroische Schwierigkeit.  Der Eisseelenanhänger droppt vom Endboss.";
-L["Quest_44282_RewardText"] = AQ_NONE;
 L["Quest_44282_PreQuest"] = "Champion: Moderdarm";
 L["Quest_44282_FollowQuest"] = "Champion: Amal'thazad";
 
@@ -4797,13 +4420,11 @@ L["Quest_44077_Name"] = "Essenz des Gleichgewichts";
 L["Quest_44077_Objective"] = "Beschafft 1 Essenz des Gleichgewichts von Azsharas Zorn.";
 L["Quest_44077_Location"] = "Avatar von Aviana (Smaragdgrüne Traumpfad; "..YELLOW.."30.6, 51.6"..WHITE..")";
 L["Quest_44077_Note"] = "Druidenquest.  Normale oder Heroische Schwierigkeit.  Die Essenz des Gleichgewichts droppt vom Endboss.";
-L["Quest_44077_RewardText"] = AQ_NONE;
 
 L["Quest_42707_Name"] = "Ein magisches Gebrechen";
 L["Quest_42707_Objective"] = "Befüllt eine Phiole mit arkanem Wasser aus Azsharas Zorn.";
 L["Quest_42707_Location"] = "Erzmagier Khadgar (Hallen des Wächters; "..YELLOW.."71.4, 56.0"..WHITE..")";
 L["Quest_42707_Note"] = "Magierquest.  Normale oder Heroische Schwierigkeit.  Benutze die Phiole auf den Körper des Endbosses um die Quest abzuschließen.";
-L["Quest_42707_RewardText"] = AQ_NONE;
 L["Quest_42707_PreQuest"] = "Ein furchtbarer Verlust";
 L["Quest_42707_FollowQuest"] = "Wo ein Wille ist, ist auch ein Weg";
 
@@ -4811,7 +4432,6 @@ L["Quest_42984_Name"] = "Das Szepter der Stürme";
 L["Quest_42984_Objective"] = "Beschafft das Szepter der Stürme von Lady Hassnatter.";
 L["Quest_42984_Location"] = "Elementaristin Janai (Der Mahlstrom; "..YELLOW.."29.4, 77.4"..WHITE..")";
 L["Quest_42984_Note"] = "Schamanenquest.  Normale oder Heroische Schwierigkeit.  Das Szepter der Stürme droppt vom zweiten Boss, Lady Hassnatter.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_42984_RewardText"] = AQ_NONE;
 L["Quest_42984_PreQuest"] = "Mistralessenz";
 
 L["Quest_43509_Name"] = "Odyns Herausforderung";
@@ -4836,38 +4456,32 @@ L["Quest_42241_Name"] = "Eine würdige Herausforderung";
 L["Quest_42241_Objective"] = "Besiegt Volynd Sturmbringer und Odyn.";
 L["Quest_42241_Location"] = "";
 L["Quest_42241_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42241_RewardText"] = AQ_NONE;
 
 L["Quest_42243_Name"] = "Taten der Vergangenheit";
 L["Quest_42243_Objective"] = "Sammelt 3 Bücher der gepriesenen Taten und besiegt Odyn.";
 L["Quest_42243_Location"] = "";
 L["Quest_42243_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42243_RewardText"] = AQ_NONE;
 
 L["Quest_42240_Name"] = "Schwerfällige Wilderei";
 L["Quest_42240_Objective"] = "Besiegt Earlnoc den Bestienbrecher und Odyn.";
 L["Quest_42240_Location"] = "";
 L["Quest_42240_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42240_RewardText"] = AQ_NONE;
 
 L["Quest_42239_Name"] = "Der Bärenkönig";
 L["Quest_42239_Objective"] = "Besiegt Arthfael und Odyn.";
 L["Quest_42239_Location"] = "";
 L["Quest_42239_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42239_RewardText"] = AQ_NONE;
 
 L["Quest_41040_Name"] = "Die Braumeisterin";
 L["Quest_41040_Objective"] = "Sprecht mit Melba in den Hallen der Tapferkeit.";
 L["Quest_41040_Location"] = "Braumeister des Verheerten Tempels (Standort unbekannt)";
 L["Quest_41040_Note"] = "Bringt Dich zu Melba in den Hallen der Tapferkeit.";
-L["Quest_41040_RewardText"] = AQ_NONE;
 L["Quest_41040_FollowQuest"] = "Odyns Kessel";
 
 L["Quest_41059_Name"] = "Odyns Kessel";
 L["Quest_41059_Objective"] = "Holt Odyns Kessel aus den Hallen der Tapferkeit.";
 L["Quest_41059_Location"] = "Melba (Hallen der Tapferkeit; "..YELLOW.."??"..WHITE..")";
 L["Quest_41059_Note"] = "Mönchquest.  Odyns Kessel ist im Herzen der Feste, ein Zimmer mit langen Tischen.  Die Quest bringt dich zu Eisenkörper Ponshu (Wandernde Insel - Tempel der fünf Sonnenaufgänge; "..YELLOW.."51.4, 48.6"..WHITE..").";
-L["Quest_41059_RewardText"] = AQ_NONE;
 L["Quest_41059_PreQuest"] = "Die Braumeisterin";
 L["Quest_41059_FollowQuest"] = "Sturmgebräu";
 
@@ -4890,20 +4504,17 @@ L["Quest_40877_Name"] = "Finger am Abzug";
 L["Quest_40877_Objective"] = "Beschafft den Runenstein der Vitalität von Odyn.";
 L["Quest_40877_Location"] = "Hobart Wurfhammer (Dalaran; "..YELLOW.."38.4, 25.0"..WHITE..")";
 L["Quest_40877_Note"] = "Ingenieursquest.  Wird nach Abschluss anderer Ingenieursquesten zugänglich.  Odyn ist der Endboss bei "..YELLOW.."[5]"..WHITE..".  Die Belohnung lehrt Dir eine neue Ingenieursvorlage.";
-L["Quest_40877_RewardText"] = AQ_NONE;
 
 L["Quest_45422_Name"] = "Edikt des Gottkönigs";
 L["Quest_45422_Objective"] = "Bezwingt Gottkönig Skovald auf dem Schwierigkeitsgrad 'Mythisch'.";
 L["Quest_45422_Location"] = "Karazhan Einstimmung Questreihe.  Kann nur auf dem Schwierigkeitsgrad Mythisch oder höher abgeschlossen werden.";
 L["Quest_45422_Note"] = "Karazhan Einstimmungsquestreihe.  Benötigt Mythisch oder Mythisch+ Schwierigkeit.  Gottkönig Skovald ist bei "..YELLOW.."[4]"..WHITE..".";
-L["Quest_45422_RewardText"] = AQ_NONE;
 L["Quest_45422_FollowQuest"] = "Unerwünschte Beweise";
 
 L["Quest_44886_Name"] = "Unerwünschte Beweise";
 L["Quest_44886_Objective"] = "Bringt das Teufelskristallfragment zu Erzmagier Khadgar in Dalaran.";
 L["Quest_44886_Location"] = "Hallen der Tapferkeit; "..YELLOW.."[4]";
 L["Quest_44886_Note"] = "Karazhan Einstimmungsquestreihe.  Erzmagier Khadgar ist in Dalaran - Violette Zitadelle; "..YELLOW.."28.8, 48.6"..WHITE..".";
-L["Quest_44886_RewardText"] = AQ_NONE;
 L["Quest_44886_PreQuest"] = "Edikt des Gottkönigs";
 L["Quest_44886_FollowQuest"] = "Befehle aufdecken";
 
@@ -4911,21 +4522,18 @@ L["Quest_39904_Name"] = "Die Rache der Verzauberin";
 L["Quest_39904_Objective"] = "Bergt Tigrids Verzauberungsrute und kehrt damit zurück zu ihr nach Sturmheim.";
 L["Quest_39904_Location"] = "Tigrid die Verzaubernde (Sturmheim; "..YELLOW.."39.4, 42.6"..WHITE..")";
 L["Quest_39904_Note"] = "Verzauberkunstquest.  Die Questreihe beginnt in Dalaran im Verzauberungskunstladen.  Tigrids Verzauberungsrute droppt aus der Truhe, nachdem der Endboss besiegt wurde.";
-L["Quest_39904_RewardText"] = AQ_NONE;
 L["Quest_39904_PreQuest"] = "Ein bezauberndes Zuhause";
 
 L["Quest_43377_Name"] = "Das innewohnende Licht";
 L["Quest_43377_Objective"] = "Beschafft einen Funken des Lichts von Hyrja in den Hallen der Tapferkeit.";
 L["Quest_43377_Location"] = "Alonsus Faol (Netherlichttempel; "..YELLOW.."51.2, 48.4"..WHITE..")";
 L["Quest_43377_Note"] = "Priesterquest, Teil der Ordenshallenkampagne.  Beende die Dungeon, dann kehr zurück zu deiner Ordenshalle um die Quest abzuschließen.";
-L["Quest_43377_RewardText"] = AQ_NONE;
 L["Quest_43377_PreQuest"] = "Ordenshallenkampagne";
 
 L["Quest_39348_Name"] = "Die Hauptzutat";
 L["Quest_39348_Objective"] = "Beschafft den Ewigkeitssand , stellt ein Fläschchen der zehntausend Narben her und bringt beide Gegenstände zu Alard nach Dalaran.";
 L["Quest_39348_Location"] = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")";
 L["Quest_39348_Note"] = "Alchemiequest.  Benötigt Heroische Schwierigkeit.  Der Ewigkeitssand droppt vom Endboss.";
-L["Quest_39348_RewardText"] = AQ_NONE;
 L["Quest_39348_PreQuest"] = "Kanalisierung unserer Bemühungen";
 L["Quest_39348_FollowQuest"] = "Der Seelenschlund: Hoffnung in Helheim";
 
@@ -4933,7 +4541,6 @@ L["Quest_39953_Name"] = "Visionen von Tapferkeit";
 L["Quest_39953_Objective"] = "Holt 5 Runensiegel der Valarjar aus den Hallen der Tapferkeit.";
 L["Quest_39953_Location"] = "Professor Pallin (Dalaran; "..YELLOW.."41.4, 37.2"..WHITE..")";
 L["Quest_39953_Note"] = "Inschriftler.  Normale oder Heroische Schwierigkeit.  The Rune-Sigils drop from trash mobs.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_39953_RewardText"] = AQ_NONE;
 L["Quest_39953_PreQuest"] = "Ein merkwürdiges Schmuckstück";
 L["Quest_39953_FollowQuest"] = "Peinliche Offenbarung";
 
@@ -4941,7 +4548,6 @@ L["Quest_40561_Name"] = "Himmlische Klunker";
 L["Quest_40561_Objective"] = "Tötet Odyn und bringt seinen Ring zu Jonas Timotheus in Dalaran.";
 L["Quest_40561_Location"] = "Jonas Timotheus (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")";
 L["Quest_40561_Note"] = "Juweliersquest.  Normale oder Heroische Schwierigkeit.  Die Runensiegel droppen vom Endboss.";
-L["Quest_40561_RewardText"] = AQ_NONE;
 L["Quest_40561_PreQuest"] = "Das Eckige muss ins Runde";
 L["Quest_40561_FollowQuest"] = "Der Seelenschlund: Einmal Tod und zurück";
 
@@ -4949,7 +4555,6 @@ L["Quest_40139_Name"] = "Fenryrs Balg";
 L["Quest_40139_Objective"] = "Erbeutet Fenryrs Balg, indem Ihr Fenryr häutet.";
 L["Quest_40139_Location"] = "Ske'rit (Suramar; "..YELLOW.."30.6, 33.4"..WHITE..")";
 L["Quest_40139_Note"] = "Ledererquest.  Normale oder Heroische Schwierigkeit.  Fenryrs Balg droppt vom dritten Boss.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_40139_RewardText"] = AQ_NONE;
 L["Quest_40139_PreQuest"] = "Leder für Ske'rit";
 L["Quest_40139_FollowQuest"] = "Prüfung des Kreuzfahrers: Legendäre Bälge";
 
@@ -4957,7 +4562,6 @@ L["Quest_38974_Name"] = "Die richtige Frage";
 L["Quest_38974_Objective"] = "Besiegt Hymdall und erlangt seinen Lendenschurz.";
 L["Quest_38974_Location"] = "Leyweberin Tellumi (Sturmheim; "..YELLOW.."65.6, 56.2"..WHITE..")";
 L["Quest_38974_Note"] = "Schneiderquest.  Normale oder Heroische Schwierigkeit.  Hymdall ist der erste Boss.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_38974_RewardText"] = AQ_NONE;
 L["Quest_38974_PreQuest"] = "Der Webstuhl der anmutigen Königin";
 L["Quest_38974_FollowQuest"] = "Exotische Textilien";
 
@@ -4965,7 +4569,6 @@ L["Quest_44075_Name"] = "Essenz der Wildheit";
 L["Quest_44075_Objective"] = "Beschafft 1 Essenz der Wildheit von Fenryr und beweist danach Odyn, dass Ihr würdig seid.";
 L["Quest_44075_Location"] = "Echo von Ashamane (Smaragdgrüne Traumpfad; "..YELLOW.."31.2, 36.8"..WHITE..")";
 L["Quest_44075_Note"] = "Druidenquest.  Normale oder Heroische Schwierigkeit.  Fenryr ist der dritte Boss.  Beende die Dungeon um die Quest abzuschließen.   Diese Quest bringt dich zu Bewahrer Remulos im Smaragdgrünen Traumpfad bei; "..YELLOW.."44.8, 50.6"..WHITE..".";
-L["Quest_44075_RewardText"] = AQ_NONE;
 
 L["Quest_43553_Name"] = "Der Seelenschlund";
 L["Quest_43553_Objective"] = "Bezwingt Helya.";
@@ -4989,25 +4592,21 @@ L["Quest_42780_Name"] = "Aus dem Schlund der Hölle";
 L["Quest_42780_Objective"] = "Tötet Seuchenschlund und Helya.";
 L["Quest_42780_Location"] = "";
 L["Quest_42780_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42780_RewardText"] = AQ_NONE;
 
 L["Quest_42757_Name"] = "Bedrohung der See";
 L["Quest_42757_Objective"] = "Besiegt Tagerma die Seelensüchtige und Helya.";
 L["Quest_42757_Location"] = "";
 L["Quest_42757_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42757_RewardText"] = AQ_NONE;
 
 L["Quest_42788_Name"] = "Die Rückkehr der Bestie";
 L["Quest_42788_Objective"] = "Besiegt Hüllensucher getötet und Helya.";
 L["Quest_42788_Location"] = "";
 L["Quest_42788_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42788_RewardText"] = AQ_NONE;
 
 L["Quest_43586_Name"] = "Nachricht für Helya";
 L["Quest_43586_Objective"] = "Bezwingt Helya.";
 L["Quest_43586_Location"] = "Odyn (Die Himmelsfeste; "..YELLOW.."58.4, 82.8"..WHITE..")";
 L["Quest_43586_Note"] = "Kriegerquest. Teil der Ordenshallenquestreihe. Helya ist der Endboss bei "..YELLOW.."[3]"..WHITE..".";
-L["Quest_43586_RewardText"] = AQ_NONE;
 
 L["Quest_43604_Name"] = "Ymirons zerbrochene Klinge";
 L["Quest_43604_Objective"] = "Kehrt zur Himmelsfeste zurück und überzeugt Odyn, König Ymiron zu erwecken.";
@@ -5033,7 +4632,6 @@ L["Quest_39350_Name"] = "Hoffnung in Helheim";
 L["Quest_39350_Objective"] = "Besorgt eine Kiste mit Dragurstaub, stellt ein Fläschchen des Siebten Dämons her und bringt beide Gegenstände zu Alard in Dalaran.";
 L["Quest_39350_Location"] = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")";
 L["Quest_39350_Note"] = "Alchemiequest.  Benötigt Heroische Schwierigkeit.  Die Kiste mit Dragurstaub droppt vom Endboss.";
-L["Quest_39350_RewardText"] = AQ_NONE;
 L["Quest_39350_PreQuest"] = "Hallen der Tapferkeit: Die Hauptzutat";
 L["Quest_39350_FollowQuest"] = "Rabenwehr: Schwer, aber hilfreich";
 
@@ -5049,13 +4647,11 @@ L["Quest_40560_Name"] = "Einmal Tod und zurück";
 L["Quest_40560_Objective"] = "Begebt Euch zum Seelenschlund und bringt den Ring der Gefallenen zu Jonas Timotheus in Dalaran.";
 L["Quest_40560_Location"] = "Jonas Timotheus (Dalaran; "..YELLOW.."39.8, 35.0"..WHITE..")";
 L["Quest_40560_Note"] = "Juweliersquest.  Normale oder Heroische Schwierigkeit.  Der Ring der Gefallenen ist in einer Kiste unter der Treppe auf dem Weg zum zweiten Boss.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_40560_RewardText"] = AQ_NONE;
 
 L["Quest_43574_Name"] = "Der Schlägel der Toten";
 L["Quest_43574_Objective"] = "Holt den Schlägel der Toten aus Helheim.";
 L["Quest_43574_Location"] = "Salanar der Reiter (Schwarze Festung; "..YELLOW.."98.8, 59.2"..WHITE..")";
 L["Quest_43574_Note"] = "Todesritterquest.  Normale oder Heroische Schwierigkeit.  Der Schlägel der Toten ist in der Kiste nachdem der Endboss besiegt ist.";
-L["Quest_43574_RewardText"] = AQ_NONE;
 L["Quest_43574_PreQuest"] = "Champion: Amal'thazad";
 L["Quest_43574_FollowQuest"] = "Der Vierte Reiter";
 
@@ -5081,13 +4677,11 @@ L["Quest_41866_Name"] = "Verseuchte Fledermaus";
 L["Quest_41866_Objective"] = "Besiege Ragoul und Dargrul den Unterkönig.";
 L["Quest_41866_Location"] = "";
 L["Quest_41866_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_41866_RewardText"] = AQ_NONE;
 
 L["Quest_41857_Name"] = "Dunkelsteinsklaven";
 L["Quest_41857_Objective"] = "Tötet 5 Peitscher des Tiefgesteins und Dargrul den Unterkönig.";
 L["Quest_41857_Location"] = "";
 L["Quest_41857_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_41857_RewardText"] = AQ_NONE;
 
 L["Quest_39781_Name"] = "Neltharions Hort";
 L["Quest_39781_Objective"] = "Beschafft den Hammer von Khaz'goroth zurück.";
@@ -5114,7 +4708,6 @@ L["Quest_39335_Name"] = "Potentes Pulver";
 L["Quest_39335_Objective"] = "Beschafft Präzipitationspulver in Neltharions Hort und bringt es zu Deucus Valdera in Dalaran.";
 L["Quest_39335_Location"] = "Deucus Valdera (Dalaran; "..YELLOW.."41.6, 32.8"..WHITE..")";
 L["Quest_39335_Note"] = "Alchemiequest.  Normale oder Heroische Schwierigkeit.  The Precipitating Powder is on a table after the second boss.  Beende die Dungeon um die Quest abzuschließen.";
-L["Quest_39335_RewardText"] = AQ_NONE;
 L["Quest_39335_PreQuest"] = "Bringen Scherben Glück?";
 L["Quest_39335_FollowQuest"] = "Wir brauchen mehr Pulver!";
 
@@ -5122,7 +4715,6 @@ L["Quest_43571_Name"] = "Zopf des Unterkönigs";
 L["Quest_43571_Objective"] = "Holt den Zopf des Unterkönigs.";
 L["Quest_43571_Location"] = "Salanar der Reiter (Schwarze Festung; "..YELLOW.."98.8, 59.2"..WHITE..")";
 L["Quest_43571_Note"] = "Todesritterquest.  Normale oder Heroische Schwierigkeit.  Das Präzipitationspulver droppt vom Endboss.";
-L["Quest_43571_RewardText"] = AQ_NONE;
 L["Quest_43571_PreQuest"] = "Ritter der Schwarzen Klinge";
 L["Quest_43571_FollowQuest"] = "Das Finsterherzdickicht: Die Alptraumpeitsche";
 
@@ -5130,13 +4722,11 @@ L["Quest_44074_Name"] = "Essenz der Hartnäckigkeit";
 L["Quest_44074_Objective"] = "Beschafft 1 Essenz der Hartnäckigkeit von Rokmora in Neltharions Hort und tötet dann Dargrul den Unterkönig.";
 L["Quest_44074_Location"] = "Sohn von Ursoc (Smaragdgrüne Traumpfad; "..YELLOW.."34.4, 62.0"..WHITE..")";
 L["Quest_44074_Note"] = "Druidenquest.  Normale oder Heroische Schwierigkeit.  Die Essenz der Hartnäckigkeit droppt vom ersten Boss.  Beende die Dungeon um die Quest abzuschließen.   Die Quest bringt dich zurück zum Bewahrer Remulos im Hain der Träume; "..YELLOW.."44.8, 50.6"..WHITE..".";
-L["Quest_44074_RewardText"] = AQ_NONE;
 
 L["Quest_42990_Name"] = "Das irdene Amulett";
 L["Quest_42990_Objective"] = "Holt das irdene Amulett von Dargrul dem Unterkönig zurück.";
 L["Quest_42990_Location"] = "Elementaristin Janai (Der Mahlstrom; "..YELLOW.."29.4, 77.4"..WHITE..")";
 L["Quest_42990_Note"] = "Schamanenquest.  Normale oder Heroische Schwierigkeit.  Das irdene Amulett droppt vom Endboss.";
-L["Quest_42990_RewardText"] = AQ_NONE;
 L["Quest_42990_PreQuest"] = "Rückkehr zu Janai";
 L["Quest_42990_FollowQuest"] = "Der Befehl des Feuerlords";
 
@@ -5150,19 +4740,16 @@ L["Quest_43637_Name"] = "Verstopfter Abfluss";
 L["Quest_43637_Objective"] = "Besiege Schlickfratze und Berater Vandros.";
 L["Quest_43637_Location"] = "";
 L["Quest_43637_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43637_RewardText"] = AQ_NONE;
 
 L["Quest_43638_Name"] = "Silberschlange";
 L["Quest_43638_Objective"] = "Tötet Silberschlange und Berater Vandros.";
 L["Quest_43638_Location"] = "";
 L["Quest_43638_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43638_RewardText"] = AQ_NONE;
 
 L["Quest_43641_Name"] = "Wandernde Seuche";
 L["Quest_43641_Objective"] = "Tötet den Rattenkönig und Berater Vandros.";
 L["Quest_43641_Location"] = "";
 L["Quest_43641_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_43641_RewardText"] = AQ_NONE;
 
 L["Quest_42490_Name"] = "Den Arkus öffnen";
 L["Quest_42490_Objective"] = "Tötet Berater Vandros im Arkus.";
@@ -5175,7 +4762,6 @@ L["Quest_42491_Name"] = "Lang begrabenes Wissen";
 L["Quest_42491_Objective"] = "Besorgt die Leylinienkarte von Suramar aus dem Arkus.";
 L["Quest_42491_Location"] = "Arkanistin Valtrois (Suramar - Shal'aran; "..YELLOW.."37.0, 46.2"..WHITE..")";
 L["Quest_42491_Note"] = "Diese Quest bekommst Du erst wenn Du einen Ruf von 8000 Wohlwollend bei den Nachtsüchtigen hast und die Questreihe bis zum Ly'leths Champion gemacht hast.  Nur auf dem Schwierigkeitsgrad Mytisch.";
-L["Quest_42491_RewardText"] = AQ_NONE;
 L["Quest_42491_PreQuest"] = "Ly'leths Champion";
 
 L["Quest_43556_Name"] = "Das Verlies der Wächterinnen";
@@ -5200,51 +4786,43 @@ L["Quest_42926_Name"] = "Wie ist er da hochgekommen?";
 L["Quest_42926_Objective"] = "Besiegt das Konstrukt und Cordana.";
 L["Quest_42926_Location"] = "";
 L["Quest_42926_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42926_RewardText"] = AQ_NONE;
 
 L["Quest_44486_Name"] = "Teufelsversehrter Foliant";
 L["Quest_44486_Objective"] = "Bringt den teufelsversehrten Folianten zu Robert Newhearth in Dalaran.";
 L["Quest_44486_Location"] = "Teufelsversehrter Foliant (Das Verlies der Wächterinnen - Kärker des Verräters; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_44486_Note"] = "Kehrt zurück zu Robert Newhearth in Dalaran - Die Violette Zitadelle ("..YELLOW.."25.6, 45.0"..WHITE..").";
-L["Quest_44486_RewardText"] = AQ_NONE;
 
 L["Quest_39341_Name"] = "Dämonengalle";
 L["Quest_39341_Objective"] = "Stellt einen Skaggldrynk her, geht dann zum Verlies der Wächterinnen und taucht den Tiegel in Grimoiras Galle ein.";
 L["Quest_39341_Location"] = "Deucus Valdera (Dalaran; "..YELLOW.."41.6, 32.8"..WHITE..")";
 L["Quest_39341_Note"] = "Alchemiequest.  Nimm eine Portion Skaggldrynk mit Dir.  Wird von einem Alchemisten hergestellt.  Töte die ersten beiden Bosse und benutze dann den Tiegel hinter Inquisitor Foltyrium "..YELLOW.."[2]"..WHITE.." Nähe der Tür.  Die Tür öffnet sich und Du kannst dann Grimoira töten.";
-L["Quest_39341_RewardText"] = AQ_NONE;
 L["Quest_39341_PreQuest"] = "Neue Beschichtung für den Tiegel";
 
 L["Quest_39343_Name"] = "Biegsame Glasröhren";
 L["Quest_39343_Objective"] = "Bringt die biegsamen Glasröhren zu Deucus Valdera in Dalaran.";
 L["Quest_39343_Location"] = "Grimoira (Das Verlies der Wächterinnen; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_39343_Note"] = "Alchemiequest.  Nach der Tötung von Grimoira hinter der geheimen Tür, wirst Du dies Quest von Grimoira erhalten.  Diese bringt Dich zurück zu Deucus Valdera in Dalaran ("..YELLOW.."41.4, 32.8"..WHITE..").";
-L["Quest_39343_RewardText"] = AQ_NONE;
 
 L["Quest_42922_Name"] = "Vault of the Wardens: Startup Sequence";
 L["Quest_42922_Objective"] = "Complete the startup sequence and defeat Cordana.";
 L["Quest_42922_Location"] = "";
 L["Quest_42922_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_42922_RewardText"] = AQ_NONE;
 
 L["Quest_42494_Name"] = "Essen für alle";
 L["Quest_42494_Objective"] = "Löscht 15 Dämonen aus und gebt 10 fast verhungerten Gefangenen Eure herbeigezauberten Lebensmittel.";
 L["Quest_42494_Location"] = "Kalecgos (Suramar; "..YELLOW.."34.2, 83.6"..WHITE..")";
 L["Quest_42494_Note"] = "Magierquest.  Benutze dein Zauber Essen herbeizaubern um Essen zu machen und gebe es dann den Gefangen.  Benutze Kalec's Abbildkristall um die Quest abzugeben.";
-L["Quest_42494_RewardText"] = AQ_NONE;
 
 L["Quest_42521_Name"] = "Der Feind meines Feindes...";
 L["Quest_42521_Objective"] = "Findet Millhaus Manasturm.";
 L["Quest_42521_Location"] = "";
 L["Quest_42521_Note"] = "Magierquest.  Questreihe beginnt mit Final Exit.";
-L["Quest_42521_RewardText"] = AQ_NONE;
 L["Quest_42521_PreQuest"] = "Final Exit -> Kein zahnloser Drache";
 
 L["Quest_41630_Name"] = "Entfesselte Gerechtigkeit";
 L["Quest_41630_Objective"] = "Nutzt Eure gesammelte instabile heilige Energie, um die Sognadeln in Kaltarra zu vernichten.";
 L["Quest_41630_Location"] = "Abbild von Kalec (Dalaran; "..YELLOW..""..WHITE..")";
 L["Quest_41630_Note"] = "Priesterquest.  Missing information for this quest.";
-L["Quest_41630_RewardText"] = AQ_NONE;
 L["Quest_41630_PreQuest"] = "Der Zorn des Lichts -> Bändigung des heiligen Feuers";
 L["Quest_41630_FollowQuest"] = "Die Nexuskammer";
 
@@ -5252,7 +4830,6 @@ L["Quest_44286_Name"] = "Ein fleischiges Meisterstück";
 L["Quest_44286_Objective"] = "Beschafft das schlagende Teufelsherz und die dämonische Eingeweide.";
 L["Quest_44286_Location"] = "Lord Thorval (Eiskronen Zitadelle; "..YELLOW.."52.6, 14.6"..WHITE..")";
 L["Quest_44286_Note"] = "Todesritterquest.  Normale oder Heroische Schwierigkeit.  Alle Gegenstände droppen von allen Bossen.";
-L["Quest_44286_RewardText"] = AQ_NONE;
 L["Quest_44286_PreQuest"] = "Durst nach Blut";
 L["Quest_44286_FollowQuest"] = "Champion: Rottgut";
 
@@ -5260,7 +4837,6 @@ L["Quest_42752_Name"] = "Einbruch in das Verlies";
 L["Quest_42752_Objective"] = "Bergt den Sargeritschlüsselstein.";
 L["Quest_42752_Location"] = "Belath Dämmerklinge (Mardum, Die Teufelshammer; "..YELLOW.."57.6, 53.4"..WHITE..")";
 L["Quest_42752_Note"] = "Dämonenjägerquest.  Normale oder Heroische Schwierigkeit.  Das Sargeritschlüsselstein droppt vom Endboss.";
-L["Quest_42752_RewardText"] = AQ_NONE;
 L["Quest_42752_PreQuest"] = "Seltsames Gespann";
 L["Quest_42752_FollowQuest"] = "Die Krux des Plans";
 
@@ -5268,7 +4844,6 @@ L["Quest_42660_Name"] = "Herzensangelegenheiten";
 L["Quest_42660_Objective"] = "Besorgt ein Dämonenpaktherz von Cordana.";
 L["Quest_42660_Location"] = "Kira Zornseele (Schreckensnarbe; "..YELLOW.."56.0, 35.4"..WHITE..")";
 L["Quest_42660_Note"] = "Hexenmeisterquest.  Normale oder Heroische Schwierigkeit.  Das Dämonenpaktherz droppt vom Endboss.";
-L["Quest_42660_RewardText"] = AQ_NONE;
 L["Quest_42660_PreQuest"] = "Unvergleichliche Macht";
 L["Quest_42660_FollowQuest"] = "Mahlzeit!";
 
@@ -5276,19 +4851,16 @@ L["Quest_44283_Name"] = "Den Schleier lüften";
 L["Quest_44283_Objective"] = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Normal.";
 L["Quest_44283_Location"] = "Malfurion Sturmgrimm (Der Smaragdgrüne Alptraum; "..GREEN.."[1']"..WHITE..")";
 L["Quest_44283_Note"] = "Besiege Cenarius bei "..YELLOW.."[6]"..WHITE.." um eine Essenz der Klarheit zu sammeln.  Nach dem sammeln von 4 Essenzen, kannst du bei Malfurion die Fähigkeit einschalten alle Bosse zu überspringen und gleich zu Cenarius zu gelangen.";
-L["Quest_44283_RewardText"] = AQ_NONE;
 
 L["Quest_44284_Name"] = "Den Schleier lüften (Heroisch)";
 L["Quest_44284_Objective"] = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Heroisch.";
 L["Quest_44284_Location"] = "Malfurion Sturmgrimm (Der Smaragdgrüne Alptraum; "..GREEN.."[1']"..WHITE..")";
 L["Quest_44284_Note"] = "Besiege Cenarius bei "..YELLOW.."[6]"..WHITE.." um eine Essenz der Klarheit zu sammeln.  Nach dem sammeln von 4 Essenzen, kannst du bei Malfurion die Fähigkeit einschalten alle Bosse zu überspringen und gleich zu Cenarius zu gelangen.";
-L["Quest_44284_RewardText"] = AQ_NONE;
 
 L["Quest_44285_Name"] = "Den Schleier lüften";
 L["Quest_44285_Objective"] = "Sammelt 4 Essenzen der Klarheit von Cenarius im Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad Mythisch.";
 L["Quest_44285_Location"] = "Malfurion Sturmgrimm (Der Smaragdgrüne Alptraum; "..GREEN.."[1']"..WHITE..")";
 L["Quest_44285_Note"] = "Besiege Cenarius bei "..YELLOW.."[6]"..WHITE.." um eine Essenz der Klarheit zu sammeln.  Nach dem sammeln von 4 Essenzen, kannst du bei Malfurion die Fähigkeit einschalten alle Bosse zu überspringen und gleich zu Cenarius zu gelangen.";
-L["Quest_44285_RewardText"] = AQ_NONE;
 
 L["Quest_43362_Name"] = "Der Stoff der Träume";
 L["Quest_43362_Objective"] = "Sammelt geläuterte Lebensessenz während eines Schlachtzugs im Smaragdgrünen Alptraum.";
@@ -5300,82 +4872,69 @@ L["Quest_39351_Name"] = "Tobendes Feuer";
 L["Quest_39351_Objective"] = "Begebt Euch in den Smaragdgrünen Alptraum und besorgt Nythendras Herz. Bringt es zu Alard in Dalaran.";
 L["Quest_39351_Location"] = "Alard Schmied (Dalaran; "..YELLOW.."44.4, 28.8"..WHITE..")";
 L["Quest_39351_Note"] = "Alchemiequest.  Alle RAID-Schwierigkeitsgrade.  Nythendras Herz droppt vom ersten Boss.";
-L["Quest_39351_RewardText"] = AQ_NONE;
 L["Quest_39351_PreQuest"] = "Rabenwehr: Schwer, aber hilfreich";
 
 L["Quest_40042_Name"] = "Teufelswurzmeisterschaft";
 L["Quest_40042_Objective"] = "Reist zum Smaragdgrünen Alptraum und heilt die Verderbnis, die Cenarius befallen hat. Bringt was immer ihr findet zurück zu Kuhuine in Dalaran.";
 L["Quest_40042_Location"] = "Kuhuine Sanftschreiter (Dalaran; "..YELLOW.."42.8, 33.8"..WHITE..")";
 L["Quest_40042_Note"] = "Kräuterkundequest.  Alle RAID-Schwierigkeitsgrade.  Cenarius ist der zweitletzte Boss.  Diese Quest bekommst du erst wenn du Kräuterkunde auf Rang 2 hast.";
-L["Quest_40042_RewardText"] = AQ_NONE;
 
 L["Quest_40159_Name"] = "Der modrige Balg von Nythendra";
 L["Quest_40159_Objective"] = "Besorgt Euch den modrigen Balg von Nythendra.";
 L["Quest_40159_Location"] = "Kondal Jägerschwur (Dalaran; "..YELLOW.."35.8, 28.6"..WHITE..")";
 L["Quest_40159_Note"] = "Kürschnereiquest.  Alle RAID-Schwierigkeitsgrade.  Das modrigen Balg von Nythendra droppt vom ersten Boss.";
-L["Quest_40159_RewardText"] = AQ_NONE;
 L["Quest_40159_PreQuest"] = "Das Finsterherzdickicht: Dämonen das Fell gerben";
 
 L["Quest_42432_Name"] = "In den Alpträumen";
 L["Quest_42432_Objective"] = "Betretet den Smaragdgrünen Alptraum auf einem beliebigen Schwierigkeitsgrad und besiegt Lord Xavius.";
 L["Quest_42432_Location"] = "Rensar Großhuf (Der Hain der Träume; "..YELLOW.."44.8, 51.4"..WHITE..")";
 L["Quest_42432_Note"] = "Druidenquest.  Alle RAID-Schwierigkeitsgrade.  Xavius ist der Endboss.";
-L["Quest_42432_RewardText"] = AQ_NONE;
 L["Quest_42432_PreQuest"] = "Die Rückkehr des Halbgottes";
 
 L["Quest_43520_Name"] = "In den Alpträumen";
 L["Quest_43520_Objective"] = "Beschafft eine Todesblickiris und das Horn des Alptraumfürsten aus dem Smaragdgrünen Alptraum auf dem Schwierigkeitsgrad 'Normal' oder höher.";
 L["Quest_43520_Location"] = "Ermagier Kalec (Azsuna; "..YELLOW.."48.0, 25.6"..WHITE..")";
 L["Quest_43520_Note"] = "Die Gegnstände droppen von Il'gynoth und Xavius.  Alle RAID-Schwierigkeitsgrade außer LFR.";
-L["Quest_43520_RewardText"] = AQ_NONE;
 
 L["Quest_44934_Name"] = "Gruselige Kriecher";
 L["Quest_44934_Objective"] = "Besiegt Kar'zun.";
 L["Quest_44934_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44934_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44934_RewardText"] = AQ_NONE;
 
 L["Quest_44932_Name"] = "Ein Ettinfuß in der Tür";
 L["Quest_44932_Objective"] = "Torm den Schläger getötet.";
 L["Quest_44932_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44932_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44932_RewardText"] = AQ_NONE;
 
 L["Quest_44937_Name"] = "Fokussierte Macht";
 L["Quest_44937_Objective"] = "Tötet 2 Wahrsager des Nachtbrunnens.";
 L["Quest_44937_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44937_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44937_RewardText"] = AQ_NONE;
 
 L["Quest_44935_Name"] = "Vergoldeter Wächter";
 L["Quest_44935_Objective"] = "Besiegt den Vergoldeter Wächter.";
 L["Quest_44935_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44935_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44935_RewardText"] = AQ_NONE;
 
 L["Quest_44938_Name"] = "Liebesentzug";
 L["Quest_44938_Objective"] = "Schaltet Elisandes persönliche Diener aus (34 Verschlagener Hofiers).";
 L["Quest_44938_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44938_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44938_RewardText"] = AQ_NONE;
 
 L["Quest_44939_Name"] = "Saat der Zerstörung";
 L["Quest_44939_Objective"] = "Verdammnisgeißel getötet.";
 L["Quest_44939_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44939_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44939_RewardText"] = AQ_NONE;
 
 L["Quest_44936_Name"] = "Versorgungsrouten";
 L["Quest_44936_Objective"] = "Flugmeister Volnath getötet.";
 L["Quest_44936_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44936_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44936_RewardText"] = AQ_NONE;
 
 L["Quest_44933_Name"] = "Heulen in der Nacht";
 L["Quest_44933_Objective"] = "Ariadne getötet.";
 L["Quest_44933_Location"] = "Die Nachtfestung (Automatische Annahme)";
 L["Quest_44933_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_44933_RewardText"] = AQ_NONE;
 
 L["Quest_45381_Name"] = "Talisman der Shal'dorei";
 L["Quest_45381_Objective"] = "Sammelt 4 Echos der Zeit von Elisande in der Nachtfestung auf dem Schwierigkeitsgrad 'Normal' ein.";
@@ -5399,7 +4958,6 @@ L["Quest_45159_Name"] = "Kubisches Rätsel";
 L["Quest_45159_Objective"] = "Bringt den mysteriösen Würfel zu Dariness der Gelehrten in Dalaran. ";
 L["Quest_45159_Location"] = "Droppt von Chronomatische Anomalie (Die Nachtfestung; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_45159_Note"] = "Die Chance, dass dies von der Chronomatischen Anomalie droppt ist sehr gering.  Dies kann auf jeder Schwierigkeitsstufe droppen.  Bringe dies zu Dariness die Gelehrte in (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..").";
-L["Quest_45159_RewardText"] = AQ_NONE;
 L["Quest_45159_FollowQuest"] = "Kubische Ströme";
 
 L["Quest_45417_Name"] = "Herr des Schattenrats";
@@ -5426,7 +4984,6 @@ L["Quest_45291_Name"] = "Bücherwyrms";
 L["Quest_45291_Objective"] = "Hebt Bücher in der Bibliothek von Karazhan auf.";
 L["Quest_45291_Location"] = "Magier Darius (Gebirgspass der Totenwinde - Karazhan; "..YELLOW.."47.0, 75.4"..WHITE..")";
 L["Quest_45291_Note"] = "";
-L["Quest_45291_RewardText"] = AQ_NONE;
 L["Quest_45291_FollowQuest"] = "Neustart des Aufräumers";
 
 L["Quest_45292_Name"] = "Neustart des Aufräumers";
@@ -5441,7 +4998,6 @@ L["Quest_45293_Name"] = "Heiße Eisen";
 L["Quest_45293_Objective"] = "Bringt die Kiste mit 'neuen' Hufeisen zu Koren dem Schmied in Karazhan.";
 L["Quest_45293_Location"] = "";
 L["Quest_45293_Note"] = "";
-L["Quest_45293_RewardText"] = AQ_NONE;
 L["Quest_45293_PreQuest"] = "Neustart des Aufräumers";
 L["Quest_45293_FollowQuest"] = "Palaver in der Pause";
 
@@ -5457,7 +5013,6 @@ L["Quest_45295_Name"] = "Schluss mit der Spinnerei";
 L["Quest_45295_Objective"] = "Tötet die Spinnen in den Bedienstetenunterkünften.";
 L["Quest_45295_Location"] = "";
 L["Quest_45295_Note"] = "Nach Beendigung der Quest, töte Schrecken der Nacht bei "..YELLOW.."[]"..WHITE.." und nehme den Gegenstandand von ihm, um die nächste Quest zu starten.";
-L["Quest_45295_RewardText"] = AQ_NONE;
 L["Quest_45295_PreQuest"] = "Palaver in der Pause";
 L["Quest_45295_FollowQuest"] = "Knochenarbeit";
 
@@ -5478,7 +5033,6 @@ L["Quest_45238_Name"] = "Kubischer Anziehungspunkt";
 L["Quest_45238_Objective"] = "Besorgt einen Manafokus vom Manaschlinger in Karazhan.";
 L["Quest_45238_Location"] = "Dariness die Gelehrte (Dalaran - Handelsmarkt der Magier; "..YELLOW.."40.8, 26.2"..WHITE..")";
 L["Quest_45238_Note"] = "Der Manaschlinger ist bei "..YELLOW.."[??]"..WHITE..".";
-L["Quest_45238_RewardText"] = AQ_NONE;
 L["Quest_45238_PreQuest"] = "Kubisches Rätsel -> Kubische Ströme";
 L["Quest_45238_FollowQuest"] = "Kubische Verschmelzung";
 
@@ -5486,7 +5040,6 @@ L["Quest_44741_Name"] = "Die Tieftaschentheorie";
 L["Quest_44741_Objective"] = "Beschafft eine Tasche der tausend Fächer und eine Teufelssehnentasche aus Karazhan.";
 L["Quest_44741_Location"] = "Leyweber Tytallo (Suramar; "..YELLOW.."40.4, 69.4"..WHITE..")";
 L["Quest_44741_Note"] = "Schneidereiquest.  Die Tasche der tausend Fächer droppt von Moroe und die Teufelssehnentasche von Viz'aduum der Beobachter.";
-L["Quest_44741_RewardText"] = AQ_NONE;
 
 L["Quest_44729_Name"] = "Odyns Gunst";
 L["Quest_44729_Objective"] = "Sichert Euch Odyns Gunst im Schlachtzug 'Die Prüfung der Tapferkeit'.";
@@ -5521,31 +5074,26 @@ L["Quest_46508_Name"] = "Azsharas Einfluss";
 L["Quest_46508_Objective"] = "Tötet Kriegsfürst Darjah.";
 L["Quest_46508_Location"] = "Das Grabmal des Sargeras (automatische Annahme)";
 L["Quest_46508_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_46508_RewardText"] = AQ_NONE;
 
 L["Quest_46506_Name"] = "Leben nach dem Tode";
 L["Quest_46506_Objective"] = "Besiegt Ryul den Schwindenden.";
 L["Quest_46506_Location"] = "Das Grabmal des Sargeras (automatische Annahme)";
 L["Quest_46506_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_46506_RewardText"] = AQ_NONE;
 
 L["Quest_46505_Name"] = "Verloren, aber nicht vergessen";
 L["Quest_46505_Objective"] = "Besiegt Naisha.";
 L["Quest_46505_Location"] = "Das Grabmal des Sargeras (automatische Annahme)";
 L["Quest_46505_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_46505_RewardText"] = AQ_NONE;
 
 L["Quest_46507_Name"] = "Der Schreckenspirscher";
 L["Quest_46507_Objective"] = "Besiegt den Schreckenspirscher.";
 L["Quest_46507_Location"] = "Das Grabmal des Sargeras (automatische Annahme)";
 L["Quest_46507_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_46507_RewardText"] = AQ_NONE;
 
 L["Quest_46805_Name"] = "Der Fall des Betrügers";
 L["Quest_46805_Objective"] = "Betretet das Grabmal des Sargeras und besiegt Kil'jaeden.";
 L["Quest_46805_Location"] = "Prophet Velen (Die Verherrten Küste - Die Retterklippe; "..YELLOW.."44.5, 63.3"..WHITE..")";
 L["Quest_46805_Note"] = "Kil'jaeden ist der Endboss.  Diese Quest kann auf jeder Schwierigkeitsstufe abgeschlossen werden.";
-L["Quest_46805_RewardText"] = AQ_NONE;
 
 L["Quest_46253_Name"] = "Säulen der Schöpfung";
 L["Quest_46253_Objective"] = "Benutzt die Säulen der Schöpfung, um das Grabmal des Sargeras zu versiegeln.";
@@ -5590,25 +5138,21 @@ L["Quest_49077_Name"] = "Momente der Reue";
 L["Quest_49077_Objective"] = "Bringt Illidans Kristall zu den Personen und Orten, die ihm am meisten am Herzen liegen.";
 L["Quest_49077_Location"] = "Alor'idalkristall (Die Vindikaar)";
 L["Quest_49077_Note"] = "Nachdem Argus besiegt wurde wirst du zu einer Version der Vendikaar telepotiert im Schlachtzug.  Die Kristalle sind am selben Ort in der mitte des Schiffs.  Es erscheint auf jedem Schwierigkeitsgrad.\nMalfurion Sturmgrimm ist bei Val'sharah - Lorlathil ("..YELLOW.."54.68, 72.84"..WHITE..").  Tyrande Wisperwind ist bei Val'sharah - Tempel von Elune ("..YELLOW.."53.68, 55.89"..WHITE..").  Die Quest wird abgeschlossen in Mount Hyjal bei "..YELLOW.."61.30, 28.09"..WHITE..".";
-L["Quest_49077_RewardText"] = AQ_NONE;
 
 L["Quest_49800_Name"] = "Atal'Dazar: Spinnen!";
 L["Quest_49800_Objective"] = "Zerquetsche 5 unheimliche Spinnen und besiege den Endboss.";
 L["Quest_49800_Location"] = "Atal'Dazar";
 L["Quest_49800_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_49800_RewardText"] = AQ_NONE;
 
 L["Quest_49809_Name"] = "Atal'Dazar: Aus den Schatten";
 L["Quest_49809_Objective"] = "Töte Schattenklinge Razi und besiege den Endboss.";
 L["Quest_49809_Location"] = "Atal'Dazar";
 L["Quest_49809_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_49809_RewardText"] = AQ_NONE;
 
 L["Quest_49888_Name"] = "Atal'Dazar: Ein bisschen Mojo";
 L["Quest_49888_Objective"] = "Töte 3 verzauberte Tikimasken und besiege den Endboss.";
 L["Quest_49888_Location"] = "Atal'Dazar";
 L["Quest_49888_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_49888_RewardText"] = AQ_NONE;
 
 L["Quest_49901_Name"] = "Atal'Dazar: Yazma, die gefallene Priesterin";
 L["Quest_49901_Objective"] = "Bezwingt Yazma in Atal'Dazar.";
@@ -5630,19 +5174,16 @@ L["Quest_52458_Name"] = "Freihafen: Piratendublonen";
 L["Quest_52458_Objective"] = "Sammel 8 Piratendublonen und besiege den Endboss.";
 L["Quest_52458_Location"] = "Freihafen";
 L["Quest_52458_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52458_RewardText"] = AQ_NONE;
 
 L["Quest_52456_Name"] = "Freihafen: Kriegsbewährte Galeere";
 L["Quest_52456_Objective"] = "Töte die kriegsbewährte Galeere und besiege den Endboss.";
 L["Quest_52456_Location"] = "Freihafen";
 L["Quest_52456_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52456_RewardText"] = AQ_NONE;
 
 L["Quest_52454_Name"] = "Freihafen: Schreckenskapitän Vandegrimm";
 L["Quest_52454_Objective"] = "Töte Schreckenskapitän Vandegrimm und besiege den Endboss.";
 L["Quest_52454_Location"] = "Freihafen";
 L["Quest_52454_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52454_RewardText"] = AQ_NONE;
 
 L["Quest_52148_Name"] = "Freihafen: Ende eines Piraten";
 L["Quest_52148_Objective"] = "Tötet Harlan den Schmierigen in Freihafen.";
@@ -5655,37 +5196,31 @@ L["Quest_51500_Name"] = "Die Königsruh: Der Waffenmeister ist wieder auf den Be
 L["Quest_51500_Objective"] = "Töte Waffenmeister Halu.";
 L["Quest_51500_Location"] = "Die Königsruh";
 L["Quest_51500_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51500_RewardText"] = AQ_NONE;
 
 L["Quest_51501_Name"] = "Die Königsruh: Fatale Fehlfunktion";
 L["Quest_51501_Objective"] = "Fehlerhaftes Konstrukt getötet.";
 L["Quest_51501_Location"] = "Die Königsruh";
 L["Quest_51501_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51501_RewardText"] = AQ_NONE;
 
 L["Quest_51502_Name"] = "Die Königsruh: Königswächter";
 L["Quest_51502_Objective"] = "Töte Lord Azi, Lady Ha'ti und Weise Tu'aka.";
 L["Quest_51502_Location"] = "Die Königsruh";
 L["Quest_51502_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51502_RewardText"] = AQ_NONE;
 
 L["Quest_51455_Name"] = "Der Schrein des Sturms: Reinigende Brunnen";
 L["Quest_51455_Objective"] = "Springe in 4 Reinigungsschriften beim 2. Boss und besiege den Endboss";
 L["Quest_51455_Location"] = "Der Schrein des Sturms";
 L["Quest_51455_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51455_RewardText"] = AQ_NONE;
 
 L["Quest_51453_Name"] = "Der Schrein des Sturms: Sehet das reine Wasser";
 L["Quest_51453_Objective"] = "Sammel 3 reine Wasserpartikel und besiege den Endboss.";
 L["Quest_51453_Location"] = "Der Schrein des Sturms";
 L["Quest_51453_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51453_RewardText"] = AQ_NONE;
 
 L["Quest_51456_Name"] = "Der Schrein des Sturms: Schleichende Verderbnis";
 L["Quest_51456_Objective"] = "Töte das schwarze Blut und den Endboss.";
 L["Quest_51456_Location"] = "Der Schrein des Sturms";
 L["Quest_51456_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51456_RewardText"] = AQ_NONE;
 
 L["Quest_50825_Name"] = "Der Schrein des Sturms: Geflüster aus der Tiefe";
 L["Quest_50825_Objective"] = "Besiege Lord Sturmsang und Vol'zith den Flüsterer.";
@@ -5705,43 +5240,36 @@ L["Quest_52761_Name"] = "Die Belagerung von Boralus: Blutgeld";
 L["Quest_52761_Objective"] = "Töte Tara Schnellklinge und Viq'Goth";
 L["Quest_52761_Location"] = "Die Belagerung von Boralus";
 L["Quest_52761_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52761_RewardText"] = AQ_NONE;
 
 L["Quest_52778_Name"] = "Die Belagerung von Boralus: Die Horde zerschmettern";
 L["Quest_52778_Objective"] = "Töte 5 Helden der Horde und den Endboss";
 L["Quest_52778_Location"] = "Die Belagerung von Boralus";
 L["Quest_52778_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52778_RewardText"] = AQ_NONE;
 
 L["Quest_52763_Name"] = "Die Belagerung von Boralus: Die Reihen lichten";
 L["Quest_52763_Objective"] = "Töte Tara Schnellklinge und Viq'Goth";
 L["Quest_52763_Location"] = "Die Belagerung von Boralus";
 L["Quest_52763_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52763_RewardText"] = AQ_NONE;
 
 L["Quest_52771_Name"] = "Die Belagerung von Boralus: Ketten brechen";
 L["Quest_52771_Objective"] = "Rette 5 Zivilisten und besiege den Endboss.";
 L["Quest_52771_Location"] = "Die Belagerung von Boralus";
 L["Quest_52771_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52771_RewardText"] = AQ_NONE;
 
 L["Quest_52780_Name"] = "Die Belagerung von Boralus: Die Allianz brechen";
 L["Quest_52780_Objective"] = "Töte 5 Helden der Allinz und besiege den Endboss.";
 L["Quest_52780_Location"] = "Die Belagerung von Boralus";
 L["Quest_52780_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52780_RewardText"] = AQ_NONE;
 
 L["Quest_53128_Name"] = "Die Klage des Lordadmirals";
 L["Quest_53128_Objective"] = "Bringt die unleserliche Korrespondenz zu Kayla Mills in Sturmwind.";
 L["Quest_53128_Location"] = "Schließkasette des Lordadmirals (Die Belagerung von Boralus)";
 L["Quest_53128_Note"] = "Gebe die Quest bei Kayla Mills (Sturmwind - Burg Sturmwind; "..YELLOW.."85.8, 24.0"..WHITE..") ab.";
-L["Quest_53128_RewardText"] = AQ_NONE;
 
 L["Quest_52775_Name"] = "Die Belagerung von Boralus: Was Euer ist, ist mein";
 L["Quest_52775_Objective"] = "Sammel 5 Azeritgeschütze und besiege den Endboss.";
 L["Quest_52775_Location"] = "Die Belagerung von Boralus";
 L["Quest_52775_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52775_RewardText"] = AQ_NONE;
 
 L["Quest_52153_Name"] = "Belagerung von Boralus: Lady Aschenwinds Rückkehr";
 L["Quest_52153_Objective"] = "Schließt die Belagerung von Boralus (Dungeon) ab. .";
@@ -5755,25 +5283,21 @@ L["Quest_53127_Name"] = "Die Klage des Lordadmirals";
 L["Quest_53127_Objective"] = "Bringt die unleserliche Korrespondenz zu Isabella in Orgrimmar.";
 L["Quest_53127_Location"] = "Die Belagerung von Boralus";
 L["Quest_53127_Note"] = "Gebe die Quest bei Isabella (Ogrimmar - Das Tal der Stärke; "..YELLOW.."44.0, 71.6"..WHITE..") ab.";
-L["Quest_53127_RewardText"] = AQ_NONE;
 
 L["Quest_51379_Name"] = "Der Tempel von Sethraliss: Ein Weg durch die Strömungen";
 L["Quest_51379_Objective"] = "Gewinne 100 Macht aus dem fliesenden Strom";
 L["Quest_51379_Location"] = "Der Tempel von Sethraliss";
 L["Quest_51379_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51379_RewardText"] = AQ_NONE;
 
 L["Quest_51378_Name"] = "Der Tempel von Sethraliss: Bazar des Bizarren";
 L["Quest_51378_Objective"] = "Sammel 5 Relikte und beende die Dungeon.";
 L["Quest_51378_Location"] = "Der Tempel von Sethraliss";
 L["Quest_51378_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51378_RewardText"] = AQ_NONE;
 
 L["Quest_51377_Name"] = "Der Tempel von Sethraliss: Ökologische Forschung";
 L["Quest_51377_Objective"] = "Fange eine Krolusklarve und beende die Dungeon.";
 L["Quest_51377_Location"] = "Der Tempel von Sethraliss";
 L["Quest_51377_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51377_RewardText"] = AQ_NONE;
 
 L["Quest_50551_Name"] = "Der Tempel von Sethraliss: Avatar des Loas";
 L["Quest_50551_Objective"] = "Betretet den Tempel von Sethraliss und heilt den Avatar des Loas.";
@@ -5787,19 +5311,16 @@ L["Quest_52295_Name"] = "Das Riesenflöz: Elementare als Angestellte";
 L["Quest_52295_Objective"] = "Töte Schlachtii und Mogul Ratztunk.";
 L["Quest_52295_Location"] = "Das Riesenflöz";
 L["Quest_52295_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52295_RewardText"] = AQ_NONE;
 
 L["Quest_52298_Name"] = "Das Riesenflöz: Die Schläue steckt in seinem Horn!";
 L["Quest_52298_Objective"] = "Töte Vog'rish den Aufgestiegenen und Mogul Ratztunk.";
 L["Quest_52298_Location"] = "Das Riesenflöz";
 L["Quest_52298_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52298_RewardText"] = AQ_NONE;
 
 L["Quest_52302_Name"] = "Das Riesenflöz: Der hat aber echt fette Bomben";
 L["Quest_52302_Objective"] = "Töte Rally Riesenspreng und Mogul Ratztunk.";
 L["Quest_52302_Location"] = "Das Riesenflöz";
 L["Quest_52302_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52302_RewardText"] = AQ_NONE;
 
 L["Quest_53351_Name"] = "Das Riesenflöz: Eisenfeind";
 L["Quest_53351_Objective"] = "Holt Eisenfeind von Mogul Ratztunk zurück.";
@@ -5819,19 +5340,16 @@ L["Quest_51856_Name"] = "Der Tiefenpfuhl: Moderschlund";
 L["Quest_51856_Objective"] = "Töte Moderschlund und die entfesselte Monstrosität.";
 L["Quest_51856_Location"] = "Der Tiefenpfuhl";
 L["Quest_51856_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51856_RewardText"] = AQ_NONE;
 
 L["Quest_52238_Name"] = "Der Tiefenpfuhl: Mysteriöse Sporen";
 L["Quest_52238_Objective"] = "Sammel 5 geheimnisvolle Sporen und töte die entfesselte Monstrosität.";
 L["Quest_52238_Location"] = "Der Tiefenpfuhl";
 L["Quest_52238_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52238_RewardText"] = AQ_NONE;
 
 L["Quest_52237_Name"] = "Der Tiefenpfuhl: Ruheloser Schrecken";
 L["Quest_52237_Objective"] = "Töte das ruhelose Schrecken und die entfesselte Monstrosität.";
 L["Quest_52237_Location"] = "Der Tiefenpfuhl";
 L["Quest_52237_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_52237_RewardText"] = AQ_NONE;
 
 L["Quest_51302_Name"] = "Der Tiefenpfuhl: Versiegeln von G'huuns Verderbnis";
 L["Quest_51302_Objective"] = "Begebt Euch in den Tiefenpfuhl und besiegt die entfesselte Monstrosität.";
@@ -5845,19 +5363,16 @@ L["Quest_51296_Name"] = "Tol Dagor: Der Stolz des Aufsehers";
 L["Quest_51296_Objective"] = "Finde die Stolz von Kul Tiras und töte Aufseheer Korgus.";
 L["Quest_51296_Location"] = "Tol Dagor";
 L["Quest_51296_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51296_RewardText"] = AQ_NONE;
 
 L["Quest_51297_Name"] = "Tol Dagor: üstengrundstück";
 L["Quest_51297_Objective"] = "Töte Liskorath und Aufseheer Korgus.";
 L["Quest_51297_Location"] = "Tol Dagor";
 L["Quest_51297_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51297_RewardText"] = AQ_NONE;
 
 L["Quest_51287_Name"] = "Tol Dagor: Versiegelte Vorräte";
 L["Quest_51287_Objective"] = "Finde 6 verschlossene Kisten von Kul Tiras und töte Aufseheer Korgus.";
 L["Quest_51287_Location"] = "Tol Dagor";
 L["Quest_51287_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51287_RewardText"] = AQ_NONE;
 
 L["Quest_52800_Name"] = "Tol Dagor: Der Aschenwindaufseher";
 L["Quest_52800_Objective"] = "Besorgt den Generalschlüssel von Tol Dagor von Aufseher Korgus.";
@@ -5869,19 +5384,16 @@ L["Quest_51216_Name"] = "Das Kronsteiganwesen: Das Krächzen der Krähe";
 L["Quest_51216_Objective"] = "Töte Corvus und Gorak Tul.";
 L["Quest_51216_Location"] = "Das Kronsteiganwesen";
 L["Quest_51216_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51216_RewardText"] = AQ_NONE;
 
 L["Quest_51212_Name"] = "Das Kronsteiganwesen: Die Hexenküche";
 L["Quest_51212_Objective"] = "Töte Chefkoch Daniel, Bratenköchin Birte, Soßenkoch Samuel und Gorak Tul.";
 L["Quest_51212_Location"] = "Das Kronsteiganwesen";
 L["Quest_51212_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51212_RewardText"] = AQ_NONE;
 
 L["Quest_51213_Name"] = "Das Kronsteiganwesen: Eine Hexe zu viel";
 L["Quest_51213_Objective"] = "Töte Matrone Christiane und Gorak Tul.";
 L["Quest_51213_Location"] = "Das Kronsteiganwesen";
 L["Quest_51213_Note"] = AQ_WORLDDUNGEONQUEST;
-L["Quest_51213_RewardText"] = AQ_NONE;
 
 L["Quest_50990_Name"] = "Brathühnchenwissenschaft";
 L["Quest_50990_Objective"] = "Bringt das köstliche Hühnchen zu Dr. Glotz Widrikus in der Beutebuch.";
@@ -5939,7 +5451,6 @@ L["Quest_56348_Name"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 L["Quest_56348_Objective"] = "Sammelt 20 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts.";
 L["Quest_56348_Location"] = "Ausbilder Ulooaka (Naz'jatar - Mezzamere; "..YELLOW.."38.0, 53.0"..WHITE..")";
 L["Quest_56348_Note"] = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden aber auf höherer Schweirigkeit bekommst Du mehr Ornamente.";
-L["Quest_56348_RewardText"] = AQ_NONE;
 L["Quest_56348_PreQuest"] = "Uralte Technologie -> Eine abgrundtiefe Gelegenheit";
 L["Quest_56348_FollowQuest"] = "Der Ewige Palast: Grenzen austesten";
 
@@ -5947,7 +5458,6 @@ L["Quest_56349_Name"] = "Der Ewige Palast: Grenzen austesten";
 L["Quest_56349_Objective"] = "Sammelt 200 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts. .";
 L["Quest_56349_Location"] = "Ausbilder Ulooaka (Naz'jatar - Mezzamere; "..YELLOW.."38.0, 53.0"..WHITE..")";
 L["Quest_56349_Note"] = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden aber auf höherer Schweirigkeit bekommst Du mehr Ornamente.";
-L["Quest_56349_RewardText"] = AQ_NONE;
 L["Quest_56349_PreQuest"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 
 L["Quest_56356_Name"] = "Der Ewige Palast: Schachzug der Königin";
@@ -5960,7 +5470,6 @@ L["Quest_56352_Name"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 L["Quest_56352_Objective"] = "Sammelt 20 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts.";
 L["Quest_56352_Location"] = "Rolm (Naz'jatar - Neuheim; "..YELLOW.."49.2, 61.8"..WHITE..")";
 L["Quest_56352_Note"] = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden aber auf höherer Schweirigkeit bekommst Du mehr Ornamente.";
-L["Quest_56352_RewardText"] = AQ_NONE;
 L["Quest_56352_PreQuest"] = "Uralte Technologie -> Eine abgrundtiefe Gelegenheit";
 L["Quest_56352_FollowQuest"] = "Der Ewige Palast: Grenzen austesten";
 
@@ -5968,7 +5477,6 @@ L["Quest_56351_Name"] = "Der Ewige Palast: Grenzen austesten";
 L["Quest_56351_Objective"] = "Sammelt 200 ewige Ornamente von den mächtigsten Kreaturen des Ewigen Palasts. .";
 L["Quest_56351_Location"] = "Rolm (Naz'jatar - Neuheim; "..YELLOW.."49.2, 61.8"..WHITE..")";
 L["Quest_56351_Note"] = "Diese Quest kann auf jeder Schwierigkeit abgeschlossen werden aber auf höherer Schweirigkeit bekommst Du mehr Ornamente.";
-L["Quest_56351_RewardText"] = AQ_NONE;
 L["Quest_56351_PreQuest"] = "Der Ewige Palast: Wir können ihn stärker machen...";
 
 L["Quest_55609_Name"] = "Operation: Mechagon: Der Mecherschaffer";
@@ -6124,13 +5632,11 @@ L["Quest_63903_Name"] = "Storming the Sanctum";
 L["Quest_63903_Objective"] = "Defeat Sylvanas Windrunner in the Sanctum of Domination.";
 L["Quest_63903_Location"] = "Highlord Bolvar Fordragon (Korthia - Keeper's Respite; "..YELLOW.."62.8, 25.1"..WHITE..")";
 L["Quest_63903_Note"] = "This quest can be completed on any difficulty.  Sylvanas Windrunner is the last boss in the raid.";
-L["Quest_63903_RewardText"] = AQ_NONE;
 
 L["Quest_30567_Name"] = "Blanches Hammerbräu";
 L["Quest_30567_Objective"] = "Schließt das Szenario 'Ein Sturm braut sich zusammen' ab.";
 L["Quest_30567_Location"] = "Gurgthock (Kun-Lai-Gipfel - Tempel des Weißen Tigers; "..YELLOW.."68.6, 48.4"..WHITE..")";
 L["Quest_30567_Note"] = "Blanches Hammerbräu begleitet Dich während des Szenarios. Nachdem der Endboss besiegt wurde kannst Du die Quest bei ihr abgeben.";
-L["Quest_30567_RewardText"] = AQ_NONE;
 
 L["Quest_31207_Name"] = "Die Arena der Auslöschung";
 L["Quest_31207_Objective"] = "Betretet und beendet das Szenario der Arena der Auslöschung. Holt Euch anschließend Eure Belohnung von Wodin, dem Trolldiener ab.";
@@ -6142,32 +5648,27 @@ L["Quest_31611_Name"] = "Der Kun-Lai-Hammer";
 L["Quest_31611_Objective"] = "Beschützt das Braumondfest.";
 L["Quest_31611_Location"] = "Braumeister Boof (Kun-Lai-Gipfel - Binan; "..YELLOW.."72.6, 93.0"..WHITE..")";
 L["Quest_31611_Note"] = "Beende das Szenario und die Quest ist fertig.  Braumeister Boof erscheint nach Beendigung in dem Dorf um die Quest abgeben zu können.";
-L["Quest_31611_RewardText"] = AQ_NONE;
 
 L["Quest_31613_Name"] = "Brisantes Grünsteinbräu";
 L["Quest_31613_Objective"] = "Helft bei der Verteidigung von Grünstein.";
 L["Quest_31613_Location"] = "Braumeister Tzu  (Jadewald - Morgenblüte; "..YELLOW.."47.4, 37.0"..WHITE..")";
 L["Quest_31613_Note"] = "Beende das Szenario und die Quest ist fertig.";
-L["Quest_31613_RewardText"] = AQ_NONE;
 
 L["Quest_31058_Name"] = "Affenbande";
 L["Quest_31058_Objective"] = "Bezwingt Kapitän Ook.";
 L["Quest_31058_Location"] = "Braumeister Bo (Krasarangwildnis - Nayelilagune; "..YELLOW.."52, 76.8"..WHITE..")";
 L["Quest_31058_Note"] = "Beende das Szenario und die Quest ist fertig.";
-L["Quest_31058_RewardText"] = AQ_NONE;
 
 L["Quest_32248_Name"] = "Ein wenig Geduld";
 L["Quest_32248_Objective"] = "Betretet das Szenario 'Ein wenig Geduld' und meldet Euch bei König Varian Wrynn.";
 L["Quest_32248_Location"] = "Quest startet automatisch (Krasarangwildnis - Löwenlandung; "..YELLOW.."98.2, 33.1"..WHITE..")";
 L["Quest_32248_Note"] = "Nach dem Betreten des Szenarius gebe die Quest bei König Varian Wrynn ab.";
-L["Quest_32248_RewardText"] = AQ_NONE;
 L["Quest_32248_PreQuest"] = "true";
 
 L["Quest_32251_Name"] = "Ein Dolch im Dunkel";
 L["Quest_32251_Objective"] = "Betretet das Szenario 'Ein Dolch im Dunkel' und meldet Euch bei Vol'jin.";
 L["Quest_32251_Location"] = "Quest startet automatisch (Krasarangwildnis - Herrschaftsfeste; "..YELLOW.."10.6, 53.3"..WHITE..")";
 L["Quest_32251_Note"] = "Nach dem Betreten des Szenarius gebe die Quest bei Vol'jin ab.";
-L["Quest_32251_RewardText"] = AQ_NONE;
 L["Quest_32251_PreQuest"] = "Treffen mit der Späherin -> Herrschaftsfeste";
 
 L["Quest_7162_Name"] = "Flaggenjagd";
@@ -6187,86 +5688,72 @@ L["Quest_7121_Name"] = "Der Rüstmeister";
 L["Quest_7121_Objective"] = "Sprecht mit dem Rüstmeister der Sturmlanzen.";
 L["Quest_7121_Location"] = "Gebirgsjäger Donnerbrüll (Alteractal - Nord; "..YELLOW.."Nähe [3] vor der Brücke"..WHITE..")";
 L["Quest_7121_Note"] = "Der Rüstmeister der Sturmlanzen ist bei "..GREEN.."[4']"..WHITE.." und versorgt Dich mit weiteren Quests.";
-L["Quest_7121_RewardText"] = AQ_NONE;
 
 L["Quest_6982_Name"] = "Vorräte der Eisbeißermine";
 L["Quest_6982_Objective"] = "Bringt 10 Vorräte der Eisbeißermine zum Rüstmeister der Allianz in Dun Baldar.";
 L["Quest_6982_Location"] = "Rüstmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[4']"..WHITE..").";
 L["Quest_6982_Note"] = "Die Vorräte können in der Eisbeißermine gefunden werden bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..").";
-L["Quest_6982_RewardText"] = AQ_NONE;
 
 L["Quest_5892_Name"] = "Vorräte der Eisentiefenmine";
 L["Quest_5892_Objective"] = "Bringt 10 Vorräte der Eisentiefenmine zum Rüstmeister der Allianz in Dun Baldar.";
 L["Quest_5892_Location"] = "Rüstmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[4']"..WHITE..").";
 L["Quest_5892_Note"] = "Die Vorräte können in der Eisentiefenmine gefunden werden bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..").";
-L["Quest_5892_RewardText"] = AQ_NONE;
 
 L["Quest_7223_Name"] = "Rüstungsfetzen";
 L["Quest_7223_Objective"] = "Bringt Murgot Tiefenschmied in Dun Baldar 20 Rüstungsfetzen.";
 L["Quest_7223_Location"] = "Murgot Tiefenschmied (Alteractal - Nord; "..GREEN.."[2']"..WHITE..")";
 L["Quest_7223_Note"] = "Plünder die Rüstungsfetzen von den toten Feinden. Die Folgequest ist die selbe und wiederholbar.";
-L["Quest_7223_RewardText"] = AQ_NONE;
 L["Quest_7223_FollowQuest"] = "Ja, Mehr Rüstungsfetzen";
 
 L["Quest_7122_Name"] = "Eine Mine erobern";
 L["Quest_7122_Objective"] = "Erobert eine Mine, die die Sturmlanzen noch nicht kontrollieren, und kehrt dann zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück.";
 L["Quest_7122_Location"] = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")";
 L["Quest_7122_Note"] = "Um diese Quest abzuschließen mußt Du entweder Morloch in der Eisentiefenmine bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..") töten oder Taskmaster Snivvle in der Eisbeißermine bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..") töten wenn diese unter der Kontrolle der Horde ist.";
-L["Quest_7122_RewardText"] = AQ_NONE;
 
 L["Quest_7102_Name"] = "Türme und Bunker";
 L["Quest_7102_Objective"] = "Zerstört das Banner im Inneren eines gegnerischen Bunkers oder Turms. Kehrt anschließend zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück.";
 L["Quest_7102_Location"] = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")";
 L["Quest_7102_Note"] = "Beachte: Die Türme oder Bunker müssen nicht komplett zerstört werden, es reicht wenn man sie angreift um die Quest zu beenden.";
-L["Quest_7102_RewardText"] = AQ_NONE;
 
 L["Quest_7081_Name"] = "Die Friedhöfe im Alteractal";
 L["Quest_7081_Objective"] = "Erobert einen Friedhof und kehrt zu Unteroffizier Durgen Sturmlanze im Alteracgebirge zurück.";
 L["Quest_7081_Location"] = "Unteroffizier Durgen Sturmlanze (Vorgebirge des Hügellands; "..YELLOW.."43.0, 43.8"..WHITE..")";
 L["Quest_7081_Note"] = "Beachte: Du mußt nichts machen außer in der Nähe eines Firedhofes sein was die Allianz angreift wenn diese unter der Kontrolle der Horde ist, um diese Quest abzuschließen.";
-L["Quest_7081_RewardText"] = AQ_NONE;
 
 L["Quest_7027_Name"] = "Verwaiste Ställe";
 L["Quest_7027_Objective"] = "Findet einen Alteracwidder im Alteractal. Wenn Ihr Euch in der Nähe eines Alteracwidders befindet, benutzt das Zähmungshalsband der Sturmlanzen um das Tier einzufangen. Nach erfolgreicher Zähmung, folgt Euch der Alteracwidder bis zum Stallmeister zurück. Sprecht mit dem Stallmeister um für Euren Fang belohnt zu werden.";
 L["Quest_7027_Location"] = "Stallmeister der Sturmlanzen (Alteractal - Nord; "..GREEN.."[3']"..WHITE..")";
 L["Quest_7027_Note"] = "Du findest die Widder außerhalb der Basis. Der Zähmungsprozess ist der selbe wie beim Jäger der sein neues Pet zähmen will. Diese Quest ist 25 mal wiederholbar in einer einzigsten Schlacht und kann nur von einem oder allen gemacht werden. Nachdem 25 Widder gezähmt wurden bekommt die Sturmlanzenkaverlarie Unterstüzung für die Schlacht.";
-L["Quest_7027_RewardText"] = AQ_NONE;
 
 L["Quest_7026_Name"] = "Widderzaumzeug";
 L["Quest_7026_Objective"] = "Du mußt den Feind an Ihrer Basis angreifen die Frostwölfe die auf Ihren Reittieren sitzen besiegen und Ihnen dann anschließend die Frostwolfbälge abnehmen. Kehre mit den Frostwolfbälge zurück, sodass aus denen neues Geschirr gemacht werden kann für die Kaverlerie. Los geh!";
 L["Quest_7026_Location"] = "Kommandant der Sturmlanzenwidderreiter (Alteractal - Nord; "..GREEN.."[6']"..WHITE..")";
 L["Quest_7026_Note"] = "Die Frostwölfe können im südlichen Teil des Alteractals gefunden werden.";
-L["Quest_7026_RewardText"] = AQ_NONE;
 
 L["Quest_7386_Name"] = "Haufenweise Kristalle";
 L["Quest_7386_Objective"] = "Es gibt Zeiten, in der Du für Tage oder Wochen verschnazt bist und kein Kampf stattfindet. Während dieser längeren Periode der Inaktivität, kannst Du großen Sturmkristalle der Frostwölfe sammeln gehn.\n\nDer Zirkel akzeptiert solche Opferungen.";
 L["Quest_7386_Location"] = "Erzdruide Renferal (Alteractal - Nord; "..GREEN.."[1']"..WHITE..")";
 L["Quest_7386_Note"] = "Nachdem 200 Sturmkristalle abgeliefert wurden beginnt Erzdruide Renferal nach (Alteractal - Nord; "..GREEN.."[7']"..WHITE..") zu laufen. Dort angekommen, beginnt er ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Ivus der Waldfürst dazu aufgefordert, in der Schlacht zu helfen.";
-L["Quest_7386_RewardText"] = AQ_NONE;
 
 L["Quest_6881_Name"] = "Ivus der Waldfürst";
 L["Quest_6881_Objective"] = "Der Frostwolfclan wird durch eine elementare Energie geschützt. Deren Schamanen manipulieren diese Energie und werden uns durch Ihre Einmischung alle zerstören.\n\nDie Frostwolfsoldaten tragen bezaubernde Amulette genannt Sturmkristall. Wir können die Amulette benutzen um Ivus zu beschwören. Behaupte Dich und fordere die Kristalle.";
 L["Quest_6881_Location"] = "Erzdruide Renferal (Alteractal - Nord; "..GREEN.."[1']"..WHITE..")";
 L["Quest_6881_Note"] = "Nachdem 200 Sturmkristalle abgeliefert wurden beginnt Erzdruide Renferal nach (Alteractal - Nord; "..GREEN.."[7']"..WHITE..") zu laufen. Dort angekommen, beginnt er ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Ivus der Waldfürst dazu aufgefordert, in der Schlacht zu helfen.";
-L["Quest_6881_RewardText"] = AQ_NONE;
 
 L["Quest_6942_Name"] = "Ruf der Lüfte - Erzrutschs Luftflotte";
 L["Quest_6942_Objective"] = "Meine Greifen sind bereit an die Front anzugreifen. Sie können aber erst zuschlagen wenn die Feinde dezimiert wurden.\n\nDie Frostwolfkrieger halten die Frontlinien die mit Stolz Ihrer Medaillien tragen. Reiße Ihnen die Medaillien von Ihren faulenden Kadaver ab und bringe sie zu mir.\n\nSobald die Frontlienie ausgedünnt ist, werde ich den Ruf der Lüfte starten! Tod von Oben!";
 L["Quest_6942_Location"] = "Schwadronskommandant Erzrutsch (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6942_Note"] = "Töte die Horden NPC's für die Medaille des Soldaten der Frostwölfe.";
-L["Quest_6942_RewardText"] = AQ_NONE;
 
 L["Quest_6941_Name"] = "Ruf der Lüfte - Vipores Luftflotte";
 L["Quest_6941_Objective"] = "Die Elite Frostwolfeinheiten die die Linie schützen, müssen beschäftigt werden, Soldat! Ich beauftrage Dich hiermit die Linie zu verdünnen. Kehre zurück zu mir mit den Medailien von den Leutnants und Legionäre. Wenn ich finde das genug von denen gesammelt hast, werde ich den Luftangriff starten.";
 L["Quest_6941_Location"] = "Schwadronskommandant Vipore (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6941_Note"] = "Töte Horde NPCs für die Medaillen des Leutnants der Frostwölfe.";
-L["Quest_6941_RewardText"] = AQ_NONE;
 
 L["Quest_6943_Name"] = "Ruf der Lüfte - Ichmans Luftflotte";
 L["Quest_6943_Objective"] = "Kehrt zum Schlachtfeld zurückund greife die Komanndozentrale der Forstwölfe an. Vernichte deren Komannder und Wächter. Kehre zurück zu mir mit Ihren Medailien soviele wie Du in deine Taschen hast! Ich verspreche Dir, wenn meine Greifen die Gaben und das Blut riechen unserer Feinde, wollen sie erneut fliegen! Geh jetzt!";
 L["Quest_6943_Location"] = "Schwadronskommandant Ichman (Alteractal - Nord; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6943_Note"] = "Töte Horde NPCs für die Medaillen des Kommandanten der Frostwölfe. Nachdem 50 Medailien abgegeben wurden, wird Schwadronskommandant Ichman einen Greifen losschicken und die Hauptbasis der Horde angreifen oder gibt dir eine Leuchtpistole für den Schneewehenfriedhof. Wenn das leuchtfeuer lang genug beschützt wird, wird ein Greifen kommen um mit zu verteidigen.";
-L["Quest_6943_RewardText"] = AQ_NONE;
 
 L["Quest_7161_Name"] = "Flaggenjagd";
 L["Quest_7161_Objective"] = "Begebt Euch in die Höhle der Wildpfoten südöstlich vom Hauptstützpunkt und findet das Banner der Frostwölfe. Bringt anschließend Kriegsmeister Laggrond das Banner.";
@@ -6284,92 +5771,77 @@ L["Quest_7123_Name"] = "Sprecht mit unserem Rüstmeister";
 L["Quest_7123_Objective"] = "Sprecht mit dem Rüstmeister der Frostwölfe.";
 L["Quest_7123_Location"] = "Jotek (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")";
 L["Quest_7123_Note"] = "Der Rüstmeister der Frostwölfe ist bei "..GREEN.."[4']"..WHITE.."  und versorgt Dich mit weiteren Quests.";
-L["Quest_7123_RewardText"] = AQ_NONE;
 
 L["Quest_5893_Name"] = "Vorräte der Eisbeißermine";
 L["Quest_5893_Objective"] = "Bringt 10 Vorräte der Eisbeißermine zum Rüstmeister der Horde in die Burg Frostwolf.";
 L["Quest_5893_Location"] = "Rüstmeister der Frostwölfe (Alteractal - Süd; "..GREEN.."[4']"..WHITE..")";
 L["Quest_5893_Note"] = "Die Vorräte können in der Eisbeißermine gefunden werden bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..").";
-L["Quest_5893_RewardText"] = AQ_NONE;
 
 L["Quest_6985_Name"] = "Vorräte der Eisentiefenmine";
 L["Quest_6985_Objective"] = "Bringt 10 Vorräte der Eisenschachtmine zum Rüstmeister der Horde in die Burg Frostwolf.";
 L["Quest_6985_Location"] = "Rüstmeister der Frostwölfe (Alteractal - Süd; "..GREEN.."[4']"..WHITE..")";
 L["Quest_6985_Note"] = "Die Vorräte können in der Eisentiefenmine gefunden werden bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..").";
-L["Quest_6985_RewardText"] = AQ_NONE;
 
 L["Quest_7224_Name"] = "Beute!";
 L["Quest_7224_Objective"] = "Wenn Ihr gegen den Feind kämpft, sammelt die Stücke seiner Rüstung und bringt sie mir. Ich werde diese Stücke nutzen, um Rüstungen für unsere eigenen Truppen herzustellen!";
 L["Quest_7224_Location"] = "Schmied Regzar (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")";
 L["Quest_7224_Note"] = "Plünder die Rüstungsfetzen von den toten Feinden. Die Folgequest ist die selbe und wiederholbar.";
-L["Quest_7224_RewardText"] = AQ_NONE;
 L["Quest_7224_FollowQuest"] = "Mehr Beute!";
 
 L["Quest_7124_Name"] = "Eine Mine erobern";
 L["Quest_7124_Objective"] = "Erobert eine Mine und kehrt zu Korporal Teeka Murrblut im Alteracgebirge zurück.";
 L["Quest_7124_Location"] = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")";
 L["Quest_7124_Note"] = "Um diese Quest abzuschließen mußt Du entweder Morloch in der Eisentiefenmine bei (Alteractal - Nord; "..GREEN.."[1]"..WHITE..") töten oder Taskmaster Snivvle in der Eisbeißermine bei (Alteractal - Süd; "..GREEN.."[1]"..WHITE..") töten wenn diese unter der Kontrolle der Allianz ist.";
-L["Quest_7124_RewardText"] = AQ_NONE;
 
 L["Quest_7101_Name"] = "Türme und Bunker";
 L["Quest_7101_Objective"] = "Erobert einen gegnerischen Turm und kehrt anschließend zu Korporal Teeka Murrblut im Alteracgebirge zurück.";
 L["Quest_7101_Location"] = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")";
 L["Quest_7101_Note"] = "Beachte: Die Türme oder Bunker müssen nicht komplett zerstört werden, es reicht wenn man sie angreift um die Quest zu beenden.";
-L["Quest_7101_RewardText"] = AQ_NONE;
 
 L["Quest_7082_Name"] = "Die Friedhöfe von Alterac";
 L["Quest_7082_Objective"] = "Erobert einen Friedhof und kehrt zu Korporal Teeka Murrblut im Alteracgebirge zurück.";
 L["Quest_7082_Location"] = "Korporal Teeka Murrblut (Vorgebirge des Hügellands; "..YELLOW.."58.6, 34.2"..WHITE..")";
 L["Quest_7082_Note"] = "Beachte: Du mußt nichts machen außer in der Nähe eines Friedhofes sein was die Horde angreift wenn diese unter der Kontrolle der Allianz ist, um diese Quest abzuschließen.";
-L["Quest_7082_RewardText"] = AQ_NONE;
 
 L["Quest_7001_Name"] = "Verwaiste Ställe";
 L["Quest_7001_Objective"] = "Findet einen Frostwolf im Alteractal. Wenn Ihr Euch in der Nähe eines Frostwolfs befindet, benutzt den Frostwolfmaulkorb um das Tier einzufangen. Nach erfolgreicher Zähmung, folgt Euch der Frostwolf bis zum Stallmeister zurück. Sprecht mit dem Stallmeister um für Euren Fang belohnt zu werden.";
 L["Quest_7001_Location"] = "Stallmeisterin der Frostwölfe (Alteractal - Süd; "..GREEN.."[3']"..WHITE..")";
 L["Quest_7001_Note"] = "Du findest die Frostwölfe außerhalb der Basis. Der Zähmungsprozess ist der selbe wie beim Jäger der sein neues Pet zähmen will. Diese Quest ist 25 mal wiederholbar in einer einzigsten Schlacht und kann nur von einem oder allen gemacht werden. Nachdem 25 Frostwölfe gezähmt wurden bekommt die Frostwolfkaverlarie Unterstüzung für die Schlacht.";
-L["Quest_7001_RewardText"] = AQ_NONE;
 
 L["Quest_7002_Name"] = "Widderledernes Zaumzeug";
 L["Quest_7002_Objective"] = "Du mußt die hier eingeborenen Widder erlegen. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!";
 L["Quest_7002_Location"] = "Wolfsreiterkommandant der Frostwölfe (Alteractal - Süd; "..GREEN.."[3']"..WHITE..")";
 L["Quest_7002_Note"] = "Die Widder können im nördlichen Teil des Alteractals gefunden werden.";
-L["Quest_7002_RewardText"] = AQ_NONE;
 
 L["Quest_7385_Name"] = "Eine Gallone Blut";
 L["Quest_7385_Objective"] = "Wenn Ihr Euch nützlich machen wollt, spendet mir große Mengen Feindesblut. Ich wäre hocherfreut, Gallonen von Blut entgegen zu nehmen.";
 L["Quest_7385_Location"] = "Primalist Thurloga (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")";
 L["Quest_7385_Note"] = "Nachdem 150 abgeliefert wurden beginnt Primalist Thurloga nach (Alteractal - Süd; "..GREEN.."[1']"..WHITE..") zu laufen. Dort angekommen, beginnt sie ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Lokholar der Eislord dazu aufgefordert, in der Schlacht zu helfen.";
-L["Quest_7385_RewardText"] = AQ_NONE;
 
 L["Quest_6801_Name"] = "Lokholar der Eislord";
 L["Quest_6801_Objective"] = "Ihr müsst unsere Feinde niederstrecken und mir ihr Blut bringen. Wenn Ihr ausreichend Blut gesammelt habt, dann kann das Ritual der Beschwörung beginnen.\n\nDer Sieg ist uns sicher, wenn der Lord der Elementare auf die Armee der Sturmlanzen losgelassen wird.";
 L["Quest_6801_Location"] = "Primalist Thurloga (Alteractal - Süd; "..GREEN.."[2']"..WHITE..")";
 L["Quest_6801_Note"] = "Nachdem 150 abgeliefert wurden beginnt Primalist Thurloga nach (Alteractal - Süd; "..GREEN.."[1']"..WHITE..") zu laufen. Dort angekommen, beginnt sie ein Ritual, wobei 10 Spieler assistieren müssen. Wenn erfolgreich, wird Lokholar der Eislord dazu aufgefordert, in der Schlacht zu helfen.";
-L["Quest_6801_RewardText"] = AQ_NONE;
 
 L["Quest_6825_Name"] = "Ruf der Lüfte - Guses Luftflotte";
 L["Quest_6825_Objective"] = "Meine Reiter sind bereit, einen Schlag auf dem zentralen Schlachtfeld zu landen, aber zuerst muss ich ihnen den Mund wässrig machen - sie auf den Angriff vorbereiten.\n\nIch benötige ausreichend Soldatenfleisch der Allianz, um eine Flotte zu ernähren! Hunderte Pfund! Ihr könnt das doch sicherlich übernehmen, nicht wahr? Geht schon!";
 L["Quest_6825_Location"] = "Schwadronskommandant Guse (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6825_Note"] = "Töte die Allianz NPC's für das Fleisch eines Sturmlanzensoldaten. Beachte: Es werden 90 Fleischstücke benötigt damit Schwadronskommandant tut was immer sie auch tun will.";
-L["Quest_6825_RewardText"] = AQ_NONE;
 
 L["Quest_6826_Name"] = "Ruf der Lüfte - Jeztors Luftflotte";
 L["Quest_6826_Objective"] = "Meine Kriegsreiter müssen das Fleisch ihrer Ziele schmecken. Damit wird ein chirurgischer Schlag gegen unsere Feinde sichergestellt!\n\nMeine Flotte ist die zweitmächtigste in unserem Luftkommando. Daher wird sie beim mächtigsten unserer Gegner zuschlagen. Und dafür benötigt sie das Fleisch der Leutnants der Allianz.";
 L["Quest_6826_Location"] = "Schwadronskommandant Jeztor (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6826_Note"] = "Töte Allianz NPCs für das Fleisch eines Sturmlanzenleutnants.";
-L["Quest_6826_RewardText"] = AQ_NONE;
 
 L["Quest_6827_Name"] = "Ruf der Lüfte - Mulvericks Luftflotte";
 L["Quest_6827_Objective"] = "Zuerst benötigen meine Kriegsreiter Ziele, auf die sie sich konzentrieren können - Ziele von hoher Priorität. Ich muss das Fleisch der Kommandanten der Allianz an sie verfüttern. Leider haben sich diese kleinen Mistkerle tief hinter den feindlichen Linien verschanzt! Diese Arbeit ist wahrlich wie geschaffen für Euch.";
 L["Quest_6827_Location"] = "Schwadronskommandant Mulverick (Alteractal - Süd; "..GREEN.."[5']"..WHITE..")";
 L["Quest_6827_Note"] = "Töte Allianz NPCs für das Fleisch eines Sturmlanzenkommandanten.";
-L["Quest_6827_RewardText"] = AQ_NONE;
 
 L["Quest_11098_Name"] = "Nach Skettis!";
 L["Quest_11098_Objective"] = "Bringt das Paket mit Sprengladungen zu Himmelsoffizier Doryn beim Schattenwindlager außerhalb von Skettis.";
 L["Quest_11098_Location"] = "Yuula (Shattrath; "..YELLOW.."65,42"..WHITE..")";
 L["Quest_11098_Note"] = "Die Vorquest erhält man vom selben NPC. Das Schattenwindlager ist bei (Wälder von Terrokar - Schattenwindlager; "..YELLOW.."64.6,66.6"..WHITE..").";
-L["Quest_11098_RewardText"] = AQ_NONE;
 L["Quest_11098_PreQuest"] = "Bedrohung von oben";
 L["Quest_11098_FollowQuest"] = "Feuer über Skettis";
 
@@ -6377,14 +5849,12 @@ L["Quest_11008_Name"] = "Feuer über Skettis";
 L["Quest_11008_Objective"] = "Haltet nach monströsen Kalirieiern oben in den Siedlungen von Skettis Ausschau und benutzt die Sprengladungen der Himmelswache, um sie in die Luft zu sprengen. Kehrt danach zu Himmelsoffizier Doryn zurück.";
 L["Quest_11008_Location"] = "Himmelsoffizier Doryn (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."65,66"..WHITE..")";
 L["Quest_11008_Note"] = "Diese Quest kann einmal täglich absolviert werden. Die Eier kann man während dem Fliegen mit dem Flugtier aus der Luft bombadieren. Achtet auf die Monströsen Kaliri Vögel, die herumfliegen, da sie euch vom Flugtier schmeißen, wenn ihr zu nahe kommt. Das Quest kann als Gruppe erledigt werden.";
-L["Quest_11008_RewardText"] = AQ_NONE;
 L["Quest_11008_PreQuest"] = "Nach Skettis!";
 
 L["Quest_11085_Name"] = "Flucht aus Skettis";
 L["Quest_11085_Objective"] = "Begleitet die gefangene Himmelswache in Sicherheit und meldet Euch anschließend bei Himmelsoffizier Doryn.";
 L["Quest_11085_Location"] = "Gefangene Himmelswache (Wälder von Terokkar - Skettis; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_11085_Note"] = "Diese Quest kann einmal täglich absolviert werden und ist erhältlich, sobald 'Nach Skettis!' abgeschlossen ist.\nDie Gefangene Himmelswache erscheint zufällig an einem der drei Punkte, die mit "..YELLOW.."[4]"..WHITE.." markiert sind.  Das Quest kann als Gruppe erledigt werden.";
-L["Quest_11085_RewardText"] = AQ_NONE;
 
 L["Quest_11093_Name"] = "Hungrige Netherrochen";
 L["Quest_11093_Objective"] = "Benutzt den Netherrochenkäfig in den Wäldern südlich des Schattenwindlagers und erlegt in der Nähe des hungrigen Netherrochens einige Schattenwindhetzer. Kehrt anschließend zu Deesak dem Tierführer der Himmelswache zurück.";
@@ -6402,21 +5872,18 @@ L["Quest_11005_Name"] = "Die Geheimnisse der Krallenpriester";
 L["Quest_11005_Objective"] = "Beschafft Euch von Severin ein Elixier der Schatten und verwendet es, um Krallenpriester Ishaal, Krallenpriester Skizzik und Krallenpriester Zellek in Skettis ausfindig zu machen und sie zu töten. Kehrt nach Abschluss Eurer Aufgabe zu Kommandant Adaris zurück.";
 L["Quest_11005_Location"] = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11005_Note"] = "Man muss Schattenwelt abgeschlossen haben, um das Elixier der Schatten zu erhalten, bevor man diese Quest absolvieren kann.\n\nKrallenpriester Ishaal ist bei "..YELLOW.."[5]"..WHITE..", Krallenpriester Skizzik ist bei "..YELLOW.."[6]"..WHITE.." und Krallenpriester Zellek ist bei "..YELLOW.."[7]"..WHITE..".";
-L["Quest_11005_RewardText"] = AQ_NONE;
 L["Quest_11005_PreQuest"] = "Schattenwelt";
 
 L["Quest_11021_Name"] = "Ishaals Almanach";
 L["Quest_11021_Objective"] = "Bringt Ishaals Almanach zu Himmelskommandant Adaris im Norden von Skettis.";
 L["Quest_11021_Location"] = "Ishaals Almanach (droppt von Krallenpriester Ishaal; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_11021_Note"] = "Himmelskommandant Adaris ist in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE..").";
-L["Quest_11021_RewardText"] = AQ_NONE;
 L["Quest_11021_FollowQuest"] = "Ein Verbündeter im unteren Viertel";
 
 L["Quest_11024_Name"] = "Ein Verbündeter im unteren Viertel";
 L["Quest_11024_Objective"] = "Bringt Ishaals Almanach zu Rilak dem Erlösten im unteren Viertel in Shattrath.";
 L["Quest_11024_Location"] = "Himmelskommandant Adaris (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11024_Note"] = "Rilak der Erlöste ist in Shattrath - Unteres Viertel ("..YELLOW.."52,20"..WHITE..").";
-L["Quest_11024_RewardText"] = AQ_NONE;
 L["Quest_11024_PreQuest"] = "Ishaals Almanach";
 L["Quest_11024_FollowQuest"] = "Countdown des Schicksals";
 
@@ -6424,7 +5891,6 @@ L["Quest_11028_Name"] = "Countdown des Schicksals";
 L["Quest_11028_Objective"] = "Kehrt zu Himmelskommandant Adaris zurück und berichtet ihm von den Neuigkeiten über Terokks Rückkehr.";
 L["Quest_11028_Location"] = "Rilak der Erlöste (Shattrath - Unteres Viertel; "..YELLOW.."52,20"..WHITE..")";
 L["Quest_11028_Note"] = "Himmelskommandant Adaris ist in den Wäldern von Terokkar - Schattenwindlager ("..YELLOW.."64,66"..WHITE.."). Hazzik, der sich in der Nähe befindet, gibt euch die Folgequest.";
-L["Quest_11028_RewardText"] = AQ_NONE;
 L["Quest_11028_PreQuest"] = "Ein Verbündeter im unteren Viertel";
 L["Quest_11028_FollowQuest"] = "Hazziks Handel";
 
@@ -6432,7 +5898,6 @@ L["Quest_11056_Name"] = "Hazziks Handel";
 L["Quest_11056_Objective"] = "Sucht nach Hazziks Päckchen bei seiner Behausung im östlichen Skettis und kehrt damit zu ihm zurück.";
 L["Quest_11056_Location"] = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11056_Note"] = "Hazziks Päckchen ist in einer Hütte bei "..YELLOW.."[8]"..WHITE..".";
-L["Quest_11056_RewardText"] = AQ_NONE;
 L["Quest_11056_PreQuest"] = "Countdown des Schicksals";
 L["Quest_11056_FollowQuest"] = "Eine schäbige Verkleidung";
 
@@ -6440,7 +5905,6 @@ L["Quest_11029_Name"] = "Eine schäbige Verkleidung";
 L["Quest_11029_Objective"] = "Verwendet die schäbige Arakkoaverkleidung, um den Stammbaum der Feinde von Sahakk zu beschaffen. Kehrt anschließend zu Hazzik zurück.";
 L["Quest_11029_Location"] = "Hazzik (Wälder von Terokkar - Schattenwindlager; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11029_Note"] = "Sahaak ist bei "..YELLOW.."[3]"..WHITE..". Falls irgendein Arakkoa außer Sahaak euch in der Verkleidung sieht, wird er angreifen.";
-L["Quest_11029_RewardText"] = AQ_NONE;
 L["Quest_11029_PreQuest"] = "Hazziks Handel";
 L["Quest_11029_FollowQuest"] = "Feindesblut";
 

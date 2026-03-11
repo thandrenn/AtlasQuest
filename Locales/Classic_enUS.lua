@@ -12,7 +12,6 @@ local PREV = "|r";
 
 local AQ_OR = GREY.." or ";
 local AQ_AND = GREY.." and ";
-local AQ_NONE = WHITE.."None";
 
 -- Globals
 L["Quests"] = "Quests";
@@ -172,7 +171,6 @@ L["Quest_4262_Name"] = "Overmaster Pyron";
 L["Quest_4262_Objective"] = "Slay Overmaster Pyron and return to Jalinda Sprig.";
 L["Quest_4262_Location"] = "Jalinda Sprig (Burning Steppes - Morgan's Vigil; "..YELLOW.."85.4, 70.0"..WHITE..")";
 L["Quest_4262_Note"] = "Overmaster Pyron is a fire elemental outside the dungeon.  He patrols near the portal at "..YELLOW.."[24]"..WHITE.." on the Blackrock Depths map and at "..YELLOW.."[3]"..WHITE.." on the Blackrock Mountain entrance map.";
-L["Quest_4262_RewardText"] = AQ_NONE;
 L["Quest_4262_FollowQuest"] = "Incendius!";
 
 L["Quest_4263_Name"] = "Incendius!";
@@ -186,7 +184,6 @@ L["Quest_4123_Name"] = "The Heart of the Mountain";
 L["Quest_4123_Objective"] = "Bring the Heart of the Mountain to Maxwort Uberglint in the Burning Steppes.";
 L["Quest_4123_Location"] = "Maxwort Uberglint (Burning Steppes - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE..")";
 L["Quest_4123_Note"] = "You can find the Heart of the Mountain at "..YELLOW.."[8]"..WHITE.." in a safe.  To acquire the key to that safe you must first open up all the smaller safes using Relic Coffer Keys that drop throughout the dungeon.  Once all small safes are open, Watchman Doomgrip and his friends will appear.  Defeat them to retrieve the key.";
-L["Quest_4123_RewardText"] = AQ_NONE;
 
 L["Quest_4286_Name"] = "The Good Stuff";
 L["Quest_4286_Objective"] = "Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions.";
@@ -205,7 +202,6 @@ L["Quest_4341_Name"] = "Kharan Mighthammer";
 L["Quest_4341_Objective"] = "Travel to Blackrock Depths and find Kharan Mighthammer.\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison.";
 L["Quest_4341_Location"] = "King Magni Bronzebeard (Ironforge; "..YELLOW.."39.4, 55.8"..WHITE..")";
 L["Quest_4341_Note"] = "The prequest starts at Royal Historian Archesonus (Ironforge; "..YELLOW.."38.6, 55.4"..WHITE..").  Kharan Mighthammer is at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_4341_RewardText"] = AQ_NONE;
 L["Quest_4341_PreQuest"] = "The Smoldering Ruins of Thaurissan";
 L["Quest_4341_FollowQuest"] = "The Bearer of Bad News";
 
@@ -221,26 +217,22 @@ L["Quest_7848_Name"] = "Attunement to the Core";
 L["Quest_7848_Objective"] = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment.";
 L["Quest_7848_Location"] = "Lothos Riftwaker (Blackrock Mountain; "..YELLOW.."[E] on Entrance Map"..WHITE..")";
 L["Quest_7848_Note"] = "This is the Molten Core attunement quest.  The Core Fragment is in "..YELLOW.."Blackrock Depths"..WHITE.." at "..YELLOW.."[23]"..WHITE..", very close to the Molten Core portal.  After completing this quest, you will be able to enter the Molten Core by talking to Lothos Riftwalker or jumping through the window next to him.";
-L["Quest_7848_RewardText"] = AQ_NONE;
 
 L["Quest_9015_Name"] = "The Challenge";
 L["Quest_9015_Objective"] = "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet.";
 L["Quest_9015_Location"] = "Falrin Treeshaper (Dire Maul West; "..YELLOW.."[1] Library"..WHITE..")";
 L["Quest_9015_Note"] = "Dungeon Set questline.  The Ring of Law is at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_9015_RewardText"] = AQ_NONE;
 L["Quest_9015_FollowQuest"] = "Anthion's Parting Words";
 
 L["Quest_4083_Name"] = "The Spectral Chalice";
 L["Quest_4083_Objective"] = "Place the materials Gloom'Rel wants in the The Spectral Chalice.";
 L["Quest_4083_Location"] = "Gloom'Rel (Blackrock Depths; "..YELLOW.."[18]"..WHITE..")";
 L["Quest_4083_Note"] = "This is a Miner quest and requires a mining skill of 230 or higher to learn how to Smelt Dark Iron.  You will need 2 Star Rubies, 20 Gold Bars and 10 Truesilver Bars.  Afterwards, if you have any Dark Iron Ore you can take it to The Black Forge at "..YELLOW.."[22]"..WHITE.." to Smelt it.  This is the only place in the game where it can be smelted.";
-L["Quest_4083_RewardText"] = AQ_NONE;
 
 L["Quest_4241_Name"] = "Marshal Windsor";
 L["Quest_4241_Objective"] = "Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor.";
 L["Quest_4241_Location"] = "Marshal Maxwell (Burning Steppes - Morgan's Vigil; "..YELLOW.."84.6, 68.8"..WHITE..")";
 L["Quest_4241_Note"] = "Onyxia attunement questline.  It starts at Helendis Riverhorn (Burning Steppes - Morgan's Vigil; "..YELLOW.."85.6, 68.8"..WHITE..").\nMarshal Windsor is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_4241_RewardText"] = AQ_NONE;
 L["Quest_4241_PreQuest"] = "Dragonkin Menace -> True Masters";
 L["Quest_4241_FollowQuest"] = "Abandoned Hope";
 
@@ -255,7 +247,6 @@ L["Quest_4264_Name"] = "A Crumpled Up Note";
 L["Quest_4264_Objective"] = "You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all.";
 L["Quest_4264_Location"] = "A Crumpled Up Note (random drop from Blackrock Depths)";
 L["Quest_4264_Note"] = "Onyxia attunement questline.  Marshal Windsor is at "..YELLOW.."[4]"..WHITE..". Best chance for drops seems to be the Dark Iron mobs around the Quarry.";
-L["Quest_4264_RewardText"] = AQ_NONE;
 L["Quest_4264_PreQuest"] = "Abandoned Hope";
 L["Quest_4264_FollowQuest"] = "A Shred of Hope";
 
@@ -263,7 +254,6 @@ L["Quest_4282_Name"] = "A Shred of Hope";
 L["Quest_4282_Objective"] = "Return Marshal Windsor's Lost Information.";
 L["Quest_4282_Location"] = "Marshal Windsor (Blackrock Depths; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_4282_Note"] = "Onyxia attunement questline.  The Lost Information drops from Golem Lord Argelmach at "..YELLOW.."[14]"..WHITE.." and General Angerforge at "..YELLOW.."[13]"..WHITE..".";
-L["Quest_4282_RewardText"] = AQ_NONE;
 L["Quest_4282_PreQuest"] = "A Crumpled Up Note";
 L["Quest_4282_FollowQuest"] = "Jail Break!";
 
@@ -286,14 +276,12 @@ L["Quest_4081_Name"] = "KILL ON SIGHT: Dark Iron Dwarves";
 L["Quest_4081_Objective"] = "Venture to Blackrock Depths and destroy the vile aggressors! Warlord Goretooth wants you to kill 15 Anvilrage Guardsmen, 10 Anvilrage Wardens and 5 Anvilrage Footmen. Return to him once your task is complete.";
 L["Quest_4081_Location"] = "Sign Post (Badlands - Kargath; "..YELLOW.."3.8, 47.5"..WHITE..")";
 L["Quest_4081_Note"] = "You can find the dwarves in the first part of Blackrock Depths. \nTurn the quest in to Warlord Goretooth at (Badlands - Kargath, "..YELLOW.."5.8, 47.6"..WHITE..").";
-L["Quest_4081_RewardText"] = AQ_NONE;
 L["Quest_4081_FollowQuest"] = "KILL ON SIGHT: High Ranking Dark Iron Officials";
 
 L["Quest_4082_Name"] = "KILL ON SIGHT: High Ranking Dark Iron Officials";
 L["Quest_4082_Objective"] = "Venture to Blackrock Depths and destroy the vile aggressors! Warlord Goretooth wants you to kill 10 Anvilrage Medics, 10 Anvilrage Soldiers and 10 Anvilrage Officers. Return to him once your task is complete.";
 L["Quest_4082_Location"] = "Sign Post (Badlands - Kargath; "..YELLOW.."3.8, 47.5"..WHITE..")";
 L["Quest_4082_Note"] = "The dwarves you need to kill are near Bael'Gar at "..YELLOW.."[11]"..WHITE..". \nTurn the quest in to Warlord Goretooth at (Badlands - Kargath, "..YELLOW.."5.8, 47.6"..WHITE..").";
-L["Quest_4082_RewardText"] = AQ_NONE;
 L["Quest_4082_PreQuest"] = "KILL ON SIGHT: Dark Iron Dwarves";
 
 L["Quest_4132_Name"] = "Operation: Death to Angerforge";
@@ -314,7 +302,6 @@ L["Quest_3906_Name"] = "Disharmony of Flame";
 L["Quest_3906_Objective"] = "Travel to the quarry in Blackrock Mountain and slay Overmaster Pyron. Return to Thunderheart when you have completed this assignment.";
 L["Quest_3906_Location"] = "Thunderheart (Badlands - Kargath; "..YELLOW.."3.4, 48.2"..WHITE..")";
 L["Quest_3906_Note"] = "Overmaster Pyron is a fire elemental outside the dungeon.  He patrols near the portal at "..YELLOW.."[24]"..WHITE.." on the Blackrock Depths map and at "..YELLOW.."[3]"..WHITE.." on the Blackrock Mountain entrance map.";
-L["Quest_3906_RewardText"] = AQ_NONE;
 L["Quest_3906_FollowQuest"] = "Disharmony of Fire";
 
 L["Quest_3907_Name"] = "Disharmony of Fire";
@@ -335,7 +322,6 @@ L["Quest_3981_Name"] = "Commander Gor'shak";
 L["Quest_3981_Objective"] = "Find Commander Gor'shak in Blackrock Depths.\nYou recall that the crudely drawn picture of the orc included bars drawn over the portrait. Perhaps you should search for a prison of some sort.";
 L["Quest_3981_Location"] = "Galamav the Marksman (Badlands - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")";
 L["Quest_3981_Note"] = "You get the prequest from Thunderheart (Badlands - Kargath; "..YELLOW.."3.4, 48.2"..PREV..").\nCommander Gor'shak is at "..YELLOW.."[3]"..PREV..".  The key to open the prison drops from High Interrogator Gerstahn "..YELLOW.."[5]"..PREV..".  Completing this quest will lead to you talking to Kharan Mighthammer, at "..YELLOW.."[2]"..PREV.." and Warchief Thrall in Orgrimmar before picking up the next quest.";
-L["Quest_3981_RewardText"] = AQ_NONE;
 L["Quest_3981_PreQuest"] = "Disharmony of Flame";
 L["Quest_3981_FollowQuest"] = "What Is Going On?";
 
@@ -364,7 +350,6 @@ L["Quest_8288_Name"] = "Only One May Rise";
 L["Quest_8288_Objective"] = "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus.";
 L["Quest_8288_Location"] = "Head of the Broodlord Lashlayer (drops from Broodlord Lashlayer; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_8288_Note"] = "Only one person can pick up the head.";
-L["Quest_8288_RewardText"] = AQ_NONE;
 L["Quest_8288_FollowQuest"] = "The Path of the Righteous";
 
 L["Quest_7783_Name"] = "The Lord of Blackrock";
@@ -416,7 +401,6 @@ L["Quest_5001_Name"] = "Bijou's Belongings";
 L["Quest_5001_Objective"] = "Find Bijou's Belongings and return them to her. Good luck!";
 L["Quest_5001_Location"] = "Bijou (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_5001_Note"] = "You find Bijou's Belongings on the way to Mother Smolderweb at "..YELLOW.."[13]"..WHITE..".\nThe followup goes to Marshal Maxwell at (Burning Steppes - Morgan's Vigil; "..YELLOW.."84.6, 68.8"..WHITE..").";
-L["Quest_5001_RewardText"] = AQ_NONE;
 L["Quest_5001_FollowQuest"] = "Message to Maxwell";
 
 L["Quest_5081_Name"] = "Maxwell's Mission";
@@ -430,21 +414,18 @@ L["Quest_4742_Name"] = "Seal of Ascension";
 L["Quest_4742_Objective"] = "Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe. Return them, along with the Unadorned Seal of Ascension, to Vaelan.";
 L["Quest_4742_Location"] = "Vaelan (Blackrock Spire; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_4742_Note"] = "This is the quest for the key for Upper Blackrock Spire.  You get the Gemstone of Spirestone from Highlord Omokk at "..YELLOW.."[5]"..WHITE..", the Gemstone of Smolderthorn from War Master Voone at "..YELLOW.."[9]"..WHITE.." and the Gemstone of Bloodaxe from Overlord Wyrmthalak at "..YELLOW.."[19]"..WHITE..".  The Unadorned Seal of Ascension can drop from near all mobs in Lower Blackrock Spire or outside the dungeon.";
-L["Quest_4742_RewardText"] = AQ_NONE;
 L["Quest_4742_FollowQuest"] = "Seal of Ascension";
 
 L["Quest_5089_Name"] = "General Drakkisath's Command";
 L["Quest_5089_Objective"] = "Take General Drakkisath's Command to Marshal Maxwell in Burning Steppes.";
 L["Quest_5089_Location"] = "General Drakkisath's Command (drops from Overlord Wyrmthalak; "..YELLOW.."[19]"..WHITE..")";
 L["Quest_5089_Note"] = "Marshal Maxwell is in the Burning Steppes - Morgan's Vigil; ("..YELLOW.."84.6, 68.8"..WHITE..").";
-L["Quest_5089_RewardText"] = AQ_NONE;
 L["Quest_5089_FollowQuest"] = "General Drakkisath's Demise ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 
 L["Quest_8966_Name"] = "The Left Piece of Lord Valthalak's Amulet";
 L["Quest_8966_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8966_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8966_Note"] = "Dungeon Armor set questline.  The Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nMor Grayhoof is summoned at "..YELLOW.."[9]"..WHITE..".";
-L["Quest_8966_RewardText"] = AQ_NONE;
 L["Quest_8966_PreQuest"] = "Components of Importance";
 L["Quest_8966_FollowQuest"] = "I See Alcaz Island In Your Future...";
 
@@ -452,7 +433,6 @@ L["Quest_8989_Name"] = "The Right Piece of Lord Valthalak's Amulet";
 L["Quest_8989_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8989_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8989_Note"] = "Dungeon Armor set questline.  Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nMor Grayhoof is summoned at "..YELLOW.."[9]"..WHITE..".";
-L["Quest_8989_RewardText"] = AQ_NONE;
 L["Quest_8989_PreQuest"] = "More Components of Importance";
 L["Quest_8989_FollowQuest"] = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 
@@ -479,7 +459,6 @@ L["Quest_4981_Name"] = "Operative Bijou";
 L["Quest_4981_Objective"] = "Travel to Blackrock Spire and find out what happened to Bijou.";
 L["Quest_4981_Location"] = "Lexlort (Badlands - Kargath; "..YELLOW.."5.8, 47.6"..WHITE..")";
 L["Quest_4981_Note"] = "You find Bijou at "..YELLOW.."[8]"..WHITE..".";
-L["Quest_4981_RewardText"] = AQ_NONE;
 L["Quest_4981_FollowQuest"] = "Bijou's Belongings";
 
 L["Quest_4982_Name"] = "Bijou's Belongings";
@@ -501,14 +480,12 @@ L["Quest_5160_Name"] = "The Matron Protectorate";
 L["Quest_5160_Objective"] = "Travel to Winterspring and find Haleh. Give her Awbee's scale.";
 L["Quest_5160_Location"] = "Awbee (Blackrock Spire; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_5160_Note"] = "You find Awbee in the room after the Arena at "..YELLOW.."[7]"..WHITE..".  She stands on a jutty.\nHaleh is in Winterspring ("..YELLOW.."54.4, 51.2"..WHITE..").  There's a cave that starts at coordinates "..YELLOW.."57.0, 50.0"..WHITE..".  At the end of that cave is a portal that teleports you to Haleh.";
-L["Quest_5160_RewardText"] = AQ_NONE;
 L["Quest_5160_FollowQuest"] = "Wrath of the Blue Flight";
 
 L["Quest_5047_Name"] = "Pip Quickwit, At Your Service!";
 L["Quest_5047_Objective"] = "Talk to Malyfous Darkhammer in Everlook.";
 L["Quest_5047_Location"] = "Pip Quickwit (Blackrock Spire; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_5047_Note"] = "Pip Quickwit spawns after skinning The Beast.  You find Malyfous Darkhammer at (Winterspring - Everlook; "..YELLOW.."61.0, 38.6"..WHITE..").";
-L["Quest_5047_RewardText"] = AQ_NONE;
 L["Quest_5047_FollowQuest"] = "Leggings of Arcana, Cap of the Scarlet Savant, Breastplate of Bloodthirst";
 
 L["Quest_4734_Name"] = "Egg Freezing";
@@ -523,7 +500,6 @@ L["Quest_6821_Name"] = "Eye of the Emberseer";
 L["Quest_6821_Objective"] = "Bring the Eye of the Emberseer to Duke Hydraxis in Azshara.";
 L["Quest_6821_Location"] = "Duke Hydraxis (Azshara; "..YELLOW.."79.2, 73.6"..WHITE..")";
 L["Quest_6821_Note"] = "You can find Pyroguard Emberseer at "..YELLOW.."[1]"..WHITE..".  This quest will eventually give you the Eternal Quintessence, which is needed for the Molten Core raid.";
-L["Quest_6821_RewardText"] = AQ_NONE;
 L["Quest_6821_PreQuest"] = "Poisoned Water";
 L["Quest_6821_FollowQuest"] = "The Molten Core";
 
@@ -546,13 +522,11 @@ L["Quest_7761_Name"] = "Blackhand's Command";
 L["Quest_7761_Objective"] = "The letter indicates that General Drakkisath guards the brand. Perhaps you should investigate.";
 L["Quest_7761_Location"] = "Blackhand's Command (drops from Scarshield Quartermaster; "..YELLOW.."[1] on Entrance Map"..WHITE..")";
 L["Quest_7761_Note"] = "Blackwing Lair attunement quest. Scarshield Quartermaster is found if you turn right before the LBRS/UBRS portal.\n\nGeneral Drakkisath is at "..YELLOW.."[9]"..WHITE..". The brand is behind him.";
-L["Quest_7761_RewardText"] = AQ_NONE;
 
 L["Quest_8994_Name"] = "Final Preparations";
 L["Quest_8994_Objective"] = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain.";
 L["Quest_8994_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8994_Note"] = "Dungeon Armor set questline.  Extra-Dimensional Ghost Revealer is needed to see Bodley.  You get it from the 'In Search of Anthion' quest.  Blackrock Bracers drop off mobs in Upper and Lower Blackrock Spire and outside the dungeon.  Mobs with 'Blackhand' in the name have a higher chance to drop the bracers.  The Flask of Supreme Power is made by an Alchemist.  The prequests has parts in Lower Blackrock Spire, Dire Maul, Stratholme and Scholomance.";
-L["Quest_8994_RewardText"] = AQ_NONE;
 L["Quest_8994_PreQuest"] = "The Right Piece of Lord Valthalak's Amulet";
 L["Quest_8994_FollowQuest"] = "Mea Culpa, Lord Valthalak";
 
@@ -575,7 +549,6 @@ L["Quest_4735_Name"] = "Egg Collection";
 L["Quest_4735_Objective"] = "Bring 8 Collected Dragon Eggs and the Collectronic Module to Tinkee Steamboil at Flame Crest in the Burning Steppes.";
 L["Quest_4735_Location"] = "Tinkee Steamboil (Burning Steppes - Flame Crest; "..YELLOW.."65.2, 23.8"..WHITE..")";
 L["Quest_4735_Note"] = "You find the eggs in the room of Father Flame at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_4735_RewardText"] = AQ_NONE;
 L["Quest_4735_PreQuest"] = "Egg Freezing";
 L["Quest_4735_FollowQuest"] = "Leonid Barthalomew -> Dawn's Gambit ("..YELLOW.."Scholomance"..WHITE..")";
 
@@ -605,7 +578,6 @@ L["Quest_6569_Name"] = "Oculus Illusions";
 L["Quest_6569_Objective"] = "Travel to Blackrock Spire and collect 20 Black Dragonspawn Eyes. Return to Myranda the Hag when the task is complete.";
 L["Quest_6569_Location"] = "Myranda the Hag (Western Plaguelands - Sorrow Hill; "..YELLOW.."50.8, 77.8"..WHITE..")";
 L["Quest_6569_Note"] = "Onyxia attunement questline.  The Black Dragonspawn Eyes will drop from Dragonkin mobs.";
-L["Quest_6569_RewardText"] = AQ_NONE;
 L["Quest_6569_PreQuest"] = "What the Wind Carries -> Mistress of Deception";
 L["Quest_6569_FollowQuest"] = "Emberstrife";
 
@@ -661,21 +633,18 @@ L["Quest_373_Name"] = "The Unsent Letter";
 L["Quest_373_Objective"] = "Deliver the Letter to the City Architect to Baros Alexston in Stormwind.";
 L["Quest_373_Location"] = "An Unsent Letter (drops from Edwin VanCleef; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_373_Note"] = "Baros Alexston is in Stormwind City, next to the Cathedral of Light at "..YELLOW.."49.0, 30.2"..WHITE..".";
-L["Quest_373_RewardText"] = AQ_NONE;
 L["Quest_373_FollowQuest"] = "Bazil Thredd";
 
 L["Quest_2922_Name"] = "Save Techbot's Brain!";
 L["Quest_2922_Objective"] = "Bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge.";
 L["Quest_2922_Location"] = "Tinkmaster Overspark (Ironforge - Tinkertown; "..YELLOW.."69.8, 50.4"..WHITE..")";
 L["Quest_2922_Note"] = "You get the optional prequest from Brother Sarno (Stormwind - Cathedral Square; "..YELLOW.."40.6, 30.8"..WHITE..").\nTechbot is outside the dungeon near the alternate entrance for the dungeon, at "..YELLOW.."[C] on Entrance Map"..WHITE..".";
-L["Quest_2922_RewardText"] = AQ_NONE;
 L["Quest_2922_PreQuest"] = "Tinkmaster Overspark";
 
 L["Quest_2926_Name"] = "Gnogaine";
 L["Quest_2926_Objective"] = "Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos.";
 L["Quest_2926_Location"] = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45.8, 49.2"..WHITE..")";
 L["Quest_2926_Note"] = "The prequest comes from Gnoarn (Ironforge - Tinkertown; "..YELLOW.."69.4, 50.6"..WHITE..").\nTo get fallout you must use the Phial on "..RED.."alive"..WHITE.." Irradiated Invaders or Irradiated Pillagers.  They are found near the beginning of the dungeon";
-L["Quest_2926_RewardText"] = AQ_NONE;
 L["Quest_2926_PreQuest"] = "The Day After";
 L["Quest_2926_FollowQuest"] = "The Only Cure is More Green Glow";
 
@@ -683,7 +652,6 @@ L["Quest_2962_Name"] = "The Only Cure is More Green Glow";
 L["Quest_2962_Objective"] = "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete.";
 L["Quest_2962_Location"] = "Ozzie Togglevolt (Dun Morogh - Kharanos; "..YELLOW.."45.8, 49.2"..WHITE..")";
 L["Quest_2962_Note"] = "To get fallout you must use the Phial on "..RED.."alive"..WHITE.." Irradiated Slimes or Horrors.  They are found near the Viscous Fallout boss at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_2962_RewardText"] = AQ_NONE;
 L["Quest_2962_PreQuest"] = "Gnogaine";
 
 L["Quest_2928_Name"] = "Gyrodrillmatic Excavationators";
@@ -696,7 +664,6 @@ L["Quest_2924_Name"] = "Essential Artificials";
 L["Quest_2924_Objective"] = "Bring 12 Essential Artificials to Klockmort Spannerspan in Ironforge.";
 L["Quest_2924_Location"] = "Klockmort Spannerspan (Ironforge - Tinkertown; "..YELLOW.."68.0, 46.8"..WHITE..")";
 L["Quest_2924_Note"] = "The optional prequest comes from Mathiel (Darnassus - Warrior's Terrace; "..YELLOW.."59.2, 45.2"..WHITE..").\nThe Essential Artificials come from machines scattered around the dungeon.";
-L["Quest_2924_RewardText"] = AQ_NONE;
 L["Quest_2924_PreQuest"] = "Klockmort's Essentials";
 
 L["Quest_2930_Name"] = "Data Rescue";
@@ -722,7 +689,6 @@ L["Quest_2945_Name"] = "Grime-Encrusted Ring";
 L["Quest_2945_Objective"] = "Figure out a way to remove the grime from the Grime-Encrusted Ring.";
 L["Quest_2945_Location"] = "Grime-Encrusted Ring (random drop from Dark Iron Agents in Gnomeregan)";
 L["Quest_2945_Note"] = "The Ring can be cleaned off at the Sparklematic 5200 in the Clean Room at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2945_RewardText"] = AQ_NONE;
 L["Quest_2945_FollowQuest"] = "Return of the Ring";
 
 L["Quest_2947_Name"] = "Return of the Ring";
@@ -785,7 +751,6 @@ L["Quest_1113_Name"] = "Hearts of Zeal";
 L["Quest_1113_Objective"] = "Master Apothecary Faranell in the Undercity wants 20 Hearts of Zeal.";
 L["Quest_1113_Location"] = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48.6, 69.4"..WHITE..")";
 L["Quest_1113_Note"] = "All mobs inside the Scarlet Monastery can drop Hearts of Zeal.  This includes the mobs outside the dungeon near the portals.";
-L["Quest_1113_RewardText"] = AQ_NONE;
 L["Quest_1113_PreQuest"] = "Going, Going, Guano! ("..YELLOW.."[Razorfen Kraul]"..WHITE..")";
 
 L["Quest_1160_Name"] = "Test of Lore";
@@ -818,28 +783,24 @@ L["Quest_5529_Name"] = "Plagued Hatchlings";
 L["Quest_5529_Objective"] = "Kill 20 Plagued Hatchlings, then return to Betina Bigglezink at the Light's Hope Chapel.";
 L["Quest_5529_Location"] = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.6"..WHITE..")";
 L["Quest_5529_Note"] = "The Plagued Hatchlings are on the way to Rattlegore in a large room.";
-L["Quest_5529_RewardText"] = AQ_NONE;
 L["Quest_5529_FollowQuest"] = "Healthy Dragon Scale";
 
 L["Quest_5582_Name"] = "Healthy Dragon Scale";
 L["Quest_5582_Objective"] = "Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Eastern Plaguelands.";
 L["Quest_5582_Location"] = "Healthy Dragon Scale (random drop in Scholomance)";
 L["Quest_5582_Note"] = "Plagued Hatchlings can drop the Healthy Dragon Scales.  You can find Betina Bigglezink at Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."81.4, 59.6"..WHITE..").";
-L["Quest_5582_RewardText"] = AQ_NONE;
 L["Quest_5582_PreQuest"] = "Plagued Hatchlings ";
 
 L["Quest_5382_Name"] = "Doctor Theolen Krastinov, the Butcher";
 L["Quest_5382_Objective"] = "Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete.";
 L["Quest_5382_Location"] = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70.2, 73.8"..WHITE..")";
 L["Quest_5382_Note"] = "You find Doctor Theolen Krastinov, the remains of Eva Sarkhoff and the remains of Lucien Sarkhoff at "..YELLOW.."[9]"..WHITE..".";
-L["Quest_5382_RewardText"] = AQ_NONE;
 L["Quest_5382_FollowQuest"] = "Krastinov's Bag of Horrors";
 
 L["Quest_5515_Name"] = "Krastinov's Bag of Horrors";
 L["Quest_5515_Objective"] = "Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff.";
 L["Quest_5515_Location"] = "Eva Sarkhoff (Western Plaguelands - Caer Darrow; "..YELLOW.."70.2, 73.8"..WHITE..")";
 L["Quest_5515_Note"] = "You can find Jandice Barov at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_5515_RewardText"] = AQ_NONE;
 L["Quest_5515_PreQuest"] = "Doctor Theolen Krastinov, the Butcher";
 L["Quest_5515_FollowQuest"] = "Kirtonos the Herald";
 
@@ -876,7 +837,6 @@ L["Quest_7629_Name"] = "Imp Delivery";
 L["Quest_7629_Objective"] = "Bring the Imp in a Yesr to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes.";
 L["Quest_7629_Location"] = "Gorzeeki Wildeyes (Burning Steppes; "..YELLOW.."12.6, 31.6"..WHITE..")";
 L["Quest_7629_Note"] = "Warlock Epic Mount questline.  You find the alchemy lab at "..YELLOW.."[7]"..WHITE..".";
-L["Quest_7629_RewardText"] = AQ_NONE;
 L["Quest_7629_PreQuest"] = "Mor'zul Bloodbringer -> Xorothian Stardust";
 L["Quest_7629_FollowQuest"] = "Dreadsteed of Xoroth ("..YELLOW.."Dire Maul West"..WHITE..")";
 
@@ -884,7 +844,6 @@ L["Quest_8969_Name"] = "The Left Piece of Lord Valthalak's Amulet";
 L["Quest_8969_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8969_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8969_Note"] = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE..".";
-L["Quest_8969_RewardText"] = AQ_NONE;
 L["Quest_8969_PreQuest"] = "Components of Importance";
 L["Quest_8969_FollowQuest"] = "I See Alcaz Island In Your Future...";
 
@@ -892,7 +851,6 @@ L["Quest_8992_Name"] = "The Right Piece of Lord Valthalak's Amulet";
 L["Quest_8992_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8992_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8992_Note"] = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nKormok is summoned at "..YELLOW.."[7]"..WHITE..".";
-L["Quest_8992_RewardText"] = AQ_NONE;
 L["Quest_8992_PreQuest"] = "More Components of Importance";
 L["Quest_8992_FollowQuest"] = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 
@@ -900,7 +858,6 @@ L["Quest_7647_Name"] = "Judgment and Redemption";
 L["Quest_7647_Objective"] = "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance. Doing so will bring forth the spirits you must judge. Defeating these spirits will summon forth Death Knight Darkreaver. Defeat him and reclaim the lost soul of the fallen charger.";
 L["Quest_7647_Location"] = "Lord Grayson Shadowbreaker (Stormwind City - Cathedral; "..YELLOW.."37.6, 32.6"..WHITE..")";
 L["Quest_7647_Note"] = "Paladin Epic Mount questline.  This questline is lengthy and has many steps.  There is an excellent guide on WoWhead.com that goes into great detail on how to complete it.  The Great Ossuary's basement is at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_7647_RewardText"] = AQ_NONE;
 L["Quest_7647_PreQuest"] = "Lord Grayson Shadowbreaker -> The Divination Scryer";
 L["Quest_7647_FollowQuest"] = "Again Into the Great Ossuary";
 
@@ -958,13 +915,11 @@ L["Quest_387_Name"] = "Quell The Uprising";
 L["Quest_387_Objective"] = "Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade.";
 L["Quest_387_Location"] = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."41.2, 58.0"..WHITE..")";
 L["Quest_387_Note"] = "Sometimes there are not enough mobs to complete the quest and you might have to wait for some to respawn.";
-L["Quest_387_RewardText"] = AQ_NONE;
 
 L["Quest_388_Name"] = "The Color of Blood";
 L["Quest_388_Objective"] = "Nikova Raskol of Stormwind wants you to collect 10 Red Wool Bandanas.";
 L["Quest_388_Location"] = "Nikova Raskol (Stormwind - Old Town; "..YELLOW.."66.8, 46.4"..WHITE..")";
 L["Quest_388_Note"] = "Nikova Raskol walks around Old Town. All mobs found inside the dungeon can drop the Red Wool Bandanas.";
-L["Quest_388_RewardText"] = AQ_NONE;
 
 L["Quest_378_Name"] = "The Fury Runs Deep";
 L["Quest_378_Objective"] = "Motley Garmason wants Kam Deepfury's head brought to him at Dun Modr.";
@@ -977,7 +932,6 @@ L["Quest_391_Name"] = "The Stockade Riots";
 L["Quest_391_Objective"] = "Kill Bazil Thredd and bring his head back to Warden Thelwater at the Stockade.";
 L["Quest_391_Location"] = "Warden Thelwater (Stormwind - The Stockade; "..YELLOW.."41.2, 58.0"..WHITE..")";
 L["Quest_391_Note"] = "You can find Bazil Thredd at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_391_RewardText"] = AQ_NONE;
 L["Quest_391_PreQuest"] = "The Defias Brotherhood -> Bazil Thredd";
 L["Quest_391_FollowQuest"] = "The Curious Visitor";
 
@@ -985,7 +939,6 @@ L["Quest_5212_Name"] = "The Flesh Does Not Lie";
 L["Quest_5212_Objective"] = "Recover 20 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample.";
 L["Quest_5212_Location"] = "Betina Bigglezink (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.6"..WHITE..")";
 L["Quest_5212_Note"] = "Most mobs in Stratholme can drop the Plagued Flesh Samples, but the drop rate seems low.";
-L["Quest_5212_RewardText"] = AQ_NONE;
 L["Quest_5212_FollowQuest"] = "The Active Agent";
 
 L["Quest_5213_Name"] = "The Active Agent";
@@ -1018,7 +971,6 @@ L["Quest_5848_Name"] = "Of Love and Family";
 L["Quest_5848_Objective"] = "Travel to Stratholme, in the northern part of the Plaguelands. It is in the Scarlet Bastion that you will find the painting 'Of Love and Family,' hidden behind another painting depicting the twin moons of our world.\nReturn the painting to Tirion Fordring.";
 L["Quest_5848_Location"] = "Artist Renfray (Western Plaguelands - Caer Darrow; "..YELLOW.."65.6, 75.4"..WHITE..")";
 L["Quest_5848_Note"] = "You get the prequest from Tirion Fordring (Western Plaguelands; "..YELLOW.."7.4, 43.6"..WHITE..").  You can find the picture near "..YELLOW.."[10]"..WHITE..".";
-L["Quest_5848_RewardText"] = AQ_NONE;
 L["Quest_5848_PreQuest"] = "Redemption -> Of Love and Family";
 L["Quest_5848_FollowQuest"] = "Find Myranda";
 
@@ -1026,7 +978,6 @@ L["Quest_5463_Name"] = "Menethil's Gift";
 L["Quest_5463_Objective"] = "Travel to Stratholme and find Menethil's Gift. Place the Keepsake of Remembrance upon the unholy ground.";
 L["Quest_5463_Location"] = "Leonid Barthalomew the Revered (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.6, 57.8"..WHITE..")";
 L["Quest_5463_Note"] = "You get the prequest from Magistrate Marduke (Western Plaguelands - Caer Darrow; "..YELLOW.."70.4, 74.0"..WHITE..").  The unholy ground is at "..YELLOW.."[19]"..WHITE..".";
-L["Quest_5463_RewardText"] = AQ_NONE;
 L["Quest_5463_PreQuest"] = "The Human, Ras Frostwhisper -> The Dying, Ras Frostwhisper";
 L["Quest_5463_FollowQuest"] = "Menethil's Gift";
 
@@ -1040,14 +991,12 @@ L["Quest_5251_Name"] = "The Archivist";
 L["Quest_5251_Objective"] = "Travel to Stratholme and find Archivist Galford of the Scarlet Crusade. Destroy him and burn down the Scarlet Archive.";
 L["Quest_5251_Location"] = "Duke Nicholas Zverenhoff (Eastern Plaguelands - Light's Hope Chapel; "..YELLOW.."81.4, 59.8"..WHITE..")";
 L["Quest_5251_Note"] = "You can find the Archive and the Achivist at "..YELLOW.."[10]"..WHITE..".";
-L["Quest_5251_RewardText"] = AQ_NONE;
 L["Quest_5251_FollowQuest"] = "The Truth Comes Crashing Down";
 
 L["Quest_5262_Name"] = "The Truth Comes Crashing Down";
 L["Quest_5262_Objective"] = "Take the Head of Balnazzar to Duke Nicholas Zverenhoff in the Eastern Plaguelands.";
 L["Quest_5262_Location"] = "Balnazzar (Stratholme; "..YELLOW.."[11]"..WHITE..")";
 L["Quest_5262_Note"] = "You find Duke Nicholas Zverenhoff in the Eastern Plaguelands - Light's Hope Chapel ("..YELLOW.."81.4, 59.8"..WHITE..").";
-L["Quest_5262_RewardText"] = AQ_NONE;
 L["Quest_5262_PreQuest"] = "The Archivist";
 L["Quest_5262_FollowQuest"] = "Above and Beyond";
 
@@ -1071,7 +1020,6 @@ L["Quest_8968_Name"] = "The Left Piece of Lord Valthalak's Amulet";
 L["Quest_8968_Objective"] = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8968_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8968_Note"] = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE..".";
-L["Quest_8968_RewardText"] = AQ_NONE;
 L["Quest_8968_PreQuest"] = "Components of Importance";
 L["Quest_8968_FollowQuest"] = "I See Alcaz Island In Your Future...";
 
@@ -1079,7 +1027,6 @@ L["Quest_8991_Name"] = "The Right Piece of Lord Valthalak's Amulet";
 L["Quest_8991_Objective"] = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8991_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8991_Note"] = "Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nJarien and Sothos are summoned at "..YELLOW.."[11]"..WHITE..".";
-L["Quest_8991_RewardText"] = AQ_NONE;
 L["Quest_8991_PreQuest"] = "More Components of Importance";
 L["Quest_8991_FollowQuest"] = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 
@@ -1127,14 +1074,12 @@ L["Quest_3445_Name"] = "The Sunken Temple";
 L["Quest_3445_Objective"] = "Find Marvon Rivetseeker in Tanaris.";
 L["Quest_3445_Location"] = "Angelas Moonbreeze (Feralas - Feathermoon Stronghold; "..YELLOW.."31.8, 45.6"..WHITE..")";
 L["Quest_3445_Note"] = "You find Marvon Rivetseeker at "..YELLOW.."52.6, 45.8"..WHITE..".";
-L["Quest_3445_RewardText"] = AQ_NONE;
 L["Quest_3445_FollowQuest"] = "The Stone Circle";
 
 L["Quest_3446_Name"] = "Into the Depths";
 L["Quest_3446_Objective"] = "Find the Altar of Hakkar in the Sunken Temple in Swamp of Sorrows.";
 L["Quest_3446_Location"] = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52.6, 45.8"..WHITE..")";
 L["Quest_3446_Note"] = "The Altar is at "..YELLOW.."[1]"..WHITE..".";
-L["Quest_3446_RewardText"] = AQ_NONE;
 L["Quest_3446_PreQuest"] = "The Sunken Temple -> The Stone Circle";
 
 L["Quest_3447_Name"] = "Secret of the Circle";
@@ -1148,7 +1093,6 @@ L["Quest_4143_Name"] = "Haze of Evil";
 L["Quest_4143_Objective"] = "Collect 5 samples of Atal'ai Haze, then return to Muigin in Un'Goro Crater.";
 L["Quest_4143_Location"] = "Gregan Brewspewer (Feralas; "..YELLOW.."45.0, 25.4"..WHITE..")";
 L["Quest_4143_Note"] = "The Prequest 'Muigin and Larion' starts at Muigin (Un'Goro Crater - Marshal's Refuge; "..YELLOW.."43.0, 9.6"..WHITE.."). You get the Haze from Deep Lurkers, Murk Worms or Oozes in the Temple.";
-L["Quest_4143_RewardText"] = AQ_NONE;
 L["Quest_4143_PreQuest"] = "Muigin and Larion -> A Visit to Gregan ";
 
 L["Quest_3528_Name"] = "The God Hakkar";
@@ -1238,14 +1182,12 @@ L["Quest_3380_Name"] = "The Sunken Temple";
 L["Quest_3380_Objective"] = "Find Marvon Rivetseeker in Tanaris.";
 L["Quest_3380_Location"] = "Witch Doctor Uzer'i (Feralas; "..YELLOW.."74.4, 43.4"..WHITE..")";
 L["Quest_3380_Note"] = "You find Marvon Rivetseeker at "..YELLOW.."52.6, 45.8"..WHITE..".";
-L["Quest_3380_RewardText"] = AQ_NONE;
 L["Quest_3380_FollowQuest"] = "The Stone Circle";
 
 L["Quest_4146_Name"] = "Zapper Fuel";
 L["Quest_4146_Objective"] = "Deliver the Unloaded Zapper and 5 samples of Atal'ai Haze to Larion in Marshal's Refuge.";
 L["Quest_4146_Location"] = "Liv Rizzlefix (Barrens; "..YELLOW.."62.4, 38.6"..WHITE..")";
 L["Quest_4146_Note"] = "The prequest 'Larion and Muigin' starts at Larion (Un'Goro Crater; "..YELLOW.."45.6, 8.6"..WHITE..").  You get the Haze from Deep Lurkers, Murk Worms or Oozes in the Temple.";
-L["Quest_4146_RewardText"] = AQ_NONE;
 L["Quest_4146_PreQuest"] = "Larion and Muigin -> Marvon's Workshop";
 
 L["Quest_8413_Name"] = "Da Voodoo";
@@ -1259,7 +1201,6 @@ L["Quest_721_Name"] = "A Sign of Hope";
 L["Quest_721_Objective"] = "Find Hammertoe Grez in Uldaman.";
 L["Quest_721_Location"] = "Prospector Ryedol (Badlands; "..YELLOW.."53.4, 43.2"..WHITE..")";
 L["Quest_721_Note"] = "The Prequest starts at the Crumpled Map (Badlands; "..YELLOW.."53.0, 34.1"..WHITE..").\nYou find Hammertoe Grez in the area before you enter the dungeon's main portal.";
-L["Quest_721_RewardText"] = AQ_NONE;
 L["Quest_721_PreQuest"] = "A Sign of Hope";
 L["Quest_721_FollowQuest"] = "Amulet of Secrets";
 
@@ -1267,7 +1208,6 @@ L["Quest_722_Name"] = "Amulet of Secrets";
 L["Quest_722_Objective"] = "Find Hammertoe's Amulet and return it to him in Uldaman.";
 L["Quest_722_Location"] = "Hammertoe Grez (Uldaman; "..YELLOW.."Entrance Area before Dungeon"..WHITE..").";
 L["Quest_722_Note"] = "The Amulet drops from Magregan Deepshadow who is in the area before you enter the dungeon's main portal.";
-L["Quest_722_RewardText"] = AQ_NONE;
 L["Quest_722_PreQuest"] = "A Sign of Hope";
 L["Quest_722_FollowQuest"] = "Prospect of Faith";
 
@@ -1302,7 +1242,6 @@ L["Quest_2398_Name"] = "The Lost Dwarves";
 L["Quest_2398_Objective"] = "Find Baelog in Uldaman.";
 L["Quest_2398_Location"] = "Prospector Stormpike (Ironforge - Hall of Explorers; "..YELLOW.."74.4, 12.0"..WHITE..")";
 L["Quest_2398_Note"] = "Baelog is at "..YELLOW.."[1]"..WHITE..".";
-L["Quest_2398_RewardText"] = AQ_NONE;
 L["Quest_2398_FollowQuest"] = "The Hidden Chamber";
 
 L["Quest_2240_Name"] = "The Hidden Chamber";
@@ -1316,14 +1255,12 @@ L["Quest_2198_Name"] = "The Shattered Necklace";
 L["Quest_2198_Objective"] = "Search for the original creator of the shattered necklace to learn of its potential value.";
 L["Quest_2198_Location"] = "Shattered Necklace (random drop from Uldaman)";
 L["Quest_2198_Note"] = "Bring the necklace to Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36.0, 4.0"..WHITE..").";
-L["Quest_2198_RewardText"] = AQ_NONE;
 L["Quest_2198_FollowQuest"] = "Lore for a Price";
 
 L["Quest_2200_Name"] = "Back to Uldaman";
 L["Quest_2200_Objective"] = "Search for clues as to the current disposition of Talvash's necklace within Uldaman.  The slain paladin he mentioned was the person who has it last.";
 L["Quest_2200_Location"] = "Talvash del Kissel (Ironforge - The Mystic Ward; "..YELLOW.."36.0, 4.0"..WHITE..")";
 L["Quest_2200_Note"] = "The Paladin is at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2200_RewardText"] = AQ_NONE;
 L["Quest_2200_PreQuest"] = "Lore for a Price";
 L["Quest_2200_FollowQuest"] = "Find the Gems";
 
@@ -1331,7 +1268,6 @@ L["Quest_2201_Name"] = "Find the Gems";
 L["Quest_2201_Objective"] = "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you.";
 L["Quest_2201_Location"] = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_2201_Note"] = "The gems are at "..YELLOW.."[1]"..WHITE.." in a Conspicous Urn, "..YELLOW.."[8]"..WHITE.." from the Shadowforge Cache, and "..YELLOW.."[9]"..WHITE.." off Grimlok.  Note that when openning the Shadowforge Cache, a few mobs will spawn an aggro you.  Use Talvash's Scrying Bowl to turn the quest in and get the followup.";
-L["Quest_2201_RewardText"] = AQ_NONE;
 L["Quest_2201_PreQuest"] = "Back to Uldaman";
 L["Quest_2201_FollowQuest"] = "Restoring the Necklace";
 
@@ -1353,7 +1289,6 @@ L["Quest_1360_Name"] = "Reclaimed Treasures";
 L["Quest_1360_Objective"] = "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge.";
 L["Quest_1360_Location"] = "Krom Stoutarm (Ironforge - Hall of Explorers; "..YELLOW.."74.2, 9.8"..WHITE..")";
 L["Quest_1360_Note"] = "You find the treasure before you enter the dungeon.  It is in the north of the caves, at the southeast end of the first tunnel.";
-L["Quest_1360_RewardText"] = AQ_NONE;
 
 L["Quest_2278_Name"] = "The Platinum Discs";
 L["Quest_2278_Objective"] = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon. -> Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff.";
@@ -1366,7 +1301,6 @@ L["Quest_1956_Name"] = "Power in Uldaman";
 L["Quest_1956_Objective"] = "Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh.";
 L["Quest_1956_Location"] = "Tabetha (Dustwallow Marsh; "..YELLOW.."46.0, 57.0"..WHITE..")";
 L["Quest_1956_Note"] = "Mage quest.  The Obsidian Power Source drops from the Obsidian Sentinel at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_1956_RewardText"] = AQ_NONE;
 L["Quest_1956_PreQuest"] = "The Exorcism";
 L["Quest_1956_FollowQuest"] = "Mana Surges";
 
@@ -1374,21 +1308,18 @@ L["Quest_1192_Name"] = "Indurium Ore";
 L["Quest_1192_Objective"] = "Bring 4 Indurium Ore to Pozzik in Thousand Needles.";
 L["Quest_1192_Location"] = "Pozzik (Thousand Needles - Mirage Raceway; "..YELLOW.."80.0, 75.8"..WHITE..")";
 L["Quest_1192_Note"] = "This is a repeatable quest after the prequests are complete.  It gives no reputation or experience, just a small amount of money.  Indurium Ore can be mined inside Uldaman or purchased from other players.";
-L["Quest_1192_RewardText"] = AQ_NONE;
 L["Quest_1192_PreQuest"] = "Keeping Pace -> Rizzle's Schematics";
 
 L["Quest_2283_Name"] = "Necklace Recovery";
 L["Quest_2283_Objective"] = "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged.";
 L["Quest_2283_Location"] = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59.4, 36.8"..WHITE..")";
 L["Quest_2283_Note"] = "The necklace is a random drop in the dungeon.";
-L["Quest_2283_RewardText"] = AQ_NONE;
 L["Quest_2283_FollowQuest"] = "Necklace Recovery, Take 2";
 
 L["Quest_2284_Name"] = "Necklace Recovery, Take 2";
 L["Quest_2284_Objective"] = "Find a clue as to the gems' whereabouts in the depths of Uldaman.";
 L["Quest_2284_Location"] = "Dran Droffers (Orgrimmar - The Drag; "..YELLOW.."59.4, 36.8"..WHITE..")";
 L["Quest_2284_Note"] = "The Paladin is at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2284_RewardText"] = AQ_NONE;
 L["Quest_2284_PreQuest"] = "Necklace Recovery";
 L["Quest_2284_FollowQuest"] = "Translating the Journal";
 
@@ -1396,7 +1327,6 @@ L["Quest_2318_Name"] = "Translating the Journal";
 L["Quest_2318_Objective"] = "Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Badlands.";
 L["Quest_2318_Location"] = "Remains of a Paladin (Uldaman; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_2318_Note"] = "The translator Jarkal Mossmeld is at (Badlands - Kargath; "..YELLOW.."2.6, 46.0"..WHITE..").";
-L["Quest_2318_RewardText"] = AQ_NONE;
 L["Quest_2318_PreQuest"] = "Necklace Recovery, Take 2";
 L["Quest_2318_FollowQuest"] = "Find the Gems and Power Source";
 
@@ -1420,7 +1350,6 @@ L["Quest_2342_Name"] = "Reclaimed Treasures";
 L["Quest_2342_Objective"] = "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity.";
 L["Quest_2342_Location"] = "Patrick Garrett (Undercity; "..YELLOW.."62.6, 48.4"..WHITE..")";
 L["Quest_2342_Note"] = "You find the treasure before you enter the dungeon. It is at the end of the south tunnel. On the entrance map, it's at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_2342_RewardText"] = AQ_NONE;
 
 L["Quest_971_Name"] = "Knowledge in the Deeps";
 L["Quest_971_Objective"] = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge.";
@@ -1439,7 +1368,6 @@ L["Quest_1198_Name"] = "In Search of Thaelrid";
 L["Quest_1198_Objective"] = "Seek out Argent Guard Thaelrid in Blackfathom Deeps.";
 L["Quest_1198_Location"] = "Dawnwatcher Shaedlass (Darnassus - Craftsmen's Terrace; "..YELLOW.."55.4, 24.6"..WHITE..")";
 L["Quest_1198_Note"] = "You find Argent Guard Thaelrid at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_1198_RewardText"] = AQ_NONE;
 L["Quest_1198_FollowQuest"] = "Blackfathom Villainy";
 
 L["Quest_1200_Name"] = "Blackfathom Villainy";
@@ -1459,7 +1387,6 @@ L["Quest_6563_Name"] = "The Essence of Aku'Mai";
 L["Quest_6563_Objective"] = "Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale.";
 L["Quest_6563_Location"] = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11.6, 34.2"..WHITE..")";
 L["Quest_6563_Note"] = "You get the prequest Trouble in the Deeps from Tsunaman (Stonetalon Mountains - Sun Rock Retreat; "..YELLOW.."47.2, 64.2"..WHITE..").  The crystals can be found in the tunnels before the dungeon.";
-L["Quest_6563_RewardText"] = AQ_NONE;
 L["Quest_6563_PreQuest"] = "Trouble in the Deeps";
 
 L["Quest_6564_Name"] = "Allegiance to the Old Gods";
@@ -1473,7 +1400,6 @@ L["Quest_6921_Name"] = "Amongst the Ruins";
 L["Quest_6921_Objective"] = "Bring the Fathom Core to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale.";
 L["Quest_6921_Location"] = "Je'neu Sancrea (Ashenvale - Zoram'gar Outpost; "..YELLOW.."11.6, 34.2"..WHITE..")";
 L["Quest_6921_Note"] = "You find the Fathom Core at "..YELLOW.."[7]"..WHITE.." in the water.  When you get the core Baron Aquanis appears and attacks you.  He drops a quest item which you have to take back to Je'neu Sancrea.";
-L["Quest_6921_RewardText"] = AQ_NONE;
 
 L["Quest_6561_Name"] = "Blackfathom Villainy";
 L["Quest_6561_Objective"] = "Bring the head of Twilight Lord Kelris to Bashana Runetotem in Thunder Bluff.";
@@ -1505,7 +1431,6 @@ L["Quest_8967_Name"] = "The Left Piece of Lord Valthalak's Amulet";
 L["Quest_8967_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8967_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8967_Note"] = "Dungeon Set questline.  The Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_8967_RewardText"] = AQ_NONE;
 L["Quest_8967_PreQuest"] = "Components of Importance";
 L["Quest_8967_FollowQuest"] = "I See Alcaz Island In Your Future...";
 
@@ -1513,7 +1438,6 @@ L["Quest_8990_Name"] = "The Right Piece of Lord Valthalak's Amulet";
 L["Quest_8990_Objective"] = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning.";
 L["Quest_8990_Location"] = "Bodley (Blackrock Mountain; "..YELLOW.."[D] on Entrance Map"..WHITE..")";
 L["Quest_8990_Note"] = "Dungeon Set questline.  The Extra-Dimensional Ghost Revealer is needed to see Bodley. You get it from the 'In Search of Anthion' quest.\n\nIsalien is summoned at "..YELLOW.."[5]"..WHITE..".";
-L["Quest_8990_RewardText"] = AQ_NONE;
 L["Quest_8990_PreQuest"] = "More Components of Importance";
 L["Quest_8990_FollowQuest"] = "Final Preparations ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 
@@ -1521,7 +1445,6 @@ L["Quest_7581_Name"] = "The Prison's Bindings";
 L["Quest_7581_Objective"] = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done.";
 L["Quest_7581_Location"] = "Daio the Decrepit (Blasted Lands - The Tainted Scar; "..YELLOW.."34.2, 50.0"..WHITE..")";
 L["Quest_7581_Note"] = "This along with another quest given by Daio the Decrepit are Warlock only quests for the Ritual of Doom spell.  If you have the Crescent Key, provided by the quest 'Pusillin and the Elder Azj'Tordin', then you can enter Dire Maul East through  back door at the Lariss Pavilion (Feralas; "..YELLOW.."77, 37"..WHITE..").";
-L["Quest_7581_RewardText"] = AQ_NONE;
 
 L["Quest_7489_Name"] = "Lethtendris's Web";
 L["Quest_7489_Objective"] = "Bring Lethtendris's Web to Talo Thornhoof at Camp Mojache in Feralas.";
@@ -1534,7 +1457,6 @@ L["Quest_1193_Name"] = "A Broken Trap";
 L["Quest_1193_Objective"] = "Repair the trap.";
 L["Quest_1193_Location"] = "A Broken Trap (Dire Maul; "..YELLOW.."North"..WHITE..")";
 L["Quest_1193_Note"] = "Repeatable quest. To repair the trap you have to use a [Thorium Widget] and a [Frost Oil].";
-L["Quest_1193_RewardText"] = AQ_NONE;
 
 L["Quest_5518_Name"] = "The Gordok Ogre Suit";
 L["Quest_5518_Objective"] = "Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Dire Maul.";
@@ -1546,7 +1468,6 @@ L["Quest_5525_Name"] = "Free Knot!";
 L["Quest_5525_Objective"] = "Collect a Gordok Shackle Key for Knot Thimblejack.";
 L["Quest_5525_Location"] = "Knot Thimblejack (Dire Maul; "..YELLOW.."North, [4]"..WHITE..")";
 L["Quest_5525_Note"] = "Repeatable quest.  Every warden can drop the key.";
-L["Quest_5525_RewardText"] = AQ_NONE;
 
 L["Quest_7703_Name"] = "Unfinished Gordok Business";
 L["Quest_7703_Objective"] = "Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Dire Maul.\nAccording to Kromcrush, the 'old timey story' says that Tortheldrin - a 'creepy' elf who called himself a prince - stole it from one of the Gordok kings.";
@@ -1564,13 +1485,11 @@ L["Quest_7482_Name"] = "Elven Legends";
 L["Quest_7482_Objective"] = "Search Dire Maul for Kariel Winthalus. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find.";
 L["Quest_7482_Location"] = "Scholar Runethorn (Feralas - Feathermoon Stronghold; "..YELLOW.."31.2, 43.4"..WHITE..")";
 L["Quest_7482_Note"] = "You find Kariel Winthalus in the "..GREEN.."[1'] Library"..WHITE..".";
-L["Quest_7482_RewardText"] = AQ_NONE;
 
 L["Quest_7461_Name"] = "The Madness Within";
 L["Quest_7461_Objective"] = "You must destroy the guardians surrounding the 5 Pylons that power the Prison of Immol'thar. Once the Pylons have powered down, the force field surrounding Immol'thar will have dissipated.\nEnter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum.";
 L["Quest_7461_Location"] = "Shen'dralar Ancient (Dire Maul; "..YELLOW.."West, [1] (above)"..WHITE..")";
 L["Quest_7461_Note"] = "The Pylons are marked as "..BLUE.."[B]"..WHITE..". Immol'thar is at "..YELLOW.."[6]"..WHITE..", Prince Tortheldrin at "..YELLOW.."[7]"..WHITE..".";
-L["Quest_7461_RewardText"] = AQ_NONE;
 L["Quest_7461_FollowQuest"] = "The Treasure of the Shen'dralar";
 
 L["Quest_7877_Name"] = "The Treasure of the Shen'dralar";
@@ -1584,7 +1503,6 @@ L["Quest_7631_Name"] = "Dreadsteed of Xoroth";
 L["Quest_7631_Objective"] = "Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you.";
 L["Quest_7631_Location"] = "Mor'zul Bloodbringer (Burning Steppes; "..YELLOW.."12,31"..WHITE..")";
 L["Quest_7631_Note"] = "Warlock quest.  Final Quest in the Warlock Epic mount questline.  First you must shut down all Pylons marked with "..BLUE.."[B]"..WHITE.." and then kill Immol'thar at "..YELLOW.."[6]"..WHITE..".  After that, you can begin the Summoning Ritual.  Be sure to have around 20 Soul Shards ready and have one Warlock specifically assigned to keeping the Bell, Candle and Wheel up.  The Doomguards that come can be enslaved.  After completion, talk to the Dreadsteed ghost to complete the quest.";
-L["Quest_7631_RewardText"] = AQ_NONE;
 L["Quest_7631_PreQuest"] = "Imp Delivery ("..YELLOW.."Scholomance"..WHITE..")";
 
 L["Quest_7506_Name"] = "The Emerald Dream...";
@@ -1657,14 +1575,12 @@ L["Quest_7507_Name"] = "Nostro's Compendium";
 L["Quest_7507_Objective"] = "Return Nostro's Compendium of Dragon Slaying to the Athenaeum.";
 L["Quest_7507_Location"] = "Nostro's Compendium of Dragon Slaying (random boss drop in "..YELLOW.."Dire Maul"..WHITE..")";
 L["Quest_7507_Note"] = "Warrior or Paladin quest.  It turns in to Lorekeeper Lydros at (Dire Maul West; "..GREEN.."[1'] Library"..WHITE..").  Turning this in allows you to start the quest for Quel'Serrar.";
-L["Quest_7507_RewardText"] = AQ_NONE;
 L["Quest_7507_FollowQuest"] = "The Forging of Quel'Serrar";
 
 L["Quest_7481_Name"] = "Elven Legends";
 L["Quest_7481_Objective"] = "Search Dire Maul for Kariel Winthalus. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find.";
 L["Quest_7481_Location"] = "Sage Korolusk (Feralas - Camp Mojache; "..YELLOW.."75.0, 43.8"..WHITE..")";
 L["Quest_7481_Note"] = "You find Kariel Winthalus in the "..GREEN.."[1'] Library"..WHITE..".";
-L["Quest_7481_RewardText"] = AQ_NONE;
 
 L["Quest_7505_Name"] = "Frost Shock and You";
 L["Quest_7505_Objective"] = "Return the book to its rightful owners.";
@@ -1700,7 +1616,6 @@ L["Quest_7044_Name"] = "Legends of Maraudon";
 L["Quest_7044_Objective"] = "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.\nFind a way to speak with Celebras.";
 L["Quest_7044_Location"] = "Cavindra (Desolace - Maraudon; "..YELLOW.."[4] on Entrance Map"..WHITE..")";
 L["Quest_7044_Note"] = "You find Cavindra at the beginning  of the orange part before you enter the dungeon.\nYou get the Celebrian Rod from Noxxion at "..YELLOW.."[2]"..WHITE..", the Celebrian Diamond from Lord Vyletongue at  "..YELLOW.."[5]"..WHITE..". Celebras is at "..YELLOW.."[7]"..WHITE..". You have to defeat him to be able to talk to him.";
-L["Quest_7044_RewardText"] = AQ_NONE;
 L["Quest_7044_FollowQuest"] = "The Scepter of Celebras";
 
 L["Quest_7046_Name"] = "The Scepter of Celebras";
@@ -1721,7 +1636,6 @@ L["Quest_7066_Name"] = "Seed of Life";
 L["Quest_7066_Objective"] = "Seek out Remulos in Moonglade and give him the Seed of Life.";
 L["Quest_7066_Location"] = "Zaetar's Spirit (Maraudon; "..YELLOW.."[11]"..WHITE..")";
 L["Quest_7066_Note"] = "Zaetars Ghost appears after killing Princess Theradras "..YELLOW.."[11]"..WHITE..". You find Keeper Remulos at (Moonglade - Shrine of Remulos; "..YELLOW.."36.2, 41.8"..WHITE..").";
-L["Quest_7066_RewardText"] = AQ_NONE;
 L["Quest_7066_PreQuest"] = "Corruption of Earth and Seed";
 
 L["Quest_7068_Name"] = "Shadowshard Fragments";
@@ -1747,7 +1661,6 @@ L["Quest_5723_Name"] = "Testing an Enemy's Strength";
 L["Quest_5723_Objective"] = "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff.";
 L["Quest_5723_Location"] = "Rahauro (Thunder Bluff - Elder Rise; "..YELLOW.."70.4, 32.2"..WHITE..")";
 L["Quest_5723_Note"] = "You find the troggs at the beginning of the dungeon.";
-L["Quest_5723_RewardText"] = AQ_NONE;
 
 L["Quest_5725_Name"] = "The Power to Destroy...";
 L["Quest_5725_Objective"] = "Bring the books Spells of Shadow and Incantations from the Nether to Varimathras in Undercity.";
@@ -1774,13 +1687,11 @@ L["Quest_5761_Name"] = "Slaying the Beast";
 L["Quest_5761_Objective"] = "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar.";
 L["Quest_5761_Location"] = "Neeru Fireblade (Orgrimmar - Cleft of Shadow; "..YELLOW.."49.6, 50.4"..WHITE..")";
 L["Quest_5761_Note"] = "You find Taragaman the Hungerer at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_5761_RewardText"] = AQ_NONE;
 
 L["Quest_6626_Name"] = "A Host of Evil";
 L["Quest_6626_Objective"] = "Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Razorfen Downs.";
 L["Quest_6626_Location"] = "Myriam Moonsinger (The Barrens; "..YELLOW.."49.0, 94.8"..WHITE..")";
 L["Quest_6626_Note"] = "You can find the mobs and the quest giver in the area just before the dungeon entrance.";
-L["Quest_6626_RewardText"] = AQ_NONE;
 
 L["Quest_3525_Name"] = "Extinguishing the Idol";
 L["Quest_3525_Objective"] = "Escort Belnistrasz to the Quilboar's idol in Razorfen Downs. Protect Belnistrasz while he performs the ritual to shut down the idol.";
@@ -1837,7 +1748,6 @@ L["Quest_1701_Name"] = "Fire Hardened Mail";
 L["Quest_1701_Objective"] = "Gather the materials Furen Longbeard requires, and bring them to him in Stormwind.";
 L["Quest_1701_Location"] = "Furen Longbeard (Stormwind - Dwarven District; "..YELLOW.."58.0, 16.8"..WHITE..")";
 L["Quest_1701_Note"] = "Warrior quest.  You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nThe followup quest is different for each race. Burning Blood for Humans, Iron Coral for Dwarves and Gnomes and Sunscorched Shells for Night Elves.";
-L["Quest_1701_RewardText"] = AQ_NONE;
 L["Quest_1701_PreQuest"] = "The Shieldsmith";
 L["Quest_1701_FollowQuest"] = "(See Note)";
 
@@ -1845,7 +1755,6 @@ L["Quest_1109_Name"] = "Going, Going, Guano!";
 L["Quest_1109_Objective"] = "Bring 1 pile of Kraul Guano to Master Apothecary Faranell in the Undercity.";
 L["Quest_1109_Location"] = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48.4, 69.4 "..WHITE..")";
 L["Quest_1109_Note"] = "Kraul Guano is dropped by any of the bats found within the dungeon.";
-L["Quest_1109_RewardText"] = AQ_NONE;
 L["Quest_1109_FollowQuest"] = "Hearts of Zeal ("..YELLOW.."[Scarlet Monastery]"..WHITE..")";
 
 L["Quest_1102_Name"] = "A Vengeful Fate";
@@ -1858,7 +1767,6 @@ L["Quest_1838_Name"] = "Brutal Armor";
 L["Quest_1838_Objective"] = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston.";
 L["Quest_1838_Location"] = "Thun'grim Firegaze (The Barrens; "..YELLOW.."57.2, 30.2"..WHITE..")";
 L["Quest_1838_Note"] = "Warrior quest.  You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nCompleting this quest allows you to start four new quests from the same NPC.";
-L["Quest_1838_RewardText"] = AQ_NONE;
 L["Quest_1838_PreQuest"] = "Speak with Thun'grim";
 L["Quest_1838_FollowQuest"] = "(See Note)";
 
@@ -1872,13 +1780,11 @@ L["Quest_959_Name"] = "Trouble at the Docks";
 L["Quest_959_Objective"] = "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns.";
 L["Quest_959_Location"] = "Crane Operator Bigglefuzz (Barrens - Ratchet; "..YELLOW.."63.0, 37.6"..WHITE..")";
 L["Quest_959_Note"] = "You get the bottle right before you go into the dungeon by killing Mad Magglish.  When you first enter the cave make an immediate right to find him at the end of the passage. He is stealthed by a wall.";
-L["Quest_959_RewardText"] = AQ_NONE;
 
 L["Quest_1491_Name"] = "Smart Drinks";
 L["Quest_1491_Objective"] = "Bring 6 portions of Wailing Essence to Mebok Mizzyrix in Ratchet.";
 L["Quest_1491_Location"] = "Mebok Mizzyrix (Barrens - Ratchet; "..YELLOW.."62.4, 37.6"..WHITE..")";
 L["Quest_1491_Note"] = "The prequest can be obtained from Mebok Mizzyrix too.\nAll Ectoplasm enemies in and before the dungeon drop the Essence.";
-L["Quest_1491_RewardText"] = AQ_NONE;
 L["Quest_1491_PreQuest"] = "Raptor Horns";
 
 L["Quest_1487_Name"] = "Deviate Eradication";
@@ -1912,13 +1818,11 @@ L["Quest_3042_Name"] = "Troll Temper";
 L["Quest_3042_Objective"] = "Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan.";
 L["Quest_3042_Location"] = "Trenton Lighthammer (Tanaris - Gadgetzan; "..YELLOW.."51.4, 28.6"..WHITE..")";
 L["Quest_3042_Note"] = "Every Troll can drop the Tempers.";
-L["Quest_3042_RewardText"] = AQ_NONE;
 
 L["Quest_2865_Name"] = "Scarab Shells";
 L["Quest_2865_Objective"] = "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan.";
 L["Quest_2865_Location"] = "Tran'rek (Tanaris - Gadgetzan; "..YELLOW.."51.6, 26.8"..WHITE..")";
 L["Quest_2865_Note"] = "The prequest starts at Krazek (Stranglethorn Vale - Booty Bay; "..YELLOW.."27.0, 77.2"..WHITE..").\nAll scarabs can drop the shells.  You can find many scarabs at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2865_RewardText"] = AQ_NONE;
 L["Quest_2865_PreQuest"] = "Tran'rek";
 
 L["Quest_2846_Name"] = "Tiara of the Deep";
@@ -1932,7 +1836,6 @@ L["Quest_2991_Name"] = "Nekrum's Medallion";
 L["Quest_2991_Objective"] = "Bring Nekrum's Medallion to Thadius Grimshade in the Blasted Lands.";
 L["Quest_2991_Location"] = "Thadius Grimshade (The Blasted Lands - Nethergarde Keep; "..YELLOW.."67.0, 19.4"..WHITE..")";
 L["Quest_2991_Note"] = "The questline starts at Gryphon Master Talonaxe (The Hinterlands - Wildhammer Stronghold; "..YELLOW.."9.8, 44.4"..WHITE..").\nNekrum spawns at "..YELLOW.."[4]"..WHITE.." with the final crowd you fight for the Temple event.";
-L["Quest_2991_RewardText"] = AQ_NONE;
 L["Quest_2991_PreQuest"] = "Witherbark Cages -> Thadius Grimshade";
 L["Quest_2991_FollowQuest"] = "The Divination";
 
@@ -1940,7 +1843,6 @@ L["Quest_3527_Name"] = "The Prophecy of Mosh'aru";
 L["Quest_3527_Objective"] = "Bring the First and Second Mosh'aru Tablets to Yeh'kinya in Tanaris.";
 L["Quest_3527_Location"] = "Yeh'kinya (Tanaris - Steamwheedle Port; "..YELLOW.."67.0, 22.4"..WHITE..")";
 L["Quest_3527_Note"] = "You get the prequest from the same NPC.\nThe Tablets drop from Theka the Martyr at "..YELLOW.."[2]"..WHITE.." and Hydromancer Velratha at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_3527_RewardText"] = AQ_NONE;
 L["Quest_3527_PreQuest"] = "Screecher Spirits";
 L["Quest_3527_FollowQuest"] = "The Ancient Egg";
 
@@ -1961,7 +1863,6 @@ L["Quest_2936_Name"] = "The Spider God";
 L["Quest_2936_Objective"] = "Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin.";
 L["Quest_2936_Location"] = "Meister Gadrin (Durotar - Sen'jin Village; "..YELLOW.."56.0, 74.6"..WHITE..")";
 L["Quest_2936_Note"] = "The Questline starts at a Venom Bottle, which is found on tables in Troll Villages in The Hinterlands.\nYou find the Tablet at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_2936_RewardText"] = AQ_NONE;
 L["Quest_2936_PreQuest"] = "Venom Bottles -> Consult Master Gadrin";
 L["Quest_2936_FollowQuest"] = "Summoning Shadra";
 
@@ -1969,7 +1870,6 @@ L["Quest_6822_Name"] = "The Molten Core";
 L["Quest_6822_Objective"] = "Kill 1 Fire Lord, 1 Molten Giant, 1 Ancient Core Hound and 1 Lava Surger, then return to Duke Hydraxis in Azshara.";
 L["Quest_6822_Location"] = "Duke Hydraxis (Azshara; "..YELLOW.."79.2, 73.6"..WHITE..")";
 L["Quest_6822_Note"] = "These are non-bosses found inside Molten Core.";
-L["Quest_6822_RewardText"] = AQ_NONE;
 L["Quest_6822_PreQuest"] = "Eye of the Emberseer ("..YELLOW.."Upper Blackrock Spire"..WHITE..")";
 L["Quest_6822_FollowQuest"] = "Agent of Hydraxis";
 
@@ -1985,7 +1885,6 @@ L["Quest_7786_Name"] = "Thunderaan the Windseeker";
 L["Quest_7786_Objective"] = "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus.";
 L["Quest_7786_Location"] = "Highlord Demitrian (Silithus; "..YELLOW.."21.8, 8.6"..WHITE..")";
 L["Quest_7786_Note"] = "Part of the Thunderfury, Blessed Blade of the Windseeker questline.  It starts after obtaining either the left or right Bindings of the Windseeker from Garr at "..YELLOW.."[4]"..WHITE.." or Baron Geddon at "..YELLOW.."[6]"..WHITE..".  Then talk to Highlord Demitrian to start the questline.  Essence of the Firelord drops from Ragnaros at "..YELLOW.."[10]"..WHITE..".  After turning this part in, Prince Thunderaan is summoned and you must kill him. He's a 40-man raid boss.";
-L["Quest_7786_RewardText"] = AQ_NONE;
 L["Quest_7786_PreQuest"] = "Examine the Vessel";
 L["Quest_7786_FollowQuest"] = "Rise, Thunderfury!";
 
@@ -1999,7 +1898,6 @@ L["Quest_7632_Name"] = "The Ancient Leaf";
 L["Quest_7632_Objective"] = "Find the owner of the Ancient Petrified Leaf.";
 L["Quest_7632_Location"] = "Ancient Petrified Leaf (drops from Cache of the Firelord; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7632_Note"] = "Turns in to Vartrus the Ancient at (Felwood - Irontree Woods; "..YELLOW.."48.8, 24.2"..WHITE..").";
-L["Quest_7632_RewardText"] = AQ_NONE;
 L["Quest_7632_FollowQuest"] = "An Introduction -> Ancient Sinew Wrapped Lamina ("..YELLOW.."Azuregos"..WHITE..")";
 
 L["Quest_8578_Name"] = "Scrying Goggles? No Problem!";
@@ -2047,7 +1945,6 @@ L["Quest_8227_Name"] = "Nat's Measuring Tape";
 L["Quest_8227_Objective"] = "Return Nat's Measuring Tape to Nat Pagle in Dustwallow Marsh.";
 L["Quest_8227_Location"] = "Battered Tackle Box (Zul'Gurub - Northeast by water from Hakkar's Island)";
 L["Quest_8227_Note"] = "Nat Pagle is at Dustwallow Marsh ("..YELLOW.."59, 60"..WHITE.."). Turning the quest in allows you to buy Mudskunk Lures from Nat Pagle to summon Gahz'ranka in Zul'Gurub.";
-L["Quest_8227_RewardText"] = AQ_NONE;
 
 L["Quest_9023_Name"] = "The Perfect Poison";
 L["Quest_9023_Objective"] = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac.";
@@ -2065,7 +1962,6 @@ L["Quest_8801_Name"] = "C'Thun's Legacy";
 L["Quest_8801_Objective"] = "Take the Eye of C'Thun to Caelastrasz in the Temple of Ahn'Qiraj.";
 L["Quest_8801_Location"] = "Eye of C'Thun (drops from C'Thun; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_8801_Note"] = "Caelestrasz (Temple of Ahn'Qiraj; "..YELLOW.."2'"..WHITE..")";
-L["Quest_8801_RewardText"] = AQ_NONE;
 L["Quest_8801_FollowQuest"] = "The Savior of Kalimdor";
 
 L["Quest_8802_Name"] = "The Savior of Kalimdor";
@@ -2079,19 +1975,16 @@ L["Quest_8784_Name"] = "Secrets of the Qiraji";
 L["Quest_8784_Objective"] = "Take the Ancient Qiraji Artifact to the dragons hiding near the entrance of the temple.";
 L["Quest_8784_Location"] = "Ancient Qiraji Artifact (random drop in Temple of Ahn'Qiraj)";
 L["Quest_8784_Note"] = "Turns in to Andorgos (Temple of Ahn'Qiraj; "..YELLOW.."1'"..WHITE..").";
-L["Quest_8784_RewardText"] = AQ_NONE;
 
 L["Quest_8579_Name"] = "Mortal Champions";
 L["Quest_8579_Objective"] = "Turn in a Qiraji Lord's Insignia to Kandrostrasz in the Temple of Ahn'Qiraj.";
 L["Quest_8579_Location"] = "Kandrostrasz (Temple of Ahn'Qiraj; "..YELLOW.."[1']"..WHITE..")";
 L["Quest_8579_Note"] = "This is a repeatable quest which yields Cenarion Circle reputation. The Qiraji Lord's Insignia drop from all bosses inside the dungeon. Kandrostrasz is found in the rooms behind the first boss.";
-L["Quest_8579_RewardText"] = AQ_NONE;
 
 L["Quest_7261_Name"] = "The Sovereign Imperative";
 L["Quest_7261_Objective"] = "Travel to Alterac Valley in the Hillsbrad Foothills. Outside of the entrance tunnel, find and speak with Lieutenant Haggerdin.";
 L["Quest_7261_Location"] = "Lieutenant Rotimer (Ironforge - The Commons; "..YELLOW.."30,62"..WHITE..")";
 L["Quest_7261_Note"] = "Lieutenant Haggerdin is at (Alterac Mountains; "..YELLOW.."39,81"..WHITE..").";
-L["Quest_7261_RewardText"] = AQ_NONE;
 L["Quest_7261_FollowQuest"] = "Proving Grounds";
 
 L["Quest_7162_Name"] = "Proving Grounds";
@@ -2112,92 +2005,77 @@ L["Quest_7121_Name"] = "The Quartermaster";
 L["Quest_7121_Objective"] = "Speak with the Stormpike Quartermaster.";
 L["Quest_7121_Location"] = "Mountaineer Boombellow (Alterac Valley - North; "..YELLOW.."Near [3] Before Bridge"..WHITE..")";
 L["Quest_7121_Note"] = "The Stormpike Quartermaster is at (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..") and provides more quests.";
-L["Quest_7121_RewardText"] = AQ_NONE;
 
 L["Quest_6982_Name"] = "Coldtooth Supplies";
 L["Quest_6982_Objective"] = "Bring 10 Coldtooth Supplies to the Alliance Quartermaster in Dun Baldar.";
 L["Quest_6982_Location"] = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_6982_Note"] = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_6982_RewardText"] = AQ_NONE;
 
 L["Quest_5892_Name"] = "Irondeep Supplies";
 L["Quest_5892_Objective"] = "Bring 10 Irondeep Supplies to the Alliance Quartermaster in Dun Baldar.";
 L["Quest_5892_Location"] = "Stormpike Quartermaster (Alterac Valley - North; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_5892_Note"] = "The supplies can be found in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_5892_RewardText"] = AQ_NONE;
 
 L["Quest_7223_Name"] = "Armor Scraps";
 L["Quest_7223_Objective"] = "Bring 20 Armor Scraps to Murgot Deepforge in Dun Baldar.";
 L["Quest_7223_Location"] = "Murgot Deepforge (Alterac Valley - North; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_7223_Note"] = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable.";
-L["Quest_7223_RewardText"] = AQ_NONE;
 L["Quest_7223_FollowQuest"] = "More Armor Scraps";
 
 L["Quest_7122_Name"] = "Capture a Mine";
 L["Quest_7122_Objective"] = "Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains.";
 L["Quest_7122_Location"] = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7122_Note"] = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Horde control it.";
-L["Quest_7122_RewardText"] = AQ_NONE;
 
 L["Quest_7102_Name"] = "Towers and Bunkers";
 L["Quest_7102_Objective"] = "Destroy the banner at an enemy tower or bunker, then return to Sergeant Durgen Stormpike in the Alterac Mountains.";
 L["Quest_7102_Location"] = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7102_Note"] = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted.";
-L["Quest_7102_RewardText"] = AQ_NONE;
 
 L["Quest_7081_Name"] = "Alterac Valley Graveyards";
 L["Quest_7081_Objective"] = "Assault a graveyard, then return to Sergeant Durgen Stormpike in the Alterac Mountains.";
 L["Quest_7081_Location"] = "Sergeant Durgen Stormpike (Alterac Mountains; "..YELLOW.."37,77"..WHITE..")";
 L["Quest_7081_Note"] = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted.";
-L["Quest_7081_RewardText"] = AQ_NONE;
 
 L["Quest_7027_Name"] = "Empty Stables";
 L["Quest_7027_Objective"] = "Locate an Alterac Ram in Alterac Valley. Use the Stormpike Training Collar when you are near the Alterac Ram to 'tame' the beast. Once tamed, the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture.";
 L["Quest_7027_Location"] = "Stormpike Stable Master (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7027_Note"] = "You can find a Ram outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Stormpike Cavalry will arrive to assist in the battle.";
-L["Quest_7027_RewardText"] = AQ_NONE;
 
 L["Quest_7026_Name"] = "Ram Riding Harnesses";
 L["Quest_7026_Objective"] = "You must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!";
 L["Quest_7026_Location"] = "Stormpike Ram Rider Commander (Alterac Valley - North; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_7026_Note"] = "Frostwolves can be found in the southern area of Alterac Valley.";
-L["Quest_7026_RewardText"] = AQ_NONE;
 
 L["Quest_7386_Name"] = "Crystal Cluster";
 L["Quest_7386_Objective"] = "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.\n\nThe Circle accepts such offerings.";
 L["Quest_7386_Location"] = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_7386_Note"] = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle.";
-L["Quest_7386_RewardText"] = AQ_NONE;
 
 L["Quest_6881_Name"] = "Ivus the Forest Lord";
 L["Quest_6881_Objective"] = "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.\n\nThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals.";
 L["Quest_6881_Location"] = "Arch Druid Renferal (Alterac Valley - North; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_6881_Note"] = "After turning in 200 or so crystals, Arch Druid Renferal will begin walking towards (Alterac Valley - North; "..YELLOW.."[19]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Ivus the Forest Lord will be summoned to help the battle.";
-L["Quest_6881_RewardText"] = AQ_NONE;
 
 L["Quest_6942_Name"] = "Call of Air - Slidore's Fleet";
 L["Quest_6942_Objective"] = "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.\n\nThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.\n\nOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!";
 L["Quest_6942_Location"] = "Wing Commander Slidore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6942_Note"] = "Kill Horde NPCs for the Frostwolf Soldier's Medal.";
-L["Quest_6942_RewardText"] = AQ_NONE;
 
 L["Quest_6941_Name"] = "Call of Air - Vipore's Fleet";
 L["Quest_6941_Objective"] = "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike.";
 L["Quest_6941_Location"] = "Wing Commander Vipore (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6941_Note"] = "Kill Horde NPCs for the Frostwolf Lieutenant's Medal.";
-L["Quest_6941_RewardText"] = AQ_NONE;
 
 L["Quest_6943_Name"] = "Call of Air - Ichman's Fleet";
 L["Quest_6943_Objective"] = "Return to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!";
 L["Quest_6943_Location"] = "Wing Commander Ichman (Alterac Valley - North; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6943_Note"] = "Kill Horde NPCs for the Frostwolf Commander's Medals. After turning in 50, Wing Commander Ichman will either send a gryphon to attack the Horde base or give you a beacon to plant in the Snowfall Graveyard. If the beacon is protected long enough a gryphon will come to defend it.";
-L["Quest_6943_RewardText"] = AQ_NONE;
 
 L["Quest_7241_Name"] = "In Defense of Frostwolf";
 L["Quest_7241_Objective"] = "Venture to Alterac Valley, located in the Alterac Mountains. Find and speak with Warmaster Laggrond - who stands outside the tunnel entrance - to begin your career as a soldier of Frostwolf. You will find Alterac Valley north of Tarren Mill at the base of the Alterac Mountains.";
 L["Quest_7241_Location"] = "Frostwolf Ambassador Rokhstrom (Orgrimmar - Valley of Strength "..YELLOW.."50,71"..WHITE..")";
 L["Quest_7241_Note"] = "Warmaster Laggrond is at (Alterac Mountains; "..YELLOW.."62,59"..WHITE..").";
-L["Quest_7241_RewardText"] = AQ_NONE;
 L["Quest_7241_FollowQuest"] = "Proving Grounds";
 
 L["Quest_7161_Name"] = "Proving Grounds";
@@ -2218,98 +2096,82 @@ L["Quest_7123_Name"] = "Speak with our Quartermaster";
 L["Quest_7123_Objective"] = "Speak with the Frostwolf Quartermaster.";
 L["Quest_7123_Location"] = "Jotek (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7123_Note"] = "The Frostwolf Quartermaster is at "..YELLOW.."[10]"..WHITE.." and provides more quests.";
-L["Quest_7123_RewardText"] = AQ_NONE;
 
 L["Quest_5893_Name"] = "Coldtooth Supplies";
 L["Quest_5893_Objective"] = "Bring 10 Coldtooth Supplies to the Horde Quatermaster in Frostwolf Keep.";
 L["Quest_5893_Location"] = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_5893_Note"] = "The supplies can be found in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..").";
-L["Quest_5893_RewardText"] = AQ_NONE;
 
 L["Quest_6985_Name"] = "Irondeep Supplies";
 L["Quest_6985_Objective"] = "Bring 10 Irondeep Supplies to the Horde Quartermaster in Frostwolf Keep.";
 L["Quest_6985_Location"] = "Frostwolf Quartermaster (Alterac Valley - South; "..YELLOW.."[10]"..WHITE..")";
 L["Quest_6985_Note"] = "The supplies can be found in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..").";
-L["Quest_6985_RewardText"] = AQ_NONE;
 
 L["Quest_7224_Name"] = "Enemy Booty";
 L["Quest_7224_Objective"] = "Bring 20 Armor Scraps to Smith Regzar in Frostwolf Village.";
 L["Quest_7224_Location"] = "Smith Regzar (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7224_Note"] = "Loot the corpse of enemy players for scraps. The followup is just the same, quest, but repeatable.";
-L["Quest_7224_RewardText"] = AQ_NONE;
 L["Quest_7224_FollowQuest"] = "More Booty!";
 
 L["Quest_7124_Name"] = "Capture a Mine";
 L["Quest_7124_Objective"] = "Capture a mine, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains.";
 L["Quest_7124_Location"] = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7124_Note"] = "To complete the quest, you must kill either Morloch in the Irondeep Mine at (Alterac Valley - North; "..YELLOW.."[1]"..WHITE..") or Taskmaster Snivvle in the Coldtooth Mine at (Alterac Valley - South; "..YELLOW.."[6]"..WHITE..") while the Alliance control it.";
-L["Quest_7124_RewardText"] = AQ_NONE;
 
 L["Quest_7101_Name"] = "Towers and Bunkers";
 L["Quest_7101_Objective"] = "Capture an enemy tower, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains.";
 L["Quest_7101_Location"] = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7101_Note"] = "Reportedly, the Tower or Bunker need not actually be destroyed to complete the quest, just assaulted.";
-L["Quest_7101_RewardText"] = AQ_NONE;
 
 L["Quest_7082_Name"] = "The Graveyards of Alterac";
 L["Quest_7082_Objective"] = "Assault a graveyard, then return to Corporal Teeka Bloodsnarl in the Alterac Mountains.";
 L["Quest_7082_Location"] = "Corporal Teeka Bloodsnarl (Alterac Mountains; "..YELLOW.."66,55"..WHITE..")";
 L["Quest_7082_Note"] = "Reportedly you do not need to do anything but be near a graveyard when the Horde assaults it. It does not need to be captured, just assaulted.";
-L["Quest_7082_RewardText"] = AQ_NONE;
 
 L["Quest_7001_Name"] = "Empty Stables";
 L["Quest_7001_Objective"] = "Locate a Frostwolf in Alterac Valley. Use the Frostwolf Muzzle when you are near the Frostwolf to 'tame' the beast. Once tamed, the Frostwolf will follow you back to the Frostwolf Stable Master. Speak with the Frostwolf Stable Master to earn credit for the capture.";
 L["Quest_7001_Location"] = "Frostwolf Stable Master (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7001_Note"] = "You can find a Frostwolf outside the base. The taming process is just like that of a Hunter taming a pet. The quest is repeatable up to a total of 25 times per battleground by the same player or players. After 25 Rams have been tamed, the Frostwolf Cavalry will arrive to assist in the battle.";
-L["Quest_7001_RewardText"] = AQ_NONE;
 
 L["Quest_7002_Name"] = "Ram Hide Harnesses";
 L["Quest_7002_Objective"] = "You must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!\n\nSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!";
 L["Quest_7002_Location"] = "Frostwolf Wolf Rider Commander (Alterac Valley - South; "..YELLOW.."[9]"..WHITE..")";
 L["Quest_7002_Note"] = "The Rams can be found in the northern area of Alterac Valley.";
-L["Quest_7002_RewardText"] = AQ_NONE;
 
 L["Quest_7385_Name"] = "A Gallon of Blood";
 L["Quest_7385_Objective"] = "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings.";
 L["Quest_7385_Location"] = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_7385_Note"] = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players.";
-L["Quest_7385_RewardText"] = AQ_NONE;
 
 L["Quest_6801_Name"] = "Lokholar the Ice Lord";
 L["Quest_6801_Objective"] = "You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.\n\nVictory will be assured when the elemental lord is loosed upon the Stormpike army.";
 L["Quest_6801_Location"] = "Primalist Thurloga (Alterac Valley - South; "..YELLOW.."[8]"..WHITE..")";
 L["Quest_6801_Note"] = "After turning in 150 or so Blood, Primalist Thurloga will begin walking towards (Alterac Valley - South; "..YELLOW.."[1]"..WHITE.."). Once there, she will begin a summoning ritual which will require 10 people to assist. If successful, Lokholar the Ice Lord will be summoned to kill Alliance players.";
-L["Quest_6801_RewardText"] = AQ_NONE;
 
 L["Quest_6825_Name"] = "Call of Air - Guse's Fleet";
 L["Quest_6825_Objective"] = "My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.\n\nI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!";
 L["Quest_6825_Location"] = "Wing Commander Guse (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6825_Note"] = "Kill Alliance NPCs for the Stormpike Soldier's Flesh. Reportedly 90 flesh are needed to make the Wing Commander do whatever she does.";
-L["Quest_6825_RewardText"] = AQ_NONE;
 
 L["Quest_6826_Name"] = "Call of Air - Jeztor's Fleet";
 L["Quest_6826_Objective"] = "My War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!\n\nMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants.";
 L["Quest_6826_Location"] = "Wing Commander Jeztor (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6826_Note"] = "Kill Alliance NPCs for the Stormpike Lieutenant's Flesh.";
-L["Quest_6826_RewardText"] = AQ_NONE;
 
 L["Quest_6827_Name"] = "Call of Air - Mulverick's Fleet";
 L["Quest_6827_Objective"] = "First, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you.";
 L["Quest_6827_Location"] = "Wing Commander Mulverick (Alterac Valley - South; "..YELLOW.."[13]"..WHITE..")";
 L["Quest_6827_Note"] = "Kill Alliance NPCs for the Stormpike Commander's Flesh.";
-L["Quest_6827_RewardText"] = AQ_NONE;
 
 L["Quest_8105_Name"] = "The Battle for Arathi Basin!";
 L["Quest_8105_Objective"] = "Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe.";
 L["Quest_8105_Location"] = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8105_Note"] = "The locations to be assaulted are marked on the map as 2 through 5.";
-L["Quest_8105_RewardText"] = AQ_NONE;
 
 L["Quest_8114_Name"] = "Control Four Bases";
 L["Quest_8114_Objective"] = "Enter Arathi Basin, capture and control four bases at the same time, and then return to Field Marshal Oslight at Refuge Pointe.";
 L["Quest_8114_Location"] = "Field Marshal Oslight (Arathi Highlands - Refuge Pointe; "..YELLOW.."46,45"..WHITE..")";
 L["Quest_8114_Note"] = "You need to be Friendly with the League of Arathor to get this quest.";
-L["Quest_8114_RewardText"] = AQ_NONE;
 
 L["Quest_8115_Name"] = "Control Five Bases";
 L["Quest_8115_Objective"] = "Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe.";
@@ -2321,13 +2183,11 @@ L["Quest_8120_Name"] = "The Battle for Arathi Basin!";
 L["Quest_8120_Objective"] = "Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall.";
 L["Quest_8120_Location"] = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8120_Note"] = "The locations to be assaulted are marked on the map as 1 through 4.";
-L["Quest_8120_RewardText"] = AQ_NONE;
 
 L["Quest_8121_Name"] = "Take Four Bases";
 L["Quest_8121_Objective"] = "Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall.";
 L["Quest_8121_Location"] = "Deathmaster Dwire (Arathi Highlands - Hammerfall; "..YELLOW.."74,35"..WHITE..")";
 L["Quest_8121_Note"] = "You need to be Friendly with The Defilers to get this quest.";
-L["Quest_8121_RewardText"] = AQ_NONE;
 
 L["Quest_8122_Name"] = "Take Five Bases";
 L["Quest_8122_Objective"] = "Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall.";
@@ -2362,7 +2222,6 @@ L["Quest_9587_Name"] = "Dark Tidings";
 L["Quest_9587_Objective"] = "Take the Ominous Letter to Force Commander Danath Trollbane at Honor Hold in Hellfire Peninsula.";
 L["Quest_9587_Location"] = "Ominous Letter (drops from Vazruden the Herald; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_9587_Note"] = "Force Commander Danath Trollbane is at "..YELLOW.."56.6, 66.6"..WHITE.." in Honor Hold.";
-L["Quest_9587_RewardText"] = AQ_NONE;
 L["Quest_9587_FollowQuest"] = "The Blood is Life ("..YELLOW.."HFC: Blood Furnace"..WHITE..")";
 
 L["Quest_11354_Name"] = "Wanted: Nazan's Riding Crop";
@@ -2383,7 +2242,6 @@ L["Quest_9588_Name"] = "Dark Tidings";
 L["Quest_9588_Objective"] = "Take the Ominous Letter to Nazgrel at Thrallmar in Hellfire Peninsula.";
 L["Quest_9588_Location"] = "Ominous Letter (drops from Vazruden the Herald; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_9588_Note"] = "Nazgrel is at "..YELLOW.."55.0, 36.0"..WHITE.." in Thrallmar.";
-L["Quest_9588_RewardText"] = AQ_NONE;
 L["Quest_9588_FollowQuest"] = "The Blood is Life ("..YELLOW.."HFC: Blood Furnace"..WHITE..")";
 
 L["Quest_9589_Name"] = "The Blood is Life";
@@ -2430,7 +2288,6 @@ L["Quest_9493_Name"] = "Pride of the Fel Horde";
 L["Quest_9493_Objective"] = "Field Commander Romus at Honor Hold wants you to kill 8 Shattered Hand Legionnaires, 4 Shattered Hand Centurions and 4 Shattered Hand Champions.";
 L["Quest_9493_Location"] = "Field Commander Romus (Hellfire Peninsula - Honor Hold; "..YELLOW.."57,63"..WHITE..")";
 L["Quest_9493_Note"] = "You'll find the Centurion's in Sparring Hall.";
-L["Quest_9493_RewardText"] = AQ_NONE;
 
 L["Quest_9492_Name"] = "Turning the Tide";
 L["Quest_9492_Objective"] = "Bring Warchief Kargath's Fist to Force Commander Danath Trollbane in Honor Hold.";
@@ -2442,19 +2299,16 @@ L["Quest_9524_Name"] = "Imprisoned in the Citadel";
 L["Quest_9524_Objective"] = "Rescue Captain Alina inside Hellfire Citadel before she is executed.";
 L["Quest_9524_Location"] = "Randy Whizzlesprocket (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")";
 L["Quest_9524_Note"] = "Requires Heroic Dungeon Difficulty.\n\nCaptain Alina is at "..YELLOW.."[5]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event.";
-L["Quest_9524_RewardText"] = AQ_NONE;
 
 L["Quest_10884_Name"] = "Trial of the Naaru: Mercy";
 L["Quest_10884_Objective"] = "A'dal in Shattrath City wants you to recover the Unused Axe of the Executioner from the Shattered Halls of Hellfire Citadel.";
 L["Quest_10884_Location"] = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_10884_Note"] = "Requires Heroic Dungeon Difficulty.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary.";
-L["Quest_10884_RewardText"] = AQ_NONE;
 
 L["Quest_10670_Name"] = "Tear of the Earthmother";
 L["Quest_10670_Objective"] = "Recover the Tear of the Earthmother from Warbringer O'mrogg and return it to David Wayne at Wayne's Refuge.";
 L["Quest_10670_Location"] = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..").";
 L["Quest_10670_Note"] = "Warbringer O'mrogg is at "..YELLOW.."[4]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes.";
-L["Quest_10670_RewardText"] = AQ_NONE;
 L["Quest_10670_PreQuest"] = "Fresh From the Mechanar ("..YELLOW.."The Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Shadow Labyrinth"..WHITE..")";
 L["Quest_10670_FollowQuest"] = "Bane of the Illidari";
 
@@ -2462,7 +2316,6 @@ L["Quest_9637_Name"] = "Kalynna's Request";
 L["Quest_9637_Objective"] = "Kalynna Lathred wants you to retrieve the Tome of Dusk from Grand Warlock Nethekurse in the Shattered Halls of Hellfire Citadel and the Book of Forgotten Names from Darkweaver Syth in the Sethekk Halls in Auchindoun.";
 L["Quest_9637_Location"] = "Kalynna Lathred (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..")";
 L["Quest_9637_Note"] = "This quest requires you to run Heroic Shattered Halls and Heroic Sethekk Halls";
-L["Quest_9637_RewardText"] = AQ_NONE;
 L["Quest_9637_PreQuest"] = "A Colleague's Aid";
 L["Quest_9637_FollowQuest"] = "Nightbane";
 
@@ -2489,7 +2342,6 @@ L["Quest_9496_Name"] = "Pride of the Fel Horde";
 L["Quest_9496_Objective"] = "Shadow Hunter Ty'jin at Thrallmar wants you to kill 8 Shattered Hand Legionnaires, 4 Shattered Hand Centurions and 4 Shattered Hand Champions.";
 L["Quest_9496_Location"] = "Shadow Hunter Ty'jin (Hellfire Peninsula - Thrallmar; "..YELLOW.."55,36"..WHITE..")";
 L["Quest_9496_Note"] = "You'll find the Centurion's in Sparring Hall.";
-L["Quest_9496_RewardText"] = AQ_NONE;
 
 L["Quest_9495_Name"] = "The Will of the Warchief";
 L["Quest_9495_Objective"] = "Bring Warchief Kargath's Fist to Nazgrel in Thrallmar.";
@@ -2501,7 +2353,6 @@ L["Quest_9525_Name"] = "Imprisoned in the Citadel";
 L["Quest_9525_Objective"] = "Rescue Captain Boneshatter inside Hellfire Citadel before he is executed.";
 L["Quest_9525_Location"] = "Drisella (Shattered Halls; "..YELLOW.."Heroic [1]"..WHITE..")";
 L["Quest_9525_Note"] = "Requires Heroic Dungeon Difficulty.\n\nDrisella is at "..YELLOW.."[5]"..WHITE..". Timer with 55 minutes starts at the beginning of the Archer event.";
-L["Quest_9525_RewardText"] = AQ_NONE;
 
 L["Quest_10755_Name"] = "Entry Into the Citadel";
 L["Quest_10755_Objective"] = "Bring the Primed Key Mold to Nazgrel at Thrallmar in Hellfire Peninsula.";
@@ -2546,13 +2397,11 @@ L["Quest_10901_Name"] = "The Cudgel of Kar'desh";
 L["Quest_10901_Objective"] = "Skar'this the Heretic in the heroic Slave Pens of Coilfang Reservoir wants you to bring him the Earthen Signet and the Blazing Signet.";
 L["Quest_10901_Location"] = "Skar'this the Heretic  (Slave Pens; "..YELLOW.."Heroic [3]"..WHITE..")";
 L["Quest_10901_Note"] = "The Earthen Signet drops off Gruul in "..YELLOW.."Gruul's Lair"..WHITE.." and the Blazing Signet drops off Nightbane at "..YELLOW.."[15]"..WHITE..".\n\nThis quest used to be required to enter Serpentshrine Cavern, but is no longer necessary.";
-L["Quest_10901_RewardText"] = AQ_NONE;
 
 L["Quest_11955_Name"] = "Ahune, the Frost Lord";
 L["Quest_11955_Objective"] = "Travel to the Slave Pens in Coilfang Reservoir within Zangarmarsh and speak with Numa Cloudsister.";
 L["Quest_11955_Location"] = "Earthen Ring Elder (Found at Midsummer Bonfires in all Major Cities)";
 L["Quest_11955_Note"] = "Numa Cloudsister is just inside the entrance to Slave Pens. This quest is not required to summon Ahune. If you just go to the instance at level 65 or higher without having done any of the quests, you will still be able to summon him.";
-L["Quest_11955_RewardText"] = AQ_NONE;
 L["Quest_11955_PreQuest"] = "Unusual Activity -> Inform the Elder";
 L["Quest_11955_FollowQuest"] = "Ahune is Here!";
 
@@ -2560,7 +2409,6 @@ L["Quest_11696_Name"] = "Ahune is Here!";
 L["Quest_11696_Objective"] = "Find Luma Skymother in the Slave Pens.";
 L["Quest_11696_Location"] = "Numa Cloudsister (Slave Pens; "..YELLOW.."Just inside the portal"..WHITE..")";
 L["Quest_11696_Note"] = "Luma Skymother is near "..YELLOW.."[1]"..WHITE..". You don't have to do any of the other seasonal quests to obtain this quest. The prequest is optional.";
-L["Quest_11696_RewardText"] = AQ_NONE;
 L["Quest_11696_PreQuest"] = "Ahune, the Frost Lord (Optional)";
 L["Quest_11696_FollowQuest"] = "Summon Ahune";
 
@@ -2568,7 +2416,6 @@ L["Quest_11691_Name"] = "Summon Ahune";
 L["Quest_11691_Objective"] = "Bring the Earthen Ring Magma Totem to the Ice Stone.";
 L["Quest_11691_Location"] = "Luma Skymother (Slave Pens; "..YELLOW.."Near [1]"..WHITE..")";
 L["Quest_11691_Note"] = "The Ice Stone is a short distance from Luma Skymother. Completing this quest summons Ahune at "..YELLOW.."[1]"..WHITE..". It can be done once a day per character.";
-L["Quest_11691_RewardText"] = AQ_NONE;
 L["Quest_11691_PreQuest"] = "Ahune is Here!";
 
 L["Quest_11972_Name"] = "Shards of Ahune";
@@ -2587,20 +2434,17 @@ L["Quest_9764_Name"] = "Orders from Lady Vashj";
 L["Quest_9764_Objective"] = "Deliver the Orders from Lady Vashj to Ysiel Windsinger at the Cenarion Refuge in Zangarmarsh.";
 L["Quest_9764_Location"] = "Orders from Lady Vashj (random drop from Steamvaults)";
 L["Quest_9764_Note"] = "Ysiel Windsinger is at Terrokar Forest - Cenarion Refuge; ("..YELLOW.."78,62"..WHITE.."). The followup quest enables you to turn in Coilfang Armaments for Cenarion Expedition reputation. Coilfang Armaments are randomly dropped from Steamvaults and Serpentshrine Cavern and can be collected (but not turned in) before you do this quest. They do not bind, so they can be traded or bought from other players.";
-L["Quest_9764_RewardText"] = AQ_NONE;
 L["Quest_9764_FollowQuest"] = "Preparing for War";
 
 L["Quest_10885_Name"] = "Trial of the Naaru: Strength";
 L["Quest_10885_Objective"] = "A'dal in Shattrath City wants you to recover Kalithresh's Trident and Murmur's Essence.";
 L["Quest_10885_Location"] = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_10885_Note"] = "Requires Heroic Dungeon Difficulty. Murmur is at "..YELLOW.."[5]"..WHITE..". Kalithresh's Trident comes from The Steamvault.\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary.";
-L["Quest_10885_RewardText"] = AQ_NONE;
 
 L["Quest_10667_Name"] = "Underworld Loam";
 L["Quest_10667_Objective"] = "Get a Vial of Underworld Loam from Hydromancer Thespia and bring it to David Wayne at Wayne's Refuge.";
 L["Quest_10667_Location"] = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..")";
 L["Quest_10667_Note"] = "Hydromancer Thespia is at "..YELLOW.."[1]"..WHITE..".\n\nThe item will drop in both Normal and Heroic modes.";
-L["Quest_10667_RewardText"] = AQ_NONE;
 L["Quest_10667_PreQuest"] = "Fresh From the Mechanar ("..YELLOW.."TK: Mechanar"..WHITE..") & The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")";
 L["Quest_10667_FollowQuest"] = "Bane of the Illidari";
 
@@ -2608,7 +2452,6 @@ L["Quest_9832_Name"] = "The Second and Third Fragments";
 L["Quest_9832_Objective"] = "Obtain the Second Key Fragment from an Arcane Container inside Coilfang Reservoir and the Third Key Fragment from an Arcane Container inside Tempest Keep. Return to Khadgar in Shattrath City after you've completed this task.";
 L["Quest_9832_Location"] = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_9832_Note"] = "Part of the Karazhan attunement line. The Arcane Container is at "..YELLOW.."[2]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment. The Second Key Fragment is in The Steamvault.";
-L["Quest_9832_RewardText"] = AQ_NONE;
 L["Quest_9832_PreQuest"] = "Entry Into Karazhan ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..")";
 L["Quest_9832_FollowQuest"] = "The Master's Touch ("..YELLOW.."CoT: Black Morass"..WHITE..")";
 
@@ -2646,7 +2489,6 @@ L["Quest_9715_Name"] = "Bring Me A Shrubbery!";
 L["Quest_9715_Objective"] = "Collect 5 Sanguine Hibiscus and return them to Gzhun'tt at Sporeggar in Zangarmarsh.";
 L["Quest_9715_Location"] = "Gzhun'tt (Zangarmarsh - Sporeggar; "..YELLOW.."19,50"..WHITE..")";
 L["Quest_9715_Note"] = "You must be Friendly with Sporeggar to pick up this quest. The followup is just a repeatable quest that gives Sporeggar Reputation with each turn-in. The Sanguine Hibiscus are scattered throughout Underbog near plants and also drop off of Bog mobs, including those in Steamvault. They are also tradeable and can be found on the Auction House.";
-L["Quest_9715_RewardText"] = AQ_NONE;
 L["Quest_9715_FollowQuest"] = "Bring Me Another Shrubbery!";
 
 L["Quest_10164_Name"] = "Everything Will Be Alright";
@@ -2666,7 +2508,6 @@ L["Quest_10167_Name"] = "Auchindoun...";
 L["Quest_10167_Objective"] = "Travel to the Auchenai Crypts in the Bone Wastes of Terokkar Forest and slay Exarch Maladaar to free the spirit of D'ore.";
 L["Quest_10167_Location"] = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_10167_Note"] = "Exarch Maladarr is Located at "..YELLOW.."[2]"..WHITE..". D'ore appears after Exarch Maladarr has been killed.";
-L["Quest_10167_RewardText"] = AQ_NONE;
 L["Quest_10167_PreQuest"] = "A Visit With the Greatmother -> A Secret Revealed";
 L["Quest_10167_FollowQuest"] = "What The Soul Sees";
 
@@ -2674,7 +2515,6 @@ L["Quest_10168_Name"] = "What the Soul Sees";
 L["Quest_10168_Objective"] = "Locate a Soul Mirror somewhere in the Auchenai Crypts and use it to call forth a Darkened Spirit from Ancient Orc Ancestors in Nagrand. Destroy 15 Darkened Spirits so that the ancestors may rest in peace.";
 L["Quest_10168_Location"] = "D'ore (Auchenai Crypts; "..YELLOW.."[2]"..WHITE..").";
 L["Quest_10168_Note"] = "D'ore appears after Exarch Maladarr has been killed. Mother Kashur is at (Nagrand; "..YELLOW.."26,61"..WHITE.."). Get a group of 3 or more people before taking on the Ancient Orc Spirits.";
-L["Quest_10168_RewardText"] = AQ_NONE;
 L["Quest_10168_PreQuest"] = "Auchindoun";
 L["Quest_10168_FollowQuest"] = "Return to the Greatmother";
 
@@ -2682,7 +2522,6 @@ L["Quest_10216_Name"] = "Safety Is Job One";
 L["Quest_10216_Objective"] = "Artificer Morphalius wants you to kill 10 Ethereal Crypt Raiders, 5 Ethereal Sorcerers, 5 Nexus Stalkers and 5 Ethereal Spellbinders.";
 L["Quest_10216_Location"] = "Artificer Morphalius (Terokkar Forest - Auchindoun; "..YELLOW.."39,58"..WHITE..")";
 L["Quest_10216_Note"] = "Ethereal Transporter Control Panel is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_10216_RewardText"] = AQ_NONE;
 L["Quest_10216_FollowQuest"] = "Someone Else's Hard Work Pays Off";
 
 L["Quest_10218_Name"] = "Someone Else's Hard Work Pays Off";
@@ -2740,7 +2579,6 @@ L["Quest_10178_Name"] = "Find Spy To'gun";
 L["Quest_10178_Objective"] = "Locate Spy To'gun in the Shadow Labyrinth of Auchindoun.";
 L["Quest_10178_Location"] = "Spy Grik'tha (Terokkar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")";
 L["Quest_10178_Note"] = "To'gun is at "..YELLOW.."[1]"..WHITE..", and also shows on minimap";
-L["Quest_10178_RewardText"] = AQ_NONE;
 L["Quest_10178_FollowQuest"] = "The Soul Devices";
 
 L["Quest_10091_Name"] = "The Soul Devices";
@@ -2754,7 +2592,6 @@ L["Quest_10649_Name"] = "The Book of Fel Names";
 L["Quest_10649_Objective"] = "Venture inside the Shadow Labyrinth in Auchindoun and obtain the Book of Fel Names from Blackheart the Inciter. Return to Altruis in Nagrand once you've completed this task.";
 L["Quest_10649_Location"] = "Altruis the Sufferer (Nagrand; "..YELLOW.."27,43"..WHITE..")";
 L["Quest_10649_Note"] = "Blackheart the Inciter is at "..YELLOW.."[3]"..WHITE..". This is the last part of a chain quest that starts in Shadowmoon Valley at "..YELLOW.."61,28"..WHITE.." for Aldor and "..YELLOW.."55,58"..WHITE.." for Scryer";
-L["Quest_10649_RewardText"] = AQ_NONE;
 L["Quest_10649_PreQuest"] = "Illidan's Pupil";
 L["Quest_10649_FollowQuest"] = "Return to the Aldor or Return to the Scryers";
 
@@ -2762,14 +2599,12 @@ L["Quest_10177_Name"] = "Trouble at Auchindoun";
 L["Quest_10177_Objective"] = "Report to Field Commander Mahfuun at the entrance to the Shadow Labyrinth at Auchindoun in Terokkar Forest.";
 L["Quest_10177_Location"] = "Spymistress Mehlisah Highcrown (Shattrath City - Terrace of Light; "..YELLOW.."51,45"..WHITE..")";
 L["Quest_10177_Note"] = "Field Commander Mahfuun is at (Terrokar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE.."), just out the Shadow Labyrinth entrance.";
-L["Quest_10177_RewardText"] = AQ_NONE;
 L["Quest_10177_FollowQuest"] = "The Codex of Blood";
 
 L["Quest_10094_Name"] = "The Codex of Blood";
 L["Quest_10094_Objective"] = "Read from the Codex of Blood in the Shadow Labyrinth of Auchindoun.";
 L["Quest_10094_Location"] = "Field Commander Mahfuun (Terrokar Forest - Auchindoun; "..YELLOW.."40,72"..WHITE..")";
 L["Quest_10094_Note"] = "The Codex of Blood is just in front of Grandmaster Vorpil at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_10094_RewardText"] = AQ_NONE;
 L["Quest_10094_PreQuest"] = "Trouble at Auchindoun";
 L["Quest_10094_FollowQuest"] = "Into the Heart of the Labyrinth";
 
@@ -2784,7 +2619,6 @@ L["Quest_9831_Name"] = "Entry Into Karazhan";
 L["Quest_9831_Objective"] = "Khadgar wants you to enter the Shadow Labyrinth at Auchindoun and retrieve the First Key Fragment from an Arcane Container hidden there. Return to Khadgar with the fragment.";
 L["Quest_9831_Location"] = "Khadgar (Shattrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")";
 L["Quest_9831_Note"] = "Part of the Karazhan attunement line. The Arcane Container is next to Murmur at "..YELLOW.."[5]"..WHITE..". Opening it will spawn an elemental that must be killed to get the fragment.";
-L["Quest_9831_RewardText"] = AQ_NONE;
 L["Quest_9831_PreQuest"] = "Khadgar";
 L["Quest_9831_FollowQuest"] = "Entry into Karazhan";
 
@@ -2792,7 +2626,6 @@ L["Quest_10666_Name"] = "The Lexicon Demonica";
 L["Quest_10666_Objective"] = "Obtain the Lexicon Demonica from Grandmaster Vorpil and bring it to David Wayne at Wayne's Refuge.";
 L["Quest_10666_Location"] = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..").";
 L["Quest_10666_Note"] = "Grandmaster Vorpil is at "..YELLOW.."[4]"..WHITE..". Completing this quest along with Fresh from the Mechanar ("..YELLOW.."TK: The Mechanar"..WHITE..") will open up two new quests from David Wayne.\n\nThe item will not drop in Heroic mode.";
-L["Quest_10666_RewardText"] = AQ_NONE;
 L["Quest_10666_PreQuest"] = "Additional Materials";
 
 L["Quest_11375_Name"] = "Wanted: Murmur's Whisper";
@@ -2811,13 +2644,11 @@ L["Quest_10445_Name"] = "The Vials of Eternity";
 L["Quest_10445_Objective"] = "Soridormi at Caverns of Time wants you to retrieve Vashj's Vial Remnant from Lady Vashj at Coilfang Reservoir and Kael's Vial Remnant from Kael'thas Sunstrider at Tempest Keep.";
 L["Quest_10445_Location"] = "Soridormi (Tanaris - Caverns of Time; "..YELLOW.."58,57"..WHITE.."). NPC walks around the area.";
 L["Quest_10445_Note"] = "This quest is needed for attunement for Battle of Mount Hyjal. Kael'thas Sunstrider is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_10445_RewardText"] = AQ_NONE;
 
 L["Quest_10944_Name"] = "The Secret Compromised";
 L["Quest_10944_Objective"] = "Travel to the Warden's Cage in Shadowmoon Valley and speak to Akama.";
 L["Quest_10944_Location"] = "Seer Olum (Serpentshrine Cavern; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_10944_Note"] = "Akama is at (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..").\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers.";
-L["Quest_10944_RewardText"] = AQ_NONE;
 L["Quest_10944_PreQuest"] = "Tablets of Baa'ri -> Akama's Promise";
 L["Quest_10944_FollowQuest"] = "Ruse of the Ashtongue ("..YELLOW.."The Eye"..WHITE..")";
 
@@ -2825,14 +2656,12 @@ L["Quest_10296_Name"] = "The Black Morass";
 L["Quest_10296_Objective"] = "Travel through the Caverns of Time to the Black Morass during the opening of the Dark Portal and speak with Sa'at.";
 L["Quest_10296_Location"] = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")";
 L["Quest_10296_Note"] = "Must have completed Escape from Durnholde Keep to be attuned for Black Morass. Sa'at is just a little bit inside the instance.";
-L["Quest_10296_RewardText"] = AQ_NONE;
 L["Quest_10296_FollowQuest"] = "The Opening of the Dark Portal";
 
 L["Quest_10297_Name"] = "The Opening of the Dark Portal";
 L["Quest_10297_Objective"] = "Sa'at inside the Black Morass of the Caverns of Time has tasked you with defending Medivh until he succeeds in opening the Dark Portal. Return to Sa'at should you succeed in your task.";
 L["Quest_10297_Location"] = "Sa'at (Black Morass; "..YELLOW.."Entrance"..WHITE..")";
 L["Quest_10297_Note"] = "If you fail, you'll have to start the event over from the beginning.";
-L["Quest_10297_RewardText"] = AQ_NONE;
 L["Quest_10297_PreQuest"] = "The Black Morass";
 L["Quest_10297_FollowQuest"] = "Hero of the Brood";
 
@@ -2847,7 +2676,6 @@ L["Quest_9836_Name"] = "The Master's Touch";
 L["Quest_9836_Objective"] = "Go into the Caverns of Time and convince Medivh to enable your Restored Apprentice's Key";
 L["Quest_9836_Location"] = "Khadgar (Shatrath City - Terrace of Light; "..YELLOW.."54,44"..WHITE..")";
 L["Quest_9836_Note"] = "Part of the Karazhan attunement line. You must be inside the instance when Aeonus dies in order to talk to Medivh.";
-L["Quest_9836_RewardText"] = AQ_NONE;
 L["Quest_9836_PreQuest"] = "The Second and Third Fragments";
 L["Quest_9836_FollowQuest"] = "Return to Khadgar";
 
@@ -2855,7 +2683,6 @@ L["Quest_10902_Name"] = "Master of Elixirs";
 L["Quest_10902_Objective"] = "Go to the Black Morass in the Caverns of Time and obtain 10 Essences of Infinity from Rift Lords and Rift Keepers. Bring these along with 5 Elixirs of Major Defense, 5 Elixirs of Mastery and 5 Elixirs of Major Agility to Lorokeem in Shattrath's Lower City.";
 L["Quest_10902_Location"] = "Lorokeem (Shattrath City - Lower City; "..YELLOW.."46,23"..WHITE..")";
 L["Quest_10902_Note"] = "Alchemy quest. Lorokeem roams the coordinates listed.";
-L["Quest_10902_RewardText"] = AQ_NONE;
 L["Quest_10902_PreQuest"] = "Master of Elixirs";
 
 L["Quest_11382_Name"] = "Wanted: Aeonus's Hourglass";
@@ -2874,7 +2701,6 @@ L["Quest_10947_Name"] = "An Artifact From the Past";
 L["Quest_10947_Objective"] = "Go to the Caverns of Time in Tanaris and gain access to the Battle of Mount Hyjal. Once inside, defeat Rage Winterchill and bring the Time-Phased Phylactery to Akama in Shadowmoon Valley.";
 L["Quest_10947_Location"] = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")";
 L["Quest_10947_Note"] = "Part of the Black Temple attunement line. Rage Winterchill is at "..YELLOW.."[1]"..WHITE..".";
-L["Quest_10947_RewardText"] = AQ_NONE;
 L["Quest_10947_PreQuest"] = "Ruse of the Ashtongue ("..YELLOW.."The Eye"..WHITE..")";
 L["Quest_10947_FollowQuest"] = "The Hostage Soul";
 
@@ -2882,7 +2708,6 @@ L["Quest_10282_Name"] = "Old Hillsbrad";
 L["Quest_10282_Objective"] = "Andormu at the Caverns of Time has asked that you venture to Old Hillsbrad and speak with Erozion.";
 L["Quest_10282_Location"] = "Andormu (Tanaris - Caverns of Time; "..YELLOW.."58,54"..WHITE..")";
 L["Quest_10282_Note"] = "Must have done the attunement quest that starts from the dragon at the entrance to Caverns of Time.";
-L["Quest_10282_RewardText"] = AQ_NONE;
 L["Quest_10282_PreQuest"] = "The Caverns of Time";
 L["Quest_10282_FollowQuest"] = "Tareth's Diversion";
 
@@ -2890,7 +2715,6 @@ L["Quest_10283_Name"] = "Taretha's Diversion";
 L["Quest_10283_Objective"] = "Travel to Durnholde Keep and set 5 incendiary charges at the barrels located inside each of the internment lodges using the Pack of Incendiary Bombs given to you by Erozion. Then speak to Thrall in the basement prison of Durnholde Keep.";
 L["Quest_10283_Location"] = "Erozion (Old Hillsbrad; "..YELLOW.."Entrance"..WHITE..")";
 L["Quest_10283_Note"] = "Thrall is at "..YELLOW.."[2]"..WHITE..". Go to Southshore to hear the story of Ashbringer and see some people with familiar names like Kel'Thuzad and Herod the Bully.";
-L["Quest_10283_RewardText"] = AQ_NONE;
 L["Quest_10283_PreQuest"] = "Old Hillsbrad";
 L["Quest_10283_FollowQuest"] = "Escape from Durnholde";
 
@@ -2898,7 +2722,6 @@ L["Quest_10284_Name"] = "Escape from Durnholde";
 L["Quest_10284_Objective"] = "When you are ready to proceed, let Thrall know. Follow Thrall out of Durnholde Keep and help him free Taretha and fulfill his destiny. Speak with Erozion in Old Hillsbrad should you complete this task.";
 L["Quest_10284_Location"] = "Thrall (Old Hillsbrad; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_10284_Note"] = "Make sure everyone accepts the quest before anyone tells Thrall to start. Reportedly, the quest can be shared and successfully completed, though. You get 20 tries at rescuing Thrall after that you'll have to reset the instance and you can't kill the last boss without him as Thrall has to make the final blow.";
-L["Quest_10284_RewardText"] = AQ_NONE;
 L["Quest_10284_PreQuest"] = "Taretha's Diversion";
 L["Quest_10284_FollowQuest"] = "Return to Andormu";
 
@@ -2925,7 +2748,6 @@ L["Quest_9840_Name"] = "Assessing the Situation";
 L["Quest_9840_Objective"] = "Find Koren inside Karazhan.";
 L["Quest_9840_Location"] = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")";
 L["Quest_9840_Note"] = "Koren is located inside Karazhan, just past Attumen the Huntsman at "..YELLOW.."[6]"..WHITE..".";
-L["Quest_9840_RewardText"] = AQ_NONE;
 L["Quest_9840_PreQuest"] = "Arcane Disturbances -> The Violet Eye";
 L["Quest_9840_FollowQuest"] = "Keanna's Log";
 
@@ -2933,7 +2755,6 @@ L["Quest_9843_Name"] = "Keanna's Log";
 L["Quest_9843_Objective"] = "Search the Guest Chambers inside Karazhan for Keanna's Log and bring it to Archmage Alturus outside Karazhan.";
 L["Quest_9843_Location"] = "Koren (Karazhan; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_9843_Note"] = "The log is in the second room in the hall leading to Maiden of Virtue at "..YELLOW.."[10]"..WHITE..", on a table. Archmage Alturus is at (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..").";
-L["Quest_9843_RewardText"] = AQ_NONE;
 L["Quest_9843_PreQuest"] = "Assessing the Situation";
 L["Quest_9843_FollowQuest"] = "A Demonic Presence";
 
@@ -2941,7 +2762,6 @@ L["Quest_9844_Name"] = "A Demonic Presence";
 L["Quest_9844_Objective"] = "Archmage Alturus wants you to destroy the Demonic Presence at the top of Karazhan.";
 L["Quest_9844_Location"] = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")";
 L["Quest_9844_Note"] = "Prince Malchezaar is at "..YELLOW.."[26]"..WHITE..".";
-L["Quest_9844_RewardText"] = AQ_NONE;
 L["Quest_9844_PreQuest"] = "Keanna's Log";
 L["Quest_9844_FollowQuest"] = "The New Directive";
 
@@ -2956,14 +2776,12 @@ L["Quest_9630_Name"] = "Medivh's Journal";
 L["Quest_9630_Objective"] = "Archmage Alturus at Deadwind Pass wants you go into Karazhan and speak to Wravien.";
 L["Quest_9630_Location"] = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")";
 L["Quest_9630_Note"] = "Requires Honored with The Violet Eye. Wravien is located in the Guardians Library beyond The Curator at "..YELLOW.."[17]"..WHITE..".";
-L["Quest_9630_RewardText"] = AQ_NONE;
 L["Quest_9630_FollowQuest"] = "In Good Hands";
 
 L["Quest_9638_Name"] = "In Good Hands";
 L["Quest_9638_Objective"] = "Speak to Gradav at the Guardian's Library in Karazhan.";
 L["Quest_9638_Location"] = "Wravien (Karazhan; "..YELLOW.."[17]"..WHITE..")";
 L["Quest_9638_Note"] = "Gradav is in the same room as Wravien at "..YELLOW.."[18]"..WHITE..".";
-L["Quest_9638_RewardText"] = AQ_NONE;
 L["Quest_9638_PreQuest"] = "Medivh's Journal";
 L["Quest_9638_FollowQuest"] = "Kamsis";
 
@@ -2971,7 +2789,6 @@ L["Quest_9639_Name"] = "Kamsis";
 L["Quest_9639_Objective"] = "Speak to Kamsis at the Guardian's Library in Karazhan.";
 L["Quest_9639_Location"] = "Gradav (Karazhan; "..YELLOW.."[18]"..WHITE..")";
 L["Quest_9639_Note"] = "Kamsis is in the same room as Gradav at "..YELLOW.."[19]"..WHITE..".";
-L["Quest_9639_RewardText"] = AQ_NONE;
 L["Quest_9639_PreQuest"] = "In Good Hands";
 L["Quest_9639_FollowQuest"] = "The Shade of Aran";
 
@@ -2979,7 +2796,6 @@ L["Quest_9640_Name"] = "The Shade of Aran";
 L["Quest_9640_Objective"] = "Obtain Medivh's Journal and return to Kamsis at the Guardian's Library in Karazhan.";
 L["Quest_9640_Location"] = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")";
 L["Quest_9640_Note"] = "Shade of Aran drops the journal at "..YELLOW.."[21]"..WHITE..".";
-L["Quest_9640_RewardText"] = AQ_NONE;
 L["Quest_9640_PreQuest"] = "Kamsis";
 L["Quest_9640_FollowQuest"] = "The Master's Terrace";
 
@@ -2987,7 +2803,6 @@ L["Quest_9645_Name"] = "The Master's Terrace";
 L["Quest_9645_Objective"] = "Go to the Master's Terrace in Karazhan and read Medivh's Journal. Return to Archmage Alturus with Medivh's Journal after completing this task.";
 L["Quest_9645_Location"] = "Kamsis (Karazhan; "..YELLOW.."[19]"..WHITE..")";
 L["Quest_9645_Note"] = "Archmage Alturus is at (Deadwind Pass; "..YELLOW.."47,75"..WHITE.."). No combat involved. Enjoy the show.";
-L["Quest_9645_RewardText"] = AQ_NONE;
 L["Quest_9645_PreQuest"] = "The Shade of Aran";
 L["Quest_9645_FollowQuest"] = "Digging Up the Past";
 
@@ -2995,7 +2810,6 @@ L["Quest_9680_Name"] = "Digging Up the Past";
 L["Quest_9680_Objective"] = "Archmage Alturus wants you to go to the mountains south of Karazhan in Deadwind Pass and retrieve a Charred Bone Fragment.";
 L["Quest_9680_Location"] = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")";
 L["Quest_9680_Note"] = "The Charred Bone Fragment is located at "..YELLOW.."44,78"..WHITE.." in Deadwind Pass";
-L["Quest_9680_RewardText"] = AQ_NONE;
 L["Quest_9680_PreQuest"] = "The Master's Terrace";
 L["Quest_9680_FollowQuest"] = "A Colleague's Aid";
 
@@ -3003,7 +2817,6 @@ L["Quest_9631_Name"] = "A Colleague's Aid";
 L["Quest_9631_Objective"] = "Take the Charred Bone Fragment to Kalynna Lathred at Area 52 in Netherstorm.";
 L["Quest_9631_Location"] = "Archmage Alturus (Deadwind Pass - Karazhan; "..YELLOW.."47,75"..WHITE..")";
 L["Quest_9631_Note"] = "Kalynna Lathred is at (Netherstorm - Area 52; "..YELLOW.."32,63"..WHITE..").";
-L["Quest_9631_RewardText"] = AQ_NONE;
 L["Quest_9631_PreQuest"] = "Digging up the Past";
 L["Quest_9631_FollowQuest"] = "Kalynna's Request";
 
@@ -3031,7 +2844,6 @@ L["Quest_10705_Name"] = "Seer Udalo";
 L["Quest_10705_Objective"] = "Find Seer Udalo inside the Arcatraz in Tempest Keep.";
 L["Quest_10705_Location"] = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")";
 L["Quest_10705_Note"] = "Seer Udalo is at "..YELLOW.."[5]"..WHITE..", just before the room with the final boss.\n\nThis is part of the Black Temple attunement questline that starts from Anchorite Ceyla (Shadowmoon Valley - Altar of Sha'tar; "..YELLOW.."62,38"..WHITE..") for Aldor and Arcanist Thelis (Shadowmoon Valley - Sanctum of the Stars; "..YELLOW.."56,59"..WHITE..") for Scryers.";
-L["Quest_10705_RewardText"] = AQ_NONE;
 L["Quest_10705_PreQuest"] = "Tablets of Baa'ri -> Akama";
 L["Quest_10705_FollowQuest"] = "A Mysterious Portent";
 
@@ -3039,7 +2851,6 @@ L["Quest_10886_Name"] = "Trial of the Naaru: Tenacity";
 L["Quest_10886_Objective"] = "A'dal in Shattrath City wants you to rescue Millhouse Manastorm from the Arcatraz of Tempest Keep.";
 L["Quest_10886_Location"] = "A'dal (Shattrath City - Terrace of Light; "..YELLOW.."53,43"..WHITE..")";
 L["Quest_10886_Note"] = "This quest must be completed in Heroic dungeon difficulty. Millhouse Manastorm is in the room with Warden Mellichar at "..YELLOW.."[6]"..WHITE..".\n\nThis quest used to be required to enter Tempest Keep: The Eye, but is no longer necessary.";
-L["Quest_10886_RewardText"] = AQ_NONE;
 
 L["Quest_11388_Name"] = "Wanted: The Scroll of Skyriss";
 L["Quest_11388_Objective"] = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward.";
@@ -3065,14 +2876,12 @@ L["Quest_10257_Name"] = "Capturing the Keystone";
 L["Quest_10257_Objective"] = "Venture into Tempest Keep's Botanica and retrieve the Keystone from Commander Sarannis. Bring it to Archmage Vargoth at the Violet Tower.";
 L["Quest_10257_Location"] = "Archmage Vargoth (Netherstorm - Kirin'Var Village; "..YELLOW.."58,86"..WHITE..")";
 L["Quest_10257_Note"] = "Commander Sarannis is at "..YELLOW.."[1]"..WHITE..". The keystone will drop on Normal and Heroic.";
-L["Quest_10257_RewardText"] = AQ_NONE;
 L["Quest_10257_PreQuest"] = "Finding the Keymaster";
 
 L["Quest_10897_Name"] = "Master of Potions";
 L["Quest_10897_Objective"] = "Lauranna Thar'well wants you to go to the Botanica in Tempest Keep and retrieve the Botanist's Field Guide from High Botanist Freywinn. In addition she also wants you to bring her 5 Super Healing Potions, 5 Super Mana Potions and 5 Major Dreamless Sleep Potions.";
 L["Quest_10897_Location"] = "Lauranna Thar'well (Zangarmarsh - Cenarion Refuge; "..YELLOW.."80,64"..WHITE..")";
 L["Quest_10897_Note"] = "Alchemist quest. High Botanist Freywinn is at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_10897_RewardText"] = AQ_NONE;
 L["Quest_10897_PreQuest"] = "Master of Potions";
 
 L["Quest_11384_Name"] = "Wanted: A Warp Splinter Clipping";
@@ -3091,7 +2900,6 @@ L["Quest_10665_Name"] = "Fresh from the Mechanar";
 L["Quest_10665_Objective"] = "David Wayne at Wayne's Retreat wants you to bring him an Overcharged Manacell.";
 L["Quest_10665_Location"] = "David Wayne (Terokkar Forest - Wayne's Refuge; "..YELLOW.."78,39"..WHITE..").";
 L["Quest_10665_Note"] = "The cell is before Mechano-Lord Capacitus at "..YELLOW.."[3]"..WHITE.." in a box near the wall.\n\nCompleting this quest along with The Lexicon Demonica ("..YELLOW.."Auch: Shadow Labyrinth"..WHITE..") will open up two new quests from David Wayne.\n\nThis quest works in both Normal and Heroic mode.";
-L["Quest_10665_RewardText"] = AQ_NONE;
 L["Quest_10665_PreQuest"] = "Additional Materials";
 
 L["Quest_11386_Name"] = "Wanted: Pathaleon's Projector";
@@ -3110,19 +2918,16 @@ L["Quest_11337_Name"] = "Call to Arms: Eye of the Storm";
 L["Quest_11337_Objective"] = "Win an Eye of the Storm battleground match and return to an Alliance Brigadier General at any Alliance capital city or Shattrath.";
 L["Quest_11337_Location"] = "Alliance Brigadier General:\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."79.4, 18.0"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.8, 90.0"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.8, 34.6"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4";
 L["Quest_11337_Note"] = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level.";
-L["Quest_11337_RewardText"] = AQ_NONE;
 
 L["Quest_11341_Name"] = "Call to Arms: Eye of the Storm";
 L["Quest_11341_Objective"] = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath.";
 L["Quest_11341_Location"] = "Horde Warbringer:\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3";
 L["Quest_11341_Note"] = "This quest can be done once a day after reaching level 61. It yields varying amounts of experience and gold based on your level.";
-L["Quest_11341_RewardText"] = AQ_NONE;
 
 L["Quest_10946_Name"] = "Ruse of the Ashtongue";
 L["Quest_10946_Objective"] = "Travel into Tempest Keep and slay Al'ar while wearing the Ashtongue Cowl. Return to Akama in Shadowmoon Valley once you've completed this task.";
 L["Quest_10946_Location"] = "Akama (Shadowmoon Valley - Warden's Cage; "..YELLOW.."58,48"..WHITE..")";
 L["Quest_10946_Note"] = "This is part of the Black Temple attunement line.";
-L["Quest_10946_RewardText"] = AQ_NONE;
 L["Quest_10946_PreQuest"] = "The Secret Compromised ("..YELLOW.."Serpentshrine Cavern"..WHITE..")";
 L["Quest_10946_FollowQuest"] = "An Artifact From the Past ("..YELLOW.."Battle of Mount Hyjal"..WHITE..")";
 
@@ -3136,7 +2941,6 @@ L["Quest_10958_Name"] = "Seek Out the Ashtongue";
 L["Quest_10958_Objective"] = "Find Akama's Deathsworn inside the Black Temple.";
 L["Quest_10958_Location"] = "Xi'ri (Shadowmoon Valley; "..YELLOW.."65,44"..WHITE..").";
 L["Quest_10958_Note"] = "Spirit of Olum is up and to your left once you enter the Black Temple at "..YELLOW.."[1]"..WHITE..". He will teleport you to Seer Kanai once you've High Warlord Naj'entus at "..YELLOW.."[2]"..WHITE.." and Supremus at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_10958_RewardText"] = AQ_NONE;
 L["Quest_10958_PreQuest"] = "The Secret Compromised -> A Distraction for Akama";
 L["Quest_10958_FollowQuest"] = "Redemption of the Ashtongue";
 
@@ -3144,7 +2948,6 @@ L["Quest_10957_Name"] = "Redemption of the Ashtongue";
 L["Quest_10957_Objective"] = "Help Akama wrest control back of his soul by defeating the Shade of Akama inside the Black Temple. Return to Seer Kanai when you've completed this task.";
 L["Quest_10957_Location"] = "Seer Kanai (Black Temple; "..YELLOW.."[5]"..WHITE..").";
 L["Quest_10957_Note"] = "Shade of Akama is at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_10957_RewardText"] = AQ_NONE;
 L["Quest_10957_PreQuest"] = "Seek Out the Ashtongue";
 L["Quest_10957_FollowQuest"] = "The Fall of the Betrayer";
 
@@ -3167,7 +2970,6 @@ L["Quest_11166_Name"] = "X Marks... Your Doom!";
 L["Quest_11166_Objective"] = "Enter Zul'Aman and visit Halazzi's Chamber, Jan'alai's Platform, and Akil'zon's Platform. Report the details of those areas to Budd, at his camp in the Ghostlands.";
 L["Quest_11166_Location"] = "Budd Nedreck (Ghostlands - Hatchet Hills; "..YELLOW.."70,67"..WHITE..")";
 L["Quest_11166_Note"] = "Halazzi's Chamber is at "..YELLOW.."[4]"..WHITE..", Jan'alai's Platform is at "..YELLOW.."[3]"..WHITE.." and Akil'zon's Platform is at "..YELLOW.."[2]"..WHITE..". \n\nReportedly, the bosses do not need to be faught in order to get quest credit. Just get near them without aggroing.";
-L["Quest_11166_RewardText"] = AQ_NONE;
 L["Quest_11166_PreQuest"] = "Promises, Promises...";
 L["Quest_11166_FollowQuest"] = "Hex Lord? Hah!";
 
@@ -3182,14 +2984,12 @@ L["Quest_11164_Name"] = "Tuskin' Raiders";
 L["Quest_11164_Objective"] = "Prigmon needs you to collect 10 Forest Troll Tusks from the trolls in Zul'Aman. Bring them to him at Budd's camp in the Ghostlands.";
 L["Quest_11164_Location"] = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")";
 L["Quest_11164_Note"] = "The Forest Troll Tusks drop from Amani'shi mobs inside Zul'Aman.";
-L["Quest_11164_RewardText"] = AQ_NONE;
 L["Quest_11164_FollowQuest"] = "A Troll Among Trolls";
 
 L["Quest_11165_Name"] = "A Troll Among Trolls";
 L["Quest_11165_Objective"] = "Prigmon has tasked you with locating and assisting his cousin Zungam, somewhere within Zul'Aman.";
 L["Quest_11165_Location"] = "Prigmon (Ghostlands - Hatchet Hills; "..YELLOW.."71,68"..WHITE..")";
 L["Quest_11165_Note"] = "Zungam is in a hut at "..YELLOW.."[5]"..WHITE..". After you release him, he gives you the followup quest.";
-L["Quest_11165_RewardText"] = AQ_NONE;
 L["Quest_11165_PreQuest"] = "Tuskin' Raiders";
 L["Quest_11165_FollowQuest"] = "Playin' With Dolls";
 
@@ -3204,7 +3004,6 @@ L["Quest_11178_Name"] = "Blood of the Warlord";
 L["Quest_11178_Objective"] = "Bring the Blood of Zul'jin to Budd at his camp in the Ghostlands, outside Zul'Aman.";
 L["Quest_11178_Location"] = "Blood of Zul'jin (drops from Zul'jin; "..YELLOW.."[7]"..WHITE..")";
 L["Quest_11178_Note"] = "Only one person in the raid can loot this item and the quest can only be done one time.";
-L["Quest_11178_RewardText"] = AQ_NONE;
 L["Quest_11178_FollowQuest"] = "Undercover Sister";
 
 L["Quest_11163_Name"] = "Undercover Sister";
@@ -3218,7 +3017,6 @@ L["Quest_11098_Name"] = "To Skettis!";
 L["Quest_11098_Objective"] = "Take the Explosives Package to Sky Sergeant Doryn at Blackwind Landing outside Skettis.";
 L["Quest_11098_Location"] = "Yuula (Shattrath City; "..YELLOW.."65,42"..WHITE..")";
 L["Quest_11098_Note"] = "The prequest is also obtained from the same NPC.  Blackwind Landing is at "..YELLOW.."[1]"..WHITE..".";
-L["Quest_11098_RewardText"] = AQ_NONE;
 L["Quest_11098_PreQuest"] = "Threat from Above";
 L["Quest_11098_FollowQuest"] = "Fires Over Skettis";
 
@@ -3226,14 +3024,12 @@ L["Quest_11008_Name"] = "Fires Over Skettis";
 L["Quest_11008_Objective"] = "Seek out Monstrous Kaliri Eggs on the tops of Skettis dwellings and use the Skyguard Blasting Charges on them. Return to Sky Sergeant Doryn.";
 L["Quest_11008_Location"] = "Sky Sergeant Doryn (Terrokar Forest - Blackwing Landing; "..YELLOW.."65,66"..WHITE..")";
 L["Quest_11008_Note"] = "Daily Quest.  The eggs can be bombed while on your flying mount from the air.  Watch out for the Monstrous Kaliri birds flying around as they can dismount you if you aggro.  The quest can be done as a group.";
-L["Quest_11008_RewardText"] = AQ_NONE;
 L["Quest_11008_PreQuest"] = "To Skettis!";
 
 L["Quest_11085_Name"] = "Escape from Skettis";
 L["Quest_11085_Objective"] = "Escort the Skyguard Prisoner to safety and report to Sky Sergeant Doryn.";
 L["Quest_11085_Location"] = "Skyguard Prisoner (Terrokar Forest - Skettis; "..YELLOW.."[4]"..WHITE..")";
 L["Quest_11085_Note"] = "Daily Quest.  It will become available after completing 'To Skettis!'.\nThe Skyguard Prisoner randomly spawns at one of the three locations marked as "..YELLOW.."[4]"..WHITE..".  The quest can be done as a group.";
-L["Quest_11085_RewardText"] = AQ_NONE;
 
 L["Quest_11093_Name"] = "Hungry Nether Rays";
 L["Quest_11093_Objective"] = "Use the Nether Ray Cage in the woods south of Blackwind Landing and slay Blackwind Warp Chasers near the Hungry Nether Ray. Return to Skyguard Handler Deesak when you've completed your task.";
@@ -3251,21 +3047,18 @@ L["Quest_11005_Name"] = "Secrets of the Talonpriests";
 L["Quest_11005_Objective"] = "Obtain an Elixir of Shadows from Severin and use it to find and slay Talonpriest Ishaal, Talonpriest Skizzik and Talonpriest Zellek in Skettis. Return to Commander Adaris after completing this task.";
 L["Quest_11005_Location"] = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11005_Note"] = "You must complete World of Shadows to obtain the Elixir of Shadows before you can do this quest.\n\nTalonpriest Ishaal is at "..YELLOW.."[5]"..WHITE..", Talonpriest Skizzik is at "..YELLOW.."[6]"..WHITE.." and Talonpriest Zellek is at "..YELLOW.."[7]"..WHITE..".";
-L["Quest_11005_RewardText"] = AQ_NONE;
 L["Quest_11005_PreQuest"] = "World of Shadows";
 
 L["Quest_11021_Name"] = "Ishaal's Almanac";
 L["Quest_11021_Objective"] = "Bring Ishaal's Almanac to Sky Commander Adaris north of Skettis.";
 L["Quest_11021_Location"] = "Ishaal's Almanac (drops from Talonpriest Ishaal; "..YELLOW.."[5]"..WHITE..")";
 L["Quest_11021_Note"] = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE..").";
-L["Quest_11021_RewardText"] = AQ_NONE;
 L["Quest_11021_FollowQuest"] = "An Ally in Lower City";
 
 L["Quest_11024_Name"] = "An Ally in Lower City";
 L["Quest_11024_Objective"] = "Bring Ishaal's Almanac to Rilak the Redeemed in Lower City inside Shattrath.";
 L["Quest_11024_Location"] = "Sky Commander Adaris (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11024_Note"] = "Rilak the Redeemed is at Shattrath City - Lower City ("..YELLOW.."52,20"..WHITE..").";
-L["Quest_11024_RewardText"] = AQ_NONE;
 L["Quest_11024_PreQuest"] = "Ishaal's Almanac";
 L["Quest_11024_FollowQuest"] = "Countdown to Doom";
 
@@ -3273,7 +3066,6 @@ L["Quest_11028_Name"] = "Countdown to Doom";
 L["Quest_11028_Objective"] = "Return to Sky Commander Adaris with the news about Terokk's return.";
 L["Quest_11028_Location"] = "Rilak the Redeemed (Shattrath City - Lower City; "..YELLOW.."52,20"..WHITE..")";
 L["Quest_11028_Note"] = "Sky Commander Adaris is at Terrokar Forest - Blackwing Landing ("..YELLOW.."64,66"..WHITE.."). Hazzik, who is nearby, will give you the followup quest.";
-L["Quest_11028_RewardText"] = AQ_NONE;
 L["Quest_11028_PreQuest"] = "An Ally in Lower City";
 L["Quest_11028_FollowQuest"] = "Hazzik's Bargain";
 
@@ -3281,7 +3073,6 @@ L["Quest_11056_Name"] = "Hazzik's Bargain";
 L["Quest_11056_Objective"] = "Obtain Hazzik's Package at his dwelling in eastern Skettis and return to him with it.";
 L["Quest_11056_Location"] = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11056_Note"] = "Hazzik's Package is in a hut at "..YELLOW.."[8]"..WHITE..".";
-L["Quest_11056_RewardText"] = AQ_NONE;
 L["Quest_11056_PreQuest"] = "Countdown to Doom";
 L["Quest_11056_FollowQuest"] = "A Shabby Disguise";
 
@@ -3289,7 +3080,6 @@ L["Quest_11029_Name"] = "A Shabby Disguise";
 L["Quest_11029_Objective"] = "Use the Shabby Arakkoa Disguise to obtain the Adversarial Bloodlines from Sahaak and return to Hazzik.";
 L["Quest_11029_Location"] = "Hazzik (Terrokar Forest - Blackwing Landing; "..YELLOW.."64,66"..WHITE..")";
 L["Quest_11029_Note"] = "Sahaak is at "..YELLOW.."[3]"..WHITE..". If any Arakkoa other than Sahaak see you with the disguise, they will attack you.";
-L["Quest_11029_RewardText"] = AQ_NONE;
 L["Quest_11029_PreQuest"] = "Hazzik's Bargain";
 L["Quest_11029_FollowQuest"] = "Adversarial Blood";
 
@@ -3323,7 +3113,6 @@ L["Quest_11488_Name"] = "Magisters' Terrace";
 L["Quest_11488_Objective"] = "Exarch Larethor at the Shattered Sun Staging Area wants you to search Magisters' Terrace and find Tyrith, a blood elf spy.";
 L["Quest_11488_Location"] = "Exarch Larethor (Isle of Quel'Danas - Shattered Sun Staging Area; "..YELLOW.."47,31"..WHITE..")";
 L["Quest_11488_Note"] = "Tyrith is inside the instance at "..YELLOW.."[2]"..WHITE..". This questline unlocks heroic mode.\n\nThe prequest is available from either Adyen the Lightwarden (Shattrath City - Aldor Rise; "..YELLOW.."35,36"..WHITE..") or Dathris Sunstriker (Shattrath City - Scryers Tier; "..YELLOW.."55,80"..WHITE..").";
-L["Quest_11488_RewardText"] = AQ_NONE;
 L["Quest_11488_PreQuest"] = "Crisis at the Sunwell or Duty Calls";
 L["Quest_11488_FollowQuest"] = "The Scryer's Scryer";
 
@@ -3331,7 +3120,6 @@ L["Quest_11490_Name"] = "The Scryer's Scryer";
 L["Quest_11490_Objective"] = "Tyrith wants you to use the orb on the balcony in Magisters' Terrace.";
 L["Quest_11490_Location"] = "Tyrith (Magisters' Terrace; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_11490_Note"] = "The Scrying Orb is at "..YELLOW.."[4]"..WHITE..". After the 'movie' clip, Kalecgos will appear to start the next quest.";
-L["Quest_11490_RewardText"] = AQ_NONE;
 L["Quest_11490_PreQuest"] = "Magisters' Terrace";
 L["Quest_11490_FollowQuest"] = "Hard to Kill";
 
@@ -3346,7 +3134,6 @@ L["Quest_13149_Name"] = "Dispelling Illusions";
 L["Quest_13149_Objective"] = "Chromie wants you to use the Arcane Disruptor on the suspicious crates in Stratholme Past, then speak to her near the entrance to Stratholme.";
 L["Quest_13149_Location"] = "Chromie (Stratholme Past; "..GREEN.."[1']"..WHITE..")";
 L["Quest_13149_Note"] = "The crates are found near the houses along the road on the way to Stratholme. After completion, you can turn the quest in to another Chromie at the bridge before you enter the city.";
-L["Quest_13149_RewardText"] = AQ_NONE;
 L["Quest_13149_FollowQuest"] = "A Royal Escort";
 
 L["Quest_13151_Name"] = "A Royal Escort";
@@ -3480,7 +3267,6 @@ L["Quest_13126_Name"] = "A Unified Front";
 L["Quest_13126_Objective"] = "Belgaristrasz wants you to destroy 10 Centrifuge Constructs to bring down Varos' shield. You then must defeat Varos Cloudstrider.";
 L["Quest_13126_Location"] = "Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_13126_Note"] = "Belgaristrasz will appear after you defeat Varos Cloudstrider at "..YELLOW.."[2]"..WHITE..".";
-L["Quest_13126_RewardText"] = AQ_NONE;
 L["Quest_13126_PreQuest"] = "The Struggle Persists";
 L["Quest_13126_FollowQuest"] = "Mage-Lord Urom";
 
@@ -3488,7 +3274,6 @@ L["Quest_13127_Name"] = "Mage-Lord Urom";
 L["Quest_13127_Objective"] = "Belgaristrasz wants you to defeat Mage-Lord Urom in the Oculus.";
 L["Quest_13127_Location"] = "Image of Belgaristrasz (The Nexus: The Oculus; "..YELLOW.."[2]"..WHITE..")";
 L["Quest_13127_Note"] = "Belgaristrasz will appear after you defeat Mage-Lord Urom at "..YELLOW.."[3]"..WHITE..".";
-L["Quest_13127_RewardText"] = AQ_NONE;
 L["Quest_13127_PreQuest"] = "A Unified Front";
 L["Quest_13127_FollowQuest"] = "A Wing and a Prayer";
 
@@ -3553,13 +3338,11 @@ L["Quest_13190_Name"] = "All Things in Good Time";
 L["Quest_13190_Objective"] = "Kilix the Unraveler in the Pit of Narjun wants you to obtain an Ahn'kahar Watcher's Corpse and place it upon the Ahn'kahet Brazier in Ahn'kahet.";
 L["Quest_13190_Location"] = "Kilix the Unraveler (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..")";
 L["Quest_13190_Note"] = "This daily quest can only be completed on Heroic difficulty.\n\nThe Ahn'kahet Brazier is behind Herald Volazj at "..YELLOW.."[6]"..WHITE..". The corpse has a 1 hour duration timer and will disappear if you leave the instance while alive.";
-L["Quest_13190_RewardText"] = AQ_NONE;
 
 L["Quest_13204_Name"] = "Funky Fungi";
 L["Quest_13204_Objective"] = "You are to collect 6 Grotesque Fungus from Savage Cave Beasts in Ahn'kahet and deliver them to Kilix the Unraveler in The Pit of Narjun.";
 L["Quest_13204_Location"] = "Ooze-covered Fungus (drops from Savage Cave Beasts in Ahn'kahet)";
 L["Quest_13204_Note"] = "The Savage Cave Beasts that drop the items for the quest are in the area of the heroic-only boss, Amanitar, at "..YELLOW.."[3]"..WHITE..".\n\nKilix the Unraveler is at (Dragonblight - Azjol-Nerub; "..YELLOW.."26.1, 50.0"..WHITE..").";
-L["Quest_13204_RewardText"] = AQ_NONE;
 
 L["Quest_13187_Name"] = "The Faceless Ones";
 L["Quest_13187_Objective"] = "Kilix the Unraveler in the Pit of Narjun wants you to kill Herald Volazj and the three Forgotten Ones that accompany him in Ahn'Kahet.";
@@ -3675,7 +3458,6 @@ L["Quest_13158_Name"] = "Discretion is Key";
 L["Quest_13158_Objective"] = "Rhonin wants you to go to the Violet Hold in Dalaran and speak with Warden Alturas.";
 L["Quest_13158_Location"] = "Rhonin (Dalaran - The Violet Citadel; "..YELLOW.."30.5, 48.4"..WHITE..")";
 L["Quest_13158_Note"] = "Warden Alturas is at (Dalaran - The Violet Hold; "..YELLOW.."60.8, 62.7"..WHITE..")";
-L["Quest_13158_RewardText"] = AQ_NONE;
 L["Quest_13158_FollowQuest"] = "Containment";
 
 L["Quest_13159_Name"] = "Containment";
@@ -3695,13 +3477,11 @@ L["Quest_13405_Name"] = "Call to Arms: Strand of the Ancients";
 L["Quest_13405_Objective"] = "Win a Strand of the Ancients battleground match and return to an Alliance Brigadier General at any Alliance capital city, Wintergrasp, Dalaran or Shattrath.";
 L["Quest_13405_Location"] = "Alliance Brigadier General:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4";
 L["Quest_13405_Note"] = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level.";
-L["Quest_13405_RewardText"] = AQ_NONE;
 
 L["Quest_13407_Name"] = "Call to Arms: Strand of the Ancients";
 L["Quest_13407_Objective"] = "Win a Strand of the Ancients battleground match and return to a Horde Warbringer at any Horde capital city, Wintergrasp, Dalaran or Shattrath.";
 L["Quest_13407_Location"] = "Horde Warbringer:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3";
 L["Quest_13407_Note"] = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level.";
-L["Quest_13407_RewardText"] = AQ_NONE;
 
 L["Quest_13372_Name"] = "The Key to the Focusing Iris";
 L["Quest_13372_Objective"] = "Deliver the Key to the Focusing Iris to Alexstrasza the Life-Binder atop Wyrmrest Temple in the Dragonblight.";
@@ -3745,14 +3525,12 @@ L["Quest_13604_Name"] = "Archivum Data Disc";
 L["Quest_13604_Objective"] = "Bring the Archivum Data Disc to the Archivum Console in Ulduar.";
 L["Quest_13604_Location"] = "Archivum Data Disc (drops from Assembly of Iron; "..YELLOW.."The Antechamber [5]"..WHITE..")";
 L["Quest_13604_Note"] = "The Data Disc will only drop if you complete the Assembly of Iron encounter on hard mode.  Only one person in the raid will be able to pick up the Data Disc per raid.\n\nAfter the Assembly of Iron is killed, a door opens up.  Turn in the quest at the Archivum Console in the room beyond.  Prospector Doren will give you the following quest.";
-L["Quest_13604_RewardText"] = AQ_NONE;
 L["Quest_13604_FollowQuest"] = "The Celestial Planetarium";
 
 L["Quest_13607_Name"] = "The Celestial Planetarium";
 L["Quest_13607_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium.";
 L["Quest_13607_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13607_Note"] = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[8]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests.";
-L["Quest_13607_RewardText"] = AQ_NONE;
 L["Quest_13607_PreQuest"] = "Archivum Data Disc";
 L["Quest_13607_FollowQuest"] = "Four more quests";
 
@@ -3760,28 +3538,24 @@ L["Quest_13609_Name"] = "Hodir's Sigil";
 L["Quest_13609_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil.";
 L["Quest_13609_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13609_Note"] = "Hodir is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop.";
-L["Quest_13609_RewardText"] = AQ_NONE;
 L["Quest_13609_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13610_Name"] = "Thorim's Sigil";
 L["Quest_13610_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil.";
 L["Quest_13610_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13610_Note"] = "Thorim is at "..YELLOW.."The Keepers [11]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop.";
-L["Quest_13610_RewardText"] = AQ_NONE;
 L["Quest_13610_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13606_Name"] = "Freya's Sigil";
 L["Quest_13606_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil.";
 L["Quest_13606_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13606_Note"] = "Freya is at "..YELLOW.."The Keepers [12]"..WHITE..".  She must be killed on Hard Mode for the Sigil to drop.";
-L["Quest_13606_RewardText"] = AQ_NONE;
 L["Quest_13606_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13611_Name"] = "Mimiron's Sigil";
 L["Quest_13611_Objective"] = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil.";
 L["Quest_13611_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13611_Note"] = "Mimiron is at "..YELLOW.."Spark of Imagination [13]"..WHITE..".  He must be killed on Hard Mode for the Sigil to drop.";
-L["Quest_13611_RewardText"] = AQ_NONE;
 L["Quest_13611_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13614_Name"] = "Algalon";
@@ -3801,14 +3575,12 @@ L["Quest_13817_Name"] = "Heroic: Archivum Data Disc";
 L["Quest_13817_Objective"] = "Bring the Archivum Data Disc to the Archivum Console in Ulduar.";
 L["Quest_13817_Location"] = "Archivum Data Disc (drops from Assembly of Iron; "..YELLOW.."The Antechamber [5]"..WHITE..")";
 L["Quest_13817_Note"] = "The Data Disc will only drop if you complete the Assembly of Iron encounter on Heroic Hard Mode.  Only one person in the raid will be able to pick up the Data Disc per raid.\n\nAfter the Assembly of Iron is killed, a door opens up.  Turn in the quest at the Archivum Console in the room beyond.  Prospector Doren will give you the following quest.";
-L["Quest_13817_RewardText"] = AQ_NONE;
 L["Quest_13817_FollowQuest"] = "The Celestial Planetarium";
 
 L["Quest_13816_Name"] = "Heroic: The Celestial Planetarium";
 L["Quest_13816_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to locate the entrance to the Celestial Planetarium.";
 L["Quest_13816_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13816_Note"] = "The Celestial Planetarium is at (Ulduar - The Antechamber; "..YELLOW.."[8]"..WHITE..").\n\nAfter you turn the quest in to Prospector Doren, he will give you four more quests.";
-L["Quest_13816_RewardText"] = AQ_NONE;
 L["Quest_13816_PreQuest"] = "Archivum Data Disc";
 L["Quest_13816_FollowQuest"] = "Four more quests";
 
@@ -3816,28 +3588,24 @@ L["Quest_13822_Name"] = "Heroic: Hodir's Sigil";
 L["Quest_13822_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Hodir's Sigil.";
 L["Quest_13822_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13822_Note"] = "Hodir is at "..YELLOW.."The Keepers [10]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop.";
-L["Quest_13822_RewardText"] = AQ_NONE;
 L["Quest_13822_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13823_Name"] = "Heroic: Thorim's Sigil";
 L["Quest_13823_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Thorim's Sigil.";
 L["Quest_13823_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13823_Note"] = "Thorim is at "..YELLOW.."The Keepers [11]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop.";
-L["Quest_13823_RewardText"] = AQ_NONE;
 L["Quest_13823_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13821_Name"] = "Heroic: Freya's Sigil";
 L["Quest_13821_Objective"] = "Prospector Doren at the Archivum in Ulduar wants you to obtain Freya's Sigil.";
 L["Quest_13821_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13821_Note"] = "Freya is at "..YELLOW.."The Keepers [12]"..WHITE..".  She must be killed on Heroic Hard Mode for the Sigil to drop.";
-L["Quest_13821_RewardText"] = AQ_NONE;
 L["Quest_13821_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13824_Name"] = "Heroic: Mimiron's Sigil";
 L["Quest_13824_Objective"] = "Prospector Doren at the Ulduar Archivum wants you to obtain Mimiron's Sigil.";
 L["Quest_13824_Location"] = "Prospector Doren (Ulduar - The Antechamber; "..YELLOW.."[6]"..WHITE..")";
 L["Quest_13824_Note"] = "Mimiron is at "..YELLOW.."Spark of Imagination [13]"..WHITE..".  He must be killed on Heroic Hard Mode for the Sigil to drop.";
-L["Quest_13824_RewardText"] = AQ_NONE;
 L["Quest_13824_PreQuest"] = "The Celestial Planetarium";
 
 L["Quest_13818_Name"] = "Heroic: Algalon";
@@ -3893,19 +3661,16 @@ L["Quest_14163_Name"] = "Call to Arms: Isle of Conquest";
 L["Quest_14163_Objective"] = "Win an Isle of Conquest battleground match and return to a Alliance Brigadier General at any Alliance capital city, Wintergrasp, Dalaran, or Shattrath.";
 L["Quest_14163_Location"] = "Alliance Brigadier General:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: The Silver Enclave - "..YELLOW.."29.8, 75.8"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."66.6, 34.6"..WHITE.."\n   Stormwind: Stormwind Keep - "..YELLOW.."83.8, 35.4"..WHITE.."\n   Ironforge: Military Ward - "..YELLOW.."69.9, 89.6"..WHITE.."\n   Darnassus: Warrior's Terrace - "..YELLOW.."57.6, 34.1"..WHITE.."\n   Exodar: The Vault of Lights - "..YELLOW.."24.6, 55.4";
 L["Quest_14163_Note"] = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level.";
-L["Quest_14163_RewardText"] = AQ_NONE;
 
 L["Quest_14164_Name"] = "Call to Arms: Isle of Conquest";
 L["Quest_14164_Objective"] = "Win an Isle of Conquest battleground match and return to a Horde Warbringer at any Horde capital city, Wintergrasp, Dalaran, or Shattrath.";
 L["Quest_14164_Location"] = "Horde Warbringer:\n   Wintergrasp: Wintergrasp Fortress - "..YELLOW.."50.0, 14.0"..WHITE.." (patrols)\n   Dalaran: Sunreaver's Sanctuary - "..YELLOW.."58.0, 21.1"..WHITE.."\n   Shattrath: Lower City - "..YELLOW.."67.0, 56.7"..WHITE.."\n   Orgrimmar: Valley of Honor - "..YELLOW.."79.8, 30.3"..WHITE.."\n   Thunder Bluff: The Hunter Rise - "..YELLOW.."55.8, 76.6"..WHITE.."\n   Undercity: The Royal Quarter - "..YELLOW.."60.7, 87.8"..WHITE.."\n   Silvermoon: Farstriders Square - "..YELLOW.."97.0, 38.3";
 L["Quest_14164_Note"] = "This quest can be done once a day when it is available. It yields varying amounts of experience and gold based on your level.";
-L["Quest_14164_RewardText"] = AQ_NONE;
 
 L["Quest_24510_Name"] = "Inside the Frozen Citadel";
 L["Quest_24510_Objective"] = "Enter The Forge of Souls from the side of Icecrown Citadel and find Lady Jaina Proudmoore.";
 L["Quest_24510_Location"] = "Apprentice Nelphi (Dalaran City - Roams outside South Bank)";
 L["Quest_24510_Note"] = "Lady Jaina Proudmoore is just inside the instance.";
-L["Quest_24510_RewardText"] = AQ_NONE;
 L["Quest_24510_FollowQuest"] = "Echoes of Tortured Souls";
 
 L["Quest_24499_Name"] = "Echoes of Tortured Souls";
@@ -3920,7 +3685,6 @@ L["Quest_24476_Name"] = "Tempering The Blade";
 L["Quest_24476_Objective"] = "Temper the Reforged Quel'Delar in the Crucible of Souls.";
 L["Quest_24476_Location"] = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24476_Note"] = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance.";
-L["Quest_24476_RewardText"] = AQ_NONE;
 L["Quest_24476_PreQuest"] = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")";
 L["Quest_24476_FollowQuest"] = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")";
 
@@ -3928,7 +3692,6 @@ L["Quest_24506_Name"] = "Inside the Frozen Citadel";
 L["Quest_24506_Objective"] = "Enter The Forge of Souls from the side of Icecrown Citadel and locate Lady Sylvanas Windrunner.";
 L["Quest_24506_Location"] = "Dark Ranger Vorel (Dalaran City - Roams outside North Bank)";
 L["Quest_24506_Note"] = "Lady Sylvanas Windrunner is just inside the instance.";
-L["Quest_24506_RewardText"] = AQ_NONE;
 L["Quest_24506_FollowQuest"] = "Echoes of Tortured Souls";
 
 L["Quest_24511_Name"] = "Echoes of Tortured Souls";
@@ -3943,7 +3706,6 @@ L["Quest_24560_Name"] = "Tempering The Blade";
 L["Quest_24560_Objective"] = "Temper the Reforged Quel'Delar in the Crucible of Souls.";
 L["Quest_24560_Location"] = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24560_Note"] = "The Crucible of Souls is at "..YELLOW.."[3]"..WHITE..", near the end of the instance.";
-L["Quest_24560_RewardText"] = AQ_NONE;
 L["Quest_24560_PreQuest"] = "Reforging The Sword ("..YELLOW.."Pit of Saron"..WHITE..")";
 L["Quest_24560_FollowQuest"] = "The Halls Of Reflection ("..YELLOW.."Halls of Reflection"..WHITE..")";
 
@@ -3951,7 +3713,6 @@ L["Quest_24683_Name"] = "The Pit of Saron";
 L["Quest_24683_Objective"] = "Meet Lady Jaina Proudmoore just inside the Pit of Saron.";
 L["Quest_24683_Location"] = "Lady Jaina Proudmoore (Forge of Souls; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24683_Note"] = "Lady Jaina Proudmoore is just inside the instance.";
-L["Quest_24683_RewardText"] = AQ_NONE;
 L["Quest_24683_PreQuest"] = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")";
 L["Quest_24683_FollowQuest"] = "The Path to the Citadel";
 
@@ -3959,7 +3720,6 @@ L["Quest_24498_Name"] = "The Path to the Citadel";
 L["Quest_24498_Objective"] = "Free 15 Alliance Slaves and kill Forgemaster Garfrost.";
 L["Quest_24498_Location"] = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_24498_Note"] = "The slaves are all over the pit. The quest turns in to Martin Victus at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain.";
-L["Quest_24498_RewardText"] = AQ_NONE;
 L["Quest_24498_PreQuest"] = "The Pit of Saron";
 L["Quest_24498_FollowQuest"] = "Deliverance from the Pit";
 
@@ -3975,7 +3735,6 @@ L["Quest_24461_Name"] = "Reforging The Sword";
 L["Quest_24461_Objective"] = "Obtain 5 Infused Saronite Bars and the Forgemaster's Hammer and use them to make the Reforged Quel'Delar.";
 L["Quest_24461_Location"] = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24461_Note"] = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him.";
-L["Quest_24461_RewardText"] = AQ_NONE;
 L["Quest_24461_PreQuest"] = "Return To Caladis Brightspear";
 L["Quest_24461_FollowQuest"] = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")";
 
@@ -3983,7 +3742,6 @@ L["Quest_24682_Name"] = "The Pit of Saron";
 L["Quest_24682_Objective"] = "Meet Lady Sylvanas Windrunner inside the entrace to the Pit of Saron.";
 L["Quest_24682_Location"] = "Lady Sylvanas Windrunner (Forge of Souls; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24682_Note"] = "Lady Sylvanas Windrunner is just inside the instance.";
-L["Quest_24682_RewardText"] = AQ_NONE;
 L["Quest_24682_PreQuest"] = "Echoes of Tortured Souls ("..YELLOW.."Forge of Souls"..WHITE..")";
 L["Quest_24682_FollowQuest"] = "The Path to the Citadel";
 
@@ -3991,7 +3749,6 @@ L["Quest_24507_Name"] = "The Path to the Citadel";
 L["Quest_24507_Objective"] = "Free 15 Horde Slaves and kill Forgemaster Garfrost.";
 L["Quest_24507_Location"] = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."[1]"..WHITE..")";
 L["Quest_24507_Note"] = "The slaves are all over the pit. The quest turns in to Gorkun Ironskull at "..YELLOW.."[2]"..WHITE.." after Forgemaster Garfrost is slain.";
-L["Quest_24507_RewardText"] = AQ_NONE;
 L["Quest_24507_PreQuest"] = "The Pit of Saron";
 L["Quest_24507_FollowQuest"] = "Deliverance from the Pit";
 
@@ -4007,7 +3764,6 @@ L["Quest_24559_Name"] = "Reforging The Sword";
 L["Quest_24559_Objective"] = "Obtain 5 Infused Saronite Bars and the Forgemaster's Hammer, then combine them with the Remnants of Quel'Delar to create the Reforged Quel'Delar.";
 L["Quest_24559_Location"] = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24559_Note"] = "The Infused Saronite Bars are spread out around the Pit.  Use the hammer that drops from Forgemaster Garfrost at the anvil near him.";
-L["Quest_24559_RewardText"] = AQ_NONE;
 L["Quest_24559_PreQuest"] = "Return To Myralion Sunblaze";
 L["Quest_24559_FollowQuest"] = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")";
 
@@ -4015,7 +3771,6 @@ L["Quest_24711_Name"] = "Frostmourne";
 L["Quest_24711_Objective"] = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection.";
 L["Quest_24711_Location"] = "Lady Jaina Proudmoore (Pit of Saron; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24711_Note"] = "You get the quest from Lady Jaina Proudmoore at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed.";
-L["Quest_24711_RewardText"] = AQ_NONE;
 L["Quest_24711_PreQuest"] = "Deliverance from the Pit ("..YELLOW.."Pit of Saron"..WHITE..")";
 L["Quest_24711_FollowQuest"] = "Wrath of the Lich King";
 
@@ -4030,7 +3785,6 @@ L["Quest_24480_Name"] = "The Halls Of Reflection";
 L["Quest_24480_Objective"] = "Bring your Tempered Quel'Delar to Sword's Rest inside the Halls of Reflection.";
 L["Quest_24480_Location"] = "Caladis Brightspear (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.2, 31.3"..WHITE..")";
 L["Quest_24480_Note"] = "You can complete the quest just inside the instance.";
-L["Quest_24480_RewardText"] = AQ_NONE;
 L["Quest_24480_PreQuest"] = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")";
 L["Quest_24480_FollowQuest"] = "Journey To The Sunwell";
 
@@ -4038,7 +3792,6 @@ L["Quest_24713_Name"] = "Frostmourne";
 L["Quest_24713_Objective"] = "Meet Lady Sylvanas Windrunner inside the entrance to the Halls of Reflection.";
 L["Quest_24713_Location"] = "Lady Sylvanas Windrunner (Pit of Saron; "..YELLOW.."[3]"..WHITE..")";
 L["Quest_24713_Note"] = "You get the quest from Lady Sylvanas Windrunner at the end of Pit of Saron and then complete it by entering Halls of Reflection.  Be sure all party members have turned the quest in before proceeding. The followup will be given after the event is completed.";
-L["Quest_24713_RewardText"] = AQ_NONE;
 L["Quest_24713_PreQuest"] = "Deliverance from the Pit ("..YELLOW.."Pit of Saron"..WHITE..")";
 L["Quest_24713_FollowQuest"] = "Wrath of the Lich King";
 
@@ -4053,7 +3806,6 @@ L["Quest_24561_Name"] = "The Halls Of Reflection";
 L["Quest_24561_Objective"] = "Bring your Tempered Quel'Delar to Sword's Rest inside the Halls of Reflection.";
 L["Quest_24561_Location"] = "Myralion Sunblaze (Icecrown - Quel'Delar's Rest; "..YELLOW.."74.5, 31.1"..WHITE..")";
 L["Quest_24561_Note"] = "You can complete the quest just inside the instance.";
-L["Quest_24561_RewardText"] = AQ_NONE;
 L["Quest_24561_PreQuest"] = "Tempering The Blade ("..YELLOW.."Forge of Souls"..WHITE..")";
 L["Quest_24561_FollowQuest"] = "Journey To The Sunwell";
 
@@ -4097,7 +3849,6 @@ L["Quest_24545_Name"] = "The Sacred and the Corrupt";
 L["Quest_24545_Objective"] = "Place Light's Vengeance, 25 Primordial Saronite, Rotface's Acidic Blood, and Festergut's Acidic Blood in Highlord Mograine's runeforge in Icecrown Citadel.";
 L["Quest_24545_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24545_Note"] = "This questline is only available to Warriors, Paladins and Death Knights. Highlord Mograine's runeforge is in the entrance of Icecrown Citadel.\n\nRotface's Acidic Blood and Festergut's Acidic Blood only drop from the 25-player version and can only be looted by one player per raid lockout.";
-L["Quest_24545_RewardText"] = AQ_NONE;
 L["Quest_24545_FollowQuest"] = "Shadow's Edge";
 
 L["Quest_24743_Name"] = "Shadow's Edge";
@@ -4112,7 +3863,6 @@ L["Quest_24547_Name"] = "A Feast of Souls";
 L["Quest_24547_Objective"] = "Highlord Darion Mograine wants you to use Shadow's Edge to slay 1000 of the Lich King's minions in Icecrown Citadel. Souls can be obtained in 10 or 25 person difficulty.";
 L["Quest_24547_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24547_Note"] = "You've got a lot of killing to do. Only kills in Icecrown Citadel count towards the 1000.";
-L["Quest_24547_RewardText"] = AQ_NONE;
 L["Quest_24547_PreQuest"] = "Shadow's Edge";
 L["Quest_24547_FollowQuest"] = "Unholy Infusion";
 
@@ -4120,7 +3870,6 @@ L["Quest_24749_Name"] = "Unholy Infusion";
 L["Quest_24749_Objective"] = "Highlord Darion Mograine wants you to infuse Shadow's Edge with Unholy power and slay Professor Putricide.";
 L["Quest_24749_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24749_Note"] = "This quest can only be completed in 25-player mode.\n\nTo infuse Shadow's Edge you must take control of the Abomination during the Professor Putricide encounter and use the special ability called Shadow Infusion.";
-L["Quest_24749_RewardText"] = AQ_NONE;
 L["Quest_24749_PreQuest"] = "A Feast of Souls";
 L["Quest_24749_FollowQuest"] = "Blood Infusion";
 
@@ -4128,7 +3877,6 @@ L["Quest_24756_Name"] = "Blood Infusion";
 L["Quest_24756_Objective"] = "Highlord Darion Mograine wants you to infuse Shadow's Edge with blood and defeat Queen Lana'thel.";
 L["Quest_24756_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24756_Note"] = "This quest can only be completed in 25-player mode.\n\nTo complete the quest, get the Blood Mirror debuff. Then, assuming you're not bitten first, have the first person bitten bite you. Bite three more people and survive the encounter to complete the quest. Info from hobbesmarcus on WoWhead.com";
-L["Quest_24756_RewardText"] = AQ_NONE;
 L["Quest_24756_PreQuest"] = "Unholy Infusion";
 L["Quest_24756_FollowQuest"] = "Frost Infusion";
 
@@ -4136,7 +3884,6 @@ L["Quest_24757_Name"] = "Frost Infusion";
 L["Quest_24757_Objective"] = "Highlord Darion Mograine has instructed you to slay Sindragosa after subjecting yourself to 4 of her breath attacks while wielding Shadow's Edge.";
 L["Quest_24757_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24757_Note"] = "This quest can only be completed in 25-player mode.\n\nAfter receiving the Frost-Imbued Blade buff from the 4 breath attacks, you must kill Sindragosa within 6 minutes to complete the quest. ";
-L["Quest_24757_RewardText"] = AQ_NONE;
 L["Quest_24757_PreQuest"] = "Blood Infusion";
 L["Quest_24757_FollowQuest"] = "The Splintered Throne";
 
@@ -4144,7 +3891,6 @@ L["Quest_24548_Name"] = "The Splintered Throne";
 L["Quest_24548_Objective"] = "Highlord Darion Mograine wants you to collect 50 Shadowfrost Shards.";
 L["Quest_24548_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24548_Note"] = "This quest can only be completed in 25-player mode.\n\nThe Shadowfrost Shards are rare drops from bosses.";
-L["Quest_24548_RewardText"] = AQ_NONE;
 L["Quest_24548_PreQuest"] = "Frost Infusion";
 L["Quest_24548_FollowQuest"] = "Shadowmourne...";
 
@@ -4160,7 +3906,6 @@ L["Quest_24748_Name"] = "The Lich King's Last Stand";
 L["Quest_24748_Objective"] = "Highlord Darion Mograine in Icecrown Citadel wants you to kill the Lich King.";
 L["Quest_24748_Location"] = "Highlord Darion Mograine (Icecrown Citadel; "..GREEN.."[1']"..WHITE..")";
 L["Quest_24748_Note"] = "This quest can only be completed in 25-player mode.";
-L["Quest_24748_RewardText"] = AQ_NONE;
 L["Quest_24748_PreQuest"] = "Shadowmourne...";
 
 L["Quest_24877_Name"] = "Securing the Ramparts";
@@ -4173,14 +3918,12 @@ L["Quest_26012_Name"] = "Trouble at Wyrmrest";
 L["Quest_26012_Objective"] = "Speak with Krasus at Wyrmrest Temple in Dragonblight.";
 L["Quest_26012_Location"] = "Rhonin (Dalaran - The Violet Citadel; "..YELLOW.."30.5, 48.4"..WHITE..")";
 L["Quest_26012_Note"] = "Krasus is at (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..").";
-L["Quest_26012_RewardText"] = AQ_NONE;
 L["Quest_26012_FollowQuest"] = "Assault on the Sanctum";
 
 L["Quest_26013_Name"] = "Assault on the Sanctum";
 L["Quest_26013_Objective"] = "Investigate the Ruby Sanctum beneath Wyrmrest Temple.";
 L["Quest_26013_Location"] = "Krasus (Dragonblight - Wyrmrest Temple; "..YELLOW.."59.8, 54.6"..WHITE..")";
 L["Quest_26013_Note"] = "Sanctum Guardian Xerestrasza is inside the Ruby Sanctum and appears after you slay the second sub-boss, Baltharius the Warborn at "..YELLOW.."[4]"..WHITE..".";
-L["Quest_26013_RewardText"] = AQ_NONE;
 L["Quest_26013_PreQuest"] = "Trouble at Wyrmrest (optional)";
 L["Quest_26013_FollowQuest"] = "The Twilight Destroyer";
 

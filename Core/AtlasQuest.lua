@@ -429,6 +429,7 @@ function AtlasQuest:SetQuestInfo(questID)
 	local BLUE = "|cff0070DD";
 	local preQuest = (AQQuestArr[questID][3] ~= nil) and L['Quest_'..questID..'_PreQuest'] or L["None"];
 	local followQuest = (AQQuestArr[questID][4] ~= nil) and L['Quest_'..questID..'_FollowQuest'] or L["None"];
+	local reward = (next(AQQuestArr[questID][5]) ~= nil) and L["Quest_"..questID.."_RewardText"] or L["None"]
 
 	AtlasQuestInsideFrame.questID = questID;
 	AQ_QuestName:SetText(AtlasQuest:GetQuestColor(questID)..L['Quest_'..questID..'_Name']);
@@ -437,7 +438,7 @@ function AtlasQuest:SetQuestInfo(questID)
 	AQ_QuestBody:SetText(BLUE..L["Prequest"]..": "..WHITE..preQuest.."\n \n"..BLUE..L["Followup"]..": "..WHITE..followQuest.."\n \n"..BLUE..L["Start"]..": "..WHITE.."\n"..L['Quest_'..questID..'_Location'].."\n \n");
 	AQ_QuestBody2:SetText(BLUE..L["Objective"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Objective'].."\n \n");
 	AQ_QuestBody3:SetText(BLUE..L["Note"]..": ".."\n"..WHITE..L['Quest_'..questID..'_Note']);
-	AQ_QuestRewards:SetText(BLUE..L['Reward']..": "..L['Quest_'..questID..'_RewardText']);
+	AQ_QuestRewards:SetText(BLUE..L["Reward"]..": "..WHITE..reward)
 
 	if ((AtlasQuest.db.profile.useServerQuestStatus == false and AtlasQuest.db.char.completedQuests[questID] ~= nil) or (AtlasQuest.db.profile.useServerQuestStatus == true and C_QuestLog.IsQuestFlaggedCompleted(questID))) then
 		AQ_FinishedQuestCheck:SetChecked(true);
