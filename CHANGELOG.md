@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.x
+### Changed
+- Retail: Moved translations to separate files
+
 ## 5.6.2 -
 ### Added
 - Added a couple follow-up quests (thanks m0ezes)

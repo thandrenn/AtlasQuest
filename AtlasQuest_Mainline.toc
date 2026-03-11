@@ -45,6 +45,7 @@
 ## SavedVariables: AtlasQuest_Options,AtlasQuestDB
 
 Libs\Libs.xml
-Locales\Locales.xml
+Locales\Retail_enUS.lua
+Locales\Retail_deDE.lua
 Core\AtlasQuest_InsideFrame.xml
 Core\AtlasQuest.xml
