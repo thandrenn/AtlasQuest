@@ -1525,11 +1525,6 @@ L["Quest_29528_Location"] = "Vorhutsspäher Chadwick (Höllenfeuerbollwerk; "..B
 L["Quest_29528_Note"] = "Wachhabenden Gargolmar ist bei "..YELLOW.."[1]"..PREV.." und Vazruden den Herold und Vazrudens Drachen Nazan sind bei "..YELLOW.."[3]"..PREV..".";
 L["Quest_29528_RewardText"] = "1"..AQ_OR.."2"..AQ_OR.."3"..AQ_OR.."4";
 
-L["Quest_11354_Name"] = "Gesucht: Nazans Reitgerte";
-L["Quest_11354_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Nazans Reitgerte zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11354_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11354_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNazan ist bei "..YELLOW.."[3]"..PREV..".";
-
 L["Quest_29542_Name"] = "Die Eroberung der Zitadelle";
 L["Quest_29542_Objective"] = "Sprecht mit Steingardist Stok'ton im Höllenfeuerbollwerk.";
 L["Quest_29542_Location"] = "Unteroffizier Schädelbrecher (Höllenfeuerhalbinsel - Thrallmar; "..YELLOW.."58.0,41.2"..PREV..")";
@@ -1567,11 +1562,6 @@ L["Quest_29540_Objective"] = "Tötet Keli'dan den Zerstörer und kehrt zu Gunny 
 L["Quest_29540_Location"] = "Gunny (Blutkessel; "..BLUE.."Eingang"..PREV..")";
 L["Quest_29540_Note"] = "Keli'dan der Zerstörer ist bei "..YELLOW.."[3]"..PREV..".";
 L["Quest_29540_RewardText"] = "1"..AQ_OR.."2"..AQ_OR.."3"..AQ_OR.."4";
-
-L["Quest_11362_Name"] = "Gesucht: Keli'dans gefiederter Stab";
-L["Quest_11362_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Keli'dans gefiederten Stab zu beschaffen. Bringt ihn zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11362_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11362_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKeli'dan der Zerstörer ist bei "..YELLOW.."[3]"..PREV..".";
 
 L["Quest_29535_Name"] = "Lasst sie bluten!";
 L["Quest_29535_Objective"] = "Beschafft 10 Phiolen mit Höllenorcblut und eine Teufelsinjektionsspritze für Caza'rez.";
@@ -1623,11 +1613,6 @@ L["Quest_10670_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht
 L["Quest_10670_Note"] = "Kriegshetzer O'mrogg ist bei "..YELLOW.."[4]"..PREV..".\n\nDer Gegenstand droppt im normalen und heroischen Modus.";
 L["Quest_10670_PreQuest"] = "Frisch von der Mechanar ("..YELLOW.."FdS: Die Mechanar"..PREV..") & Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..PREV..")";
 L["Quest_10670_FollowQuest"] = "Bann der Illidari";
-
-L["Quest_11363_Name"] = "Gesucht: Messerfausts Siegel";
-L["Quest_11363_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Messerfausts Siegel zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11363_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11363_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegshäuptling Kargath Messerfaust befindet sich bei "..YELLOW.."[5]"..PREV..".";
 
 L["Quest_11364_Name"] = "Gesucht: Zenturionen der Zerschmetterten Hand";
 L["Quest_11364_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Zenturionen der Zerschmetterten Hand zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -1707,11 +1692,6 @@ L["Quest_29565_Location"] = "Behüterin Jhang (Sklavenunterkünften; "..BLUE.."E
 L["Quest_29565_Note"] = "Rokmar der Zerquetscher ist bei "..YELLOW.."[2]"..PREV.." und Quagmirran ist bei "..YELLOW.."[3]"..PREV..".";
 L["Quest_29565_RewardText"] = "1"..AQ_OR.."2"..AQ_AND.."3(x20)";
 
-L["Quest_11368_Name"] = "Gesucht: Das Herz von Quagmirran";
-L["Quest_11368_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm das Herz von Quagmirran zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11368_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75,37"..PREV..")";
-L["Quest_11368_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nQuagmirran ist bei "..YELLOW.."[3]"..PREV..".";
-
 L["Quest_13431_Name"] = "Der Knüppel von Kar'desh";
 L["Quest_13431_Objective"] = "Nar'biss der Ketzer in den heroischen Sklavenunterkünften des Echsenkessels möchte, dass Ihr ihm das Erdensiegel und das Flammensiegel bringt.";
 L["Quest_13431_Location"] = "Nar'biss der Ketzer (Sklavenunterkünfte; "..YELLOW.."Heroisch [3]"..PREV..")";
@@ -1760,11 +1740,6 @@ L["Quest_11371_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt,
 L["Quest_11371_Location"] = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..PREV..")";
 L["Quest_11371_Note"] = "Die Myrmidonen des Echsenkessels sind überall in der Instanz.";
 L["Quest_11371_RewardText"] = "1";
-
-L["Quest_11370_Name"] = "Gesucht: Die Aufzeichnungen des Kriegsherren";
-L["Quest_11370_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm die Aufzeichnungen des Kriegsherren zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11370_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11370_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKriegsherr Kalithresh ist bei "..YELLOW.."[3]"..PREV..".";
 
 L["Quest_29571_Name"] = "Verteidigung der Wildnis";
 L["Quest_29571_Objective"] = "Sprecht mit Behüterin Jhang im Tiefensumpf.";
@@ -1828,11 +1803,6 @@ L["Quest_29591_Objective"] = "Tötet 5 erboste Skelette, 5 tobende Skelette und 
 L["Quest_29591_Location"] = "Gequälte Seelenpriesterin (Auchenaikrypta; "..YELLOW.."Vor dem Durchgang, die zum ersten Boss führt"..PREV..")";
 L["Quest_29591_Note"] = "Die erbosten Skelette sind hinter dem Boss Shirrak den Totenwächter bei "..YELLOW.."[1]"..PREV..".";
 
-L["Quest_11374_Name"] = "Gesucht: Der Seelenedelstein des Exarchen";
-L["Quest_11374_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Seelenedelstein des Exarchen zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11374_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11374_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nExarch Maladaar ist bei "..YELLOW.."[2]"..PREV..".";
-
 L["Quest_10167_Name"] = "Auchindoun...";
 L["Quest_10167_Objective"] = "Reist zur Auchenaikrypta in der Knochenwüste der Wälder von Terokkar und tötet Exarch Maladaar um den Geist von D'ore zu befreien.";
 L["Quest_10167_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..PREV..")";
@@ -1873,11 +1843,6 @@ L["Quest_10977_Location"] = "Bild von Kommandant Ameer (Schergrat - Landeplatz v
 L["Quest_10977_Note"] = "Diese Aufgabe kann nur auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Es gibt zwei Stasiskammern. Die erste befindet sich direkt hinter Pandemonius "..YELLOW.."[1]"..PREV..", die zweite im Raum von Nexusprinz Shaffar "..YELLOW.."[3]"..PREV..". Für beide wird ein Abzeichen des Nexuskönigs benötigt.";
 L["Quest_10977_PreQuest"] = "Das Abzeichen des Nexuskönigs";
 
-L["Quest_11373_Name"] = "Gesucht: Shaffars wundersames Amulett";
-L["Quest_11373_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Shaffars wundersames Amulett zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11373_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11373_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nNexusprinz Shaffar ist bei "..YELLOW.."[3]"..PREV..".";
-
 L["Quest_29582_Name"] = "Greks verrückte Nacht";
 L["Quest_29582_Objective"] = "Sprecht mit Konstrukteur Morphalius in der Managruft in Auchindoun.";
 L["Quest_29582_Location"] = "Grek (Wälder von Terokkar - Steinbrecherfeste; "..YELLOW.."49.8, 45.2"..PREV..")";
@@ -1904,11 +1869,6 @@ L["Quest_29606_Objective"] = "Bringt Terokks Maske und Terokks Federkiel zu Isfa
 L["Quest_29606_Location"] = "Isfar (Sethekkhallen; "..BLUE.."Eingang"..PREV..")";
 L["Quest_29606_Note"] = "Terokks Maske droppt vom Dunkelwirker Syth bei "..YELLOW.."[1]"..PREV.." und Terokks Federkiel droppt vom Klauenkönig Ikiss bei "..YELLOW.."[3]"..PREV..".";
 L["Quest_29606_RewardText"] = "1"..AQ_OR.."2"..AQ_OR.."3";
-
-L["Quest_11372_Name"] = "Gesucht: Die Kopfschmuckfedern von Ikiss";
-L["Quest_11372_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm die Kopfschmuckfedern von Ikiss zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11372_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11372_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nKlauenkönig Ikiss ist bei "..YELLOW.."[3]"..PREV..".";
 
 L["Quest_29642_Name"] = "Ärger in Auchindoun";
 L["Quest_29642_Objective"] = "Meldet Euch bei Feldkommandeur Mahfuun im Schattenlabyrinth in Auchindoun in den Wäldern von Terokkar.";
@@ -1959,16 +1919,11 @@ L["Quest_10666_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht
 L["Quest_10666_Note"] = "Großmeister Vorpil ist bei "..YELLOW.."[3]"..PREV..".";
 L["Quest_10666_PreQuest"] = "Zusätzliche Materialien";
 
-L["Quest_11376_Name"] = "Gesucht: Murmurs Flüstern";
-L["Quest_11376_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Murmurs Flüstern zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11376_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11376_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nMurmur ist bei "..YELLOW.."[4]"..PREV..".";
-
-L["Quest_11375_Name"] = "Gesucht: Bösartige Ausbilderinnen";
-L["Quest_11375_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
-L["Quest_11375_Location"] = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..PREV..")";
-L["Quest_11375_Note"] = "Dies ist eine Tagesquest.";
-L["Quest_11375_RewardText"] = "1";
+L["Quest_11376_Name"] = "GESUCHT: Bösartige Ausbilderinnen";
+L["Quest_11376_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 3 bösartige Ausbilderinnen zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
+L["Quest_11376_Location"] = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..PREV..")";
+L["Quest_11376_Note"] = "Dies ist eine Tagesquest.";
+L["Quest_11376_RewardText"] = "1";
 
 L["Quest_13432_Name"] = "Die Phiolen der Ewigkeit";
 L["Quest_13432_Objective"] = "Soridormi in den Höhlen der Zeit möchte, dass Ihr die Überreste von Vashjs Phiole im Echsenkessel und die Überreste von Kaels Phiole von Kael'thas Sonnenwanderer in der Festung der Stürme besorgt.";
@@ -1994,11 +1949,6 @@ L["Quest_10297_Location"] = "Sa'at (Der schwarze Morast; "..BLUE.."Eingang"..PRE
 L["Quest_10297_Note"] = "Wenn die Quest missglückt, muss das Ereignis von vorne gestartet werden.";
 L["Quest_10297_RewardText"] = "1"..AQ_OR.."2"..AQ_OR.."3"..AQ_OR.."4";
 L["Quest_10297_PreQuest"] = "Der schwarze Morast";
-
-L["Quest_11382_Name"] = "Gesucht: Aeonus' Stundenglas";
-L["Quest_11382_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Aeonus' Stundenglas zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11382_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11382_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nAeonus erscheint mit der letzten Welle.";
 
 L["Quest_11383_Name"] = "Gesucht: Fürsten der Zeitenrisse";
 L["Quest_11383_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 4 Fürsten der Zeitenrisse zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2033,11 +1983,6 @@ L["Quest_29599_Location"] = "Thrall (Vorgebirge des alten Hügellands; "..YELLOW
 L["Quest_29599_Note"] = "Stell sicher, dass jeder die Quest angenommen hat, bevor jemand Thrall ansprecht, um die Flucht zu starten. Angeblich kann die Quest trotzdem geteilt und erfolgreich abgeschlossen werden. Du hast 20 Versuche, Thrall zu retten, danach musst du die Instanz zurücksetzen, und Du kannst den letzten Boss nicht ohne Thrall töten, da Thrall den letzten Schritt tun muss.";
 L["Quest_29599_RewardText"] = "1"..AQ_OR.."2"..AQ_OR.."3"..AQ_OR.."4";
 L["Quest_29599_PreQuest"] = "Tarethas Ablenkungsmanöver";
-
-L["Quest_11378_Name"] = "Gesucht: Der Kopf des Epochenjägers";
-L["Quest_11378_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Kopf des Epochenjägers zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11378_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11378_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nEpochenjäger ist bei "..YELLOW.."[3]"..PREV..".";
 
 L["Quest_12513_Name"] = "Schöner Hut...";
 L["Quest_12513_Objective"] = "Don Carlos hat dich versehentlich herausgefordert, sein jüngeres Ich in Old Hillsbrad zu besiegen. Bringe Don Carlos' Hut anschließend als Beweis zu ihm nach Tanaris.";
@@ -2076,11 +2021,6 @@ L["Quest_10886_Name"] = "Die Prüfung der Naaru: Zuverlässigkeit (Heroisch)";
 L["Quest_10886_Objective"] = "A'dal in Shattrath möchte, dass Ihr Millhaus Manasturm aus der Arkatraz in der Festung der Stürme rettet.";
 L["Quest_10886_Location"] = "A'dal (Shattrath - Terrasse des Lichts; "..YELLOW.."54.6, 44.6"..PREV..")";
 L["Quest_10886_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden. Millhaus Manasturm ist in dem Raum mit Aufseher Mellichar bei "..YELLOW.."[4]"..PREV..".\n\nDiese Quest wurde benötigt, um die Festung der Stürme zu betreten, ist aber nicht mehr nötig.";
-
-L["Quest_11388_Name"] = "Gesucht: Horizontiss' Schriftrolle";
-L["Quest_11388_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Horizontiss' Schriftrolle zu beschaffen. Bringt sie zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11388_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11388_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nHerold Horizontiss ist bei "..YELLOW.."[1]"..PREV..".";
 
 L["Quest_11389_Name"] = "Gesucht: Schildwachen der Arkatraz";
 L["Quest_11389_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Schildwachen der Arkatraz zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
@@ -2121,11 +2061,6 @@ L["Quest_10257_Location"] = "Erzmagier Vargoth (Nethersturm - Dorf Kirin'Var; ".
 L["Quest_10257_Note"] = "Kommandant Sarannis ist bei "..YELLOW.."[1]"..PREV..". Der Schlüsselstein droppt im normalen und heroischen Modus.";
 L["Quest_10257_PreQuest"] = "Den Schlüsselmeister finden";
 
-L["Quest_11384_Name"] = "Gesucht: Warpzweigsplitter";
-L["Quest_11384_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm einen Warpzweigsplitter zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11384_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11384_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nWarpzweig ist bei "..YELLOW.."[5]"..PREV..".";
-
 L["Quest_11385_Name"] = "Gesucht: Kanalisierer der Sonnensucher";
 L["Quest_11385_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 6 Kanalisierer der Sonnensucher zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle dem Tod überantwortet wurden.";
 L["Quest_11385_Location"] = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..PREV..")";
@@ -2154,11 +2089,6 @@ L["Quest_10665_Objective"] = "David Wayne bei Waynes Zuflucht möchte, dass Ihr 
 L["Quest_10665_Location"] = "David Wayne (Wälder von Terokkar - Waynes Zuflucht; "..YELLOW.."77.6, 38.6"..PREV..").";
 L["Quest_10665_Note"] = "Die Zelle befindet sich vor Mechanolord Kapazitus bei "..YELLOW.."[3]"..PREV.." in einer Kiste in der Nähe der Mauer.\n\nWenn man diese Quest und Encyclopaedia Daemonica ("..YELLOW.."Auch: Schattenlabyrinth"..PREV..") abschließt, erhält man zwei neue Quests von David Wayne.\n\nDas Quest funktioniert im normalen und heroischen Modus.";
 L["Quest_10665_PreQuest"] = "Zusätzliche Materialien";
-
-L["Quest_11386_Name"] = "Gesucht: Pathaleons Projektionsgerät";
-L["Quest_11386_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm Pathaleons Projektionsgerät zu beschaffen. Bringt es zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11386_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."75.0,37.0"..PREV..")";
-L["Quest_11386_Note"] = "Diese Aufgabe muss auf dem Schwierigkeitsgrad 'Heroisch' abgeschlossen werden.\n\nPathaleon der Kalkulator ist bei "..YELLOW.."[5]"..PREV..".";
 
 L["Quest_11387_Name"] = "Gesucht: Zerstörer der Sturmschmiede";
 L["Quest_11387_Objective"] = "Netherpirscher Mah'duun hat Euch damit beauftragt, 5 Zerstörer der Sturmschmiede zu töten. Kehrt erst zu ihm in das untere Viertel in Shattrath zurück, wenn sie alle vernichtet wurden.";
@@ -2259,11 +2189,6 @@ L["Quest_11500_Objective"] = "Netherpirscher Mah'duun möchte, dass Ihr 4 Schwes
 L["Quest_11500_Location"] = "Netherpirscher Mah'duun (Shattrath - Unteres Viertel; "..YELLOW.."75.2, 37.6"..PREV..")";
 L["Quest_11500_Note"] = "Es handelt sich um ein Tagesquest.";
 L["Quest_11500_RewardText"] = "1";
-
-L["Quest_11499_Name"] = "Gesucht: Der Siegelring von Prinz Kael'thas";
-L["Quest_11499_Objective"] = "Windhändler Zhareem hat Euch darum gebeten, ihm den Siegelring von Prinz Kael'thas zu beschaffen. Bringt diesen zu ihm ins untere Viertel in Shattrath, um Eure Belohnung zu erhalten.";
-L["Quest_11499_Location"] = "Windhändler Zhareem (Shattrath - Unteres Viertel; "..YELLOW.."74,35"..PREV..")";
-L["Quest_11499_Note"] = "Dieses Tagesquest kann nur im heroischen Modus abgeschlossen werden.\n\nPrinz Kael'thas Sonnenwanderer ist bei "..YELLOW.."[4]"..PREV..".";
 
 L["Quest_24553_Name"] = "Die Reinigung Quel'Delars";
 L["Quest_24553_Objective"] = "Taucht Euer getempertes Quel'Delar in den Sonnenbrunnen. Sprecht mit einem der Wärter des Sonnenbrunnens, wenn Ihr bereit seid, das Sonnenbrunnenplateau zu betreten.";
