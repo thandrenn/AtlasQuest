@@ -1,9 +1,10 @@
 # Changelog
 
-## 5.6.2 -
+## 5.6.2 - March 23, 2026
 ### Added
 - Added a couple follow-up quests (thanks m0ezes)
 ### Changed
+- Item tooltip comparison reacts to shift instantly
 - Updated German translation (thanks m0ezes)
 
 ## 5.6.1 - February 10, 2026

@@ -33,6 +33,8 @@ local AQMAXINSTANCES      = 201;
 -- Used to migrate data, and to set the number of frames to create in the quest list
 local AQMAXQUESTS         = 23;
 
+local overItem            = false
+
 -- Declare defaults to be used in the DB
 local defaults            = {
 	profile = {
@@ -221,6 +223,8 @@ function AtlasQuest:OnEnable()
 		item:SetScript("OnClick", function(self)
 			AtlasQuestItem_OnClick(self);
 		end);
+		item:SetScript("OnEvent", AtlasQuestItem_OnEvent);
+		item:RegisterEvent("MODIFIER_STATE_CHANGED")
 
 		item.icon = item:CreateTexture(nil, "ARTWORK");
 		item.icon:SetSize(24, 24);
@@ -600,6 +604,7 @@ function AtlasQuestItem_OnEnter(itemFrame)
 	local itemID = itemFrame.itemID;
 
 	if (C_Item.GetItemInfo(itemID) ~= nil) then
+		overItem = true
 		local tooltip = _G["GameTooltip"];
 
 		tooltip:ClearLines();
@@ -636,4 +641,25 @@ end
 -----------------------------------------------------------------------------
 function AtlasQuestItem_OnLeave()
 	GameTooltip:Hide();
+	overItem = false
+end
+
+-----------------------------------------------------------------------------
+-- Toggle Tooltip
+-----------------------------------------------------------------------------
+function AtlasQuestItem_OnEvent(itemFrame, event, arg1, arg2)
+	if event == "MODIFIER_STATE_CHANGED" then
+		if overItem then
+			if arg2 == 1 then
+				if arg1 == "LSHIFT" or arg1 == "RSHIFT" then
+					GameTooltip_ShowCompareItem(_G["GameTooltip"])
+				end
+			else
+				if arg1 == "LSHIFT" or arg1 == "RSHIFT" then
+					ShoppingTooltip1:Hide()
+					ShoppingTooltip2:Hide()
+				end
+			end
+		end
+	end
 end
