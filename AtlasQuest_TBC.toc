@@ -38,6 +38,7 @@
 ## X-License: GPLv2
 ## X-Credits: AtlasQuest Team
 ## X-Localizations: enUS, deDE, koKR, zhCN, zhTW, ruRU, esES, esMX
+## X-Curse-Project-ID: 4918
 ## RequiredDeps: Atlas
 ## OptionalDeps: DevTool
 ## LoadOnDemand: 0
